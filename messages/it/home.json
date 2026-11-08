@@ -1,0 +1,5 @@
+{
+  "title": "Risali da un'affermazione alle sue fonti",
+  "lead": "TrustLens mostra cosa dicono le prove e da dove provengono. Non etichetta le affermazioni come vere o false.",
+  "evidenceCount": "{count, plural, one {# elemento di prova} other {# elementi di prova}}"
+}

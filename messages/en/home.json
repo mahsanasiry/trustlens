@@ -1,0 +1,5 @@
+{
+  "title": "Follow a claim back to its sources",
+  "lead": "TrustLens shows what the evidence says and where it comes from. It does not label claims true or false.",
+  "evidenceCount": "{count, plural, one {# piece of evidence} other {# pieces of evidence}}"
+}

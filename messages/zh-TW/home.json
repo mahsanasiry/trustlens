@@ -1,0 +1,5 @@
+{
+  "title": "從一項主張追溯到它的來源",
+  "lead": "TrustLens 呈現證據的內容與出處，但不會把主張判定為真或假。",
+  "evidenceCount": "{count, plural, other {# 筆證據}}"
+}

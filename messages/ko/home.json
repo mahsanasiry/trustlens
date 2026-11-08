@@ -1,0 +1,5 @@
+{
+  "title": "주장에서 출처까지 따라가 보세요",
+  "lead": "TrustLens는 증거가 무엇을 말하는지, 어디에서 나왔는지를 보여 줍니다. 주장을 참이나 거짓으로 판정하지 않습니다.",
+  "evidenceCount": "{count, plural, other {증거 #건}}"
+}

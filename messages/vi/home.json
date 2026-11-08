@@ -1,0 +1,5 @@
+{
+  "title": "Truy từ một tuyên bố đến các nguồn của nó",
+  "lead": "TrustLens cho thấy bằng chứng nói gì và đến từ đâu. Nền tảng không gắn nhãn đúng hay sai cho các tuyên bố.",
+  "evidenceCount": "{count, plural, other {# bằng chứng}}"
+}

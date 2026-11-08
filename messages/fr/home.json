@@ -1,0 +1,5 @@
+{
+  "title": "Remontez d'une affirmation jusqu'à ses sources",
+  "lead": "TrustLens montre ce que disent les preuves et d'où elles viennent. Il ne classe pas les affirmations comme vraies ou fausses.",
+  "evidenceCount": "{count, plural, one {# élément de preuve} other {# éléments de preuve}}"
+}

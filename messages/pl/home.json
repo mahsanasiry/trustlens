@@ -1,0 +1,5 @@
+{
+  "title": "Prześledź twierdzenie aż do źródeł",
+  "lead": "TrustLens pokazuje, co mówią dowody i skąd pochodzą. Nie ocenia twierdzeń jako prawdziwych lub fałszywych.",
+  "evidenceCount": "{count, plural, one {# dowód} few {# dowody} many {# dowodów} other {# dowodu}}"
+}

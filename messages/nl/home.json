@@ -1,0 +1,5 @@
+{
+  "title": "Volg een bewering terug naar de bronnen",
+  "lead": "TrustLens laat zien wat het bewijs zegt en waar het vandaan komt. Beweringen worden niet als waar of onwaar bestempeld.",
+  "evidenceCount": "{count, plural, one {# bewijsstuk} other {# bewijsstukken}}"
+}

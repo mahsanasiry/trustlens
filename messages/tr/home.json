@@ -1,0 +1,5 @@
+{
+  "title": "Bir iddiayı kaynaklarına kadar izleyin",
+  "lead": "TrustLens, kanıtların ne söylediğini ve nereden geldiğini gösterir. İddiaları doğru ya da yanlış diye etiketlemez.",
+  "evidenceCount": "{count, plural, one {# kanıt} other {# kanıt}}"
+}

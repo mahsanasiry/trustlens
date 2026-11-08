@@ -1,0 +1,5 @@
+{
+  "title": "Acompanhe uma afirmação até as fontes",
+  "lead": "O TrustLens mostra o que as evidências dizem e de onde elas vêm. Ele não classifica afirmações como verdadeiras ou falsas.",
+  "evidenceCount": "{count, plural, one {# evidência} other {# evidências}}"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Telusuri klaim hingga ke sumbernya",
+  "lead": "TrustLens menunjukkan apa kata bukti dan dari mana asalnya. TrustLens tidak melabeli klaim sebagai benar atau salah.",
+  "evidenceCount": "{count, plural, other {# bukti}}"
+}

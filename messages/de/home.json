@@ -1,0 +1,5 @@
+{
+  "title": "Verfolgen Sie eine Behauptung bis zu ihren Quellen",
+  "lead": "TrustLens zeigt, was die Belege aussagen und woher sie stammen. Behauptungen werden nicht als wahr oder falsch eingestuft.",
+  "evidenceCount": "{count, plural, one {# Beleg} other {# Belege}}"
+}
