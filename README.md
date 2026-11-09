@@ -21,19 +21,20 @@ Open <http://localhost:3000>. The site redirects to a locale prefix such as `/en
 
 ## Scripts
 
-| Script                | Purpose                                              |
-| --------------------- | ---------------------------------------------------- |
-| `pnpm dev`            | Start the development server                         |
-| `pnpm build`          | Production build                                     |
-| `pnpm lint`           | ESLint with zero warnings allowed                    |
-| `pnpm format:check`   | Prettier check                                       |
-| `pnpm typecheck`      | Generate route types and run the TypeScript compiler |
-| `pnpm test`           | Unit tests                                           |
-| `pnpm locales:check`  | Verify every locale for missing keys and ICU errors  |
-| `pnpm contrast:check` | Verify WCAG AA contrast of every theme and accent    |
-| `pnpm verify`         | Run all of the above in order                        |
-| `pnpm preview:cf`     | Build for Cloudflare and preview locally             |
-| `pnpm deploy:cf`      | Build and deploy to Cloudflare                       |
+| Script                | Purpose                                                  |
+| --------------------- | -------------------------------------------------------- |
+| `pnpm dev`            | Start the development server                             |
+| `pnpm build`          | Production build                                         |
+| `pnpm lint`           | ESLint with zero warnings allowed                        |
+| `pnpm format:check`   | Prettier check                                           |
+| `pnpm typecheck`      | Generate route types and run the TypeScript compiler     |
+| `pnpm test`           | Unit tests                                               |
+| `pnpm test:db`        | Apply the migrations and run the security tests (`psql`) |
+| `pnpm locales:check`  | Verify every locale for missing keys and ICU errors      |
+| `pnpm contrast:check` | Verify WCAG AA contrast of every theme and accent        |
+| `pnpm verify`         | Run all of the above in order                            |
+| `pnpm preview:cf`     | Build for Cloudflare and preview locally                 |
+| `pnpm deploy:cf`      | Build and deploy to Cloudflare                           |
 
 ## Languages
 
@@ -42,3 +43,7 @@ Open <http://localhost:3000>. The site redirects to a locale prefix such as `/en
 Arabic, Urdu, Persian and Hebrew are right-to-left. Translations have not been reviewed by native speakers yet and must be before any production use.
 
 To add a language, add an entry to the registry and a `messages/<code>/` directory. If the language uses a script that has no module in `src/lib/fonts/` yet, add one there and register it in `src/lib/fonts/index.ts`. `pnpm locales:check` reports anything missing.
+
+## Database
+
+The schema, the row level security policies and the review workflow live in `supabase/migrations`. See [docs/database.md](docs/database.md) for the tables, the permission matrix and how to apply and test the migrations, and [docs/adr](docs/adr) for the reasoning behind the main decisions.

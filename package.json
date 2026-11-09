@@ -20,7 +20,8 @@
     "verify": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm locales:check && pnpm contrast:check && pnpm test && pnpm build",
     "build:cf": "opennextjs-cloudflare build",
     "preview:cf": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy:cf": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+    "deploy:cf": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "test:db": "node scripts/test-db.mjs"
   },
   "dependencies": {
     "next": "16.4.5",
