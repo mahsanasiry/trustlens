@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Ondersteunt",
+    "context": "Geeft context",
+    "contradicts": "Spreekt tegen"
+  },
+  "help": {
+    "supports": "Onderbouwt de bewering rechtstreeks.",
+    "context": "Schetst de achtergrond zonder partij te kiezen.",
+    "contradicts": "Wijst de andere kant op of verzwakt de bewering."
+  }
+}

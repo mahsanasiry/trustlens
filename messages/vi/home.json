@@ -1,5 +1,23 @@
 {
   "title": "Truy từ một tuyên bố đến các nguồn của nó",
   "lead": "TrustLens cho thấy bằng chứng nói gì và đến từ đâu. Nền tảng không gắn nhãn đúng hay sai cho các tuyên bố.",
-  "evidenceCount": "{count, plural, other {# bằng chứng}}"
+  "evidenceCount": "{count, plural, other {# bằng chứng}}",
+  "demoBadge": "Dữ liệu minh họa",
+  "demoNotice": "Mọi tuyên bố, nguồn và con người trên trang này đều là dữ liệu minh họa hư cấu.",
+  "spectrumTitle": "Ba cách bằng chứng liên hệ với một tuyên bố",
+  "principlesTitle": "TrustLens làm gì và không làm gì",
+  "principles": {
+    "sideBySide": {
+      "title": "Các bằng chứng đặt cạnh nhau",
+      "body": "Mỗi tuyên bố liệt kê các nguồn ủng hộ, các nguồn mâu thuẫn và bối cảnh xung quanh."
+    },
+    "noVerdict": {
+      "title": "Không phán xét",
+      "body": "TrustLens không bao giờ gắn nhãn đúng hay sai cho một tuyên bố. Trang chỉ cho thấy bằng chứng nói gì và để bạn tự đánh giá."
+    },
+    "checkable": {
+      "title": "Nguồn bạn có thể kiểm tra",
+      "body": "Mỗi nguồn được đánh giá theo tiêu chí đã nêu và lập luận luôn hiển thị."
+    }
+  }
 }

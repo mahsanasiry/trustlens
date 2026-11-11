@@ -1,3 +1,3 @@
-export const messageNamespaces = ['common', 'home'] as const;
+export const messageNamespaces = ['common', 'home', 'auth', 'evidence'] as const;
 
 export type MessageNamespace = (typeof messageNamespaces)[number];

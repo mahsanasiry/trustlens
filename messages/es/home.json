@@ -1,5 +1,23 @@
 {
   "title": "Sigue una afirmación hasta sus fuentes",
   "lead": "TrustLens muestra qué dicen las pruebas y de dónde proceden. No clasifica las afirmaciones como verdaderas o falsas.",
-  "evidenceCount": "{count, plural, one {# prueba} other {# pruebas}}"
+  "evidenceCount": "{count, plural, one {# prueba} other {# pruebas}}",
+  "demoBadge": "Datos de demostración",
+  "demoNotice": "Todas las afirmaciones, fuentes y personas de este sitio son datos de demostración ficticios.",
+  "spectrumTitle": "Tres formas en que una prueba se relaciona con una afirmación",
+  "principlesTitle": "Lo que TrustLens hace y lo que no",
+  "principles": {
+    "sideBySide": {
+      "title": "Las pruebas, lado a lado",
+      "body": "Cada afirmación muestra las fuentes que la apoyan, las que la contradicen y el contexto que la rodea."
+    },
+    "noVerdict": {
+      "title": "Sin veredictos",
+      "body": "TrustLens nunca marca una afirmación como verdadera o falsa. Muestra lo que dicen las pruebas y deja el juicio en tus manos."
+    },
+    "checkable": {
+      "title": "Fuentes que puedes comprobar",
+      "body": "Cada fuente se evalúa con criterios declarados y el razonamiento permanece visible."
+    }
+  }
 }

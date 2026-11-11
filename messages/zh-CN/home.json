@@ -1,5 +1,23 @@
 {
   "title": "从一项主张追溯到它的来源",
   "lead": "TrustLens 展示证据说了什么、来自哪里，但不会把主张判定为真或假。",
-  "evidenceCount": "{count, plural, other {# 条证据}}"
+  "evidenceCount": "{count, plural, other {# 条证据}}",
+  "demoBadge": "演示数据",
+  "demoNotice": "本站所有主张、来源和人物均为虚构的演示数据。",
+  "spectrumTitle": "证据与主张的三种关系",
+  "principlesTitle": "TrustLens 做什么，不做什么",
+  "principles": {
+    "sideBySide": {
+      "title": "证据并列呈现",
+      "body": "每条主张都会列出支持它的来源、反驳它的来源以及相关背景。"
+    },
+    "noVerdict": {
+      "title": "不下判断",
+      "body": "TrustLens 从不把主张标为真或假。它呈现证据的内容，判断留给你。"
+    },
+    "checkable": {
+      "title": "可以自行核查的来源",
+      "body": "每个来源都按公开的标准评估，理由始终可见。"
+    }
+  }
 }

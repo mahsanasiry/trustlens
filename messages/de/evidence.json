@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Stützt",
+    "context": "Liefert Kontext",
+    "contradicts": "Widerspricht"
+  },
+  "help": {
+    "supports": "Belegt die Behauptung direkt.",
+    "context": "Erklärt den Rahmen, ohne Partei zu ergreifen.",
+    "contradicts": "Spricht dagegen oder schwächt die Behauptung."
+  }
+}

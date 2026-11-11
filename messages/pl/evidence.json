@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Wspiera",
+    "context": "Daje kontekst",
+    "contradicts": "Przeczy"
+  },
+  "help": {
+    "supports": "Bezpośrednio potwierdza twierdzenie.",
+    "context": "Wyjaśnia tło, nie opowiadając się po żadnej stronie.",
+    "contradicts": "Wskazuje coś przeciwnego lub osłabia twierdzenie."
+  }
+}

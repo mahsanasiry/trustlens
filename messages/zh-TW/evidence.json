@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "支持",
+    "context": "補充背景",
+    "contradicts": "反駁"
+  },
+  "help": {
+    "supports": "直接支撐這項主張。",
+    "context": "說明相關背景，不偏向任何一方。",
+    "contradicts": "指向相反的結論，或削弱這項主張。"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Mendukung",
+    "context": "Memberi konteks",
+    "contradicts": "Bertentangan"
+  },
+  "help": {
+    "supports": "Menguatkan klaim secara langsung.",
+    "context": "Menjelaskan latar tanpa memihak.",
+    "contradicts": "Menunjuk ke arah sebaliknya atau melemahkan klaim."
+  }
+}

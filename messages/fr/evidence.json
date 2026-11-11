@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Appuie",
+    "context": "Apporte du contexte",
+    "contradicts": "Contredit"
+  },
+  "help": {
+    "supports": "Appuie directement l’affirmation.",
+    "context": "Éclaire le contexte sans prendre parti.",
+    "contradicts": "Va dans l’autre sens ou affaiblit l’affirmation."
+  }
+}

@@ -1,5 +1,23 @@
 {
   "title": "從一項主張追溯到它的來源",
   "lead": "TrustLens 呈現證據的內容與出處，但不會把主張判定為真或假。",
-  "evidenceCount": "{count, plural, other {# 筆證據}}"
+  "evidenceCount": "{count, plural, other {# 筆證據}}",
+  "demoBadge": "示範資料",
+  "demoNotice": "本站所有主張、來源和人物均為虛構的示範資料。",
+  "spectrumTitle": "證據與主張的三種關係",
+  "principlesTitle": "TrustLens 做什麼，不做什麼",
+  "principles": {
+    "sideBySide": {
+      "title": "證據並列呈現",
+      "body": "每項主張都會列出支持它的來源、反駁它的來源以及相關背景。"
+    },
+    "noVerdict": {
+      "title": "不下判斷",
+      "body": "TrustLens 從不把主張標為真或假。它呈現證據的內容，判斷留給你。"
+    },
+    "checkable": {
+      "title": "可以自行查核的來源",
+      "body": "每個來源都依公開的標準評估，理由始終可見。"
+    }
+  }
 }

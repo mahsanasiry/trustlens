@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Ủng hộ",
+    "context": "Bổ sung bối cảnh",
+    "contradicts": "Mâu thuẫn"
+  },
+  "help": {
+    "supports": "Củng cố trực tiếp cho tuyên bố.",
+    "context": "Giải thích bối cảnh mà không đứng về phía nào.",
+    "contradicts": "Chỉ theo hướng ngược lại hoặc làm yếu tuyên bố."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Destekler",
+    "context": "Bağlam sunar",
+    "contradicts": "Çürütür"
+  },
+  "help": {
+    "supports": "İddiayı doğrudan destekler.",
+    "context": "Taraf tutmadan bağlamı açıklar.",
+    "contradicts": "Ters yönü gösterir ya da iddiayı zayıflatır."
+  }
+}

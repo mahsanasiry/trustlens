@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Sostiene",
+    "context": "Dà contesto",
+    "contradicts": "Contraddice"
+  },
+  "help": {
+    "supports": "Sostiene direttamente l’affermazione.",
+    "context": "Spiega il quadro senza prendere posizione.",
+    "contradicts": "Va nella direzione opposta o indebolisce l’affermazione."
+  }
+}

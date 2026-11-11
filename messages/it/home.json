@@ -1,5 +1,23 @@
 {
   "title": "Risali da un'affermazione alle sue fonti",
   "lead": "TrustLens mostra cosa dicono le prove e da dove provengono. Non etichetta le affermazioni come vere o false.",
-  "evidenceCount": "{count, plural, one {# elemento di prova} other {# elementi di prova}}"
+  "evidenceCount": "{count, plural, one {# elemento di prova} other {# elementi di prova}}",
+  "demoBadge": "Dati dimostrativi",
+  "demoNotice": "Tutte le affermazioni, le fonti e le persone di questo sito sono dati dimostrativi di fantasia.",
+  "spectrumTitle": "Tre modi in cui una prova si rapporta a un’affermazione",
+  "principlesTitle": "Cosa fa TrustLens e cosa no",
+  "principles": {
+    "sideBySide": {
+      "title": "Le prove affiancate",
+      "body": "Ogni affermazione elenca le fonti che la sostengono, quelle che la contraddicono e il contesto che la circonda."
+    },
+    "noVerdict": {
+      "title": "Nessun verdetto",
+      "body": "TrustLens non etichetta mai un’affermazione come vera o falsa. Mostra cosa dicono le prove e lascia il giudizio a te."
+    },
+    "checkable": {
+      "title": "Fonti verificabili",
+      "body": "Ogni fonte viene valutata secondo criteri dichiarati e il ragionamento resta visibile."
+    }
+  }
 }

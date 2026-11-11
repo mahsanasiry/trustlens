@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { SiteFooter } from '@/components/site-footer';
+import { SiteHeader } from '@/components/site-header';
 import { getFontClassName } from '@/lib/fonts';
 import { getDirection, isLocaleCode, localeRegistry, locales } from '@/lib/i18n/locales';
 import { loadMessages } from '@/lib/i18n/messages';
@@ -46,7 +48,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   const [fontClassName, messages, t] = await Promise.all([
     getFontClassName(localeRegistry[locale].script),
-    loadMessages(locale, ['common', 'home']),
+    loadMessages(locale),
     getTranslations({ locale, namespace: 'common' }),
   ]);
 
@@ -65,7 +67,9 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           {t('skipToContent')}
         </a>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <SiteHeader />
           {children}
+          <SiteFooter />
         </NextIntlClientProvider>
       </body>
     </html>

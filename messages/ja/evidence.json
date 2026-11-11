@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "裏付ける",
+    "context": "背景を補う",
+    "contradicts": "反証する"
+  },
+  "help": {
+    "supports": "主張を直接裏付けます。",
+    "context": "立場を取らずに状況を説明します。",
+    "contradicts": "主張と逆の方向を示すか、主張を弱めます。"
+  }
+}

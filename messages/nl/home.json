@@ -1,5 +1,23 @@
 {
   "title": "Volg een bewering terug naar de bronnen",
   "lead": "TrustLens laat zien wat het bewijs zegt en waar het vandaan komt. Beweringen worden niet als waar of onwaar bestempeld.",
-  "evidenceCount": "{count, plural, one {# bewijsstuk} other {# bewijsstukken}}"
+  "evidenceCount": "{count, plural, one {# bewijsstuk} other {# bewijsstukken}}",
+  "demoBadge": "Demogegevens",
+  "demoNotice": "Alle beweringen, bronnen en personen op deze site zijn verzonnen demogegevens.",
+  "spectrumTitle": "Drie manieren waarop bewijs zich tot een bewering verhoudt",
+  "principlesTitle": "Wat TrustLens wel en niet doet",
+  "principles": {
+    "sideBySide": {
+      "title": "Bewijs naast elkaar",
+      "body": "Bij elke bewering staan de bronnen die haar ondersteunen, de bronnen die haar tegenspreken en de context eromheen."
+    },
+    "noVerdict": {
+      "title": "Geen oordelen",
+      "body": "TrustLens bestempelt een bewering nooit als waar of onwaar. Het toont wat het bewijs zegt en laat het oordeel aan jou."
+    },
+    "checkable": {
+      "title": "Bronnen die je kunt controleren",
+      "body": "Elke bron wordt beoordeeld op vooraf genoemde criteria, en de redenering blijft zichtbaar."
+    }
+  }
 }

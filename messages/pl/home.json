@@ -1,5 +1,23 @@
 {
   "title": "Prześledź twierdzenie aż do źródeł",
   "lead": "TrustLens pokazuje, co mówią dowody i skąd pochodzą. Nie ocenia twierdzeń jako prawdziwych lub fałszywych.",
-  "evidenceCount": "{count, plural, one {# dowód} few {# dowody} many {# dowodów} other {# dowodu}}"
+  "evidenceCount": "{count, plural, one {# dowód} few {# dowody} many {# dowodów} other {# dowodu}}",
+  "demoBadge": "Dane demonstracyjne",
+  "demoNotice": "Wszystkie twierdzenia, źródła i osoby w tym serwisie to fikcyjne dane demonstracyjne.",
+  "spectrumTitle": "Trzy sposoby, w jakie dowód odnosi się do twierdzenia",
+  "principlesTitle": "Co TrustLens robi, a czego nie robi",
+  "principles": {
+    "sideBySide": {
+      "title": "Dowody obok siebie",
+      "body": "Każde twierdzenie wymienia źródła, które je wspierają, te, które mu przeczą, oraz kontekst."
+    },
+    "noVerdict": {
+      "title": "Bez wyroków",
+      "body": "TrustLens nigdy nie oznacza twierdzenia jako prawdziwego lub fałszywego. Pokazuje, co mówią dowody, a ocenę zostawia Tobie."
+    },
+    "checkable": {
+      "title": "Źródła, które możesz sprawdzić",
+      "body": "Każde źródło oceniamy według jawnych kryteriów, a uzasadnienie pozostaje widoczne."
+    }
+  }
 }

@@ -1,5 +1,23 @@
 {
   "title": "주장에서 출처까지 따라가 보세요",
   "lead": "TrustLens는 증거가 무엇을 말하는지, 어디에서 나왔는지를 보여 줍니다. 주장을 참이나 거짓으로 판정하지 않습니다.",
-  "evidenceCount": "{count, plural, other {증거 #건}}"
+  "evidenceCount": "{count, plural, other {증거 #건}}",
+  "demoBadge": "데모 데이터",
+  "demoNotice": "이 사이트의 모든 주장, 출처, 인물은 가상의 데모 데이터입니다.",
+  "spectrumTitle": "근거가 주장과 관계 맺는 세 가지 방식",
+  "principlesTitle": "TrustLens가 하는 일과 하지 않는 일",
+  "principles": {
+    "sideBySide": {
+      "title": "근거를 나란히",
+      "body": "각 주장에는 이를 뒷받침하는 출처, 반박하는 출처, 주변 맥락이 함께 나열됩니다."
+    },
+    "noVerdict": {
+      "title": "판정하지 않습니다",
+      "body": "TrustLens는 주장을 참이나 거짓으로 표시하지 않습니다. 근거가 무엇을 말하는지 보여 주고 판단은 여러분께 맡깁니다."
+    },
+    "checkable": {
+      "title": "직접 확인할 수 있는 출처",
+      "body": "모든 출처는 공개된 기준으로 평가되며, 그 이유도 그대로 보입니다."
+    }
+  }
 }

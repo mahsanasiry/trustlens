@@ -30,6 +30,7 @@ Open <http://localhost:3000>. The site redirects to a locale prefix such as `/en
 | `pnpm typecheck`      | Generate route types and run the TypeScript compiler     |
 | `pnpm test`           | Unit tests                                               |
 | `pnpm test:db`        | Apply the migrations and run the security tests (`psql`) |
+| `pnpm seed:accounts`  | Create the four demo accounts on the Supabase project    |
 | `pnpm locales:check`  | Verify every locale for missing keys and ICU errors      |
 | `pnpm contrast:check` | Verify WCAG AA contrast of every theme and accent        |
 | `pnpm verify`         | Run all of the above in order                            |
@@ -47,3 +48,7 @@ To add a language, add an entry to the registry and a `messages/<code>/` directo
 ## Database
 
 The schema, the row level security policies and the review workflow live in `supabase/migrations`. See [docs/database.md](docs/database.md) for the tables, the permission matrix and how to apply and test the migrations, and [docs/adr](docs/adr) for the reasoning behind the main decisions.
+
+## Authentication
+
+Email and password sign-in runs on Supabase Auth. Copy `.env.example` to `.env.local` and fill in the Supabase values before starting the dev server. See [docs/auth.md](docs/auth.md) for the Supabase settings, the demo accounts and the reasoning behind the session handling.

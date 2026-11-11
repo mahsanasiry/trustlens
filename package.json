@@ -21,13 +21,19 @@
     "build:cf": "opennextjs-cloudflare build",
     "preview:cf": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy:cf": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "test:db": "node scripts/test-db.mjs"
+    "test:db": "node scripts/test-db.mjs",
+    "seed:accounts": "node --env-file=.env.local scripts/seed-demo-accounts.mjs"
   },
   "dependencies": {
+    "@hookform/resolvers": "^7.0.5",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
     "next": "16.4.5",
     "next-intl": "^4.14.9",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.91.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@formatjs/icu-messageformat-parser": "^3.5.22",

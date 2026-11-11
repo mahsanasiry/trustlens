@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Apoya",
+    "context": "Aporta contexto",
+    "contradicts": "Contradice"
+  },
+  "help": {
+    "supports": "Respalda la afirmación directamente.",
+    "context": "Explica el contexto sin tomar partido.",
+    "contradicts": "Apunta en sentido contrario o debilita la afirmación."
+  }
+}

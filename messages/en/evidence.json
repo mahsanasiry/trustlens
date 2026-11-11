@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "Supports",
+    "context": "Adds context",
+    "contradicts": "Contradicts"
+  },
+  "help": {
+    "supports": "Backs up the claim directly.",
+    "context": "Explains the setting without taking a side.",
+    "contradicts": "Points the other way or weakens the claim."
+  }
+}

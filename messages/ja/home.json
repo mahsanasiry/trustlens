@@ -1,5 +1,23 @@
 {
   "title": "主張をたどって、出典までさかのぼる",
   "lead": "TrustLens は、証拠が何を示しているか、そしてその出どころを見せます。主張を「真」か「偽」かで判定することはありません。",
-  "evidenceCount": "{count, plural, other {#件の証拠}}"
+  "evidenceCount": "{count, plural, other {#件の証拠}}",
+  "demoBadge": "デモデータ",
+  "demoNotice": "このサイトの主張、情報源、人物はすべて架空のデモデータです。",
+  "spectrumTitle": "根拠が主張と結びつく3つの形",
+  "principlesTitle": "TrustLensにできること、しないこと",
+  "principles": {
+    "sideBySide": {
+      "title": "根拠を並べて見る",
+      "body": "各主張には、それを裏付ける情報源、反証する情報源、周辺の背景が並びます。"
+    },
+    "noVerdict": {
+      "title": "判定はしません",
+      "body": "TrustLensは主張を真または偽と判定しません。根拠が何を示しているかを見せ、判断はあなたに委ねます。"
+    },
+    "checkable": {
+      "title": "確かめられる情報源",
+      "body": "すべての情報源は公開された基準で評価され、その理由も見られます。"
+    }
+  }
 }

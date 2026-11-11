@@ -1,5 +1,23 @@
 {
   "title": "Telusuri klaim hingga ke sumbernya",
   "lead": "TrustLens menunjukkan apa kata bukti dan dari mana asalnya. TrustLens tidak melabeli klaim sebagai benar atau salah.",
-  "evidenceCount": "{count, plural, other {# bukti}}"
+  "evidenceCount": "{count, plural, other {# bukti}}",
+  "demoBadge": "Data demo",
+  "demoNotice": "Semua klaim, sumber, dan orang di situs ini adalah data demo fiktif.",
+  "spectrumTitle": "Tiga cara bukti berkaitan dengan sebuah klaim",
+  "principlesTitle": "Apa yang dilakukan dan tidak dilakukan TrustLens",
+  "principles": {
+    "sideBySide": {
+      "title": "Bukti berdampingan",
+      "body": "Setiap klaim mencantumkan sumber yang mendukungnya, yang bertentangan dengannya, dan konteks di sekitarnya."
+    },
+    "noVerdict": {
+      "title": "Tanpa vonis",
+      "body": "TrustLens tidak pernah menandai klaim sebagai benar atau salah. TrustLens menunjukkan apa kata bukti dan menyerahkan penilaian kepada Anda."
+    },
+    "checkable": {
+      "title": "Sumber yang bisa Anda periksa",
+      "body": "Setiap sumber dinilai dengan kriteria yang dinyatakan, dan alasannya tetap terlihat."
+    }
+  }
 }

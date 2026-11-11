@@ -1,0 +1,12 @@
+{
+  "positions": {
+    "supports": "뒷받침",
+    "context": "맥락 제공",
+    "contradicts": "반박"
+  },
+  "help": {
+    "supports": "주장을 직접 뒷받침합니다.",
+    "context": "한쪽 편을 들지 않고 상황을 설명합니다.",
+    "contradicts": "반대 방향을 가리키거나 주장을 약하게 만듭니다."
+  }
+}

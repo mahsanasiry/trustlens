@@ -1,5 +1,23 @@
 {
   "title": "Follow a claim back to its sources",
   "lead": "TrustLens shows what the evidence says and where it comes from. It does not label claims true or false.",
-  "evidenceCount": "{count, plural, one {# piece of evidence} other {# pieces of evidence}}"
+  "evidenceCount": "{count, plural, one {# piece of evidence} other {# pieces of evidence}}",
+  "demoBadge": "Demo data",
+  "demoNotice": "Every claim, source and person on this site is fictional demo data.",
+  "spectrumTitle": "Three ways evidence relates to a claim",
+  "principlesTitle": "What TrustLens does and does not do",
+  "principles": {
+    "sideBySide": {
+      "title": "Evidence side by side",
+      "body": "Each claim lists the sources that support it, the ones that contradict it and the context around it."
+    },
+    "noVerdict": {
+      "title": "No verdicts",
+      "body": "TrustLens never marks a claim true or false. It shows what the evidence says and leaves the judgment to you."
+    },
+    "checkable": {
+      "title": "Sources you can check",
+      "body": "Every source is assessed against stated criteria, and the reasoning stays visible."
+    }
+  }
 }

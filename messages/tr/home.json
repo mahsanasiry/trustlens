@@ -1,5 +1,23 @@
 {
   "title": "Bir iddiayı kaynaklarına kadar izleyin",
   "lead": "TrustLens, kanıtların ne söylediğini ve nereden geldiğini gösterir. İddiaları doğru ya da yanlış diye etiketlemez.",
-  "evidenceCount": "{count, plural, one {# kanıt} other {# kanıt}}"
+  "evidenceCount": "{count, plural, one {# kanıt} other {# kanıt}}",
+  "demoBadge": "Demo verisi",
+  "demoNotice": "Bu sitedeki tüm iddialar, kaynaklar ve kişiler kurgusal demo verisidir.",
+  "spectrumTitle": "Kanıtın bir iddiayla ilişkilenebileceği üç yol",
+  "principlesTitle": "TrustLens neyi yapar, neyi yapmaz",
+  "principles": {
+    "sideBySide": {
+      "title": "Kanıtlar yan yana",
+      "body": "Her iddia, onu destekleyen kaynakları, ona karşı çıkan kaynakları ve çevresindeki bağlamı listeler."
+    },
+    "noVerdict": {
+      "title": "Hüküm yok",
+      "body": "TrustLens hiçbir iddiayı doğru ya da yanlış diye etiketlemez. Kanıtların ne söylediğini gösterir, değerlendirmeyi size bırakır."
+    },
+    "checkable": {
+      "title": "Kontrol edebileceğiniz kaynaklar",
+      "body": "Her kaynak açıklanmış ölçütlere göre değerlendirilir ve gerekçe görünür kalır."
+    }
+  }
 }

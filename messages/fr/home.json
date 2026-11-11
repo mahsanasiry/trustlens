@@ -1,5 +1,23 @@
 {
   "title": "Remontez d'une affirmation jusqu'à ses sources",
   "lead": "TrustLens montre ce que disent les preuves et d'où elles viennent. Il ne classe pas les affirmations comme vraies ou fausses.",
-  "evidenceCount": "{count, plural, one {# élément de preuve} other {# éléments de preuve}}"
+  "evidenceCount": "{count, plural, one {# élément de preuve} other {# éléments de preuve}}",
+  "demoBadge": "Données de démonstration",
+  "demoNotice": "Toutes les affirmations, sources et personnes de ce site sont des données de démonstration fictives.",
+  "spectrumTitle": "Trois façons dont une preuve se rapporte à une affirmation",
+  "principlesTitle": "Ce que fait TrustLens, et ce qu’il ne fait pas",
+  "principles": {
+    "sideBySide": {
+      "title": "Les preuves côte à côte",
+      "body": "Chaque affirmation présente les sources qui l’appuient, celles qui la contredisent et le contexte qui l’entoure."
+    },
+    "noVerdict": {
+      "title": "Aucun verdict",
+      "body": "TrustLens ne déclare jamais une affirmation vraie ou fausse. Il montre ce que disent les preuves et vous laisse juger."
+    },
+    "checkable": {
+      "title": "Des sources vérifiables",
+      "body": "Chaque source est évaluée selon des critères annoncés, et le raisonnement reste visible."
+    }
+  }
 }

@@ -1,5 +1,23 @@
 {
   "title": "Verfolgen Sie eine Behauptung bis zu ihren Quellen",
   "lead": "TrustLens zeigt, was die Belege aussagen und woher sie stammen. Behauptungen werden nicht als wahr oder falsch eingestuft.",
-  "evidenceCount": "{count, plural, one {# Beleg} other {# Belege}}"
+  "evidenceCount": "{count, plural, one {# Beleg} other {# Belege}}",
+  "demoBadge": "Demodaten",
+  "demoNotice": "Alle Behauptungen, Quellen und Personen auf dieser Website sind erfundene Demodaten.",
+  "spectrumTitle": "Drei Beziehungen zwischen Beleg und Behauptung",
+  "principlesTitle": "Was TrustLens tut und was nicht",
+  "principles": {
+    "sideBySide": {
+      "title": "Belege nebeneinander",
+      "body": "Jede Behauptung listet die Quellen, die sie stützen, die, die ihr widersprechen, und den Kontext."
+    },
+    "noVerdict": {
+      "title": "Keine Urteile",
+      "body": "TrustLens stuft keine Behauptung als wahr oder falsch ein. Es zeigt, was die Belege sagen, und überlässt dir das Urteil."
+    },
+    "checkable": {
+      "title": "Quellen, die du prüfen kannst",
+      "body": "Jede Quelle wird nach offengelegten Kriterien bewertet, und die Begründung bleibt sichtbar."
+    }
+  }
 }
