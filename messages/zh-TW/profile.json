@@ -1,0 +1,27 @@
+{
+  "title": "個人資料",
+  "lead": "其他人看到的你的名稱和大頭貼。",
+  "saved": "個人資料已儲存。",
+  "picture": {
+    "label": "大頭貼",
+    "hint": "PNG、JPEG 或 WebP。大圖片會自動縮小。"
+  },
+  "fields": {
+    "displayName": "顯示名稱"
+  },
+  "actions": {
+    "save": "儲存變更",
+    "removePicture": "移除大頭貼"
+  },
+  "errors": {
+    "name": "請輸入 1 到 80 個字元的名稱。",
+    "type": "請選擇 PNG、JPEG 或 WebP 圖片。",
+    "size": "這張圖片太大了，請選擇更小的圖片。",
+    "failed": "無法儲存你的個人資料，請再試一次。"
+  },
+  "uploading": "正在上傳大頭貼…",
+  "saving": "正在儲存個人資料…",
+  "removed": "大頭貼已移除。",
+  "dismiss": "關閉",
+  "preparing": "正在處理大頭貼…"
+}

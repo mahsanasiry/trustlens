@@ -1,0 +1,27 @@
+{
+  "title": "Perfil",
+  "lead": "Tu nombre y tu imagen, tal como las ven los demás.",
+  "saved": "Perfil guardado.",
+  "picture": {
+    "label": "Foto de perfil",
+    "hint": "PNG, JPEG o WebP. Las fotos grandes se reducen automáticamente."
+  },
+  "fields": {
+    "displayName": "Nombre visible"
+  },
+  "actions": {
+    "save": "Guardar cambios",
+    "removePicture": "Quitar la foto"
+  },
+  "errors": {
+    "name": "Escribe un nombre de 1 a 80 caracteres.",
+    "type": "Elige una imagen PNG, JPEG o WebP.",
+    "size": "Esta imagen es demasiado grande. Elige una más pequeña.",
+    "failed": "No se pudo guardar tu perfil. Inténtalo de nuevo."
+  },
+  "uploading": "Subiendo tu foto…",
+  "saving": "Guardando tu perfil…",
+  "removed": "Foto eliminada.",
+  "dismiss": "Cerrar",
+  "preparing": "Preparando tu foto…"
+}

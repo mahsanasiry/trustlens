@@ -1,0 +1,27 @@
+{
+  "title": "Hồ sơ",
+  "lead": "Tên và ảnh của bạn, như người khác nhìn thấy.",
+  "saved": "Đã lưu hồ sơ.",
+  "picture": {
+    "label": "Ảnh hồ sơ",
+    "hint": "PNG, JPEG hoặc WebP. Ảnh lớn sẽ được tự động thu nhỏ."
+  },
+  "fields": {
+    "displayName": "Tên hiển thị"
+  },
+  "actions": {
+    "save": "Lưu thay đổi",
+    "removePicture": "Xóa ảnh"
+  },
+  "errors": {
+    "name": "Nhập tên từ 1 đến 80 ký tự.",
+    "type": "Hãy chọn ảnh PNG, JPEG hoặc WebP.",
+    "size": "Ảnh này quá lớn. Hãy chọn ảnh nhỏ hơn.",
+    "failed": "Không thể lưu hồ sơ của bạn. Hãy thử lại."
+  },
+  "uploading": "Đang tải ảnh lên…",
+  "saving": "Đang lưu hồ sơ…",
+  "removed": "Đã xóa ảnh.",
+  "dismiss": "Đóng",
+  "preparing": "Đang chuẩn bị ảnh…"
+}

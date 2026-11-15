@@ -1,0 +1,27 @@
+{
+  "title": "Profil",
+  "lead": "Dein Name und dein Bild, so wie andere sie sehen.",
+  "saved": "Profil gespeichert.",
+  "picture": {
+    "label": "Profilbild",
+    "hint": "PNG, JPEG oder WebP. Große Fotos werden automatisch verkleinert."
+  },
+  "fields": {
+    "displayName": "Anzeigename"
+  },
+  "actions": {
+    "save": "Änderungen speichern",
+    "removePicture": "Bild entfernen"
+  },
+  "errors": {
+    "name": "Gib einen Namen mit 1 bis 80 Zeichen ein.",
+    "type": "Wähle ein Bild im Format PNG, JPEG oder WebP.",
+    "size": "Dieses Bild ist zu groß. Wähle ein kleineres.",
+    "failed": "Dein Profil konnte nicht gespeichert werden. Versuche es erneut."
+  },
+  "uploading": "Dein Bild wird hochgeladen …",
+  "saving": "Dein Profil wird gespeichert …",
+  "removed": "Bild entfernt.",
+  "dismiss": "Schließen",
+  "preparing": "Dein Bild wird vorbereitet …"
+}

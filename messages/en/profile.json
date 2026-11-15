@@ -1,0 +1,27 @@
+{
+  "title": "Profile",
+  "lead": "Your name and picture, as other people see them.",
+  "saved": "Profile saved.",
+  "picture": {
+    "label": "Profile picture",
+    "hint": "PNG, JPEG or WebP. Large photos are resized for you."
+  },
+  "fields": {
+    "displayName": "Display name"
+  },
+  "actions": {
+    "save": "Save changes",
+    "removePicture": "Remove picture"
+  },
+  "errors": {
+    "name": "Enter a name of 1 to 80 characters.",
+    "type": "Choose a PNG, JPEG or WebP image.",
+    "size": "This image is too large. Choose a smaller one.",
+    "failed": "Your profile could not be saved. Try again."
+  },
+  "uploading": "Uploading your picture…",
+  "saving": "Saving your profile…",
+  "removed": "Picture removed.",
+  "dismiss": "Close",
+  "preparing": "Preparing your picture…"
+}

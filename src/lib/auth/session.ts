@@ -7,12 +7,14 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 
 const profileSchema = z.object({
   display_name: z.string(),
+  avatar_path: z.string().nullable(),
   role: z.enum(appRoles),
 });
 
 export interface Session {
   readonly actor: NonNullable<Actor>;
   readonly displayName: string;
+  readonly avatarPath: string | null;
 }
 
 // getUser() validates the token with the auth server on every call, which is
@@ -27,7 +29,7 @@ export const getSession = cache(async (): Promise<Session | null> => {
 
   const { data: row } = await supabase
     .from('profiles')
-    .select('display_name, role')
+    .select('display_name, avatar_path, role')
     .eq('id', data.user.id)
     .maybeSingle();
 
@@ -37,6 +39,7 @@ export const getSession = cache(async (): Promise<Session | null> => {
   return {
     actor: { id: data.user.id, role: profile.data.role },
     displayName: profile.data.display_name,
+    avatarPath: profile.data.avatar_path,
   };
 });
 

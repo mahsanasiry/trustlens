@@ -1,0 +1,27 @@
+{
+  "title": "Profil",
+  "lead": "Twoje imię i zdjęcie — tak, jak widzą je inni.",
+  "saved": "Profil zapisany.",
+  "picture": {
+    "label": "Zdjęcie profilowe",
+    "hint": "PNG, JPEG lub WebP. Duże zdjęcia są automatycznie zmniejszane."
+  },
+  "fields": {
+    "displayName": "Nazwa wyświetlana"
+  },
+  "actions": {
+    "save": "Zapisz zmiany",
+    "removePicture": "Usuń zdjęcie"
+  },
+  "errors": {
+    "name": "Wpisz nazwę o długości od 1 do 80 znaków.",
+    "type": "Wybierz obraz w formacie PNG, JPEG lub WebP.",
+    "size": "Ten obraz jest za duży. Wybierz mniejszy.",
+    "failed": "Nie udało się zapisać profilu. Spróbuj ponownie."
+  },
+  "uploading": "Przesyłanie zdjęcia…",
+  "saving": "Zapisywanie profilu…",
+  "removed": "Zdjęcie usunięte.",
+  "dismiss": "Zamknij",
+  "preparing": "Przygotowywanie zdjęcia…"
+}

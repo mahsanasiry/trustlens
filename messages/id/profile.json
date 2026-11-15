@@ -1,0 +1,27 @@
+{
+  "title": "Profil",
+  "lead": "Nama dan foto Anda, seperti yang dilihat orang lain.",
+  "saved": "Profil disimpan.",
+  "picture": {
+    "label": "Foto profil",
+    "hint": "PNG, JPEG, atau WebP. Foto besar diperkecil otomatis."
+  },
+  "fields": {
+    "displayName": "Nama tampilan"
+  },
+  "actions": {
+    "save": "Simpan perubahan",
+    "removePicture": "Hapus foto"
+  },
+  "errors": {
+    "name": "Masukkan nama sepanjang 1 sampai 80 karakter.",
+    "type": "Pilih gambar PNG, JPEG, atau WebP.",
+    "size": "Gambar ini terlalu besar. Pilih yang lebih kecil.",
+    "failed": "Profil Anda tidak dapat disimpan. Coba lagi."
+  },
+  "uploading": "Mengunggah foto Anda…",
+  "saving": "Menyimpan profil Anda…",
+  "removed": "Foto dihapus.",
+  "dismiss": "Tutup",
+  "preparing": "Menyiapkan foto Anda…"
+}

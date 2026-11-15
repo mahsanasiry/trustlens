@@ -1,0 +1,27 @@
+{
+  "title": "Profiel",
+  "lead": "Je naam en afbeelding, zoals anderen die zien.",
+  "saved": "Profiel opgeslagen.",
+  "picture": {
+    "label": "Profielfoto",
+    "hint": "PNG, JPEG of WebP. Grote foto’s worden automatisch verkleind."
+  },
+  "fields": {
+    "displayName": "Weergavenaam"
+  },
+  "actions": {
+    "save": "Wijzigingen opslaan",
+    "removePicture": "Foto verwijderen"
+  },
+  "errors": {
+    "name": "Voer een naam van 1 tot 80 tekens in.",
+    "type": "Kies een PNG-, JPEG- of WebP-afbeelding.",
+    "size": "Deze afbeelding is te groot. Kies een kleinere.",
+    "failed": "Je profiel kon niet worden opgeslagen. Probeer het opnieuw."
+  },
+  "uploading": "Je foto wordt geüpload…",
+  "saving": "Je profiel wordt opgeslagen…",
+  "removed": "Foto verwijderd.",
+  "dismiss": "Sluiten",
+  "preparing": "Je foto wordt voorbereid…"
+}

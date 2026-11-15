@@ -1,0 +1,27 @@
+{
+  "title": "个人资料",
+  "lead": "其他人看到的你的名字和头像。",
+  "saved": "个人资料已保存。",
+  "picture": {
+    "label": "头像",
+    "hint": "PNG、JPEG 或 WebP。大图片会自动缩小。"
+  },
+  "fields": {
+    "displayName": "显示名称"
+  },
+  "actions": {
+    "save": "保存更改",
+    "removePicture": "移除头像"
+  },
+  "errors": {
+    "name": "请输入 1 到 80 个字符的名称。",
+    "type": "请选择 PNG、JPEG 或 WebP 图片。",
+    "size": "这张图片太大了，请选择更小的图片。",
+    "failed": "无法保存你的个人资料，请重试。"
+  },
+  "uploading": "正在上传头像…",
+  "saving": "正在保存个人资料…",
+  "removed": "头像已移除。",
+  "dismiss": "关闭",
+  "preparing": "正在处理头像…"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "프로필",
+  "lead": "다른 사람에게 보이는 이름과 사진입니다.",
+  "saved": "프로필을 저장했습니다.",
+  "picture": {
+    "label": "프로필 사진",
+    "hint": "PNG, JPEG 또는 WebP. 큰 사진은 자동으로 줄어듭니다."
+  },
+  "fields": {
+    "displayName": "표시 이름"
+  },
+  "actions": {
+    "save": "변경사항 저장",
+    "removePicture": "사진 삭제"
+  },
+  "errors": {
+    "name": "1자에서 80자 사이의 이름을 입력하세요.",
+    "type": "PNG, JPEG 또는 WebP 이미지를 선택하세요.",
+    "size": "이미지가 너무 큽니다. 더 작은 이미지를 선택하세요.",
+    "failed": "프로필을 저장하지 못했습니다. 다시 시도하세요."
+  },
+  "uploading": "사진을 업로드하는 중…",
+  "saving": "프로필을 저장하는 중…",
+  "removed": "사진을 삭제했습니다.",
+  "dismiss": "닫기",
+  "preparing": "사진을 준비하는 중…"
+}

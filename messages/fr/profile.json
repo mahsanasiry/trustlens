@@ -1,0 +1,27 @@
+{
+  "title": "Profil",
+  "lead": "Votre nom et votre image, tels que les voient les autres.",
+  "saved": "Profil enregistré.",
+  "picture": {
+    "label": "Photo de profil",
+    "hint": "PNG, JPEG ou WebP. Les grandes photos sont redimensionnées automatiquement."
+  },
+  "fields": {
+    "displayName": "Nom affiché"
+  },
+  "actions": {
+    "save": "Enregistrer les modifications",
+    "removePicture": "Supprimer la photo"
+  },
+  "errors": {
+    "name": "Saisissez un nom de 1 à 80 caractères.",
+    "type": "Choisissez une image PNG, JPEG ou WebP.",
+    "size": "Cette image est trop volumineuse. Choisissez-en une plus petite.",
+    "failed": "Votre profil n’a pas pu être enregistré. Réessayez."
+  },
+  "uploading": "Envoi de votre photo…",
+  "saving": "Enregistrement de votre profil…",
+  "removed": "Photo supprimée.",
+  "dismiss": "Fermer",
+  "preparing": "Préparation de votre photo…"
+}

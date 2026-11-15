@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
+import { Avatar } from '@/components/avatar';
 import { Link, usePathname } from '@/lib/i18n/navigation';
 
 interface UserMenuProps {
@@ -8,12 +9,20 @@ interface UserMenuProps {
   role: string;
   /** The accessible name of the button, which must contain the visible name. */
   label: string;
-  items: { href: '/bookmarks' | '/collections'; label: string }[];
+  avatarUrl: string | null;
+  items: { href: '/profile' | '/bookmarks' | '/collections'; label: string }[];
   /** Shown below the links, for the sign-out control. */
   children: ReactNode;
 }
 
-export function UserMenu({ name, role, label, items, children }: UserMenuProps) {
+export function UserMenu({
+  name,
+  role,
+  label,
+  avatarUrl,
+  items,
+  children,
+}: UserMenuProps) {
   const pathname = usePathname();
   const panelId = useId();
   const root = useRef<HTMLDivElement>(null);
@@ -58,6 +67,7 @@ export function UserMenu({ name, role, label, items, children }: UserMenuProps) 
         aria-label={label}
         onClick={() => setOpenedOn(open ? null : pathname)}
       >
+        <Avatar name={name} url={avatarUrl} size="sm" />
         <span aria-hidden="true">{name}</span>
         <span className="role-badge" aria-hidden="true">
           {role}

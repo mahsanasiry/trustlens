@@ -5,6 +5,7 @@ import type collections from '../../../messages/en/collections.json';
 import type common from '../../../messages/en/common.json';
 import type evidence from '../../../messages/en/evidence.json';
 import type home from '../../../messages/en/home.json';
+import type profile from '../../../messages/en/profile.json';
 import type search from '../../../messages/en/search.json';
 import type sources from '../../../messages/en/sources.json';
 import type { LocaleCode } from './locales';
@@ -20,6 +21,7 @@ declare module 'next-intl' {
       common: typeof common;
       evidence: typeof evidence;
       home: typeof home;
+      profile: typeof profile;
       search: typeof search;
       sources: typeof sources;
     };

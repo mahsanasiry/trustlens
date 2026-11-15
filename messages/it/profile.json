@@ -1,0 +1,27 @@
+{
+  "title": "Profilo",
+  "lead": "Il tuo nome e la tua immagine, come li vedono gli altri.",
+  "saved": "Profilo salvato.",
+  "picture": {
+    "label": "Immagine del profilo",
+    "hint": "PNG, JPEG o WebP. Le foto grandi vengono ridimensionate automaticamente."
+  },
+  "fields": {
+    "displayName": "Nome visualizzato"
+  },
+  "actions": {
+    "save": "Salva le modifiche",
+    "removePicture": "Rimuovi l’immagine"
+  },
+  "errors": {
+    "name": "Inserisci un nome da 1 a 80 caratteri.",
+    "type": "Scegli un’immagine PNG, JPEG o WebP.",
+    "size": "Questa immagine è troppo grande. Scegline una più piccola.",
+    "failed": "Non è stato possibile salvare il profilo. Riprova."
+  },
+  "uploading": "Caricamento dell’immagine…",
+  "saving": "Salvataggio del profilo…",
+  "removed": "Immagine rimossa.",
+  "dismiss": "Chiudi",
+  "preparing": "Preparazione dell’immagine…"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Profil",
+  "lead": "Adınız ve fotoğrafınız, başkalarının gördüğü şekilde.",
+  "saved": "Profil kaydedildi.",
+  "picture": {
+    "label": "Profil fotoğrafı",
+    "hint": "PNG, JPEG veya WebP. Büyük fotoğraflar otomatik küçültülür."
+  },
+  "fields": {
+    "displayName": "Görünen ad"
+  },
+  "actions": {
+    "save": "Değişiklikleri kaydet",
+    "removePicture": "Fotoğrafı kaldır"
+  },
+  "errors": {
+    "name": "1 ile 80 karakter arasında bir ad girin.",
+    "type": "PNG, JPEG veya WebP biçiminde bir görsel seçin.",
+    "size": "Bu görsel çok büyük. Daha küçük bir görsel seçin.",
+    "failed": "Profiliniz kaydedilemedi. Tekrar deneyin."
+  },
+  "uploading": "Fotoğrafınız yükleniyor…",
+  "saving": "Profiliniz kaydediliyor…",
+  "removed": "Fotoğraf kaldırıldı.",
+  "dismiss": "Kapat",
+  "preparing": "Fotoğrafınız hazırlanıyor…"
+}

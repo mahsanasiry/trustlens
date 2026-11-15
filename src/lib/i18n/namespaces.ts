@@ -8,6 +8,7 @@ export const messageNamespaces = [
   'search',
   'bookmarks',
   'collections',
+  'profile',
 ] as const;
 
 export type MessageNamespace = (typeof messageNamespaces)[number];
