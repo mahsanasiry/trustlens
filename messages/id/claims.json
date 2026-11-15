@@ -1,0 +1,52 @@
+{
+  "title": "Klaim",
+  "lead": "Setiap klaim mencantumkan bukti yang mendukungnya, bukti yang bertentangan dengannya, dan konteks di sekitarnya.",
+  "statusNote": "Status menggambarkan keadaan bukti. Status tidak pernah menyatakan klaim benar atau salah.",
+  "status": {
+    "unreviewed": "Belum ditinjau",
+    "under_review": "Sedang ditinjau",
+    "evidence_available": "Bukti tersedia",
+    "conflicting_evidence": "Bukti saling bertentangan",
+    "insufficient_evidence": "Bukti belum cukup",
+    "archived": "Diarsipkan"
+  },
+  "category": {
+    "science": "Sains",
+    "education": "Pendidikan",
+    "environment": "Lingkungan",
+    "technology": "Teknologi",
+    "social_issues": "Isu sosial",
+    "public_policy": "Kebijakan publik"
+  },
+  "filters": {
+    "category": "Kategori",
+    "status": "Status",
+    "all": "Semua",
+    "apply": "Tampilkan klaim",
+    "reset": "Hapus filter"
+  },
+  "resultCount": "Klaim ditemukan: {count}",
+  "pagination": {
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "pageOf": "Halaman {page} dari {total}",
+    "label": "Halaman"
+  },
+  "empty": {
+    "title": "Tidak ada klaim yang cocok dengan filter ini.",
+    "body": "Coba kategori atau status lain, atau hapus filter."
+  },
+  "detail": {
+    "back": "Semua klaim",
+    "origin": "Tempat muncul",
+    "firstAppeared": "Pertama kali muncul",
+    "evidenceTitle": "Bukti",
+    "noEvidence": "Belum ada bukti yang ditambahkan ke klaim ini.",
+    "limitations": "Keterbatasan",
+    "researcherNote": "Catatan peneliti",
+    "statusHistory": "Riwayat status",
+    "relatedClaims": "Klaim terkait",
+    "version": "Versi {version}",
+    "updated": "Diperbarui {date}"
+  }
+}

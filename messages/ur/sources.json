@@ -1,0 +1,67 @@
+{
+  "title": "ماخذ",
+  "lead": "دلیل کے طور پر پیش کیا گیا ہر ماخذ، اس جانچ کے ساتھ کہ وہ کس حد تک کھل کر بتاتا ہے کہ اسے کس نے، کیسے اور کب تیار کیا۔",
+  "assessmentNote": "یہ جانچیں بتاتی ہیں کہ کسی ماخذ کے بارے میں کیا تصدیق کیا جا سکتا ہے۔ یہ کوئی اسکور نہیں اور ماخذ کے درست ہونے کے بارے میں کچھ نہیں کہتیں۔",
+  "type": {
+    "journal_article": "تحقیقی جریدے کا مضمون",
+    "report": "رپورٹ",
+    "dataset": "ڈیٹا سیٹ",
+    "news_article": "خبری مضمون",
+    "government_document": "سرکاری دستاویز",
+    "press_release": "پریس ریلیز",
+    "book": "کتاب",
+    "website": "ویب سائٹ",
+    "preprint": "پری پرنٹ",
+    "other": "دیگر"
+  },
+  "criteria": {
+    "author_transparency": "مصنفین کے نام درج ہیں",
+    "publisher_transparency": "ناشر کی شناخت ہے",
+    "citations_present": "حوالے موجود ہیں",
+    "publication_date": "اشاعت کی تاریخ درج ہے",
+    "data_collection_method": "ڈیٹا جمع کرنے کا طریقہ بیان کیا گیا ہے",
+    "independent_verifiability": "آزادانہ طور پر قابلِ تصدیق",
+    "conflict_of_interest": "مفادات کا ٹکراؤ ظاہر کیا گیا ہے",
+    "corrections_history": "اصلاحات درج کی جاتی ہیں"
+  },
+  "criterionStatus": {
+    "verified": "تصدیق شدہ",
+    "partially_verified": "جزوی طور پر تصدیق شدہ",
+    "not_verified": "تصدیق نہیں ہوئی",
+    "not_applicable": "لاگو نہیں"
+  },
+  "filters": {
+    "type": "قسم"
+  },
+  "resultCount": "ملنے والے ماخذ: {count}",
+  "empty": {
+    "title": "اس فلٹر سے کوئی ماخذ نہیں ملتا۔",
+    "body": "کوئی اور قسم آزمائیں، یا فلٹر صاف کریں۔"
+  },
+  "card": {
+    "published": "شائع شدہ {date}"
+  },
+  "compare": {
+    "pick": "موازنے کے لیے «{title}» منتخب کریں",
+    "action": "منتخب کا موازنہ کریں",
+    "hint": "دو سے چار ماخذ منتخب کریں۔",
+    "title": "ماخذ کا موازنہ",
+    "back": "تمام ماخذ",
+    "remove": "«{title}» ہٹائیں",
+    "tooFew": "موازنے کے لیے کم از کم دو ماخذ منتخب کریں۔",
+    "limited": "صرف پہلے چار ماخذ دکھائے گئے ہیں۔",
+    "criterion": "جانچ",
+    "notAssessed": "ابھی جانچا نہیں گیا",
+    "short": "موازنہ"
+  },
+  "detail": {
+    "authors": "مصنفین",
+    "publisher": "ناشر",
+    "publishedOn": "اشاعت",
+    "accessedOn": "رسائی کی تاریخ",
+    "open": "ماخذ کھولیں",
+    "checks": "جانچیں",
+    "citedBy": "جن دعووں کے لیے بطور دلیل پیش ہوا",
+    "citedByNone": "ابھی کوئی شائع شدہ دعویٰ اس ماخذ کا حوالہ نہیں دیتا۔"
+  }
+}

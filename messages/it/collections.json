@@ -1,0 +1,58 @@
+{
+  "title": "Raccolte",
+  "lead": "Raggruppa affermazioni e fonti in elenchi. Tienile private o condividile con un link.",
+  "create": {
+    "title": "Nuova raccolta",
+    "submit": "Crea raccolta"
+  },
+  "fields": {
+    "title": "Titolo",
+    "description": "Descrizione (facoltativa)",
+    "visibility": "Chi può aprirla"
+  },
+  "visibility": {
+    "private": "Solo io",
+    "unlisted": "Chiunque abbia il link"
+  },
+  "empty": {
+    "title": "Ancora nessuna raccolta",
+    "body": "Creane una qui sopra per tenere insieme affermazioni e fonti correlate."
+  },
+  "itemCount": "Elementi: {count}",
+  "back": "Tutte le raccolte",
+  "items": {
+    "title": "Elementi",
+    "empty": "Questa raccolta è vuota. Apri un'affermazione o una fonte e usa «Aggiungi a una raccolta».",
+    "remove": "Rimuovi",
+    "moveUp": "Sposta su",
+    "moveDown": "Sposta giù"
+  },
+  "edit": {
+    "title": "Dettagli",
+    "save": "Salva le modifiche"
+  },
+  "delete": {
+    "title": "Elimina questa raccolta",
+    "body": "Questo rimuove la raccolta e il suo elenco. Le affermazioni e le fonti al suo interno non sono toccate.",
+    "confirm": "Voglio eliminare questa raccolta",
+    "button": "Elimina raccolta"
+  },
+  "share": {
+    "title": "Condivisione",
+    "private": "Solo tu puoi aprire questa raccolta. Cambia chi può aprirla in «Dettagli» per ottenere un link.",
+    "label": "Link da condividere",
+    "hint": "Chiunque abbia questo link può leggere la raccolta, ma non modificarla.",
+    "copy": "Copia link",
+    "copied": "Link copiato"
+  },
+  "add": {
+    "label": "Aggiungi a una raccolta",
+    "choose": "Scegli una raccolta",
+    "submit": "Aggiungi",
+    "none": "Non hai ancora raccolte.",
+    "done": "Aggiunto alla raccolta."
+  },
+  "shared": {
+    "by": "Raccolta di {name}"
+  }
+}

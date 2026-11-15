@@ -1,0 +1,52 @@
+{
+  "title": "Behauptungen",
+  "lead": "Jede Behauptung listet die Belege, die sie stützen, die Belege, die ihr widersprechen, und den Kontext.",
+  "statusNote": "Ein Status beschreibt den Stand der Belege. Er sagt nie, ob eine Behauptung wahr oder falsch ist.",
+  "status": {
+    "unreviewed": "Noch nicht geprüft",
+    "under_review": "In Prüfung",
+    "evidence_available": "Belege vorhanden",
+    "conflicting_evidence": "Belege widersprechen sich",
+    "insufficient_evidence": "Zu wenige Belege",
+    "archived": "Archiviert"
+  },
+  "category": {
+    "science": "Wissenschaft",
+    "education": "Bildung",
+    "environment": "Umwelt",
+    "technology": "Technologie",
+    "social_issues": "Gesellschaft",
+    "public_policy": "Öffentliche Politik"
+  },
+  "filters": {
+    "category": "Kategorie",
+    "status": "Status",
+    "all": "Alle",
+    "apply": "Behauptungen anzeigen",
+    "reset": "Filter zurücksetzen"
+  },
+  "resultCount": "Gefundene Behauptungen: {count}",
+  "pagination": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "pageOf": "Seite {page} von {total}",
+    "label": "Seiten"
+  },
+  "empty": {
+    "title": "Keine Behauptung passt zu diesen Filtern.",
+    "body": "Versuche eine andere Kategorie oder einen anderen Status oder setze die Filter zurück."
+  },
+  "detail": {
+    "back": "Alle Behauptungen",
+    "origin": "Wo sie erschien",
+    "firstAppeared": "Erstmals erschienen",
+    "evidenceTitle": "Belege",
+    "noEvidence": "Zu dieser Behauptung wurden noch keine Belege hinzugefügt.",
+    "limitations": "Einschränkungen",
+    "researcherNote": "Notiz der Forschenden",
+    "statusHistory": "Statusverlauf",
+    "relatedClaims": "Verwandte Behauptungen",
+    "version": "Version {version}",
+    "updated": "Aktualisiert {date}"
+  }
+}

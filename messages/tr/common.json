@@ -1,5 +1,13 @@
 {
   "skipToContent": "Ana içeriğe geç",
   "notFoundTitle": "Sayfa bulunamadı",
-  "notFoundBody": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir."
+  "notFoundBody": "Aradığınız sayfa mevcut değil ya da taşınmış olabilir.",
+  "theme": {
+    "label": "Tema",
+    "light": "Açık",
+    "dark": "Koyu"
+  },
+  "language": {
+    "label": "Dil"
+  }
 }

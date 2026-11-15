@@ -1,0 +1,58 @@
+{
+  "title": "Collections",
+  "lead": "Group claims and sources into lists. Keep them private or share them with a link.",
+  "create": {
+    "title": "New collection",
+    "submit": "Create collection"
+  },
+  "fields": {
+    "title": "Title",
+    "description": "Description (optional)",
+    "visibility": "Who can open it"
+  },
+  "visibility": {
+    "private": "Only me",
+    "unlisted": "Anyone with the link"
+  },
+  "empty": {
+    "title": "No collections yet",
+    "body": "Create one above to keep related claims and sources together."
+  },
+  "itemCount": "Items: {count}",
+  "back": "All collections",
+  "items": {
+    "title": "Items",
+    "empty": "This collection is empty. Open a claim or source and use Add to collection.",
+    "remove": "Remove",
+    "moveUp": "Move up",
+    "moveDown": "Move down"
+  },
+  "edit": {
+    "title": "Details",
+    "save": "Save changes"
+  },
+  "delete": {
+    "title": "Delete this collection",
+    "body": "This removes the collection and its list. The claims and sources in it are not affected.",
+    "confirm": "I want to delete this collection",
+    "button": "Delete collection"
+  },
+  "share": {
+    "title": "Share",
+    "private": "Only you can open this collection. Change who can open it in Details to get a link.",
+    "label": "Link to share",
+    "hint": "Anyone with this link can read the collection. They cannot change it.",
+    "copy": "Copy link",
+    "copied": "Link copied"
+  },
+  "add": {
+    "label": "Add to collection",
+    "choose": "Choose a collection",
+    "submit": "Add",
+    "none": "You have no collections yet.",
+    "done": "Added to the collection."
+  },
+  "shared": {
+    "by": "Collection by {name}"
+  }
+}

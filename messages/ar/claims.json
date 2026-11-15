@@ -1,0 +1,52 @@
+{
+  "title": "الادعاءات",
+  "lead": "يسرد كل ادعاء الأدلة التي تدعمه والأدلة التي تناقضه والسياق المحيط به.",
+  "statusNote": "تصف الحالة وضع الأدلة، ولا تقول أبدًا إن الادعاء صحيح أو خاطئ.",
+  "status": {
+    "unreviewed": "لم تتم مراجعته بعد",
+    "under_review": "قيد المراجعة",
+    "evidence_available": "الأدلة متاحة",
+    "conflicting_evidence": "الأدلة متعارضة",
+    "insufficient_evidence": "الأدلة غير كافية",
+    "archived": "مؤرشف"
+  },
+  "category": {
+    "science": "العلوم",
+    "education": "التعليم",
+    "environment": "البيئة",
+    "technology": "التكنولوجيا",
+    "social_issues": "القضايا الاجتماعية",
+    "public_policy": "السياسة العامة"
+  },
+  "filters": {
+    "category": "الفئة",
+    "status": "الحالة",
+    "all": "الكل",
+    "apply": "عرض الادعاءات",
+    "reset": "مسح عوامل التصفية"
+  },
+  "resultCount": "الادعاءات المطابقة: {count}",
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "pageOf": "الصفحة {page} من {total}",
+    "label": "الصفحات"
+  },
+  "empty": {
+    "title": "لا توجد ادعاءات تطابق عوامل التصفية هذه.",
+    "body": "جرّب فئة أو حالة أخرى، أو امسح عوامل التصفية."
+  },
+  "detail": {
+    "back": "كل الادعاءات",
+    "origin": "مكان ظهوره",
+    "firstAppeared": "ظهر أول مرة",
+    "evidenceTitle": "الأدلة",
+    "noEvidence": "لم تُضف أي أدلة إلى هذا الادعاء بعد.",
+    "limitations": "القيود",
+    "researcherNote": "ملاحظة الباحث",
+    "statusHistory": "سجل الحالة",
+    "relatedClaims": "ادعاءات ذات صلة",
+    "version": "الإصدار {version}",
+    "updated": "آخر تحديث {date}"
+  }
+}

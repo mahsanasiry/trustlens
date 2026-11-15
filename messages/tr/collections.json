@@ -1,0 +1,58 @@
+{
+  "title": "Koleksiyonlar",
+  "lead": "İddiaları ve kaynakları listeler halinde gruplayın. Özel tutun ya da bağlantıyla paylaşın.",
+  "create": {
+    "title": "Yeni koleksiyon",
+    "submit": "Koleksiyon oluştur"
+  },
+  "fields": {
+    "title": "Başlık",
+    "description": "Açıklama (isteğe bağlı)",
+    "visibility": "Kimler açabilir"
+  },
+  "visibility": {
+    "private": "Yalnızca ben",
+    "unlisted": "Bağlantıya sahip herkes"
+  },
+  "empty": {
+    "title": "Henüz koleksiyon yok",
+    "body": "İlgili iddiaları ve kaynakları bir arada tutmak için yukarıda bir tane oluşturun."
+  },
+  "itemCount": "Öğe: {count}",
+  "back": "Tüm koleksiyonlar",
+  "items": {
+    "title": "Öğeler",
+    "empty": "Bu koleksiyon boş. Bir iddiayı veya kaynağı açın ve Koleksiyona ekle seçeneğini kullanın.",
+    "remove": "Kaldır",
+    "moveUp": "Yukarı taşı",
+    "moveDown": "Aşağı taşı"
+  },
+  "edit": {
+    "title": "Ayrıntılar",
+    "save": "Değişiklikleri kaydet"
+  },
+  "delete": {
+    "title": "Bu koleksiyonu sil",
+    "body": "Bu işlem koleksiyonu ve listesini kaldırır. İçindeki iddialar ve kaynaklar etkilenmez.",
+    "confirm": "Bu koleksiyonu silmek istiyorum",
+    "button": "Koleksiyonu sil"
+  },
+  "share": {
+    "title": "Paylaş",
+    "private": "Bu koleksiyonu yalnızca siz açabilirsiniz. Bağlantı almak için Ayrıntılar bölümünde kimlerin açabileceğini değiştirin.",
+    "label": "Paylaşılacak bağlantı",
+    "hint": "Bu bağlantıya sahip herkes koleksiyonu okuyabilir ama değiştiremez.",
+    "copy": "Bağlantıyı kopyala",
+    "copied": "Bağlantı kopyalandı"
+  },
+  "add": {
+    "label": "Koleksiyona ekle",
+    "choose": "Bir koleksiyon seçin",
+    "submit": "Ekle",
+    "none": "Henüz koleksiyonunuz yok.",
+    "done": "Koleksiyona eklendi."
+  },
+  "shared": {
+    "by": "{name} kullanıcısının koleksiyonu"
+  }
+}

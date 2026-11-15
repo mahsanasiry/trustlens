@@ -1,5 +1,13 @@
 {
   "skipToContent": "Skip to main content",
   "notFoundTitle": "Page not found",
-  "notFoundBody": "The page you are looking for does not exist or may have moved."
+  "notFoundBody": "The page you are looking for does not exist or may have moved.",
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "label": "Language"
+  }
 }

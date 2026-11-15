@@ -1,0 +1,52 @@
+{
+  "title": "주장",
+  "lead": "각 주장에는 이를 뒷받침하는 근거, 반박하는 근거, 주변 맥락이 함께 나열됩니다.",
+  "statusNote": "상태는 근거의 현재 모습을 설명합니다. 주장이 참인지 거짓인지는 말하지 않습니다.",
+  "status": {
+    "unreviewed": "아직 검토 전",
+    "under_review": "검토 중",
+    "evidence_available": "근거 있음",
+    "conflicting_evidence": "근거가 엇갈림",
+    "insufficient_evidence": "근거 부족",
+    "archived": "보관됨"
+  },
+  "category": {
+    "science": "과학",
+    "education": "교육",
+    "environment": "환경",
+    "technology": "기술",
+    "social_issues": "사회 문제",
+    "public_policy": "공공 정책"
+  },
+  "filters": {
+    "category": "카테고리",
+    "status": "상태",
+    "all": "전체",
+    "apply": "주장 보기",
+    "reset": "필터 지우기"
+  },
+  "resultCount": "찾은 주장: {count}",
+  "pagination": {
+    "previous": "이전",
+    "next": "다음",
+    "pageOf": "{total}쪽 중 {page}쪽",
+    "label": "페이지"
+  },
+  "empty": {
+    "title": "이 조건에 맞는 주장이 없습니다.",
+    "body": "다른 카테고리나 상태를 선택하거나 필터를 지워 보세요."
+  },
+  "detail": {
+    "back": "모든 주장",
+    "origin": "나타난 곳",
+    "firstAppeared": "처음 나타난 날",
+    "evidenceTitle": "근거",
+    "noEvidence": "이 주장에는 아직 근거가 추가되지 않았습니다.",
+    "limitations": "한계",
+    "researcherNote": "연구자 메모",
+    "statusHistory": "상태 기록",
+    "relatedClaims": "관련 주장",
+    "version": "버전 {version}",
+    "updated": "업데이트 {date}"
+  }
+}

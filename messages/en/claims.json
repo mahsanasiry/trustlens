@@ -1,0 +1,52 @@
+{
+  "title": "Claims",
+  "lead": "Each claim lists the evidence that supports it, the evidence that contradicts it and the context around it.",
+  "statusNote": "A status describes the state of the evidence. It never says whether a claim is true or false.",
+  "status": {
+    "unreviewed": "Not yet reviewed",
+    "under_review": "Under review",
+    "evidence_available": "Evidence available",
+    "conflicting_evidence": "Evidence conflicts",
+    "insufficient_evidence": "Not enough evidence",
+    "archived": "Archived"
+  },
+  "category": {
+    "science": "Science",
+    "education": "Education",
+    "environment": "Environment",
+    "technology": "Technology",
+    "social_issues": "Social issues",
+    "public_policy": "Public policy"
+  },
+  "filters": {
+    "category": "Category",
+    "status": "Status",
+    "all": "All",
+    "apply": "Show claims",
+    "reset": "Clear filters"
+  },
+  "resultCount": "Claims found: {count}",
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "label": "Pages"
+  },
+  "empty": {
+    "title": "No claims match these filters.",
+    "body": "Try a different category or status, or clear the filters."
+  },
+  "detail": {
+    "back": "All claims",
+    "origin": "Where it appeared",
+    "firstAppeared": "First appeared",
+    "evidenceTitle": "Evidence",
+    "noEvidence": "No evidence has been added to this claim yet.",
+    "limitations": "Limitations",
+    "researcherNote": "Researcher’s note",
+    "statusHistory": "Status history",
+    "relatedClaims": "Related claims",
+    "version": "Version {version}",
+    "updated": "Updated {date}"
+  }
+}

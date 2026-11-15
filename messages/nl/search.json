@@ -1,0 +1,27 @@
+{
+  "title": "Zoeken",
+  "lead": "Vind beweringen en bronnen met een woord, een naam of een deel van de titel.",
+  "label": "Beweringen en bronnen doorzoeken",
+  "placeholder": "Titel, trefwoord of uitgever",
+  "submit": "Zoeken",
+  "kind": {
+    "label": "Tonen",
+    "all": "Beweringen en bronnen",
+    "claim": "Alleen beweringen",
+    "source": "Alleen bronnen"
+  },
+  "resultCount": "Gevonden resultaten: {count}",
+  "tooShort": "Voer minstens twee tekens in.",
+  "empty": {
+    "title": "Geen resultaten",
+    "body": "Controleer de spelling, probeer een korter woord of zoek iets anders."
+  },
+  "start": {
+    "title": "Wat zoekt u?",
+    "body": "De zoekopdracht omvat gepubliceerde beweringen en bronnen. Concepten worden nooit meegenomen."
+  },
+  "result": {
+    "claim": "Bewering",
+    "source": "Bron"
+  }
+}

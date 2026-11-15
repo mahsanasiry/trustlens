@@ -1,0 +1,12 @@
+{
+  "title": "Enregistrés",
+  "lead": "Les affirmations et sources que vous avez enregistrées. Vous seul voyez cette liste.",
+  "save": "Enregistrer",
+  "remove": "Retirer des enregistrés",
+  "signInToSave": "Connectez-vous pour enregistrer",
+  "resultCount": "Éléments enregistrés : {count}",
+  "empty": {
+    "title": "Rien d'enregistré pour l'instant",
+    "body": "Choisissez « Enregistrer » sur une affirmation ou une source et elle apparaîtra ici."
+  }
+}

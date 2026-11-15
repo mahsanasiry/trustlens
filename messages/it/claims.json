@@ -1,0 +1,52 @@
+{
+  "title": "Affermazioni",
+  "lead": "Ogni affermazione elenca le prove che la sostengono, quelle che la contraddicono e il contesto che la circonda.",
+  "statusNote": "Uno stato descrive la situazione delle prove. Non dice mai se un’affermazione è vera o falsa.",
+  "status": {
+    "unreviewed": "Non ancora esaminata",
+    "under_review": "In revisione",
+    "evidence_available": "Prove disponibili",
+    "conflicting_evidence": "Prove in conflitto",
+    "insufficient_evidence": "Prove insufficienti",
+    "archived": "Archiviata"
+  },
+  "category": {
+    "science": "Scienza",
+    "education": "Istruzione",
+    "environment": "Ambiente",
+    "technology": "Tecnologia",
+    "social_issues": "Questioni sociali",
+    "public_policy": "Politiche pubbliche"
+  },
+  "filters": {
+    "category": "Categoria",
+    "status": "Stato",
+    "all": "Tutte",
+    "apply": "Mostra le affermazioni",
+    "reset": "Cancella i filtri"
+  },
+  "resultCount": "Affermazioni trovate: {count}",
+  "pagination": {
+    "previous": "Precedente",
+    "next": "Successiva",
+    "pageOf": "Pagina {page} di {total}",
+    "label": "Pagine"
+  },
+  "empty": {
+    "title": "Nessuna affermazione corrisponde a questi filtri.",
+    "body": "Prova un’altra categoria o un altro stato, oppure cancella i filtri."
+  },
+  "detail": {
+    "back": "Tutte le affermazioni",
+    "origin": "Dove è comparsa",
+    "firstAppeared": "Prima comparsa",
+    "evidenceTitle": "Prove",
+    "noEvidence": "Non sono ancora state aggiunte prove a questa affermazione.",
+    "limitations": "Limiti",
+    "researcherNote": "Nota del ricercatore",
+    "statusHistory": "Cronologia dello stato",
+    "relatedClaims": "Affermazioni correlate",
+    "version": "Versione {version}",
+    "updated": "Aggiornata {date}"
+  }
+}

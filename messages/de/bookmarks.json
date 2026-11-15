@@ -1,0 +1,12 @@
+{
+  "title": "Gespeichert",
+  "lead": "Von Ihnen gespeicherte Behauptungen und Quellen. Nur Sie sehen diese Liste.",
+  "save": "Speichern",
+  "remove": "Aus Gespeichert entfernen",
+  "signInToSave": "Zum Speichern anmelden",
+  "resultCount": "Gespeicherte Einträge: {count}",
+  "empty": {
+    "title": "Noch nichts gespeichert",
+    "body": "Wählen Sie bei einer Behauptung oder Quelle „Speichern“, dann erscheint sie hier."
+  }
+}

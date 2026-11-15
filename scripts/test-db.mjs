@@ -82,4 +82,31 @@ for (const suite of suites) {
   if (!outcome.ok) failed = true;
 }
 
+// The demo data is loaded last, into the scratch database, because the script
+// manages its own transaction and cannot be rolled back with the suites.
+const demoAccounts = `
+  insert into auth.users (id, email, raw_user_meta_data)
+  select gen_random_uuid(), k.email, jsonb_build_object('name', k.name)
+  from (values
+    ('member@demo.trustlens.example', 'Demo Member'),
+    ('researcher@demo.trustlens.example', 'Demo Researcher'),
+    ('admin@demo.trustlens.example', 'Demo Administrator'),
+    ('editor@demo.trustlens.example', 'Demo Editor')
+  ) as k (email, name);
+  update public.profiles set role = 'researcher' where display_name = 'Demo Researcher';
+  update public.profiles set role = 'admin' where display_name in ('Demo Administrator', 'Demo Editor');
+`;
+const seed = read('seed', 'demo_data.sql');
+const seeded = psql(
+  [demoAccounts, seed, seed, read('tests', 'seed.check.sql')].join('\n'),
+  'demo seed',
+);
+console.log(`${seeded.ok ? 'ok  ' : 'FAIL'} demo seed (loaded twice, then checked)`);
+for (const line of seeded.output
+  .split('\n')
+  .filter((l) => /passed|ERROR|^\d+\|/.test(l))) {
+  console.log(`     ${line}`);
+}
+if (!seeded.ok) failed = true;
+
 process.exit(failed ? 1 : 0);

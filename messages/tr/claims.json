@@ -1,0 +1,52 @@
+{
+  "title": "İddialar",
+  "lead": "Her iddia, onu destekleyen kanıtları, ona karşı çıkan kanıtları ve çevresindeki bağlamı listeler.",
+  "statusNote": "Durum, kanıtların hâlini anlatır. Bir iddianın doğru ya da yanlış olduğunu asla söylemez.",
+  "status": {
+    "unreviewed": "Henüz incelenmedi",
+    "under_review": "İnceleniyor",
+    "evidence_available": "Kanıt mevcut",
+    "conflicting_evidence": "Kanıtlar çelişiyor",
+    "insufficient_evidence": "Yeterli kanıt yok",
+    "archived": "Arşivlendi"
+  },
+  "category": {
+    "science": "Bilim",
+    "education": "Eğitim",
+    "environment": "Çevre",
+    "technology": "Teknoloji",
+    "social_issues": "Toplumsal konular",
+    "public_policy": "Kamu politikası"
+  },
+  "filters": {
+    "category": "Kategori",
+    "status": "Durum",
+    "all": "Tümü",
+    "apply": "İddiaları göster",
+    "reset": "Filtreleri temizle"
+  },
+  "resultCount": "Bulunan iddialar: {count}",
+  "pagination": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "pageOf": "Sayfa {page} / {total}",
+    "label": "Sayfalar"
+  },
+  "empty": {
+    "title": "Bu filtrelerle eşleşen iddia yok.",
+    "body": "Başka bir kategori veya durum deneyin ya da filtreleri temizleyin."
+  },
+  "detail": {
+    "back": "Tüm iddialar",
+    "origin": "Nerede ortaya çıktı",
+    "firstAppeared": "İlk ortaya çıkış",
+    "evidenceTitle": "Kanıtlar",
+    "noEvidence": "Bu iddiaya henüz kanıt eklenmedi.",
+    "limitations": "Sınırlılıklar",
+    "researcherNote": "Araştırmacı notu",
+    "statusHistory": "Durum geçmişi",
+    "relatedClaims": "İlgili iddialar",
+    "version": "Sürüm {version}",
+    "updated": "Güncellendi {date}"
+  }
+}

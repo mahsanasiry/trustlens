@@ -1,0 +1,58 @@
+{
+  "title": "Bộ sưu tập",
+  "lead": "Nhóm các tuyên bố và nguồn thành danh sách. Giữ riêng tư hoặc chia sẻ bằng liên kết.",
+  "create": {
+    "title": "Bộ sưu tập mới",
+    "submit": "Tạo bộ sưu tập"
+  },
+  "fields": {
+    "title": "Tiêu đề",
+    "description": "Mô tả (tùy chọn)",
+    "visibility": "Ai có thể mở"
+  },
+  "visibility": {
+    "private": "Chỉ mình tôi",
+    "unlisted": "Bất kỳ ai có liên kết"
+  },
+  "empty": {
+    "title": "Chưa có bộ sưu tập nào",
+    "body": "Hãy tạo một bộ ở trên để gom các tuyên bố và nguồn liên quan lại với nhau."
+  },
+  "itemCount": "Mục: {count}",
+  "back": "Tất cả bộ sưu tập",
+  "items": {
+    "title": "Mục",
+    "empty": "Bộ sưu tập này trống. Hãy mở một tuyên bố hoặc nguồn rồi dùng Thêm vào bộ sưu tập.",
+    "remove": "Xóa khỏi bộ",
+    "moveUp": "Di chuyển lên",
+    "moveDown": "Di chuyển xuống"
+  },
+  "edit": {
+    "title": "Chi tiết",
+    "save": "Lưu thay đổi"
+  },
+  "delete": {
+    "title": "Xóa bộ sưu tập này",
+    "body": "Thao tác này xóa bộ sưu tập và danh sách của nó. Các tuyên bố và nguồn bên trong không bị ảnh hưởng.",
+    "confirm": "Tôi muốn xóa bộ sưu tập này",
+    "button": "Xóa bộ sưu tập"
+  },
+  "share": {
+    "title": "Chia sẻ",
+    "private": "Chỉ bạn mới mở được bộ sưu tập này. Hãy đổi người có thể mở trong Chi tiết để nhận liên kết.",
+    "label": "Liên kết để chia sẻ",
+    "hint": "Bất kỳ ai có liên kết này đều đọc được bộ sưu tập nhưng không thể thay đổi.",
+    "copy": "Sao chép liên kết",
+    "copied": "Đã sao chép liên kết"
+  },
+  "add": {
+    "label": "Thêm vào bộ sưu tập",
+    "choose": "Chọn một bộ sưu tập",
+    "submit": "Thêm",
+    "none": "Bạn chưa có bộ sưu tập nào.",
+    "done": "Đã thêm vào bộ sưu tập."
+  },
+  "shared": {
+    "by": "Bộ sưu tập của {name}"
+  }
+}

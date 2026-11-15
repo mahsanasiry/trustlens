@@ -1,0 +1,52 @@
+{
+  "title": "دعوے",
+  "lead": "ہر دعوے کے ساتھ اس کی تائید کرنے والے شواہد، اس کی تردید کرنے والے شواہد اور اردگرد کا سیاق درج ہوتا ہے۔",
+  "statusNote": "حیثیت شواہد کی صورتحال بتاتی ہے۔ یہ کبھی نہیں کہتی کہ دعویٰ درست ہے یا غلط۔",
+  "status": {
+    "unreviewed": "ابھی جائزہ نہیں لیا گیا",
+    "under_review": "زیرِ جائزہ",
+    "evidence_available": "شواہد دستیاب ہیں",
+    "conflicting_evidence": "شواہد میں تضاد ہے",
+    "insufficient_evidence": "شواہد کافی نہیں",
+    "archived": "محفوظ شدہ"
+  },
+  "category": {
+    "science": "سائنس",
+    "education": "تعلیم",
+    "environment": "ماحول",
+    "technology": "ٹیکنالوجی",
+    "social_issues": "سماجی مسائل",
+    "public_policy": "عوامی پالیسی"
+  },
+  "filters": {
+    "category": "زمرہ",
+    "status": "حیثیت",
+    "all": "سب",
+    "apply": "دعوے دکھائیں",
+    "reset": "فلٹر صاف کریں"
+  },
+  "resultCount": "ملنے والے دعوے: {count}",
+  "pagination": {
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "pageOf": "صفحہ {page} از {total}",
+    "label": "صفحات"
+  },
+  "empty": {
+    "title": "ان فلٹرز سے کوئی دعویٰ نہیں ملتا۔",
+    "body": "کوئی اور زمرہ یا حیثیت آزمائیں، یا فلٹر صاف کریں۔"
+  },
+  "detail": {
+    "back": "تمام دعوے",
+    "origin": "کہاں ظاہر ہوا",
+    "firstAppeared": "پہلی بار ظاہر ہوا",
+    "evidenceTitle": "شواہد",
+    "noEvidence": "اس دعوے میں ابھی کوئی شواہد شامل نہیں کیے گئے۔",
+    "limitations": "حدود",
+    "researcherNote": "محقق کا نوٹ",
+    "statusHistory": "حیثیت کی تاریخ",
+    "relatedClaims": "متعلقہ دعوے",
+    "version": "ورژن {version}",
+    "updated": "تازہ کاری {date}"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Coleções",
+  "lead": "Agrupe afirmações e fontes em listas. Mantenha-as privadas ou compartilhe com um link.",
+  "create": {
+    "title": "Nova coleção",
+    "submit": "Criar coleção"
+  },
+  "fields": {
+    "title": "Título",
+    "description": "Descrição (opcional)",
+    "visibility": "Quem pode abrir"
+  },
+  "visibility": {
+    "private": "Somente eu",
+    "unlisted": "Qualquer pessoa com o link"
+  },
+  "empty": {
+    "title": "Ainda não há coleções",
+    "body": "Crie uma acima para manter juntas afirmações e fontes relacionadas."
+  },
+  "itemCount": "Itens: {count}",
+  "back": "Todas as coleções",
+  "items": {
+    "title": "Itens",
+    "empty": "Esta coleção está vazia. Abra uma afirmação ou fonte e use Adicionar à coleção.",
+    "remove": "Remover",
+    "moveUp": "Mover para cima",
+    "moveDown": "Mover para baixo"
+  },
+  "edit": {
+    "title": "Detalhes",
+    "save": "Salvar alterações"
+  },
+  "delete": {
+    "title": "Excluir esta coleção",
+    "body": "Isso remove a coleção e a sua lista. As afirmações e fontes dentro dela não são afetadas.",
+    "confirm": "Quero excluir esta coleção",
+    "button": "Excluir coleção"
+  },
+  "share": {
+    "title": "Compartilhar",
+    "private": "Só você pode abrir esta coleção. Altere em Detalhes quem pode abri-la para obter um link.",
+    "label": "Link para compartilhar",
+    "hint": "Qualquer pessoa com este link pode ler a coleção, mas não pode alterá-la.",
+    "copy": "Copiar link",
+    "copied": "Link copiado"
+  },
+  "add": {
+    "label": "Adicionar à coleção",
+    "choose": "Escolha uma coleção",
+    "submit": "Adicionar",
+    "none": "Você ainda não tem coleções.",
+    "done": "Adicionado à coleção."
+  },
+  "shared": {
+    "by": "Coleção de {name}"
+  }
+}

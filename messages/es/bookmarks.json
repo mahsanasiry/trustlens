@@ -1,0 +1,12 @@
+{
+  "title": "Guardados",
+  "lead": "Las afirmaciones y fuentes que has guardado. Solo tú ves esta lista.",
+  "save": "Guardar",
+  "remove": "Quitar de guardados",
+  "signInToSave": "Inicia sesión para guardar",
+  "resultCount": "Elementos guardados: {count}",
+  "empty": {
+    "title": "Aún no has guardado nada",
+    "body": "Elige «Guardar» en una afirmación o fuente y aparecerá aquí."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Tìm kiếm",
+  "lead": "Tìm tuyên bố và nguồn theo một từ, một tên hoặc một phần tiêu đề.",
+  "label": "Tìm tuyên bố và nguồn",
+  "placeholder": "Tiêu đề, từ khóa hoặc nhà xuất bản",
+  "submit": "Tìm kiếm",
+  "kind": {
+    "label": "Hiển thị",
+    "all": "Tuyên bố và nguồn",
+    "claim": "Chỉ tuyên bố",
+    "source": "Chỉ nguồn"
+  },
+  "resultCount": "Kết quả tìm thấy: {count}",
+  "tooShort": "Nhập ít nhất hai ký tự.",
+  "empty": {
+    "title": "Không có kết quả",
+    "body": "Kiểm tra chính tả, thử từ ngắn hơn hoặc tìm nội dung khác."
+  },
+  "start": {
+    "title": "Bạn đang tìm gì?",
+    "body": "Tìm kiếm chỉ bao gồm các tuyên bố và nguồn đã xuất bản. Bản nháp không bao giờ được đưa vào."
+  },
+  "result": {
+    "claim": "Tuyên bố",
+    "source": "Nguồn"
+  }
+}

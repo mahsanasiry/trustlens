@@ -1,0 +1,67 @@
+{
+  "title": "Fonti",
+  "lead": "Ogni fonte citata come prova, con un controllo di quanto apertamente indica chi l’ha prodotta, come e quando.",
+  "assessmentNote": "Questi controlli descrivono ciò che si può verificare su una fonte. Non sono un punteggio e non dicono se la fonte abbia ragione.",
+  "type": {
+    "journal_article": "Articolo scientifico",
+    "report": "Rapporto",
+    "dataset": "Dataset",
+    "news_article": "Articolo di cronaca",
+    "government_document": "Documento governativo",
+    "press_release": "Comunicato stampa",
+    "book": "Libro",
+    "website": "Sito web",
+    "preprint": "Preprint",
+    "other": "Altro"
+  },
+  "criteria": {
+    "author_transparency": "Gli autori sono indicati",
+    "publisher_transparency": "L’editore è identificato",
+    "citations_present": "Sono presenti citazioni",
+    "publication_date": "La data di pubblicazione è indicata",
+    "data_collection_method": "La raccolta dei dati è descritta",
+    "independent_verifiability": "Verificabile in modo indipendente",
+    "conflict_of_interest": "Conflitti di interesse dichiarati",
+    "corrections_history": "Le correzioni sono registrate"
+  },
+  "criterionStatus": {
+    "verified": "Verificato",
+    "partially_verified": "Parzialmente verificato",
+    "not_verified": "Non verificato",
+    "not_applicable": "Non applicabile"
+  },
+  "filters": {
+    "type": "Tipo"
+  },
+  "resultCount": "Fonti trovate: {count}",
+  "empty": {
+    "title": "Nessuna fonte corrisponde a questo filtro.",
+    "body": "Prova un altro tipo o cancella il filtro."
+  },
+  "card": {
+    "published": "Pubblicato {date}"
+  },
+  "compare": {
+    "pick": "Seleziona «{title}» per confrontare",
+    "action": "Confronta la selezione",
+    "hint": "Seleziona da due a quattro fonti.",
+    "title": "Confronta le fonti",
+    "back": "Tutte le fonti",
+    "remove": "Rimuovi «{title}»",
+    "tooFew": "Seleziona almeno due fonti da confrontare.",
+    "limited": "Vengono mostrate solo le prime quattro fonti.",
+    "criterion": "Controllo",
+    "notAssessed": "Non ancora valutato",
+    "short": "Confronta"
+  },
+  "detail": {
+    "authors": "Autori",
+    "publisher": "Editore",
+    "publishedOn": "Pubblicato",
+    "accessedOn": "Consultato",
+    "open": "Apri la fonte",
+    "checks": "Controlli",
+    "citedBy": "Citata come prova per",
+    "citedByNone": "Nessuna affermazione pubblicata cita ancora questa fonte."
+  }
+}

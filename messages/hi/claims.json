@@ -1,0 +1,52 @@
+{
+  "title": "दावे",
+  "lead": "हर दावे के साथ उसका समर्थन करने वाले प्रमाण, उसका खंडन करने वाले प्रमाण और आसपास का संदर्भ दिखता है।",
+  "statusNote": "स्थिति प्रमाणों का हाल बताती है। यह कभी नहीं कहती कि दावा सही है या गलत।",
+  "status": {
+    "unreviewed": "अभी समीक्षा नहीं हुई",
+    "under_review": "समीक्षाधीन",
+    "evidence_available": "प्रमाण उपलब्ध हैं",
+    "conflicting_evidence": "प्रमाण आपस में टकराते हैं",
+    "insufficient_evidence": "पर्याप्त प्रमाण नहीं",
+    "archived": "संग्रहीत"
+  },
+  "category": {
+    "science": "विज्ञान",
+    "education": "शिक्षा",
+    "environment": "पर्यावरण",
+    "technology": "प्रौद्योगिकी",
+    "social_issues": "सामाजिक मुद्दे",
+    "public_policy": "सार्वजनिक नीति"
+  },
+  "filters": {
+    "category": "श्रेणी",
+    "status": "स्थिति",
+    "all": "सभी",
+    "apply": "दावे दिखाएँ",
+    "reset": "फ़िल्टर हटाएँ"
+  },
+  "resultCount": "मिले दावे: {count}",
+  "pagination": {
+    "previous": "पिछला",
+    "next": "अगला",
+    "pageOf": "पृष्ठ {page} / {total}",
+    "label": "पृष्ठ"
+  },
+  "empty": {
+    "title": "इन फ़िल्टरों से कोई दावा नहीं मिला।",
+    "body": "कोई दूसरी श्रेणी या स्थिति आज़माएँ, या फ़िल्टर हटा दें।"
+  },
+  "detail": {
+    "back": "सभी दावे",
+    "origin": "कहाँ सामने आया",
+    "firstAppeared": "पहली बार सामने आया",
+    "evidenceTitle": "प्रमाण",
+    "noEvidence": "इस दावे में अभी तक कोई प्रमाण नहीं जोड़ा गया है।",
+    "limitations": "सीमाएँ",
+    "researcherNote": "शोधकर्ता का नोट",
+    "statusHistory": "स्थिति का इतिहास",
+    "relatedClaims": "संबंधित दावे",
+    "version": "संस्करण {version}",
+    "updated": "अद्यतन {date}"
+  }
+}

@@ -1,5 +1,13 @@
 {
   "skipToContent": "Przejdź do głównej treści",
   "notFoundTitle": "Nie znaleziono strony",
-  "notFoundBody": "Strona, której szukasz, nie istnieje albo została przeniesiona."
+  "notFoundBody": "Strona, której szukasz, nie istnieje albo została przeniesiona.",
+  "theme": {
+    "label": "Motyw",
+    "light": "Jasny",
+    "dark": "Ciemny"
+  },
+  "language": {
+    "label": "Język"
+  }
 }

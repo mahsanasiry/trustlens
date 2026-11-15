@@ -1,0 +1,27 @@
+{
+  "title": "Ricerca",
+  "lead": "Trova affermazioni e fonti con una parola, un nome o parte del titolo.",
+  "label": "Cerca affermazioni e fonti",
+  "placeholder": "Titolo, parola chiave o editore",
+  "submit": "Cerca",
+  "kind": {
+    "label": "Mostra",
+    "all": "Affermazioni e fonti",
+    "claim": "Solo affermazioni",
+    "source": "Solo fonti"
+  },
+  "resultCount": "Risultati trovati: {count}",
+  "tooShort": "Inserisci almeno due caratteri.",
+  "empty": {
+    "title": "Nessun risultato",
+    "body": "Controlla l'ortografia, prova una parola più corta o cerca altro."
+  },
+  "start": {
+    "title": "Che cosa cerchi?",
+    "body": "La ricerca copre le affermazioni e le fonti pubblicate. Le bozze non sono mai incluse."
+  },
+  "result": {
+    "claim": "Affermazione",
+    "source": "Fonte"
+  }
+}

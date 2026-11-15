@@ -1,0 +1,27 @@
+{
+  "title": "Búsqueda",
+  "lead": "Encuentra afirmaciones y fuentes por una palabra, un nombre o parte del título.",
+  "label": "Buscar afirmaciones y fuentes",
+  "placeholder": "Título, palabra clave o editor",
+  "submit": "Buscar",
+  "kind": {
+    "label": "Mostrar",
+    "all": "Afirmaciones y fuentes",
+    "claim": "Solo afirmaciones",
+    "source": "Solo fuentes"
+  },
+  "resultCount": "Resultados encontrados: {count}",
+  "tooShort": "Escribe al menos dos caracteres.",
+  "empty": {
+    "title": "Sin resultados",
+    "body": "Revisa la ortografía, prueba una palabra más corta o busca otra cosa."
+  },
+  "start": {
+    "title": "¿Qué buscas?",
+    "body": "La búsqueda abarca las afirmaciones y fuentes publicadas. Los borradores nunca se incluyen."
+  },
+  "result": {
+    "claim": "Afirmación",
+    "source": "Fuente"
+  }
+}

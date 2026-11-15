@@ -1,0 +1,67 @@
+{
+  "title": "Nguồn",
+  "lead": "Mọi nguồn được dẫn làm bằng chứng, kèm kiểm tra xem nguồn đó cho biết rõ đến đâu ai tạo ra nó, bằng cách nào và khi nào.",
+  "assessmentNote": "Các kiểm tra này mô tả những gì có thể xác minh về một nguồn. Đây không phải điểm số và không nói nguồn đó đúng hay sai.",
+  "type": {
+    "journal_article": "Bài báo khoa học",
+    "report": "Báo cáo",
+    "dataset": "Bộ dữ liệu",
+    "news_article": "Bài báo tin tức",
+    "government_document": "Tài liệu chính phủ",
+    "press_release": "Thông cáo báo chí",
+    "book": "Sách",
+    "website": "Trang web",
+    "preprint": "Bản thảo tiền xuất bản",
+    "other": "Khác"
+  },
+  "criteria": {
+    "author_transparency": "Có nêu tên tác giả",
+    "publisher_transparency": "Có nêu nhà xuất bản",
+    "citations_present": "Có trích dẫn",
+    "publication_date": "Có ghi ngày xuất bản",
+    "data_collection_method": "Có mô tả cách thu thập dữ liệu",
+    "independent_verifiability": "Có thể xác minh độc lập",
+    "conflict_of_interest": "Có công bố xung đột lợi ích",
+    "corrections_history": "Có ghi nhận đính chính"
+  },
+  "criterionStatus": {
+    "verified": "Đã xác minh",
+    "partially_verified": "Xác minh một phần",
+    "not_verified": "Chưa xác minh",
+    "not_applicable": "Không áp dụng"
+  },
+  "filters": {
+    "type": "Loại"
+  },
+  "resultCount": "Số nguồn tìm thấy: {count}",
+  "empty": {
+    "title": "Không có nguồn nào khớp với bộ lọc này.",
+    "body": "Hãy thử loại khác hoặc xóa bộ lọc."
+  },
+  "card": {
+    "published": "Xuất bản {date}"
+  },
+  "compare": {
+    "pick": "Chọn “{title}” để so sánh",
+    "action": "So sánh mục đã chọn",
+    "hint": "Chọn từ hai đến bốn nguồn.",
+    "title": "So sánh nguồn",
+    "back": "Tất cả nguồn",
+    "remove": "Bỏ “{title}”",
+    "tooFew": "Chọn ít nhất hai nguồn để so sánh.",
+    "limited": "Chỉ hiện bốn nguồn đầu tiên.",
+    "criterion": "Kiểm tra",
+    "notAssessed": "Chưa được đánh giá",
+    "short": "So sánh"
+  },
+  "detail": {
+    "authors": "Tác giả",
+    "publisher": "Nhà xuất bản",
+    "publishedOn": "Xuất bản",
+    "accessedOn": "Truy cập",
+    "open": "Mở nguồn",
+    "checks": "Kiểm tra",
+    "citedBy": "Được dẫn làm bằng chứng cho",
+    "citedByNone": "Chưa có tuyên bố đã xuất bản nào dẫn nguồn này."
+  }
+}

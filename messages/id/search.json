@@ -1,0 +1,27 @@
+{
+  "title": "Pencarian",
+  "lead": "Temukan klaim dan sumber lewat kata, nama, atau sebagian judul.",
+  "label": "Cari klaim dan sumber",
+  "placeholder": "Judul, kata kunci, atau penerbit",
+  "submit": "Cari",
+  "kind": {
+    "label": "Tampilkan",
+    "all": "Klaim dan sumber",
+    "claim": "Klaim saja",
+    "source": "Sumber saja"
+  },
+  "resultCount": "Hasil ditemukan: {count}",
+  "tooShort": "Masukkan sedikitnya dua karakter.",
+  "empty": {
+    "title": "Tidak ada hasil",
+    "body": "Periksa ejaan, coba kata yang lebih pendek, atau cari hal lain."
+  },
+  "start": {
+    "title": "Apa yang Anda cari?",
+    "body": "Pencarian mencakup klaim dan sumber yang sudah terbit. Draf tidak pernah disertakan."
+  },
+  "result": {
+    "claim": "Klaim",
+    "source": "Sumber"
+  }
+}

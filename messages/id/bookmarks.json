@@ -1,0 +1,12 @@
+{
+  "title": "Tersimpan",
+  "lead": "Klaim dan sumber yang Anda simpan. Hanya Anda yang dapat melihat daftar ini.",
+  "save": "Simpan",
+  "remove": "Hapus dari tersimpan",
+  "signInToSave": "Masuk untuk menyimpan",
+  "resultCount": "Item tersimpan: {count}",
+  "empty": {
+    "title": "Belum ada yang tersimpan",
+    "body": "Pilih Simpan pada klaim atau sumber dan itu akan muncul di sini."
+  }
+}

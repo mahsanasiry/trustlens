@@ -1,0 +1,67 @@
+{
+  "title": "Quellen",
+  "lead": "Jede als Beleg genannte Quelle, mit einer Prüfung, wie offen sie zeigt, wer sie erstellt hat, wie und wann.",
+  "assessmentNote": "Diese Prüfungen beschreiben, was sich über eine Quelle verifizieren lässt. Sie sind keine Bewertung und sagen nichts darüber, ob die Quelle recht hat.",
+  "type": {
+    "journal_article": "Fachartikel",
+    "report": "Bericht",
+    "dataset": "Datensatz",
+    "news_article": "Nachrichtenartikel",
+    "government_document": "Behördendokument",
+    "press_release": "Pressemitteilung",
+    "book": "Buch",
+    "website": "Website",
+    "preprint": "Preprint",
+    "other": "Sonstiges"
+  },
+  "criteria": {
+    "author_transparency": "Autoren sind genannt",
+    "publisher_transparency": "Herausgeber ist erkennbar",
+    "citations_present": "Quellenangaben vorhanden",
+    "publication_date": "Veröffentlichungsdatum angegeben",
+    "data_collection_method": "Datenerhebung beschrieben",
+    "independent_verifiability": "Unabhängig überprüfbar",
+    "conflict_of_interest": "Interessenkonflikte offengelegt",
+    "corrections_history": "Korrekturen werden festgehalten"
+  },
+  "criterionStatus": {
+    "verified": "Verifiziert",
+    "partially_verified": "Teilweise verifiziert",
+    "not_verified": "Nicht verifiziert",
+    "not_applicable": "Nicht zutreffend"
+  },
+  "filters": {
+    "type": "Typ"
+  },
+  "resultCount": "Gefundene Quellen: {count}",
+  "empty": {
+    "title": "Keine Quelle passt zu diesem Filter.",
+    "body": "Versuche einen anderen Typ oder setze den Filter zurück."
+  },
+  "card": {
+    "published": "Veröffentlicht {date}"
+  },
+  "compare": {
+    "pick": "„{title}“ zum Vergleich auswählen",
+    "action": "Auswahl vergleichen",
+    "hint": "Wähle zwei bis vier Quellen aus.",
+    "title": "Quellen vergleichen",
+    "back": "Alle Quellen",
+    "remove": "„{title}“ entfernen",
+    "tooFew": "Wähle mindestens zwei Quellen zum Vergleichen aus.",
+    "limited": "Es werden nur die ersten vier Quellen angezeigt.",
+    "criterion": "Prüfung",
+    "notAssessed": "Noch nicht bewertet",
+    "short": "Vergleichen"
+  },
+  "detail": {
+    "authors": "Autoren",
+    "publisher": "Herausgeber",
+    "publishedOn": "Veröffentlicht",
+    "accessedOn": "Abgerufen",
+    "open": "Quelle öffnen",
+    "checks": "Prüfungen",
+    "citedBy": "Als Beleg angeführt für",
+    "citedByNone": "Noch keine veröffentlichte Behauptung verweist auf diese Quelle."
+  }
+}

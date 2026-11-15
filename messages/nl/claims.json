@@ -1,0 +1,52 @@
+{
+  "title": "Beweringen",
+  "lead": "Bij elke bewering staan het bewijs dat haar ondersteunt, het bewijs dat haar tegenspreekt en de context eromheen.",
+  "statusNote": "Een status beschrijft de stand van het bewijs. Hij zegt nooit of een bewering waar of onwaar is.",
+  "status": {
+    "unreviewed": "Nog niet beoordeeld",
+    "under_review": "In beoordeling",
+    "evidence_available": "Bewijs beschikbaar",
+    "conflicting_evidence": "Bewijs spreekt elkaar tegen",
+    "insufficient_evidence": "Te weinig bewijs",
+    "archived": "Gearchiveerd"
+  },
+  "category": {
+    "science": "Wetenschap",
+    "education": "Onderwijs",
+    "environment": "Milieu",
+    "technology": "Technologie",
+    "social_issues": "Maatschappij",
+    "public_policy": "Overheidsbeleid"
+  },
+  "filters": {
+    "category": "Categorie",
+    "status": "Status",
+    "all": "Alle",
+    "apply": "Beweringen tonen",
+    "reset": "Filters wissen"
+  },
+  "resultCount": "Gevonden beweringen: {count}",
+  "pagination": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "pageOf": "Pagina {page} van {total}",
+    "label": "Pagina’s"
+  },
+  "empty": {
+    "title": "Geen beweringen komen overeen met deze filters.",
+    "body": "Probeer een andere categorie of status, of wis de filters."
+  },
+  "detail": {
+    "back": "Alle beweringen",
+    "origin": "Waar ze verscheen",
+    "firstAppeared": "Voor het eerst verschenen",
+    "evidenceTitle": "Bewijs",
+    "noEvidence": "Er is nog geen bewijs aan deze bewering toegevoegd.",
+    "limitations": "Beperkingen",
+    "researcherNote": "Notitie van de onderzoeker",
+    "statusHistory": "Statusgeschiedenis",
+    "relatedClaims": "Gerelateerde beweringen",
+    "version": "Versie {version}",
+    "updated": "Bijgewerkt {date}"
+  }
+}

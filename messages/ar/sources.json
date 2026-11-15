@@ -1,0 +1,67 @@
+{
+  "title": "المصادر",
+  "lead": "كل مصدر استُشهد به دليلًا، مع فحص لمدى وضوحه في بيان من أنتجه وكيف ومتى.",
+  "assessmentNote": "تصف هذه الفحوص ما يمكن التحقق منه في المصدر. وهي ليست درجة ولا تقول شيئًا عن صحة المصدر.",
+  "type": {
+    "journal_article": "مقال في مجلة علمية",
+    "report": "تقرير",
+    "dataset": "مجموعة بيانات",
+    "news_article": "مقال إخباري",
+    "government_document": "وثيقة حكومية",
+    "press_release": "بيان صحفي",
+    "book": "كتاب",
+    "website": "موقع إلكتروني",
+    "preprint": "نسخة أولية",
+    "other": "أخرى"
+  },
+  "criteria": {
+    "author_transparency": "أسماء المؤلفين مذكورة",
+    "publisher_transparency": "الناشر محدد",
+    "citations_present": "الاستشهادات موجودة",
+    "publication_date": "تاريخ النشر مذكور",
+    "data_collection_method": "طريقة جمع البيانات موصوفة",
+    "independent_verifiability": "قابل للتحقق باستقلالية",
+    "conflict_of_interest": "تضارب المصالح مُفصح عنه",
+    "corrections_history": "التصحيحات مسجلة"
+  },
+  "criterionStatus": {
+    "verified": "تم التحقق",
+    "partially_verified": "تم التحقق جزئيًا",
+    "not_verified": "لم يتم التحقق",
+    "not_applicable": "غير منطبق"
+  },
+  "filters": {
+    "type": "النوع"
+  },
+  "resultCount": "المصادر المطابقة: {count}",
+  "empty": {
+    "title": "لا توجد مصادر تطابق عامل التصفية هذا.",
+    "body": "جرّب نوعًا آخر أو امسح عامل التصفية."
+  },
+  "card": {
+    "published": "نُشر في {date}"
+  },
+  "compare": {
+    "pick": "اختر «{title}» للمقارنة",
+    "action": "قارن المحدد",
+    "hint": "اختر من مصدرين إلى أربعة مصادر.",
+    "title": "مقارنة المصادر",
+    "back": "كل المصادر",
+    "remove": "إزالة «{title}»",
+    "tooFew": "اختر مصدرين على الأقل للمقارنة.",
+    "limited": "تُعرض المصادر الأربعة الأولى فقط.",
+    "criterion": "الفحص",
+    "notAssessed": "لم يُقيَّم بعد",
+    "short": "مقارنة"
+  },
+  "detail": {
+    "authors": "المؤلفون",
+    "publisher": "الناشر",
+    "publishedOn": "تاريخ النشر",
+    "accessedOn": "تاريخ الاطلاع",
+    "open": "افتح المصدر",
+    "checks": "الفحوص",
+    "citedBy": "استُشهد به دليلًا على",
+    "citedByNone": "لا يستشهد أي ادعاء منشور بهذا المصدر بعد."
+  }
+}

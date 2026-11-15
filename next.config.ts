@@ -20,6 +20,11 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  experimental: {
+    // Rendering 135 locale pages with one worker per core exhausted memory on
+    // a 16 GB Windows machine; a smaller pool trades a few seconds for stability.
+    cpus: 3,
+  },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },

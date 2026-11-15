@@ -1,0 +1,52 @@
+{
+  "title": "主張",
+  "lead": "各主張には、それを裏付ける根拠、反証する根拠、周辺の背景が並びます。",
+  "statusNote": "ステータスは根拠の状態を表します。主張が真か偽かを示すものではありません。",
+  "status": {
+    "unreviewed": "未レビュー",
+    "under_review": "レビュー中",
+    "evidence_available": "根拠あり",
+    "conflicting_evidence": "根拠が食い違う",
+    "insufficient_evidence": "根拠が不足",
+    "archived": "アーカイブ済み"
+  },
+  "category": {
+    "science": "科学",
+    "education": "教育",
+    "environment": "環境",
+    "technology": "テクノロジー",
+    "social_issues": "社会問題",
+    "public_policy": "公共政策"
+  },
+  "filters": {
+    "category": "カテゴリ",
+    "status": "ステータス",
+    "all": "すべて",
+    "apply": "主張を表示",
+    "reset": "絞り込みを解除"
+  },
+  "resultCount": "見つかった主張: {count}",
+  "pagination": {
+    "previous": "前へ",
+    "next": "次へ",
+    "pageOf": "{total}ページ中{page}ページ",
+    "label": "ページ"
+  },
+  "empty": {
+    "title": "この条件に合う主張はありません。",
+    "body": "別のカテゴリやステータスを試すか、絞り込みを解除してください。"
+  },
+  "detail": {
+    "back": "すべての主張",
+    "origin": "初出の場所",
+    "firstAppeared": "初出日",
+    "evidenceTitle": "根拠",
+    "noEvidence": "この主張にはまだ根拠が追加されていません。",
+    "limitations": "制約",
+    "researcherNote": "研究者のメモ",
+    "statusHistory": "ステータスの履歴",
+    "relatedClaims": "関連する主張",
+    "version": "バージョン {version}",
+    "updated": "更新 {date}"
+  }
+}

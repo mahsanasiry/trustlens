@@ -1,0 +1,58 @@
+{
+  "title": "Koleksi",
+  "lead": "Kelompokkan klaim dan sumber ke dalam daftar. Simpan secara pribadi atau bagikan lewat tautan.",
+  "create": {
+    "title": "Koleksi baru",
+    "submit": "Buat koleksi"
+  },
+  "fields": {
+    "title": "Judul",
+    "description": "Deskripsi (opsional)",
+    "visibility": "Siapa yang dapat membukanya"
+  },
+  "visibility": {
+    "private": "Hanya saya",
+    "unlisted": "Siapa pun yang memiliki tautan"
+  },
+  "empty": {
+    "title": "Belum ada koleksi",
+    "body": "Buat satu di atas untuk menyatukan klaim dan sumber yang berkaitan."
+  },
+  "itemCount": "Item: {count}",
+  "back": "Semua koleksi",
+  "items": {
+    "title": "Item",
+    "empty": "Koleksi ini kosong. Buka klaim atau sumber lalu gunakan Tambahkan ke koleksi.",
+    "remove": "Hapus",
+    "moveUp": "Naikkan",
+    "moveDown": "Turunkan"
+  },
+  "edit": {
+    "title": "Detail",
+    "save": "Simpan perubahan"
+  },
+  "delete": {
+    "title": "Hapus koleksi ini",
+    "body": "Ini menghapus koleksi dan daftarnya. Klaim dan sumber di dalamnya tidak terpengaruh.",
+    "confirm": "Saya ingin menghapus koleksi ini",
+    "button": "Hapus koleksi"
+  },
+  "share": {
+    "title": "Bagikan",
+    "private": "Hanya Anda yang dapat membuka koleksi ini. Ubah siapa yang dapat membukanya di Detail untuk mendapatkan tautan.",
+    "label": "Tautan untuk dibagikan",
+    "hint": "Siapa pun yang memiliki tautan ini dapat membaca koleksi, tetapi tidak dapat mengubahnya.",
+    "copy": "Salin tautan",
+    "copied": "Tautan disalin"
+  },
+  "add": {
+    "label": "Tambahkan ke koleksi",
+    "choose": "Pilih koleksi",
+    "submit": "Tambahkan",
+    "none": "Anda belum memiliki koleksi.",
+    "done": "Ditambahkan ke koleksi."
+  },
+  "shared": {
+    "by": "Koleksi oleh {name}"
+  }
+}

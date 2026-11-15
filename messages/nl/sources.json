@@ -1,0 +1,67 @@
+{
+  "title": "Bronnen",
+  "lead": "Elke bron die als bewijs wordt aangehaald, met een toets van hoe openlijk ze laat zien wie haar maakte, hoe en wanneer.",
+  "assessmentNote": "Deze toetsen beschrijven wat over een bron te controleren valt. Ze zijn geen score en zeggen niets over of de bron gelijk heeft.",
+  "type": {
+    "journal_article": "Tijdschriftartikel",
+    "report": "Rapport",
+    "dataset": "Dataset",
+    "news_article": "Nieuwsartikel",
+    "government_document": "Overheidsdocument",
+    "press_release": "Persbericht",
+    "book": "Boek",
+    "website": "Website",
+    "preprint": "Preprint",
+    "other": "Overig"
+  },
+  "criteria": {
+    "author_transparency": "Auteurs worden genoemd",
+    "publisher_transparency": "Uitgever is geïdentificeerd",
+    "citations_present": "Bronvermeldingen aanwezig",
+    "publication_date": "Publicatiedatum vermeld",
+    "data_collection_method": "Dataverzameling beschreven",
+    "independent_verifiability": "Onafhankelijk te controleren",
+    "conflict_of_interest": "Belangenverstrengeling gemeld",
+    "corrections_history": "Correcties worden vastgelegd"
+  },
+  "criterionStatus": {
+    "verified": "Geverifieerd",
+    "partially_verified": "Deels geverifieerd",
+    "not_verified": "Niet geverifieerd",
+    "not_applicable": "Niet van toepassing"
+  },
+  "filters": {
+    "type": "Type"
+  },
+  "resultCount": "Gevonden bronnen: {count}",
+  "empty": {
+    "title": "Geen bronnen komen overeen met dit filter.",
+    "body": "Probeer een ander type of wis het filter."
+  },
+  "card": {
+    "published": "Gepubliceerd {date}"
+  },
+  "compare": {
+    "pick": "“{title}” selecteren om te vergelijken",
+    "action": "Selectie vergelijken",
+    "hint": "Selecteer twee tot vier bronnen.",
+    "title": "Bronnen vergelijken",
+    "back": "Alle bronnen",
+    "remove": "“{title}” verwijderen",
+    "tooFew": "Selecteer minstens twee bronnen om te vergelijken.",
+    "limited": "Alleen de eerste vier bronnen worden getoond.",
+    "criterion": "Toets",
+    "notAssessed": "Nog niet beoordeeld",
+    "short": "Vergelijken"
+  },
+  "detail": {
+    "authors": "Auteurs",
+    "publisher": "Uitgever",
+    "publishedOn": "Gepubliceerd",
+    "accessedOn": "Geraadpleegd",
+    "open": "Bron openen",
+    "checks": "Toetsen",
+    "citedBy": "Aangehaald als bewijs voor",
+    "citedByNone": "Nog geen gepubliceerde bewering verwijst naar deze bron."
+  }
+}

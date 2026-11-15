@@ -1,0 +1,67 @@
+{
+  "title": "來源",
+  "lead": "每個被引為證據的來源，以及它在多大程度上公開說明了誰、如何、何時製作它的檢查。",
+  "assessmentNote": "這些檢查說明關於來源有哪些內容可以核實。它們不是評分，也不表示來源是否正確。",
+  "type": {
+    "journal_article": "期刊文章",
+    "report": "報告",
+    "dataset": "資料集",
+    "news_article": "新聞報導",
+    "government_document": "政府文件",
+    "press_release": "新聞稿",
+    "book": "書籍",
+    "website": "網站",
+    "preprint": "預印本",
+    "other": "其他"
+  },
+  "criteria": {
+    "author_transparency": "標明了作者",
+    "publisher_transparency": "標明了發布單位",
+    "citations_present": "有引用",
+    "publication_date": "標示了發布日期",
+    "data_collection_method": "說明了資料蒐集方法",
+    "independent_verifiability": "可獨立核實",
+    "conflict_of_interest": "揭露了利益衝突",
+    "corrections_history": "記錄了更正"
+  },
+  "criterionStatus": {
+    "verified": "已核實",
+    "partially_verified": "部分核實",
+    "not_verified": "未核實",
+    "not_applicable": "不適用"
+  },
+  "filters": {
+    "type": "類型"
+  },
+  "resultCount": "找到的來源：{count}",
+  "empty": {
+    "title": "沒有符合此篩選條件的來源。",
+    "body": "換一個類型試試，或清除篩選。"
+  },
+  "card": {
+    "published": "發布於 {date}"
+  },
+  "compare": {
+    "pick": "選擇「{title}」進行比較",
+    "action": "比較所選",
+    "hint": "請選擇兩到四個來源。",
+    "title": "比較來源",
+    "back": "所有來源",
+    "remove": "移除「{title}」",
+    "tooFew": "請至少選擇兩個來源進行比較。",
+    "limited": "僅顯示前四個來源。",
+    "criterion": "檢查",
+    "notAssessed": "尚未評估",
+    "short": "比較"
+  },
+  "detail": {
+    "authors": "作者",
+    "publisher": "發布單位",
+    "publishedOn": "發布",
+    "accessedOn": "存取",
+    "open": "開啟來源",
+    "checks": "檢查",
+    "citedBy": "被引為以下主張的證據",
+    "citedByNone": "目前還沒有已發布的主張引用此來源。"
+  }
+}

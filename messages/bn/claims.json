@@ -1,0 +1,52 @@
+{
+  "title": "দাবি",
+  "lead": "প্রতিটি দাবির সঙ্গে তার সমর্থক প্রমাণ, বিরোধী প্রমাণ এবং আশপাশের প্রেক্ষাপট তালিকাভুক্ত থাকে।",
+  "statusNote": "অবস্থা প্রমাণের হাল বর্ণনা করে। এটি কখনো বলে না যে দাবিটি সত্য না মিথ্যা।",
+  "status": {
+    "unreviewed": "এখনও পর্যালোচনা হয়নি",
+    "under_review": "পর্যালোচনাধীন",
+    "evidence_available": "প্রমাণ আছে",
+    "conflicting_evidence": "প্রমাণে বিরোধ আছে",
+    "insufficient_evidence": "পর্যাপ্ত প্রমাণ নেই",
+    "archived": "সংরক্ষিত"
+  },
+  "category": {
+    "science": "বিজ্ঞান",
+    "education": "শিক্ষা",
+    "environment": "পরিবেশ",
+    "technology": "প্রযুক্তি",
+    "social_issues": "সামাজিক বিষয়",
+    "public_policy": "জননীতি"
+  },
+  "filters": {
+    "category": "বিভাগ",
+    "status": "অবস্থা",
+    "all": "সব",
+    "apply": "দাবি দেখান",
+    "reset": "ফিল্টার মুছুন"
+  },
+  "resultCount": "পাওয়া দাবি: {count}",
+  "pagination": {
+    "previous": "আগের",
+    "next": "পরের",
+    "pageOf": "পৃষ্ঠা {page} / {total}",
+    "label": "পৃষ্ঠাসমূহ"
+  },
+  "empty": {
+    "title": "এই ফিল্টারের সঙ্গে কোনো দাবি মেলেনি।",
+    "body": "অন্য কোনো বিভাগ বা অবস্থা চেষ্টা করুন, অথবা ফিল্টার মুছে দিন।"
+  },
+  "detail": {
+    "back": "সব দাবি",
+    "origin": "কোথায় প্রকাশ পেয়েছিল",
+    "firstAppeared": "প্রথম প্রকাশ",
+    "evidenceTitle": "প্রমাণ",
+    "noEvidence": "এই দাবিতে এখনও কোনো প্রমাণ যোগ করা হয়নি।",
+    "limitations": "সীমাবদ্ধতা",
+    "researcherNote": "গবেষকের নোট",
+    "statusHistory": "অবস্থার ইতিহাস",
+    "relatedClaims": "সম্পর্কিত দাবি",
+    "version": "সংস্করণ {version}",
+    "updated": "হালনাগাদ {date}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "উৎস",
+  "lead": "প্রমাণ হিসেবে উল্লেখ করা প্রতিটি উৎস, সঙ্গে এই যাচাই যে এটি কে, কীভাবে ও কখন তৈরি করেছে তা কতটা খোলাখুলি জানায়।",
+  "assessmentNote": "এই যাচাইগুলো বলে একটি উৎস সম্পর্কে কী যাচাই করা যায়। এগুলো স্কোর নয় এবং উৎসটি সঠিক কি না তা বলে না।",
+  "type": {
+    "journal_article": "জার্নাল প্রবন্ধ",
+    "report": "প্রতিবেদন",
+    "dataset": "ডেটাসেট",
+    "news_article": "সংবাদ নিবন্ধ",
+    "government_document": "সরকারি নথি",
+    "press_release": "প্রেস বিজ্ঞপ্তি",
+    "book": "বই",
+    "website": "ওয়েবসাইট",
+    "preprint": "প্রিপ্রিন্ট",
+    "other": "অন্যান্য"
+  },
+  "criteria": {
+    "author_transparency": "লেখকদের নাম আছে",
+    "publisher_transparency": "প্রকাশকের পরিচয় আছে",
+    "citations_present": "উদ্ধৃতি আছে",
+    "publication_date": "প্রকাশের তারিখ আছে",
+    "data_collection_method": "তথ্য সংগ্রহের পদ্ধতি বর্ণিত",
+    "independent_verifiability": "স্বাধীনভাবে যাচাইযোগ্য",
+    "conflict_of_interest": "স্বার্থের দ্বন্দ্ব প্রকাশিত",
+    "corrections_history": "সংশোধনী নথিভুক্ত হয়"
+  },
+  "criterionStatus": {
+    "verified": "যাচাই হয়েছে",
+    "partially_verified": "আংশিক যাচাই হয়েছে",
+    "not_verified": "যাচাই হয়নি",
+    "not_applicable": "প্রযোজ্য নয়"
+  },
+  "filters": {
+    "type": "ধরন"
+  },
+  "resultCount": "পাওয়া উৎস: {count}",
+  "empty": {
+    "title": "এই ফিল্টারের সঙ্গে কোনো উৎস মেলেনি।",
+    "body": "অন্য কোনো ধরন চেষ্টা করুন, অথবা ফিল্টার মুছে দিন।"
+  },
+  "card": {
+    "published": "প্রকাশিত {date}"
+  },
+  "compare": {
+    "pick": "তুলনার জন্য «{title}» বেছে নিন",
+    "action": "বাছাই করাগুলো তুলনা করুন",
+    "hint": "দুই থেকে চারটি উৎস বেছে নিন।",
+    "title": "উৎস তুলনা",
+    "back": "সব উৎস",
+    "remove": "«{title}» সরান",
+    "tooFew": "তুলনার জন্য অন্তত দুটি উৎস বেছে নিন।",
+    "limited": "শুধু প্রথম চারটি উৎস দেখানো হচ্ছে।",
+    "criterion": "যাচাই",
+    "notAssessed": "এখনও মূল্যায়ন হয়নি",
+    "short": "তুলনা"
+  },
+  "detail": {
+    "authors": "লেখক",
+    "publisher": "প্রকাশক",
+    "publishedOn": "প্রকাশিত",
+    "accessedOn": "দেখা হয়েছে",
+    "open": "উৎসটি খুলুন",
+    "checks": "যাচাইসমূহ",
+    "citedBy": "যেসব দাবির প্রমাণ হিসেবে উদ্ধৃত",
+    "citedByNone": "এখনও কোনো প্রকাশিত দাবি এই উৎসকে উদ্ধৃত করেনি।"
+  }
+}

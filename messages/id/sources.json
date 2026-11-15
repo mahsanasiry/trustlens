@@ -1,0 +1,67 @@
+{
+  "title": "Sumber",
+  "lead": "Setiap sumber yang dikutip sebagai bukti, beserta pemeriksaan seberapa terbuka sumber itu menunjukkan siapa pembuatnya, bagaimana, dan kapan.",
+  "assessmentNote": "Pemeriksaan ini menggambarkan apa yang dapat diverifikasi tentang sebuah sumber. Ini bukan skor dan tidak menyatakan apakah sumber itu benar.",
+  "type": {
+    "journal_article": "Artikel jurnal",
+    "report": "Laporan",
+    "dataset": "Kumpulan data",
+    "news_article": "Artikel berita",
+    "government_document": "Dokumen pemerintah",
+    "press_release": "Siaran pers",
+    "book": "Buku",
+    "website": "Situs web",
+    "preprint": "Pracetak",
+    "other": "Lainnya"
+  },
+  "criteria": {
+    "author_transparency": "Penulis disebutkan",
+    "publisher_transparency": "Penerbit teridentifikasi",
+    "citations_present": "Ada kutipan",
+    "publication_date": "Tanggal terbit dicantumkan",
+    "data_collection_method": "Pengumpulan data dijelaskan",
+    "independent_verifiability": "Dapat diverifikasi secara independen",
+    "conflict_of_interest": "Konflik kepentingan diungkapkan",
+    "corrections_history": "Koreksi dicatat"
+  },
+  "criterionStatus": {
+    "verified": "Terverifikasi",
+    "partially_verified": "Terverifikasi sebagian",
+    "not_verified": "Belum terverifikasi",
+    "not_applicable": "Tidak berlaku"
+  },
+  "filters": {
+    "type": "Jenis"
+  },
+  "resultCount": "Sumber ditemukan: {count}",
+  "empty": {
+    "title": "Tidak ada sumber yang cocok dengan filter ini.",
+    "body": "Coba jenis lain, atau hapus filter."
+  },
+  "card": {
+    "published": "Terbit {date}"
+  },
+  "compare": {
+    "pick": "Pilih “{title}” untuk dibandingkan",
+    "action": "Bandingkan yang dipilih",
+    "hint": "Pilih dua sampai empat sumber.",
+    "title": "Bandingkan sumber",
+    "back": "Semua sumber",
+    "remove": "Hapus “{title}”",
+    "tooFew": "Pilih minimal dua sumber untuk dibandingkan.",
+    "limited": "Hanya empat sumber pertama yang ditampilkan.",
+    "criterion": "Pemeriksaan",
+    "notAssessed": "Belum dinilai",
+    "short": "Bandingkan"
+  },
+  "detail": {
+    "authors": "Penulis",
+    "publisher": "Penerbit",
+    "publishedOn": "Terbit",
+    "accessedOn": "Diakses",
+    "open": "Buka sumber",
+    "checks": "Pemeriksaan",
+    "citedBy": "Dikutip sebagai bukti untuk",
+    "citedByNone": "Belum ada klaim terbit yang mengutip sumber ini."
+  }
+}

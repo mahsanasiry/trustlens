@@ -1,0 +1,52 @@
+{
+  "title": "Afirmações",
+  "lead": "Cada afirmação lista as evidências que a apoiam, as que a contradizem e o contexto ao redor.",
+  "statusNote": "Um status descreve a situação das evidências. Ele nunca diz se uma afirmação é verdadeira ou falsa.",
+  "status": {
+    "unreviewed": "Ainda não revisada",
+    "under_review": "Em revisão",
+    "evidence_available": "Há evidências",
+    "conflicting_evidence": "Evidências conflitantes",
+    "insufficient_evidence": "Evidências insuficientes",
+    "archived": "Arquivada"
+  },
+  "category": {
+    "science": "Ciência",
+    "education": "Educação",
+    "environment": "Meio ambiente",
+    "technology": "Tecnologia",
+    "social_issues": "Questões sociais",
+    "public_policy": "Políticas públicas"
+  },
+  "filters": {
+    "category": "Categoria",
+    "status": "Status",
+    "all": "Todas",
+    "apply": "Mostrar afirmações",
+    "reset": "Limpar filtros"
+  },
+  "resultCount": "Afirmações encontradas: {count}",
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Próxima",
+    "pageOf": "Página {page} de {total}",
+    "label": "Páginas"
+  },
+  "empty": {
+    "title": "Nenhuma afirmação corresponde a esses filtros.",
+    "body": "Tente outra categoria ou outro status, ou limpe os filtros."
+  },
+  "detail": {
+    "back": "Todas as afirmações",
+    "origin": "Onde apareceu",
+    "firstAppeared": "Apareceu pela primeira vez",
+    "evidenceTitle": "Evidências",
+    "noEvidence": "Ainda não foram adicionadas evidências a esta afirmação.",
+    "limitations": "Limitações",
+    "researcherNote": "Nota do pesquisador",
+    "statusHistory": "Histórico de status",
+    "relatedClaims": "Afirmações relacionadas",
+    "version": "Versão {version}",
+    "updated": "Atualizada {date}"
+  }
+}

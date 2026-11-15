@@ -1,5 +1,13 @@
 {
   "skipToContent": "Aller au contenu principal",
   "notFoundTitle": "Page introuvable",
-  "notFoundBody": "La page que vous cherchez n'existe pas ou a été déplacée."
+  "notFoundBody": "La page que vous cherchez n'existe pas ou a été déplacée.",
+  "theme": {
+    "label": "Thème",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "language": {
+    "label": "Langue"
+  }
 }

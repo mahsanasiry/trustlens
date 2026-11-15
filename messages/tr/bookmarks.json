@@ -1,0 +1,12 @@
+{
+  "title": "Kaydedilenler",
+  "lead": "Kaydettiğiniz iddialar ve kaynaklar. Bu listeyi yalnızca siz görürsünüz.",
+  "save": "Kaydet",
+  "remove": "Kaydedilenlerden kaldır",
+  "signInToSave": "Kaydetmek için giriş yapın",
+  "resultCount": "Kaydedilen öğeler: {count}",
+  "empty": {
+    "title": "Henüz bir şey kaydedilmedi",
+    "body": "Bir iddia veya kaynakta Kaydet'i seçin, burada görünsün."
+  }
+}

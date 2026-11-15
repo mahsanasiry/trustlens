@@ -1,0 +1,67 @@
+{
+  "title": "Fuentes",
+  "lead": "Cada fuente citada como prueba, con una revisión de qué tan abiertamente muestra quién la hizo, cómo y cuándo.",
+  "assessmentNote": "Estas revisiones describen qué se puede verificar de una fuente. No son una puntuación y no dicen si la fuente tiene razón.",
+  "type": {
+    "journal_article": "Artículo de revista",
+    "report": "Informe",
+    "dataset": "Conjunto de datos",
+    "news_article": "Noticia",
+    "government_document": "Documento gubernamental",
+    "press_release": "Comunicado de prensa",
+    "book": "Libro",
+    "website": "Sitio web",
+    "preprint": "Preprint",
+    "other": "Otro"
+  },
+  "criteria": {
+    "author_transparency": "Se nombra a los autores",
+    "publisher_transparency": "Se identifica al editor",
+    "citations_present": "Hay citas",
+    "publication_date": "Se muestra la fecha de publicación",
+    "data_collection_method": "Se describe la recogida de datos",
+    "independent_verifiability": "Verificable de forma independiente",
+    "conflict_of_interest": "Conflictos de intereses declarados",
+    "corrections_history": "Se registran las correcciones"
+  },
+  "criterionStatus": {
+    "verified": "Verificado",
+    "partially_verified": "Parcialmente verificado",
+    "not_verified": "No verificado",
+    "not_applicable": "No aplica"
+  },
+  "filters": {
+    "type": "Tipo"
+  },
+  "resultCount": "Fuentes encontradas: {count}",
+  "empty": {
+    "title": "Ninguna fuente coincide con este filtro.",
+    "body": "Prueba con otro tipo o borra el filtro."
+  },
+  "card": {
+    "published": "Publicado {date}"
+  },
+  "compare": {
+    "pick": "Seleccionar «{title}» para comparar",
+    "action": "Comparar selección",
+    "hint": "Selecciona de dos a cuatro fuentes.",
+    "title": "Comparar fuentes",
+    "back": "Todas las fuentes",
+    "remove": "Quitar «{title}»",
+    "tooFew": "Selecciona al menos dos fuentes para comparar.",
+    "limited": "Solo se muestran las cuatro primeras fuentes.",
+    "criterion": "Revisión",
+    "notAssessed": "Aún sin evaluar",
+    "short": "Comparar"
+  },
+  "detail": {
+    "authors": "Autores",
+    "publisher": "Editor",
+    "publishedOn": "Publicado",
+    "accessedOn": "Consultado",
+    "open": "Abrir la fuente",
+    "checks": "Revisiones",
+    "citedBy": "Citada como prueba de",
+    "citedByNone": "Ninguna afirmación publicada cita todavía esta fuente."
+  }
+}

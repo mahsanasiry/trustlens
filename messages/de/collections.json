@@ -1,0 +1,58 @@
+{
+  "title": "Sammlungen",
+  "lead": "Fassen Sie Behauptungen und Quellen in Listen zusammen. Halten Sie sie privat oder teilen Sie sie per Link.",
+  "create": {
+    "title": "Neue Sammlung",
+    "submit": "Sammlung erstellen"
+  },
+  "fields": {
+    "title": "Titel",
+    "description": "Beschreibung (optional)",
+    "visibility": "Wer sie öffnen darf"
+  },
+  "visibility": {
+    "private": "Nur ich",
+    "unlisted": "Alle mit dem Link"
+  },
+  "empty": {
+    "title": "Noch keine Sammlungen",
+    "body": "Erstellen Sie oben eine, um zusammengehörige Behauptungen und Quellen beisammen zu halten."
+  },
+  "itemCount": "Einträge: {count}",
+  "back": "Alle Sammlungen",
+  "items": {
+    "title": "Einträge",
+    "empty": "Diese Sammlung ist leer. Öffnen Sie eine Behauptung oder Quelle und wählen Sie „Zur Sammlung hinzufügen“.",
+    "remove": "Entfernen",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten"
+  },
+  "edit": {
+    "title": "Details",
+    "save": "Änderungen speichern"
+  },
+  "delete": {
+    "title": "Diese Sammlung löschen",
+    "body": "Dadurch werden die Sammlung und ihre Liste entfernt. Die enthaltenen Behauptungen und Quellen bleiben unberührt.",
+    "confirm": "Ich möchte diese Sammlung löschen",
+    "button": "Sammlung löschen"
+  },
+  "share": {
+    "title": "Teilen",
+    "private": "Nur Sie können diese Sammlung öffnen. Ändern Sie unter „Details“, wer sie öffnen darf, um einen Link zu erhalten.",
+    "label": "Link zum Teilen",
+    "hint": "Alle mit diesem Link können die Sammlung lesen, aber nicht ändern.",
+    "copy": "Link kopieren",
+    "copied": "Link kopiert"
+  },
+  "add": {
+    "label": "Zur Sammlung hinzufügen",
+    "choose": "Sammlung wählen",
+    "submit": "Hinzufügen",
+    "none": "Sie haben noch keine Sammlungen.",
+    "done": "Zur Sammlung hinzugefügt."
+  },
+  "shared": {
+    "by": "Sammlung von {name}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Wyszukiwanie",
+  "lead": "Znajdź twierdzenia i źródła po słowie, nazwie lub fragmencie tytułu.",
+  "label": "Szukaj twierdzeń i źródeł",
+  "placeholder": "Tytuł, słowo kluczowe lub wydawca",
+  "submit": "Szukaj",
+  "kind": {
+    "label": "Pokaż",
+    "all": "Twierdzenia i źródła",
+    "claim": "Tylko twierdzenia",
+    "source": "Tylko źródła"
+  },
+  "resultCount": "Znalezione wyniki: {count}",
+  "tooShort": "Wpisz co najmniej dwa znaki.",
+  "empty": {
+    "title": "Brak wyników",
+    "body": "Sprawdź pisownię, spróbuj krótszego słowa lub wyszukaj coś innego."
+  },
+  "start": {
+    "title": "Czego szukasz?",
+    "body": "Wyszukiwanie obejmuje opublikowane twierdzenia i źródła. Wersje robocze nigdy nie są uwzględniane."
+  },
+  "result": {
+    "claim": "Twierdzenie",
+    "source": "Źródło"
+  }
+}

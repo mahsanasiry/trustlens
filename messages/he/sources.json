@@ -1,0 +1,67 @@
+{
+  "title": "מקורות",
+  "lead": "כל מקור שמצוטט כראיה, עם בדיקה של מידת השקיפות שלו לגבי מי יצר אותו, איך ומתי.",
+  "assessmentNote": "הבדיקות האלה מתארות מה אפשר לאמת לגבי מקור. הן אינן ציון ואינן אומרות אם המקור צודק.",
+  "type": {
+    "journal_article": "מאמר בכתב עת",
+    "report": "דוח",
+    "dataset": "מערך נתונים",
+    "news_article": "כתבה חדשותית",
+    "government_document": "מסמך ממשלתי",
+    "press_release": "הודעה לעיתונות",
+    "book": "ספר",
+    "website": "אתר אינטרנט",
+    "preprint": "טרום-דפוס",
+    "other": "אחר"
+  },
+  "criteria": {
+    "author_transparency": "שמות המחברים מצוינים",
+    "publisher_transparency": "המפרסם מזוהה",
+    "citations_present": "יש ציטוטים",
+    "publication_date": "תאריך הפרסום מוצג",
+    "data_collection_method": "שיטת איסוף הנתונים מתוארת",
+    "independent_verifiability": "ניתן לאימות עצמאי",
+    "conflict_of_interest": "ניגודי עניינים מוצהרים",
+    "corrections_history": "תיקונים מתועדים"
+  },
+  "criterionStatus": {
+    "verified": "אומת",
+    "partially_verified": "אומת חלקית",
+    "not_verified": "לא אומת",
+    "not_applicable": "לא רלוונטי"
+  },
+  "filters": {
+    "type": "סוג"
+  },
+  "resultCount": "מקורות שנמצאו: {count}",
+  "empty": {
+    "title": "אין מקורות שמתאימים למסנן הזה.",
+    "body": "נסו סוג אחר או נקו את המסנן."
+  },
+  "card": {
+    "published": "פורסם {date}"
+  },
+  "compare": {
+    "pick": "בחירת \"{title}\" להשוואה",
+    "action": "השוואת הנבחרים",
+    "hint": "בחרו שניים עד ארבעה מקורות.",
+    "title": "השוואת מקורות",
+    "back": "כל המקורות",
+    "remove": "הסרת \"{title}\"",
+    "tooFew": "בחרו לפחות שני מקורות להשוואה.",
+    "limited": "מוצגים רק ארבעת המקורות הראשונים.",
+    "criterion": "בדיקה",
+    "notAssessed": "טרם נבדק",
+    "short": "השוואה"
+  },
+  "detail": {
+    "authors": "מחברים",
+    "publisher": "מפרסם",
+    "publishedOn": "תאריך פרסום",
+    "accessedOn": "תאריך גישה",
+    "open": "פתיחת המקור",
+    "checks": "בדיקות",
+    "citedBy": "צוטט כראיה עבור",
+    "citedByNone": "אף טענה שפורסמה עדיין לא מצטטת את המקור הזה."
+  }
+}

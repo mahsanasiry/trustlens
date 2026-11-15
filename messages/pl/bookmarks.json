@@ -1,0 +1,12 @@
+{
+  "title": "Zapisane",
+  "lead": "Zapisane przez Ciebie twierdzenia i źródła. Tę listę widzisz tylko Ty.",
+  "save": "Zapisz",
+  "remove": "Usuń z zapisanych",
+  "signInToSave": "Zaloguj się, aby zapisać",
+  "resultCount": "Zapisane pozycje: {count}",
+  "empty": {
+    "title": "Nic jeszcze nie zapisano",
+    "body": "Wybierz Zapisz przy twierdzeniu lub źródle, a pojawi się tutaj."
+  }
+}

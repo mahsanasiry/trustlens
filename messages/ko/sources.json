@@ -1,0 +1,67 @@
+{
+  "title": "출처",
+  "lead": "근거로 제시된 모든 출처와, 누가 언제 어떻게 만들었는지를 얼마나 투명하게 밝히는지에 대한 점검입니다.",
+  "assessmentNote": "이 점검은 출처에 대해 확인할 수 있는 내용을 설명합니다. 점수가 아니며 출처가 옳은지 여부를 말하지 않습니다.",
+  "type": {
+    "journal_article": "학술지 논문",
+    "report": "보고서",
+    "dataset": "데이터셋",
+    "news_article": "뉴스 기사",
+    "government_document": "정부 문서",
+    "press_release": "보도자료",
+    "book": "도서",
+    "website": "웹사이트",
+    "preprint": "프리프린트",
+    "other": "기타"
+  },
+  "criteria": {
+    "author_transparency": "저자가 명시됨",
+    "publisher_transparency": "발행처가 확인됨",
+    "citations_present": "인용이 있음",
+    "publication_date": "발행일이 표시됨",
+    "data_collection_method": "데이터 수집 방법이 설명됨",
+    "independent_verifiability": "독립적으로 검증 가능",
+    "conflict_of_interest": "이해충돌이 공개됨",
+    "corrections_history": "정정이 기록됨"
+  },
+  "criterionStatus": {
+    "verified": "확인됨",
+    "partially_verified": "부분 확인됨",
+    "not_verified": "확인 안 됨",
+    "not_applicable": "해당 없음"
+  },
+  "filters": {
+    "type": "유형"
+  },
+  "resultCount": "찾은 출처: {count}",
+  "empty": {
+    "title": "이 필터에 맞는 출처가 없습니다.",
+    "body": "다른 유형을 선택하거나 필터를 지워 보세요."
+  },
+  "card": {
+    "published": "발행 {date}"
+  },
+  "compare": {
+    "pick": "비교하려면 「{title}」 선택",
+    "action": "선택 항목 비교",
+    "hint": "출처를 두 개에서 네 개까지 선택하세요.",
+    "title": "출처 비교",
+    "back": "모든 출처",
+    "remove": "「{title}」 제거",
+    "tooFew": "비교하려면 출처를 두 개 이상 선택하세요.",
+    "limited": "처음 네 개의 출처만 표시됩니다.",
+    "criterion": "점검",
+    "notAssessed": "아직 평가되지 않음",
+    "short": "비교"
+  },
+  "detail": {
+    "authors": "저자",
+    "publisher": "발행처",
+    "publishedOn": "발행일",
+    "accessedOn": "열람일",
+    "open": "출처 열기",
+    "checks": "점검",
+    "citedBy": "근거로 인용된 주장",
+    "citedByNone": "이 출처를 인용한 공개된 주장이 아직 없습니다."
+  }
+}

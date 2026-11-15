@@ -1,0 +1,52 @@
+{
+  "title": "主张",
+  "lead": "每条主张都会列出支持它的证据、反驳它的证据以及相关背景。",
+  "statusNote": "状态描述的是证据的情况，从不表示主张是真还是假。",
+  "status": {
+    "unreviewed": "尚未审阅",
+    "under_review": "审阅中",
+    "evidence_available": "已有证据",
+    "conflicting_evidence": "证据相互矛盾",
+    "insufficient_evidence": "证据不足",
+    "archived": "已归档"
+  },
+  "category": {
+    "science": "科学",
+    "education": "教育",
+    "environment": "环境",
+    "technology": "技术",
+    "social_issues": "社会问题",
+    "public_policy": "公共政策"
+  },
+  "filters": {
+    "category": "类别",
+    "status": "状态",
+    "all": "全部",
+    "apply": "显示主张",
+    "reset": "清除筛选"
+  },
+  "resultCount": "找到的主张：{count}",
+  "pagination": {
+    "previous": "上一页",
+    "next": "下一页",
+    "pageOf": "第 {page} 页，共 {total} 页",
+    "label": "分页"
+  },
+  "empty": {
+    "title": "没有符合这些筛选条件的主张。",
+    "body": "换一个类别或状态试试，或清除筛选。"
+  },
+  "detail": {
+    "back": "所有主张",
+    "origin": "出现在哪里",
+    "firstAppeared": "首次出现",
+    "evidenceTitle": "证据",
+    "noEvidence": "这条主张还没有添加证据。",
+    "limitations": "局限",
+    "researcherNote": "研究员备注",
+    "statusHistory": "状态历史",
+    "relatedClaims": "相关主张",
+    "version": "版本 {version}",
+    "updated": "更新于 {date}"
+  }
+}

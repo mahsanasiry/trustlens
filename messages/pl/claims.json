@@ -1,0 +1,52 @@
+{
+  "title": "Twierdzenia",
+  "lead": "Każde twierdzenie zawiera dowody, które je wspierają, te, które mu przeczą, oraz kontekst.",
+  "statusNote": "Status opisuje stan dowodów. Nigdy nie mówi, czy twierdzenie jest prawdziwe, czy fałszywe.",
+  "status": {
+    "unreviewed": "Jeszcze nieprzejrzane",
+    "under_review": "W trakcie przeglądu",
+    "evidence_available": "Dostępne dowody",
+    "conflicting_evidence": "Dowody są sprzeczne",
+    "insufficient_evidence": "Za mało dowodów",
+    "archived": "Zarchiwizowane"
+  },
+  "category": {
+    "science": "Nauka",
+    "education": "Edukacja",
+    "environment": "Środowisko",
+    "technology": "Technologia",
+    "social_issues": "Sprawy społeczne",
+    "public_policy": "Polityka publiczna"
+  },
+  "filters": {
+    "category": "Kategoria",
+    "status": "Status",
+    "all": "Wszystkie",
+    "apply": "Pokaż twierdzenia",
+    "reset": "Wyczyść filtry"
+  },
+  "resultCount": "Znalezione twierdzenia: {count}",
+  "pagination": {
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "pageOf": "Strona {page} z {total}",
+    "label": "Strony"
+  },
+  "empty": {
+    "title": "Żadne twierdzenie nie pasuje do tych filtrów.",
+    "body": "Spróbuj innej kategorii lub statusu albo wyczyść filtry."
+  },
+  "detail": {
+    "back": "Wszystkie twierdzenia",
+    "origin": "Gdzie się pojawiło",
+    "firstAppeared": "Pierwsze pojawienie się",
+    "evidenceTitle": "Dowody",
+    "noEvidence": "Do tego twierdzenia nie dodano jeszcze dowodów.",
+    "limitations": "Ograniczenia",
+    "researcherNote": "Notatka badacza",
+    "statusHistory": "Historia statusu",
+    "relatedClaims": "Powiązane twierdzenia",
+    "version": "Wersja {version}",
+    "updated": "Zaktualizowano {date}"
+  }
+}

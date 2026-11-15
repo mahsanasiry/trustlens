@@ -1,0 +1,52 @@
+{
+  "title": "Tuyên bố",
+  "lead": "Mỗi tuyên bố liệt kê bằng chứng ủng hộ, bằng chứng mâu thuẫn và bối cảnh xung quanh.",
+  "statusNote": "Trạng thái mô tả tình trạng của bằng chứng. Nó không bao giờ cho biết tuyên bố đúng hay sai.",
+  "status": {
+    "unreviewed": "Chưa được xem xét",
+    "under_review": "Đang xem xét",
+    "evidence_available": "Có bằng chứng",
+    "conflicting_evidence": "Bằng chứng mâu thuẫn",
+    "insufficient_evidence": "Chưa đủ bằng chứng",
+    "archived": "Đã lưu trữ"
+  },
+  "category": {
+    "science": "Khoa học",
+    "education": "Giáo dục",
+    "environment": "Môi trường",
+    "technology": "Công nghệ",
+    "social_issues": "Vấn đề xã hội",
+    "public_policy": "Chính sách công"
+  },
+  "filters": {
+    "category": "Danh mục",
+    "status": "Trạng thái",
+    "all": "Tất cả",
+    "apply": "Hiện tuyên bố",
+    "reset": "Xóa bộ lọc"
+  },
+  "resultCount": "Số tuyên bố tìm thấy: {count}",
+  "pagination": {
+    "previous": "Trước",
+    "next": "Sau",
+    "pageOf": "Trang {page} trên {total}",
+    "label": "Các trang"
+  },
+  "empty": {
+    "title": "Không có tuyên bố nào khớp với các bộ lọc này.",
+    "body": "Hãy thử danh mục hoặc trạng thái khác, hoặc xóa bộ lọc."
+  },
+  "detail": {
+    "back": "Tất cả tuyên bố",
+    "origin": "Xuất hiện ở đâu",
+    "firstAppeared": "Lần đầu xuất hiện",
+    "evidenceTitle": "Bằng chứng",
+    "noEvidence": "Chưa có bằng chứng nào được thêm vào tuyên bố này.",
+    "limitations": "Hạn chế",
+    "researcherNote": "Ghi chú của nhà nghiên cứu",
+    "statusHistory": "Lịch sử trạng thái",
+    "relatedClaims": "Tuyên bố liên quan",
+    "version": "Phiên bản {version}",
+    "updated": "Cập nhật {date}"
+  }
+}

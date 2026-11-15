@@ -1,0 +1,58 @@
+{
+  "title": "Kolekcje",
+  "lead": "Grupuj twierdzenia i źródła w listy. Zachowaj je jako prywatne lub udostępnij linkiem.",
+  "create": {
+    "title": "Nowa kolekcja",
+    "submit": "Utwórz kolekcję"
+  },
+  "fields": {
+    "title": "Tytuł",
+    "description": "Opis (opcjonalnie)",
+    "visibility": "Kto może ją otworzyć"
+  },
+  "visibility": {
+    "private": "Tylko ja",
+    "unlisted": "Każdy, kto ma link"
+  },
+  "empty": {
+    "title": "Brak kolekcji",
+    "body": "Utwórz kolekcję powyżej, aby trzymać razem powiązane twierdzenia i źródła."
+  },
+  "itemCount": "Pozycje: {count}",
+  "back": "Wszystkie kolekcje",
+  "items": {
+    "title": "Pozycje",
+    "empty": "Ta kolekcja jest pusta. Otwórz twierdzenie lub źródło i użyj opcji Dodaj do kolekcji.",
+    "remove": "Usuń",
+    "moveUp": "W górę",
+    "moveDown": "W dół"
+  },
+  "edit": {
+    "title": "Szczegóły",
+    "save": "Zapisz zmiany"
+  },
+  "delete": {
+    "title": "Usuń tę kolekcję",
+    "body": "Spowoduje to usunięcie kolekcji i jej listy. Twierdzenia i źródła w niej zawarte pozostaną bez zmian.",
+    "confirm": "Chcę usunąć tę kolekcję",
+    "button": "Usuń kolekcję"
+  },
+  "share": {
+    "title": "Udostępnianie",
+    "private": "Tylko Ty możesz otworzyć tę kolekcję. Zmień w Szczegółach, kto może ją otworzyć, aby uzyskać link.",
+    "label": "Link do udostępnienia",
+    "hint": "Każdy, kto ma ten link, może czytać kolekcję, ale nie może jej zmieniać.",
+    "copy": "Skopiuj link",
+    "copied": "Link skopiowany"
+  },
+  "add": {
+    "label": "Dodaj do kolekcji",
+    "choose": "Wybierz kolekcję",
+    "submit": "Dodaj",
+    "none": "Nie masz jeszcze kolekcji.",
+    "done": "Dodano do kolekcji."
+  },
+  "shared": {
+    "by": "Kolekcja użytkownika {name}"
+  }
+}

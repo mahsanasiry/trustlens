@@ -1,0 +1,27 @@
+{
+  "title": "Suche",
+  "lead": "Finden Sie Behauptungen und Quellen über ein Wort, einen Namen oder einen Teil des Titels.",
+  "label": "Behauptungen und Quellen durchsuchen",
+  "placeholder": "Titel, Stichwort oder Herausgeber",
+  "submit": "Suchen",
+  "kind": {
+    "label": "Anzeigen",
+    "all": "Behauptungen und Quellen",
+    "claim": "Nur Behauptungen",
+    "source": "Nur Quellen"
+  },
+  "resultCount": "Gefundene Ergebnisse: {count}",
+  "tooShort": "Geben Sie mindestens zwei Zeichen ein.",
+  "empty": {
+    "title": "Keine Ergebnisse",
+    "body": "Prüfen Sie die Schreibweise, versuchen Sie ein kürzeres Wort oder suchen Sie etwas anderes."
+  },
+  "start": {
+    "title": "Wonach suchen Sie?",
+    "body": "Die Suche umfasst veröffentlichte Behauptungen und Quellen. Entwürfe sind nie enthalten."
+  },
+  "result": {
+    "claim": "Behauptung",
+    "source": "Quelle"
+  }
+}

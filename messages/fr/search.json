@@ -1,0 +1,27 @@
+{
+  "title": "Recherche",
+  "lead": "Trouvez des affirmations et des sources avec un mot, un nom ou une partie du titre.",
+  "label": "Rechercher des affirmations et des sources",
+  "placeholder": "Titre, mot-clé ou éditeur",
+  "submit": "Rechercher",
+  "kind": {
+    "label": "Afficher",
+    "all": "Affirmations et sources",
+    "claim": "Affirmations seulement",
+    "source": "Sources seulement"
+  },
+  "resultCount": "Résultats trouvés : {count}",
+  "tooShort": "Saisissez au moins deux caractères.",
+  "empty": {
+    "title": "Aucun résultat",
+    "body": "Vérifiez l'orthographe, essayez un mot plus court ou cherchez autre chose."
+  },
+  "start": {
+    "title": "Que cherchez-vous ?",
+    "body": "La recherche porte sur les affirmations et sources publiées. Les brouillons n'y figurent jamais."
+  },
+  "result": {
+    "claim": "Affirmation",
+    "source": "Source"
+  }
+}

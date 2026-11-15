@@ -1,0 +1,12 @@
+{
+  "title": "Đã lưu",
+  "lead": "Các tuyên bố và nguồn bạn đã lưu. Chỉ bạn xem được danh sách này.",
+  "save": "Lưu",
+  "remove": "Bỏ khỏi mục đã lưu",
+  "signInToSave": "Đăng nhập để lưu",
+  "resultCount": "Mục đã lưu: {count}",
+  "empty": {
+    "title": "Chưa lưu gì",
+    "body": "Chọn Lưu ở một tuyên bố hoặc nguồn, mục đó sẽ hiện ở đây."
+  }
+}

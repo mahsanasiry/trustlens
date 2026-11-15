@@ -1,5 +1,13 @@
 {
   "skipToContent": "メインコンテンツへ移動",
   "notFoundTitle": "ページが見つかりません",
-  "notFoundBody": "お探しのページは存在しないか、移動した可能性があります。"
+  "notFoundBody": "お探しのページは存在しないか、移動した可能性があります。",
+  "theme": {
+    "label": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク"
+  },
+  "language": {
+    "label": "言語"
+  }
 }

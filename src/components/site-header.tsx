@@ -3,9 +3,22 @@ import { getSession } from '@/lib/auth/session';
 import { Link } from '@/lib/i18n/navigation';
 import { SignOutButton } from './auth/sign-out-button';
 import { BrandMark } from './brand-mark';
+import { LanguageSwitcher } from './language-switcher';
+import { NavLink } from './nav-link';
+import { ThemeToggle } from './theme-toggle';
+import { UserMenu } from './user-menu';
 
 export async function SiteHeader() {
-  const [t, session] = await Promise.all([getTranslations('auth'), getSession()]);
+  const [t, tClaims, tSources, tSearch, tBookmarks, tCollections, session] =
+    await Promise.all([
+      getTranslations('auth'),
+      getTranslations('claims'),
+      getTranslations('sources'),
+      getTranslations('search'),
+      getTranslations('bookmarks'),
+      getTranslations('collections'),
+      getSession(),
+    ]);
 
   return (
     <header className="site-header">
@@ -15,17 +28,23 @@ export async function SiteHeader() {
           TrustLens
         </Link>
         <nav aria-label={t('nav.label')} className="nav">
+          <NavLink href="/claims">{tClaims('title')}</NavLink>
+          <NavLink href="/sources">{tSources('title')}</NavLink>
+          <NavLink href="/search">{tSearch('title')}</NavLink>
+          <LanguageSwitcher />
+          <ThemeToggle />
           {session ? (
-            <>
-              <span className="user-chip">
-                <span className="visually-hidden">
-                  {t('nav.signedInAs', { name: session.displayName })}
-                </span>
-                <span aria-hidden="true">{session.displayName}</span>
-                <span className="role-badge">{t(`roles.${session.actor.role}`)}</span>
-              </span>
+            <UserMenu
+              name={session.displayName}
+              role={t(`roles.${session.actor.role}`)}
+              label={t('nav.signedInAs', { name: session.displayName })}
+              items={[
+                { href: '/bookmarks', label: tBookmarks('title') },
+                { href: '/collections', label: tCollections('title') },
+              ]}
+            >
               <SignOutButton />
-            </>
+            </UserMenu>
           ) : (
             <>
               <Link href="/sign-in" className="btn btn--quiet btn--small">

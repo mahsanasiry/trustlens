@@ -1,0 +1,52 @@
+{
+  "title": "ادعاها",
+  "lead": "هر ادعا مدارکی را که از آن پشتیبانی می‌کنند، مدارکی که با آن مخالف‌اند و زمینه‌ی پیرامونش را فهرست می‌کند.",
+  "statusNote": "وضعیت، حالتِ مدارک را توصیف می‌کند و هرگز نمی‌گوید ادعا درست است یا نادرست.",
+  "status": {
+    "unreviewed": "هنوز بررسی نشده",
+    "under_review": "در دست بررسی",
+    "evidence_available": "مدرک موجود است",
+    "conflicting_evidence": "مدارک ناهم‌سو هستند",
+    "insufficient_evidence": "مدرک کافی نیست",
+    "archived": "بایگانی‌شده"
+  },
+  "category": {
+    "science": "علم",
+    "education": "آموزش",
+    "environment": "محیط زیست",
+    "technology": "فناوری",
+    "social_issues": "مسائل اجتماعی",
+    "public_policy": "سیاست‌گذاری عمومی"
+  },
+  "filters": {
+    "category": "دسته‌بندی",
+    "status": "وضعیت",
+    "all": "همه",
+    "apply": "نمایش ادعاها",
+    "reset": "پاک‌کردن فیلترها"
+  },
+  "resultCount": "ادعاهای یافت‌شده: {count}",
+  "pagination": {
+    "previous": "قبلی",
+    "next": "بعدی",
+    "pageOf": "صفحه‌ی {page} از {total}",
+    "label": "صفحه‌ها"
+  },
+  "empty": {
+    "title": "هیچ ادعایی با این فیلترها نمی‌خواند.",
+    "body": "دسته‌بندی یا وضعیت دیگری را امتحان کنید یا فیلترها را پاک کنید."
+  },
+  "detail": {
+    "back": "همه‌ی ادعاها",
+    "origin": "جایی که ظاهر شد",
+    "firstAppeared": "نخستین ظهور",
+    "evidenceTitle": "مدارک",
+    "noEvidence": "هنوز مدرکی به این ادعا افزوده نشده است.",
+    "limitations": "محدودیت‌ها",
+    "researcherNote": "یادداشت پژوهشگر",
+    "statusHistory": "تاریخچه‌ی وضعیت",
+    "relatedClaims": "ادعاهای مرتبط",
+    "version": "نسخه‌ی {version}",
+    "updated": "به‌روزرسانی {date}"
+  }
+}

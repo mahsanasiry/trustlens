@@ -1,0 +1,67 @@
+{
+  "title": "来源",
+  "lead": "每个被引为证据的来源，以及它在多大程度上公开说明了谁、如何、何时制作它的检查。",
+  "assessmentNote": "这些检查说明关于来源有哪些内容可以核实。它们不是评分，也不表明来源是否正确。",
+  "type": {
+    "journal_article": "期刊文章",
+    "report": "报告",
+    "dataset": "数据集",
+    "news_article": "新闻报道",
+    "government_document": "政府文件",
+    "press_release": "新闻稿",
+    "book": "书籍",
+    "website": "网站",
+    "preprint": "预印本",
+    "other": "其他"
+  },
+  "criteria": {
+    "author_transparency": "注明了作者",
+    "publisher_transparency": "注明了发布方",
+    "citations_present": "有引用",
+    "publication_date": "标明了发布日期",
+    "data_collection_method": "说明了数据收集方法",
+    "independent_verifiability": "可独立核实",
+    "conflict_of_interest": "披露了利益冲突",
+    "corrections_history": "记录了更正"
+  },
+  "criterionStatus": {
+    "verified": "已核实",
+    "partially_verified": "部分核实",
+    "not_verified": "未核实",
+    "not_applicable": "不适用"
+  },
+  "filters": {
+    "type": "类型"
+  },
+  "resultCount": "找到的来源：{count}",
+  "empty": {
+    "title": "没有符合此筛选条件的来源。",
+    "body": "换一个类型试试，或清除筛选。"
+  },
+  "card": {
+    "published": "发布于 {date}"
+  },
+  "compare": {
+    "pick": "选择“{title}”进行比较",
+    "action": "比较所选",
+    "hint": "请选择两到四个来源。",
+    "title": "比较来源",
+    "back": "所有来源",
+    "remove": "移除“{title}”",
+    "tooFew": "请至少选择两个来源进行比较。",
+    "limited": "仅显示前四个来源。",
+    "criterion": "检查",
+    "notAssessed": "尚未评估",
+    "short": "比较"
+  },
+  "detail": {
+    "authors": "作者",
+    "publisher": "发布方",
+    "publishedOn": "发布",
+    "accessedOn": "访问",
+    "open": "打开来源",
+    "checks": "检查",
+    "citedBy": "被引为以下主张的证据",
+    "citedByNone": "目前还没有已发布的主张引用此来源。"
+  }
+}

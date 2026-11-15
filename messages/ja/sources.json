@@ -1,0 +1,67 @@
+{
+  "title": "情報源",
+  "lead": "根拠として挙げられたすべての情報源と、誰が・どのように・いつ作ったかをどれだけ明らかにしているかの確認結果です。",
+  "assessmentNote": "この確認は、情報源について検証できることを示すものです。点数ではなく、情報源が正しいかどうかを示すものでもありません。",
+  "type": {
+    "journal_article": "学術論文",
+    "report": "報告書",
+    "dataset": "データセット",
+    "news_article": "ニュース記事",
+    "government_document": "政府文書",
+    "press_release": "プレスリリース",
+    "book": "書籍",
+    "website": "ウェブサイト",
+    "preprint": "プレプリント",
+    "other": "その他"
+  },
+  "criteria": {
+    "author_transparency": "著者が明記されている",
+    "publisher_transparency": "発行元が特定できる",
+    "citations_present": "引用がある",
+    "publication_date": "公開日が示されている",
+    "data_collection_method": "データ収集方法が説明されている",
+    "independent_verifiability": "独立して検証できる",
+    "conflict_of_interest": "利益相反が開示されている",
+    "corrections_history": "訂正が記録されている"
+  },
+  "criterionStatus": {
+    "verified": "検証済み",
+    "partially_verified": "一部検証済み",
+    "not_verified": "未検証",
+    "not_applicable": "該当なし"
+  },
+  "filters": {
+    "type": "種類"
+  },
+  "resultCount": "見つかった情報源: {count}",
+  "empty": {
+    "title": "この条件に合う情報源はありません。",
+    "body": "別の種類を試すか、絞り込みを解除してください。"
+  },
+  "card": {
+    "published": "公開 {date}"
+  },
+  "compare": {
+    "pick": "比較のために「{title}」を選択",
+    "action": "選択したものを比較",
+    "hint": "2〜4件の情報源を選んでください。",
+    "title": "情報源を比較",
+    "back": "すべての情報源",
+    "remove": "「{title}」を外す",
+    "tooFew": "比較するには情報源を2件以上選んでください。",
+    "limited": "最初の4件のみ表示しています。",
+    "criterion": "確認項目",
+    "notAssessed": "未評価",
+    "short": "比較"
+  },
+  "detail": {
+    "authors": "著者",
+    "publisher": "発行元",
+    "publishedOn": "公開日",
+    "accessedOn": "閲覧日",
+    "open": "情報源を開く",
+    "checks": "確認",
+    "citedBy": "根拠として挙げられている主張",
+    "citedByNone": "この情報源を引用している公開済みの主張はまだありません。"
+  }
+}

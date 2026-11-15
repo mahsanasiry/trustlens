@@ -1,0 +1,52 @@
+{
+  "title": "טענות",
+  "lead": "כל טענה מציגה את הראיות התומכות בה, את הראיות הסותרות אותה ואת ההקשר סביבה.",
+  "statusNote": "הסטטוס מתאר את מצב הראיות. הוא לעולם לא קובע אם טענה נכונה או שגויה.",
+  "status": {
+    "unreviewed": "טרם נבדקה",
+    "under_review": "בבדיקה",
+    "evidence_available": "יש ראיות",
+    "conflicting_evidence": "הראיות סותרות",
+    "insufficient_evidence": "אין מספיק ראיות",
+    "archived": "בארכיון"
+  },
+  "category": {
+    "science": "מדע",
+    "education": "חינוך",
+    "environment": "סביבה",
+    "technology": "טכנולוגיה",
+    "social_issues": "סוגיות חברתיות",
+    "public_policy": "מדיניות ציבורית"
+  },
+  "filters": {
+    "category": "קטגוריה",
+    "status": "סטטוס",
+    "all": "הכול",
+    "apply": "הצגת טענות",
+    "reset": "ניקוי המסננים"
+  },
+  "resultCount": "טענות שנמצאו: {count}",
+  "pagination": {
+    "previous": "הקודם",
+    "next": "הבא",
+    "pageOf": "עמוד {page} מתוך {total}",
+    "label": "עמודים"
+  },
+  "empty": {
+    "title": "אין טענות שמתאימות למסננים האלה.",
+    "body": "נסו קטגוריה או סטטוס אחרים, או נקו את המסננים."
+  },
+  "detail": {
+    "back": "כל הטענות",
+    "origin": "היכן הופיעה",
+    "firstAppeared": "הופיעה לראשונה",
+    "evidenceTitle": "ראיות",
+    "noEvidence": "עדיין לא נוספו ראיות לטענה הזו.",
+    "limitations": "מגבלות",
+    "researcherNote": "הערת החוקר",
+    "statusHistory": "היסטוריית סטטוס",
+    "relatedClaims": "טענות קשורות",
+    "version": "גרסה {version}",
+    "updated": "עודכן {date}"
+  }
+}

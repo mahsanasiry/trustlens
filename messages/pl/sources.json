@@ -1,0 +1,67 @@
+{
+  "title": "Źródła",
+  "lead": "Każde źródło przywołane jako dowód, wraz ze sprawdzeniem, jak otwarcie pokazuje, kto je stworzył, jak i kiedy.",
+  "assessmentNote": "Te sprawdzenia opisują, co można zweryfikować w źródle. Nie są oceną punktową i nic nie mówią o tym, czy źródło ma rację.",
+  "type": {
+    "journal_article": "Artykuł naukowy",
+    "report": "Raport",
+    "dataset": "Zbiór danych",
+    "news_article": "Artykuł prasowy",
+    "government_document": "Dokument rządowy",
+    "press_release": "Komunikat prasowy",
+    "book": "Książka",
+    "website": "Strona internetowa",
+    "preprint": "Preprint",
+    "other": "Inne"
+  },
+  "criteria": {
+    "author_transparency": "Autorzy są podani",
+    "publisher_transparency": "Wydawca jest wskazany",
+    "citations_present": "Są przypisy i cytowania",
+    "publication_date": "Podano datę publikacji",
+    "data_collection_method": "Opisano zbieranie danych",
+    "independent_verifiability": "Można zweryfikować niezależnie",
+    "conflict_of_interest": "Ujawniono konflikty interesów",
+    "corrections_history": "Poprawki są odnotowywane"
+  },
+  "criterionStatus": {
+    "verified": "Zweryfikowane",
+    "partially_verified": "Częściowo zweryfikowane",
+    "not_verified": "Niezweryfikowane",
+    "not_applicable": "Nie dotyczy"
+  },
+  "filters": {
+    "type": "Typ"
+  },
+  "resultCount": "Znalezione źródła: {count}",
+  "empty": {
+    "title": "Żadne źródło nie pasuje do tego filtra.",
+    "body": "Spróbuj innego typu albo wyczyść filtr."
+  },
+  "card": {
+    "published": "Opublikowano {date}"
+  },
+  "compare": {
+    "pick": "Wybierz „{title}” do porównania",
+    "action": "Porównaj wybrane",
+    "hint": "Wybierz od dwóch do czterech źródeł.",
+    "title": "Porównanie źródeł",
+    "back": "Wszystkie źródła",
+    "remove": "Usuń „{title}”",
+    "tooFew": "Wybierz co najmniej dwa źródła do porównania.",
+    "limited": "Wyświetlane są tylko pierwsze cztery źródła.",
+    "criterion": "Sprawdzenie",
+    "notAssessed": "Jeszcze nie oceniono",
+    "short": "Porównaj"
+  },
+  "detail": {
+    "authors": "Autorzy",
+    "publisher": "Wydawca",
+    "publishedOn": "Opublikowano",
+    "accessedOn": "Odczytano",
+    "open": "Otwórz źródło",
+    "checks": "Sprawdzenia",
+    "citedBy": "Przywołane jako dowód dla",
+    "citedByNone": "Żadne opublikowane twierdzenie nie przywołuje jeszcze tego źródła."
+  }
+}

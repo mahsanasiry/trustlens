@@ -1,0 +1,12 @@
+{
+  "title": "Salvati",
+  "lead": "Le affermazioni e le fonti che hai salvato. Solo tu vedi questo elenco.",
+  "save": "Salva",
+  "remove": "Rimuovi dai salvati",
+  "signInToSave": "Accedi per salvare",
+  "resultCount": "Elementi salvati: {count}",
+  "empty": {
+    "title": "Ancora nulla di salvato",
+    "body": "Scegli «Salva» su un'affermazione o una fonte e comparirà qui."
+  }
+}

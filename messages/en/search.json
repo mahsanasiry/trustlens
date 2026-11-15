@@ -1,0 +1,27 @@
+{
+  "title": "Search",
+  "lead": "Find claims and sources by a word, a name or part of a title.",
+  "label": "Search claims and sources",
+  "placeholder": "Title, keyword or publisher",
+  "submit": "Search",
+  "kind": {
+    "label": "Show",
+    "all": "Claims and sources",
+    "claim": "Claims only",
+    "source": "Sources only"
+  },
+  "resultCount": "Results found: {count}",
+  "tooShort": "Enter at least two characters.",
+  "empty": {
+    "title": "No results",
+    "body": "Check the spelling, try a shorter word, or search for something else."
+  },
+  "start": {
+    "title": "What are you looking for?",
+    "body": "Search covers published claims and sources. Drafts are never included."
+  },
+  "result": {
+    "claim": "Claim",
+    "source": "Source"
+  }
+}

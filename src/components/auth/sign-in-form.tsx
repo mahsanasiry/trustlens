@@ -10,6 +10,12 @@ import { createBrowserSupabaseClient } from '@/lib/supabase/browser';
 import { SubmitButton } from './submit-button';
 import { TextField } from './text-field';
 
+function signInErrorKey(code: string | undefined) {
+  if (code === 'invalid_credentials') return 'errors.invalidCredentials';
+  if (code === 'email_not_confirmed') return 'errors.emailNotConfirmed';
+  return 'errors.generic';
+}
+
 export function SignInForm() {
   const t = useTranslations('auth');
   const locale = useLocale();
@@ -30,13 +36,7 @@ export function SignInForm() {
     const supabase = createBrowserSupabaseClient();
     const { error } = await supabase.auth.signInWithPassword(values);
     if (error) {
-      setFormError(
-        t(
-          error.code === 'invalid_credentials'
-            ? 'errors.invalidCredentials'
-            : 'errors.generic',
-        ),
-      );
+      setFormError(t(signInErrorKey(error.code)));
       return;
     }
     router.replace('/', { locale });

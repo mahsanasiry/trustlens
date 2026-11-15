@@ -1,0 +1,12 @@
+{
+  "title": "Salvos",
+  "lead": "As afirmações e fontes que você salvou. Só você vê esta lista.",
+  "save": "Salvar",
+  "remove": "Remover dos salvos",
+  "signInToSave": "Entre para salvar",
+  "resultCount": "Itens salvos: {count}",
+  "empty": {
+    "title": "Nada salvo ainda",
+    "body": "Escolha Salvar em uma afirmação ou fonte e ela aparecerá aqui."
+  }
+}

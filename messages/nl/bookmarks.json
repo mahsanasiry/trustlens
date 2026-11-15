@@ -1,0 +1,12 @@
+{
+  "title": "Opgeslagen",
+  "lead": "De beweringen en bronnen die u hebt opgeslagen. Alleen u ziet deze lijst.",
+  "save": "Opslaan",
+  "remove": "Verwijderen uit opgeslagen",
+  "signInToSave": "Meld u aan om op te slaan",
+  "resultCount": "Opgeslagen items: {count}",
+  "empty": {
+    "title": "Nog niets opgeslagen",
+    "body": "Kies Opslaan bij een bewering of bron en die verschijnt hier."
+  }
+}

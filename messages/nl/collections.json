@@ -1,0 +1,58 @@
+{
+  "title": "Collecties",
+  "lead": "Groepeer beweringen en bronnen in lijsten. Houd ze privé of deel ze met een link.",
+  "create": {
+    "title": "Nieuwe collectie",
+    "submit": "Collectie maken"
+  },
+  "fields": {
+    "title": "Titel",
+    "description": "Beschrijving (optioneel)",
+    "visibility": "Wie kan hem openen"
+  },
+  "visibility": {
+    "private": "Alleen ik",
+    "unlisted": "Iedereen met de link"
+  },
+  "empty": {
+    "title": "Nog geen collecties",
+    "body": "Maak hierboven een collectie om samenhangende beweringen en bronnen bij elkaar te houden."
+  },
+  "itemCount": "Items: {count}",
+  "back": "Alle collecties",
+  "items": {
+    "title": "Items",
+    "empty": "Deze collectie is leeg. Open een bewering of bron en kies Toevoegen aan collectie.",
+    "remove": "Verwijderen",
+    "moveUp": "Omhoog",
+    "moveDown": "Omlaag"
+  },
+  "edit": {
+    "title": "Details",
+    "save": "Wijzigingen opslaan"
+  },
+  "delete": {
+    "title": "Deze collectie verwijderen",
+    "body": "Hiermee verdwijnen de collectie en de lijst. De beweringen en bronnen erin blijven ongemoeid.",
+    "confirm": "Ik wil deze collectie verwijderen",
+    "button": "Collectie verwijderen"
+  },
+  "share": {
+    "title": "Delen",
+    "private": "Alleen u kunt deze collectie openen. Wijzig bij Details wie hem kan openen om een link te krijgen.",
+    "label": "Link om te delen",
+    "hint": "Iedereen met deze link kan de collectie lezen, maar niet wijzigen.",
+    "copy": "Link kopiëren",
+    "copied": "Link gekopieerd"
+  },
+  "add": {
+    "label": "Toevoegen aan collectie",
+    "choose": "Kies een collectie",
+    "submit": "Toevoegen",
+    "none": "U hebt nog geen collecties.",
+    "done": "Toegevoegd aan de collectie."
+  },
+  "shared": {
+    "by": "Collectie van {name}"
+  }
+}

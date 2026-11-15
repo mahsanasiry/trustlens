@@ -1,0 +1,67 @@
+{
+  "title": "Sources",
+  "lead": "Chaque source citée comme preuve, avec un contrôle de la clarté avec laquelle elle indique qui l’a produite, comment et quand.",
+  "assessmentNote": "Ces contrôles décrivent ce qui peut être vérifié à propos d’une source. Ce n’est pas une note et cela ne dit pas si la source a raison.",
+  "type": {
+    "journal_article": "Article de revue",
+    "report": "Rapport",
+    "dataset": "Jeu de données",
+    "news_article": "Article de presse",
+    "government_document": "Document gouvernemental",
+    "press_release": "Communiqué de presse",
+    "book": "Livre",
+    "website": "Site web",
+    "preprint": "Prépublication",
+    "other": "Autre"
+  },
+  "criteria": {
+    "author_transparency": "Les auteurs sont nommés",
+    "publisher_transparency": "L’éditeur est identifié",
+    "citations_present": "Des citations sont présentes",
+    "publication_date": "La date de publication est indiquée",
+    "data_collection_method": "La collecte des données est décrite",
+    "independent_verifiability": "Vérifiable de façon indépendante",
+    "conflict_of_interest": "Conflits d’intérêts déclarés",
+    "corrections_history": "Les corrections sont consignées"
+  },
+  "criterionStatus": {
+    "verified": "Vérifié",
+    "partially_verified": "Partiellement vérifié",
+    "not_verified": "Non vérifié",
+    "not_applicable": "Sans objet"
+  },
+  "filters": {
+    "type": "Type"
+  },
+  "resultCount": "Sources trouvées : {count}",
+  "empty": {
+    "title": "Aucune source ne correspond à ce filtre.",
+    "body": "Essayez un autre type ou effacez le filtre."
+  },
+  "card": {
+    "published": "Publié {date}"
+  },
+  "compare": {
+    "pick": "Sélectionner « {title} » pour comparer",
+    "action": "Comparer la sélection",
+    "hint": "Sélectionnez de deux à quatre sources.",
+    "title": "Comparer les sources",
+    "back": "Toutes les sources",
+    "remove": "Retirer « {title} »",
+    "tooFew": "Sélectionnez au moins deux sources à comparer.",
+    "limited": "Seules les quatre premières sources sont affichées.",
+    "criterion": "Contrôle",
+    "notAssessed": "Pas encore évalué",
+    "short": "Comparer"
+  },
+  "detail": {
+    "authors": "Auteurs",
+    "publisher": "Éditeur",
+    "publishedOn": "Publié",
+    "accessedOn": "Consulté",
+    "open": "Ouvrir la source",
+    "checks": "Contrôles",
+    "citedBy": "Citée comme preuve pour",
+    "citedByNone": "Aucune affirmation publiée ne cite encore cette source."
+  }
+}

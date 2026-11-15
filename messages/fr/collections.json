@@ -1,0 +1,58 @@
+{
+  "title": "Collections",
+  "lead": "Regroupez des affirmations et des sources dans des listes. Gardez-les privées ou partagez-les par lien.",
+  "create": {
+    "title": "Nouvelle collection",
+    "submit": "Créer la collection"
+  },
+  "fields": {
+    "title": "Titre",
+    "description": "Description (facultatif)",
+    "visibility": "Qui peut l'ouvrir"
+  },
+  "visibility": {
+    "private": "Moi seul",
+    "unlisted": "Toute personne disposant du lien"
+  },
+  "empty": {
+    "title": "Aucune collection pour l'instant",
+    "body": "Créez-en une ci-dessus pour garder ensemble des affirmations et des sources liées."
+  },
+  "itemCount": "Éléments : {count}",
+  "back": "Toutes les collections",
+  "items": {
+    "title": "Éléments",
+    "empty": "Cette collection est vide. Ouvrez une affirmation ou une source et utilisez « Ajouter à une collection ».",
+    "remove": "Retirer",
+    "moveUp": "Monter",
+    "moveDown": "Descendre"
+  },
+  "edit": {
+    "title": "Détails",
+    "save": "Enregistrer les modifications"
+  },
+  "delete": {
+    "title": "Supprimer cette collection",
+    "body": "Cela supprime la collection et sa liste. Les affirmations et sources qu'elle contient ne sont pas touchées.",
+    "confirm": "Je veux supprimer cette collection",
+    "button": "Supprimer la collection"
+  },
+  "share": {
+    "title": "Partage",
+    "private": "Vous seul pouvez ouvrir cette collection. Modifiez qui peut l'ouvrir dans « Détails » pour obtenir un lien.",
+    "label": "Lien à partager",
+    "hint": "Toute personne disposant de ce lien peut lire la collection, sans pouvoir la modifier.",
+    "copy": "Copier le lien",
+    "copied": "Lien copié"
+  },
+  "add": {
+    "label": "Ajouter à une collection",
+    "choose": "Choisir une collection",
+    "submit": "Ajouter",
+    "none": "Vous n'avez pas encore de collection.",
+    "done": "Ajouté à la collection."
+  },
+  "shared": {
+    "by": "Collection de {name}"
+  }
+}

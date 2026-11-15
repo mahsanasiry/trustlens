@@ -1,0 +1,67 @@
+{
+  "title": "Kaynaklar",
+  "lead": "Kanıt olarak gösterilen her kaynak; kimin, nasıl ve ne zaman ürettiğini ne kadar açık gösterdiğine dair bir kontrolle birlikte.",
+  "assessmentNote": "Bu kontroller, bir kaynak hakkında nelerin doğrulanabildiğini anlatır. Puan değildir ve kaynağın haklı olup olmadığı hakkında bir şey söylemez.",
+  "type": {
+    "journal_article": "Dergi makalesi",
+    "report": "Rapor",
+    "dataset": "Veri kümesi",
+    "news_article": "Haber yazısı",
+    "government_document": "Resmî belge",
+    "press_release": "Basın bülteni",
+    "book": "Kitap",
+    "website": "Web sitesi",
+    "preprint": "Ön baskı",
+    "other": "Diğer"
+  },
+  "criteria": {
+    "author_transparency": "Yazarlar belirtilmiş",
+    "publisher_transparency": "Yayıncı belirtilmiş",
+    "citations_present": "Atıflar var",
+    "publication_date": "Yayın tarihi belirtilmiş",
+    "data_collection_method": "Veri toplama yöntemi açıklanmış",
+    "independent_verifiability": "Bağımsız olarak doğrulanabilir",
+    "conflict_of_interest": "Çıkar çatışmaları açıklanmış",
+    "corrections_history": "Düzeltmeler kayıt altında"
+  },
+  "criterionStatus": {
+    "verified": "Doğrulandı",
+    "partially_verified": "Kısmen doğrulandı",
+    "not_verified": "Doğrulanmadı",
+    "not_applicable": "Uygulanamaz"
+  },
+  "filters": {
+    "type": "Tür"
+  },
+  "resultCount": "Bulunan kaynaklar: {count}",
+  "empty": {
+    "title": "Bu filtreyle eşleşen kaynak yok.",
+    "body": "Başka bir tür deneyin ya da filtreyi temizleyin."
+  },
+  "card": {
+    "published": "Yayın tarihi {date}"
+  },
+  "compare": {
+    "pick": "Karşılaştırmak için “{title}” kaynağını seç",
+    "action": "Seçilenleri karşılaştır",
+    "hint": "İki ila dört kaynak seçin.",
+    "title": "Kaynakları karşılaştır",
+    "back": "Tüm kaynaklar",
+    "remove": "“{title}” kaynağını çıkar",
+    "tooFew": "Karşılaştırmak için en az iki kaynak seçin.",
+    "limited": "Yalnızca ilk dört kaynak gösteriliyor.",
+    "criterion": "Kontrol",
+    "notAssessed": "Henüz değerlendirilmedi",
+    "short": "Karşılaştır"
+  },
+  "detail": {
+    "authors": "Yazarlar",
+    "publisher": "Yayıncı",
+    "publishedOn": "Yayın tarihi",
+    "accessedOn": "Erişim tarihi",
+    "open": "Kaynağı aç",
+    "checks": "Kontroller",
+    "citedBy": "Kanıt olarak gösterildiği iddialar",
+    "citedByNone": "Henüz yayımlanmış hiçbir iddia bu kaynağa atıf yapmıyor."
+  }
+}

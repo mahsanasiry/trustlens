@@ -1,0 +1,52 @@
+{
+  "title": "主張",
+  "lead": "每項主張都會列出支持它的證據、反駁它的證據以及相關背景。",
+  "statusNote": "狀態描述的是證據的情況，從不表示主張是真還是假。",
+  "status": {
+    "unreviewed": "尚未審閱",
+    "under_review": "審閱中",
+    "evidence_available": "已有證據",
+    "conflicting_evidence": "證據相互矛盾",
+    "insufficient_evidence": "證據不足",
+    "archived": "已封存"
+  },
+  "category": {
+    "science": "科學",
+    "education": "教育",
+    "environment": "環境",
+    "technology": "技術",
+    "social_issues": "社會議題",
+    "public_policy": "公共政策"
+  },
+  "filters": {
+    "category": "類別",
+    "status": "狀態",
+    "all": "全部",
+    "apply": "顯示主張",
+    "reset": "清除篩選"
+  },
+  "resultCount": "找到的主張：{count}",
+  "pagination": {
+    "previous": "上一頁",
+    "next": "下一頁",
+    "pageOf": "第 {page} 頁，共 {total} 頁",
+    "label": "分頁"
+  },
+  "empty": {
+    "title": "沒有符合這些篩選條件的主張。",
+    "body": "換一個類別或狀態試試，或清除篩選。"
+  },
+  "detail": {
+    "back": "所有主張",
+    "origin": "出現在哪裡",
+    "firstAppeared": "首次出現",
+    "evidenceTitle": "證據",
+    "noEvidence": "這項主張還沒有新增證據。",
+    "limitations": "限制",
+    "researcherNote": "研究員備註",
+    "statusHistory": "狀態歷史",
+    "relatedClaims": "相關主張",
+    "version": "版本 {version}",
+    "updated": "更新於 {date}"
+  }
+}

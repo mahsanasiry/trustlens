@@ -1,0 +1,12 @@
+{
+  "title": "Saved",
+  "lead": "Claims and sources you have saved. Only you can see this list.",
+  "save": "Save",
+  "remove": "Remove from saved",
+  "signInToSave": "Sign in to save",
+  "resultCount": "Saved items: {count}",
+  "empty": {
+    "title": "Nothing saved yet",
+    "body": "Choose Save on a claim or source and it will appear here."
+  }
+}

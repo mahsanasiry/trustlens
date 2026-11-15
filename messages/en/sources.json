@@ -1,0 +1,67 @@
+{
+  "title": "Sources",
+  "lead": "Every source cited as evidence, with a check of how openly it shows who made it, how, and when.",
+  "assessmentNote": "These checks describe what can be verified about a source. They are not a score and say nothing about whether the source is right.",
+  "type": {
+    "journal_article": "Journal article",
+    "report": "Report",
+    "dataset": "Dataset",
+    "news_article": "News article",
+    "government_document": "Government document",
+    "press_release": "Press release",
+    "book": "Book",
+    "website": "Website",
+    "preprint": "Preprint",
+    "other": "Other"
+  },
+  "criteria": {
+    "author_transparency": "Authors are named",
+    "publisher_transparency": "Publisher is identified",
+    "citations_present": "Citations are present",
+    "publication_date": "Publication date is shown",
+    "data_collection_method": "Data collection is described",
+    "independent_verifiability": "Independently verifiable",
+    "conflict_of_interest": "Conflicts of interest disclosed",
+    "corrections_history": "Corrections are recorded"
+  },
+  "criterionStatus": {
+    "verified": "Verified",
+    "partially_verified": "Partly verified",
+    "not_verified": "Not verified",
+    "not_applicable": "Not applicable"
+  },
+  "filters": {
+    "type": "Type"
+  },
+  "resultCount": "Sources found: {count}",
+  "empty": {
+    "title": "No sources match this filter.",
+    "body": "Try a different type, or clear the filter."
+  },
+  "card": {
+    "published": "Published {date}"
+  },
+  "compare": {
+    "pick": "Select {title} to compare",
+    "action": "Compare selected",
+    "hint": "Select two to four sources.",
+    "title": "Compare sources",
+    "back": "All sources",
+    "remove": "Remove {title}",
+    "tooFew": "Select at least two sources to compare.",
+    "limited": "Only the first four sources are shown.",
+    "criterion": "Check",
+    "notAssessed": "Not assessed yet",
+    "short": "Compare"
+  },
+  "detail": {
+    "authors": "Authors",
+    "publisher": "Publisher",
+    "publishedOn": "Published",
+    "accessedOn": "Accessed",
+    "open": "Open the source",
+    "checks": "Checks",
+    "citedBy": "Cited as evidence for",
+    "citedByNone": "No published claim cites this source yet."
+  }
+}

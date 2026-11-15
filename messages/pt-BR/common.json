@@ -1,5 +1,13 @@
 {
   "skipToContent": "Pular para o conteúdo principal",
   "notFoundTitle": "Página não encontrada",
-  "notFoundBody": "A página que você procura não existe ou foi movida."
+  "notFoundBody": "A página que você procura não existe ou foi movida.",
+  "theme": {
+    "label": "Tema",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "language": {
+    "label": "Idioma"
+  }
 }

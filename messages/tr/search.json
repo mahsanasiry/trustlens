@@ -1,0 +1,27 @@
+{
+  "title": "Arama",
+  "lead": "Bir sözcük, bir ad veya başlığın bir bölümüyle iddiaları ve kaynakları bulun.",
+  "label": "İddiaları ve kaynakları ara",
+  "placeholder": "Başlık, anahtar sözcük veya yayıncı",
+  "submit": "Ara",
+  "kind": {
+    "label": "Göster",
+    "all": "İddialar ve kaynaklar",
+    "claim": "Yalnızca iddialar",
+    "source": "Yalnızca kaynaklar"
+  },
+  "resultCount": "Bulunan sonuçlar: {count}",
+  "tooShort": "En az iki karakter girin.",
+  "empty": {
+    "title": "Sonuç yok",
+    "body": "Yazımı kontrol edin, daha kısa bir sözcük deneyin veya başka bir şey arayın."
+  },
+  "start": {
+    "title": "Ne arıyorsunuz?",
+    "body": "Arama yalnızca yayımlanmış iddiaları ve kaynakları kapsar. Taslaklar hiçbir zaman dahil edilmez."
+  },
+  "result": {
+    "claim": "İddia",
+    "source": "Kaynak"
+  }
+}
