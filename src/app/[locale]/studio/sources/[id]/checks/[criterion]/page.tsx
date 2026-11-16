@@ -68,6 +68,7 @@ export default async function CheckPage({ params }: CheckPageProps) {
         criterion={criterion}
         assessment={check}
         editable={editable}
+        proposal={check?.state === 'published'}
       />
       {check && editable ? (
         <SubmitForReview locale={locale} kind="assessment" id={check.id} />

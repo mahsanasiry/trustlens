@@ -85,6 +85,7 @@
     "submitting": "Sending for review…",
     "saved": "Saved.",
     "submitted": "Sent for review.",
+    "proposed": "Change sent for review.",
     "close": "Close"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "The access date cannot be earlier than the publication date.",
     "locked": "This item can no longer be edited.",
     "forbidden": "You do not have permission to do this.",
+    "nochange": "Nothing has changed. Edit at least one field.",
     "failed": "This could not be saved. Try again."
   }
 }

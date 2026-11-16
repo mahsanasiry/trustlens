@@ -25,5 +25,11 @@
     "legend": "Détails de la vérification",
     "back": "Retour à la source",
     "title": "Vérification : {criterion}"
+  },
+  "proposal": {
+    "lead": "Cet élément est publié. Votre modification est envoyée à un administrateur comme proposition, et la version publiée reste inchangée jusqu’à son approbation.",
+    "summary": "Ce qui a changé et pourquoi",
+    "summaryHint": "Une courte note pour la personne qui relit.",
+    "submit": "Envoyer la modification pour relecture"
   }
 }

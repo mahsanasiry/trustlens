@@ -85,6 +85,7 @@
     "submitting": "Mengirim untuk ditinjau…",
     "saved": "Tersimpan.",
     "submitted": "Terkirim untuk ditinjau.",
+    "proposed": "Perubahan dikirim untuk ditinjau.",
     "close": "Tutup"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "Tanggal akses tidak boleh lebih awal dari tanggal publikasi.",
     "locked": "Item ini tidak dapat diedit lagi.",
     "forbidden": "Anda tidak memiliki izin untuk melakukan ini.",
+    "nochange": "Tidak ada yang berubah. Ubah setidaknya satu kolom.",
     "failed": "Tidak dapat disimpan. Coba lagi."
   }
 }

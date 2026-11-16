@@ -25,5 +25,11 @@
     "legend": "Check details",
     "back": "Back to the source",
     "title": "Check: {criterion}"
+  },
+  "proposal": {
+    "lead": "This item is published. Your edit is sent to an admin as a proposed change, and the published version stays as it is until it is approved.",
+    "summary": "What changed and why",
+    "summaryHint": "A short note for the reviewer.",
+    "submit": "Send change for review"
   }
 }

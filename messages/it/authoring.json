@@ -25,5 +25,11 @@
     "legend": "Dettagli della verifica",
     "back": "Torna alla fonte",
     "title": "Verifica: {criterion}"
+  },
+  "proposal": {
+    "lead": "Questo elemento è pubblicato. La tua modifica viene inviata a un amministratore come proposta, e la versione pubblicata resta invariata finché non viene approvata.",
+    "summary": "Che cosa è cambiato e perché",
+    "summaryHint": "Una breve nota per chi rivede.",
+    "submit": "Invia la modifica in revisione"
   }
 }

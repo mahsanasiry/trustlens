@@ -25,5 +25,11 @@
     "legend": "Chi tiết kiểm tra",
     "back": "Quay lại nguồn",
     "title": "Kiểm tra: {criterion}"
+  },
+  "proposal": {
+    "lead": "Mục này đã được xuất bản. Chỉnh sửa của bạn được gửi tới quản trị viên dưới dạng thay đổi đề xuất, và bản đã xuất bản giữ nguyên cho đến khi được phê duyệt.",
+    "summary": "Đã thay đổi gì và vì sao",
+    "summaryHint": "Một ghi chú ngắn cho người xét duyệt.",
+    "submit": "Gửi thay đổi để xét duyệt"
   }
 }

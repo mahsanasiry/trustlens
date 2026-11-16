@@ -25,5 +25,11 @@
     "legend": "Szczegóły weryfikacji",
     "back": "Wróć do źródła",
     "title": "Weryfikacja: {criterion}"
+  },
+  "proposal": {
+    "lead": "Ten element jest opublikowany. Twoja edycja trafia do administratora jako proponowana zmiana, a opublikowana wersja pozostaje bez zmian do czasu zatwierdzenia.",
+    "summary": "Co się zmieniło i dlaczego",
+    "summaryHint": "Krótka notatka dla recenzenta.",
+    "submit": "Wyślij zmianę do recenzji"
   }
 }

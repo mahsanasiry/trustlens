@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
+  changedFields,
   isCriterion,
   parseAssessmentInput,
   parseEvidenceInput,
+  parseSummary,
   readField,
 } from './authoring-params';
 
@@ -82,5 +84,45 @@ describe('readField and isCriterion', () => {
   it('knows the criteria', () => {
     expect(isCriterion('citations_present')).toBe(true);
     expect(isCriterion('toString')).toBe(false);
+  });
+});
+
+describe('parseSummary', () => {
+  it('trims and requires at least three characters', () => {
+    expect(parseSummary(form({ change_summary: '  Fixed a date  ' }))).toEqual({
+      ok: true,
+      value: 'Fixed a date',
+    });
+    expect(parseSummary(form({ change_summary: 'ab' })).ok).toBe(false);
+    expect(parseSummary(form({})).ok).toBe(false);
+  });
+
+  it('allows at most 500 characters', () => {
+    expect(parseSummary(form({ change_summary: 'x'.repeat(500) })).ok).toBe(true);
+    expect(parseSummary(form({ change_summary: 'x'.repeat(501) })).ok).toBe(false);
+  });
+});
+
+describe('changedFields', () => {
+  const current = { title: 'Old', keywords: ['a', 'b'], origin_url: null, extra: 1 };
+
+  it('keeps only the fields that differ', () => {
+    expect(
+      changedFields(current, { title: 'New', keywords: ['a', 'b'], origin_url: null }),
+    ).toEqual({ title: 'New' });
+  });
+
+  it('notices a changed list and a cleared or filled value', () => {
+    expect(
+      changedFields(current, { keywords: ['a'], origin_url: 'https://example.test' }),
+    ).toEqual({ keywords: ['a'], origin_url: 'https://example.test' });
+  });
+
+  it('returns nothing when nothing changed', () => {
+    expect(changedFields(current, { title: 'Old' })).toEqual({});
+  });
+
+  it('ignores fields of the current item that the proposal does not mention', () => {
+    expect(changedFields(current, {})).toEqual({});
   });
 });

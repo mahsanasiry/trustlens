@@ -85,6 +85,7 @@
     "submitting": "Đang gửi duyệt…",
     "saved": "Đã lưu.",
     "submitted": "Đã gửi duyệt.",
+    "proposed": "Đã gửi thay đổi để xét duyệt.",
     "close": "Đóng"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "Ngày truy cập không thể sớm hơn ngày xuất bản.",
     "locked": "Không thể chỉnh sửa mục này nữa.",
     "forbidden": "Bạn không có quyền thực hiện thao tác này.",
+    "nochange": "Chưa có gì thay đổi. Hãy sửa ít nhất một trường.",
     "failed": "Không thể lưu. Hãy thử lại."
   }
 }

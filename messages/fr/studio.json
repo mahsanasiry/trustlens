@@ -85,6 +85,7 @@
     "submitting": "Envoi en relecture…",
     "saved": "Enregistré.",
     "submitted": "Envoyé en relecture.",
+    "proposed": "Modification envoyée pour relecture.",
     "close": "Fermer"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "La date de consultation ne peut pas précéder la date de publication.",
     "locked": "Cet élément ne peut plus être modifié.",
     "forbidden": "Vous n’avez pas l’autorisation de faire cela.",
+    "nochange": "Rien n’a changé. Modifiez au moins un champ.",
     "failed": "Enregistrement impossible. Réessayez."
   }
 }

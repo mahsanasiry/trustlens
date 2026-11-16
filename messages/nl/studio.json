@@ -85,6 +85,7 @@
     "submitting": "Ter beoordeling sturen…",
     "saved": "Opgeslagen.",
     "submitted": "Ter beoordeling gestuurd.",
+    "proposed": "Wijziging ter beoordeling verstuurd.",
     "close": "Sluiten"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "De raadpleegdatum kan niet vóór de publicatiedatum liggen.",
     "locked": "Dit item kan niet meer worden bewerkt.",
     "forbidden": "Je hebt hiervoor geen toestemming.",
+    "nochange": "Er is niets veranderd. Wijzig minstens één veld.",
     "failed": "Opslaan is niet gelukt. Probeer het opnieuw."
   }
 }

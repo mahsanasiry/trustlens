@@ -25,5 +25,11 @@
     "legend": "Kontrol ayrıntıları",
     "back": "Kaynağa dön",
     "title": "Kontrol: {criterion}"
+  },
+  "proposal": {
+    "lead": "Bu öğe yayımlanmış. Düzenlemeniz önerilen değişiklik olarak bir yöneticiye gider; yayımlanan sürüm onaylanana kadar olduğu gibi kalır.",
+    "summary": "Ne değişti ve neden",
+    "summaryHint": "İnceleyen için kısa bir not.",
+    "submit": "Değişikliği incelemeye gönder"
   }
 }

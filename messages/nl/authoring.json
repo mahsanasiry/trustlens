@@ -25,5 +25,11 @@
     "legend": "Details van de controle",
     "back": "Terug naar de bron",
     "title": "Controle: {criterion}"
+  },
+  "proposal": {
+    "lead": "Dit item is gepubliceerd. Uw bewerking gaat als voorgestelde wijziging naar een beheerder, en de gepubliceerde versie blijft ongewijzigd tot de goedkeuring.",
+    "summary": "Wat er is veranderd en waarom",
+    "summaryHint": "Een korte notitie voor de beoordelaar.",
+    "submit": "Wijziging ter beoordeling versturen"
   }
 }

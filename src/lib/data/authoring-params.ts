@@ -75,3 +75,25 @@ export function readField(form: FormData, name: string): string | null {
 export function isCriterion(value: string): value is AssessmentCriterion {
   return (assessmentCriteria as readonly string[]).includes(value);
 }
+
+export function parseSummary(form: FormData): Parsed<string> {
+  const parsed = text(3, 500).safeParse(field(form, 'change_summary'));
+  return parsed.success
+    ? { ok: true, value: parsed.data }
+    : { ok: false, error: 'invalid' };
+}
+
+/**
+ * The fields of a proposal that differ from the published item. A revision names
+ * only what it changes, so a field that is the same is left out.
+ */
+export function changedFields(
+  current: Record<string, unknown>,
+  next: Record<string, unknown>,
+): Record<string, unknown> {
+  const changed: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(next)) {
+    if (JSON.stringify(current[key]) !== JSON.stringify(value)) changed[key] = value;
+  }
+  return changed;
+}

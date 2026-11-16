@@ -25,5 +25,11 @@
     "legend": "Detail pemeriksaan",
     "back": "Kembali ke sumber",
     "title": "Pemeriksaan: {criterion}"
+  },
+  "proposal": {
+    "lead": "Item ini sudah dipublikasikan. Suntingan Anda dikirim ke admin sebagai usulan perubahan, dan versi yang dipublikasikan tetap seperti semula sampai disetujui.",
+    "summary": "Apa yang berubah dan mengapa",
+    "summaryHint": "Catatan singkat untuk peninjau.",
+    "submit": "Kirim perubahan untuk ditinjau"
   }
 }

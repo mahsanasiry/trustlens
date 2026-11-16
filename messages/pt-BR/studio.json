@@ -85,6 +85,7 @@
     "submitting": "Enviando para revisão…",
     "saved": "Salvo.",
     "submitted": "Enviado para revisão.",
+    "proposed": "Alteração enviada para revisão.",
     "close": "Fechar"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "A data de acesso não pode ser anterior à data de publicação.",
     "locked": "Este item não pode mais ser editado.",
     "forbidden": "Você não tem permissão para fazer isso.",
+    "nochange": "Nada mudou. Edite pelo menos um campo.",
     "failed": "Não foi possível salvar. Tente novamente."
   }
 }

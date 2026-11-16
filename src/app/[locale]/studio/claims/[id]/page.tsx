@@ -48,7 +48,12 @@ export default async function EditClaimPage({ params }: EditClaimPageProps) {
   return (
     <StudioFrame title={claim.title} badge={<StateTag state={claim.state} />}>
       <ItemNotes kind="claim" id={claim.id} state={claim.state} decision={decision} />
-      <ClaimForm locale={locale} claim={claim} editable={editable} />
+      <ClaimForm
+        locale={locale}
+        claim={claim}
+        editable={editable}
+        proposal={claim.state === 'published'}
+      />
       {editable ? <SubmitForReview locale={locale} kind="claim" id={claim.id} /> : null}
       <EvidenceSection claimId={claim.id} items={evidence} />
     </StudioFrame>

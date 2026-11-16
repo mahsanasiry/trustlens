@@ -85,6 +85,7 @@
     "submitting": "Enviando a revisión…",
     "saved": "Guardado.",
     "submitted": "Enviado a revisión.",
+    "proposed": "Cambio enviado a revisión.",
     "close": "Cerrar"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "La fecha de consulta no puede ser anterior a la de publicación.",
     "locked": "Este elemento ya no se puede editar.",
     "forbidden": "No tienes permiso para hacer esto.",
+    "nochange": "No ha cambiado nada. Edita al menos un campo.",
     "failed": "No se pudo guardar. Inténtalo de nuevo."
   }
 }

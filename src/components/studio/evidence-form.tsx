@@ -2,9 +2,14 @@
 
 import { useTranslations } from 'next-intl';
 import { useActionState } from 'react';
-import { createEvidence, updateEvidence } from '@/app/[locale]/studio/actions';
+import {
+  createEvidence,
+  proposeRevision,
+  updateEvidence,
+} from '@/app/[locale]/studio/actions';
 import { ActionToast } from '@/components/action-toast';
 import { TextField } from '@/components/auth/text-field';
+import { ProposalFields } from '@/components/studio/proposal-fields';
 import type { EvidenceRecord, PickableSource } from '@/lib/data/authoring';
 import type { StudioState } from '@/lib/data/studio-params';
 import { evidencePositions } from '@/lib/domain/enums';
@@ -16,6 +21,8 @@ interface EvidenceFormProps {
   evidence: EvidenceRecord | null;
   sources: PickableSource[];
   editable: boolean;
+  /** The evidence is published, so a save sends a change for review. */
+  proposal?: boolean;
 }
 
 const idle: StudioState = { id: 0, status: 'idle' };
@@ -26,14 +33,16 @@ export function EvidenceForm({
   evidence,
   sources,
   editable,
+  proposal = false,
 }: EvidenceFormProps) {
   const t = useTranslations('authoring');
   const tStudio = useTranslations('studio');
   const tReview = useTranslations('review.fields');
   const tClaims = useTranslations('claims.detail');
   const tPositions = useTranslations('evidence.positions');
+  const tProposal = useTranslations('authoring.proposal');
   const [state, formAction, pending] = useActionState(
-    evidence ? updateEvidence : createEvidence,
+    proposal ? proposeRevision : evidence ? updateEvidence : createEvidence,
     idle,
   );
 
@@ -54,7 +63,10 @@ export function EvidenceForm({
         <input type="hidden" name="claim_id" value={claimId} />
         {evidence ? <input type="hidden" name="id" value={evidence.id} /> : null}
 
-        <fieldset disabled={!editable || pending} className="studio-form__fields">
+        <fieldset
+          disabled={(!editable && !proposal) || pending}
+          className="studio-form__fields"
+        >
           <legend className="visually-hidden">{t('evidence.legend')}</legend>
 
           <div className="field">
@@ -151,12 +163,20 @@ export function EvidenceForm({
               dir="auto"
             />
           </div>
+
+          {proposal ? (
+            <ProposalFields kind="evidence" summary={value('change_summary', '')} />
+          ) : null}
         </fieldset>
 
-        {editable ? (
+        {editable || proposal ? (
           <div className="studio-form__actions">
             <button type="submit" className="btn btn--primary" disabled={pending}>
-              {evidence ? tStudio('actions.save') : tStudio('actions.createDraft')}
+              {proposal
+                ? tProposal('submit')
+                : evidence
+                  ? tStudio('actions.save')
+                  : tStudio('actions.createDraft')}
             </button>
           </div>
         ) : null}

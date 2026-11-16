@@ -2,8 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import { useActionState } from 'react';
-import { saveAssessment } from '@/app/[locale]/studio/actions';
+import { proposeRevision, saveAssessment } from '@/app/[locale]/studio/actions';
 import { ActionToast } from '@/components/action-toast';
+import { ProposalFields } from '@/components/studio/proposal-fields';
 import type { AssessmentRecord } from '@/lib/data/authoring';
 import type { StudioState } from '@/lib/data/studio-params';
 import { criterionStatuses, type AssessmentCriterion } from '@/lib/domain/enums';
@@ -14,6 +15,8 @@ interface AssessmentFormProps {
   criterion: AssessmentCriterion;
   assessment: AssessmentRecord | null;
   editable: boolean;
+  /** The check is published, so a save sends a change for review. */
+  proposal?: boolean;
 }
 
 const idle: StudioState = { id: 0, status: 'idle' };
@@ -24,12 +27,17 @@ export function AssessmentForm({
   criterion,
   assessment,
   editable,
+  proposal = false,
 }: AssessmentFormProps) {
   const t = useTranslations('authoring');
   const tStudio = useTranslations('studio');
   const tReview = useTranslations('review.fields');
   const tStatus = useTranslations('sources.criterionStatus');
-  const [state, formAction, pending] = useActionState(saveAssessment, idle);
+  const tProposal = useTranslations('authoring.proposal');
+  const [state, formAction, pending] = useActionState(
+    proposal ? proposeRevision : saveAssessment,
+    idle,
+  );
 
   const values = state.status === 'error' ? state.values : null;
   const value = (name: string, fallback: string) => values?.[name] ?? fallback;
@@ -49,7 +57,10 @@ export function AssessmentForm({
         <input type="hidden" name="criterion" value={criterion} />
         {assessment ? <input type="hidden" name="id" value={assessment.id} /> : null}
 
-        <fieldset disabled={!editable || pending} className="studio-form__fields">
+        <fieldset
+          disabled={(!editable && !proposal) || pending}
+          className="studio-form__fields"
+        >
           <legend className="visually-hidden">{t('checks.legend')}</legend>
 
           <div className="field">
@@ -79,12 +90,20 @@ export function AssessmentForm({
               dir="auto"
             />
           </div>
+
+          {proposal ? (
+            <ProposalFields kind="assessment" summary={value('change_summary', '')} />
+          ) : null}
         </fieldset>
 
-        {editable ? (
+        {editable || proposal ? (
           <div className="studio-form__actions">
             <button type="submit" className="btn btn--primary" disabled={pending}>
-              {assessment ? tStudio('actions.save') : tStudio('actions.createDraft')}
+              {proposal
+                ? tProposal('submit')
+                : assessment
+                  ? tStudio('actions.save')
+                  : tStudio('actions.createDraft')}
             </button>
           </div>
         ) : null}

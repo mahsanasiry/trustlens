@@ -156,3 +156,20 @@ export async function getOwnAssessment(
   if (error) throw new Error(`Could not load the check: ${error.message}`);
   return data ? assessmentRecordSchema.parse(data) : null;
 }
+
+export async function getOwnAssessmentById(
+  id: string,
+  userId: string,
+): Promise<AssessmentRecord | null> {
+  if (!isEntityId(id)) return null;
+  const supabase = await createServerSupabaseClient();
+  const { data, error } = await supabase
+    .from('source_assessments')
+    .select(assessmentColumns)
+    .eq('id', id)
+    .eq('author_id', userId)
+    .is('deleted_at', null)
+    .maybeSingle();
+  if (error) throw new Error(`Could not load the check: ${error.message}`);
+  return data ? assessmentRecordSchema.parse(data) : null;
+}

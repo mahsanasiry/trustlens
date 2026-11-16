@@ -4,11 +4,15 @@ import { revalidatePath } from 'next/cache';
 import { notFound } from 'next/navigation';
 import { z } from 'zod';
 import { getSession, type Session } from '@/lib/auth/session';
+import { getOwnAssessmentById, getOwnEvidence } from '@/lib/data/authoring';
 import {
+  changedFields,
   parseAssessmentInput,
   parseEvidenceInput,
+  parseSummary,
   readField,
 } from '@/lib/data/authoring-params';
+import { getOwnClaim, getOwnSource } from '@/lib/data/studio';
 import {
   echoValues,
   parseClaimInput,
@@ -40,7 +44,7 @@ const failure = (error: StudioError, form: FormData): StudioState => ({
   values: echoValues(form),
 });
 
-const saved = (message: 'saved' | 'submitted'): StudioState => {
+const saved = (message: 'saved' | 'submitted' | 'proposed'): StudioState => {
   // Lists and headers that show this item are rendered by the server.
   revalidatePath('/', 'layout');
   return { id: Date.now(), status: 'saved', message };
@@ -320,4 +324,71 @@ export async function saveAssessment(
     href: `/studio/sources/${sourceId}/checks/${input.value.criterion}`,
     locale: context.locale,
   });
+}
+
+// A change to something already published. The form is the same as for a draft;
+// what is sent is only the fields that differ, with the author's note about why.
+export async function proposeRevision(
+  _previous: StudioState,
+  form: FormData,
+): Promise<StudioState> {
+  const context = await open(form);
+  if (!isContext(context)) return context;
+
+  const id = readEntityId(form);
+  const kind = form.get('kind');
+  if (
+    !id ||
+    typeof kind !== 'string' ||
+    !(contentEntities as readonly string[]).includes(kind)
+  ) {
+    notFound();
+  }
+  const summary = parseSummary(form);
+  if (!summary.ok) return failure(summary.error, form);
+
+  const userId = context.session.actor.id;
+  let current: { state: string } | null;
+  let next: Record<string, unknown>;
+
+  if (kind === 'claim') {
+    const input = parseClaimInput(form);
+    if (!input.ok) return failure(input.error, form);
+    current = await getOwnClaim(id, userId);
+    next = { ...input.value };
+  } else if (kind === 'source') {
+    const input = parseSourceInput(form);
+    if (!input.ok) return failure(input.error, form);
+    current = await getOwnSource(id, userId);
+    next = { ...input.value };
+  } else if (kind === 'evidence') {
+    const input = parseEvidenceInput(form);
+    if (!input.ok) return failure(input.error, form);
+    current = await getOwnEvidence(id, userId);
+    next = { ...input.value };
+  } else {
+    const input = parseAssessmentInput(form);
+    if (!input.ok) return failure(input.error, form);
+    current = await getOwnAssessmentById(id, userId);
+    // The criterion names the check; a revision changes what it says.
+    next = { status: input.value.status, notes: input.value.notes };
+  }
+
+  if (!current) notFound();
+  if (current.state !== 'published') return failure('locked', form);
+
+  const payload = changedFields(current as Record<string, unknown>, next);
+  if (Object.keys(payload).length === 0) return failure('nochange', form);
+
+  const supabase = await createServerSupabaseClient();
+  const { error } = await supabase.rpc('propose_revision', {
+    p_entity_type: kind,
+    p_entity_id: id,
+    p_payload: payload,
+    p_summary: summary.value,
+  });
+  if (error) {
+    return failure(error.code === '22023' ? 'invalid' : errorFor(error.code), form);
+  }
+  return saved('proposed');
 }

@@ -85,6 +85,7 @@
     "submitting": "Invio in revisione…",
     "saved": "Salvato.",
     "submitted": "Inviato in revisione.",
+    "proposed": "Modifica inviata in revisione.",
     "close": "Chiudi"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "La data di consultazione non può precedere quella di pubblicazione.",
     "locked": "Questo elemento non si può più modificare.",
     "forbidden": "Non hai il permesso di farlo.",
+    "nochange": "Non è cambiato nulla. Modifica almeno un campo.",
     "failed": "Impossibile salvare. Riprova."
   }
 }

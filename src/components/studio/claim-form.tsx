@@ -2,10 +2,11 @@
 
 import { useTranslations } from 'next-intl';
 import { useActionState } from 'react';
-import { createClaim, updateClaim } from '@/app/[locale]/studio/actions';
+import { createClaim, proposeRevision, updateClaim } from '@/app/[locale]/studio/actions';
 import { ActionToast } from '@/components/action-toast';
 import { TextField } from '@/components/auth/text-field';
 import { LanguageSelect } from '@/components/studio/language-select';
+import { ProposalFields } from '@/components/studio/proposal-fields';
 import type { ClaimRecord } from '@/lib/data/studio';
 import type { StudioState } from '@/lib/data/studio-params';
 import { claimCategories } from '@/lib/domain/enums';
@@ -15,15 +16,18 @@ interface ClaimFormProps {
   claim: ClaimRecord | null;
   /** False once the claim is in review or published. */
   editable: boolean;
+  /** The claim is published, so a save sends a change for review. */
+  proposal?: boolean;
 }
 
 const idle: StudioState = { id: 0, status: 'idle' };
 
-export function ClaimForm({ locale, claim, editable }: ClaimFormProps) {
+export function ClaimForm({ locale, claim, editable, proposal = false }: ClaimFormProps) {
   const t = useTranslations('studio');
   const tCategory = useTranslations('claims.category');
+  const tProposal = useTranslations('authoring.proposal');
   const [state, formAction, pending] = useActionState(
-    claim ? updateClaim : createClaim,
+    proposal ? proposeRevision : claim ? updateClaim : createClaim,
     idle,
   );
 
@@ -45,7 +49,10 @@ export function ClaimForm({ locale, claim, editable }: ClaimFormProps) {
         <input type="hidden" name="locale" value={locale} />
         {claim ? <input type="hidden" name="id" value={claim.id} /> : null}
 
-        <fieldset disabled={!editable || pending} className="studio-form__fields">
+        <fieldset
+          disabled={(!editable && !proposal) || pending}
+          className="studio-form__fields"
+        >
           <legend className="visually-hidden">{t('claim.legend')}</legend>
 
           <TextField
@@ -133,12 +140,20 @@ export function ClaimForm({ locale, claim, editable }: ClaimFormProps) {
             defaultValue={value('keywords', claim?.keywords.join(', ') ?? '')}
             dir="auto"
           />
+
+          {proposal ? (
+            <ProposalFields kind="claim" summary={value('change_summary', '')} />
+          ) : null}
         </fieldset>
 
-        {editable ? (
+        {editable || proposal ? (
           <div className="studio-form__actions">
             <button type="submit" className="btn btn--primary" disabled={pending}>
-              {claim ? t('actions.save') : t('actions.createDraft')}
+              {proposal
+                ? tProposal('submit')
+                : claim
+                  ? t('actions.save')
+                  : t('actions.createDraft')}
             </button>
           </div>
         ) : null}

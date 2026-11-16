@@ -48,7 +48,12 @@ export default async function EditSourcePage({ params }: EditSourcePageProps) {
   return (
     <StudioFrame title={source.title} badge={<StateTag state={source.state} />}>
       <ItemNotes kind="source" id={source.id} state={source.state} decision={decision} />
-      <SourceForm locale={locale} source={source} editable={editable} />
+      <SourceForm
+        locale={locale}
+        source={source}
+        editable={editable}
+        proposal={source.state === 'published'}
+      />
       {editable ? <SubmitForReview locale={locale} kind="source" id={source.id} /> : null}
       <ChecksSection sourceId={source.id} checks={checks} />
     </StudioFrame>

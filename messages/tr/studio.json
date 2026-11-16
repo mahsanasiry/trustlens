@@ -85,6 +85,7 @@
     "submitting": "İncelemeye gönderiliyor…",
     "saved": "Kaydedildi.",
     "submitted": "İncelemeye gönderildi.",
+    "proposed": "Değişiklik incelemeye gönderildi.",
     "close": "Kapat"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "Erişim tarihi yayımlanma tarihinden önce olamaz.",
     "locked": "Bu öğe artık düzenlenemez.",
     "forbidden": "Bunu yapmak için izniniz yok.",
+    "nochange": "Hiçbir şey değişmedi. En az bir alanı düzenleyin.",
     "failed": "Kaydedilemedi. Yeniden deneyin."
   }
 }

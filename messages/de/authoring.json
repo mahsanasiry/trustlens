@@ -25,5 +25,11 @@
     "legend": "Details zur Prüfung",
     "back": "Zurück zur Quelle",
     "title": "Prüfung: {criterion}"
+  },
+  "proposal": {
+    "lead": "Dieser Eintrag ist veröffentlicht. Ihre Bearbeitung geht als Änderungsvorschlag an einen Admin; die veröffentlichte Fassung bleibt bis zur Freigabe unverändert.",
+    "summary": "Was sich geändert hat und warum",
+    "summaryHint": "Eine kurze Notiz für die Prüfung.",
+    "submit": "Änderung zur Prüfung senden"
   }
 }

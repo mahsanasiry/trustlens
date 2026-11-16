@@ -85,6 +85,7 @@
     "submitting": "Wird zur Prüfung gesendet …",
     "saved": "Gespeichert.",
     "submitted": "Zur Prüfung gesendet.",
+    "proposed": "Änderung zur Prüfung gesendet.",
     "close": "Schließen"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "Das Abrufdatum darf nicht vor dem Veröffentlichungsdatum liegen.",
     "locked": "Dieser Eintrag lässt sich nicht mehr bearbeiten.",
     "forbidden": "Dafür fehlt dir die Berechtigung.",
+    "nochange": "Nichts wurde geändert. Ändern Sie mindestens ein Feld.",
     "failed": "Das konnte nicht gespeichert werden. Versuche es erneut."
   }
 }

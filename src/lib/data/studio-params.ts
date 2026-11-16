@@ -13,7 +13,8 @@ export function isStudioKind(value: string): value is StudioKind {
 export const maxKeywords = 20;
 export const maxAuthors = 30;
 
-export type StudioError = 'invalid' | 'dates' | 'locked' | 'forbidden' | 'failed';
+export type StudioError =
+  'invalid' | 'dates' | 'locked' | 'forbidden' | 'nochange' | 'failed';
 
 export interface DuplicateMatch {
   id: string;
@@ -29,7 +30,7 @@ export interface DuplicateMatch {
 // something carries back what they typed; otherwise the fields would empty.
 export type StudioState =
   | { id: number; status: 'idle' }
-  | { id: number; status: 'saved'; message: 'saved' | 'submitted' }
+  | { id: number; status: 'saved'; message: 'saved' | 'submitted' | 'proposed' }
   | { id: number; status: 'error'; error: StudioError; values: Record<string, string> }
   | {
       id: number;

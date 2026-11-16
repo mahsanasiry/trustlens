@@ -25,5 +25,11 @@
     "legend": "Detalhes da verificação",
     "back": "Voltar à fonte",
     "title": "Verificação: {criterion}"
+  },
+  "proposal": {
+    "lead": "Este item está publicado. Sua edição vai para um administrador como alteração proposta, e a versão publicada continua igual até ser aprovada.",
+    "summary": "O que mudou e por quê",
+    "summaryHint": "Uma nota curta para quem revisa.",
+    "submit": "Enviar alteração para revisão"
   }
 }

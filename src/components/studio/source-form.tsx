@@ -2,10 +2,15 @@
 
 import { useTranslations } from 'next-intl';
 import { useActionState } from 'react';
-import { createSource, updateSource } from '@/app/[locale]/studio/actions';
+import {
+  createSource,
+  proposeRevision,
+  updateSource,
+} from '@/app/[locale]/studio/actions';
 import { ActionToast } from '@/components/action-toast';
 import { TextField } from '@/components/auth/text-field';
 import { LanguageSelect } from '@/components/studio/language-select';
+import { ProposalFields } from '@/components/studio/proposal-fields';
 import type { SourceRecord } from '@/lib/data/studio';
 import type { StudioState } from '@/lib/data/studio-params';
 import { sourceTypes } from '@/lib/domain/enums';
@@ -14,15 +19,23 @@ interface SourceFormProps {
   locale: string;
   source: SourceRecord | null;
   editable: boolean;
+  /** The source is published, so a save sends a change for review. */
+  proposal?: boolean;
 }
 
 const idle: StudioState = { id: 0, status: 'idle' };
 
-export function SourceForm({ locale, source, editable }: SourceFormProps) {
+export function SourceForm({
+  locale,
+  source,
+  editable,
+  proposal = false,
+}: SourceFormProps) {
   const t = useTranslations('studio');
   const tType = useTranslations('sources.type');
+  const tProposal = useTranslations('authoring.proposal');
   const [state, formAction, pending] = useActionState(
-    source ? updateSource : createSource,
+    proposal ? proposeRevision : source ? updateSource : createSource,
     idle,
   );
 
@@ -43,7 +56,10 @@ export function SourceForm({ locale, source, editable }: SourceFormProps) {
         <input type="hidden" name="locale" value={locale} />
         {source ? <input type="hidden" name="id" value={source.id} /> : null}
 
-        <fieldset disabled={!editable || pending} className="studio-form__fields">
+        <fieldset
+          disabled={(!editable && !proposal) || pending}
+          className="studio-form__fields"
+        >
           <legend className="visually-hidden">{t('source.legend')}</legend>
 
           <TextField
@@ -133,6 +149,10 @@ export function SourceForm({ locale, source, editable }: SourceFormProps) {
             label={t('fields.language')}
             defaultValue={value('language', source?.language ?? locale)}
           />
+
+          {proposal ? (
+            <ProposalFields kind="source" summary={value('change_summary', '')} />
+          ) : null}
         </fieldset>
 
         {state.status === 'duplicate' ? (
@@ -152,7 +172,7 @@ export function SourceForm({ locale, source, editable }: SourceFormProps) {
           </div>
         ) : null}
 
-        {editable ? (
+        {editable || proposal ? (
           <div className="studio-form__actions">
             <button
               type="submit"
@@ -161,7 +181,11 @@ export function SourceForm({ locale, source, editable }: SourceFormProps) {
               }
               disabled={pending}
             >
-              {source ? t('actions.save') : t('actions.createDraft')}
+              {proposal
+                ? tProposal('submit')
+                : source
+                  ? t('actions.save')
+                  : t('actions.createDraft')}
             </button>
             {state.status === 'duplicate' ? (
               <button

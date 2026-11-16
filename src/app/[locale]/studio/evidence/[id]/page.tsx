@@ -66,6 +66,7 @@ export default async function EditEvidencePage({ params }: EditEvidencePageProps
         evidence={evidence}
         sources={sources}
         editable={editable}
+        proposal={evidence.state === 'published'}
       />
       {editable ? (
         <SubmitForReview locale={locale} kind="evidence" id={evidence.id} />

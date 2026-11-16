@@ -25,5 +25,11 @@
     "legend": "Detalles de la revisión",
     "back": "Volver a la fuente",
     "title": "Revisión: {criterion}"
+  },
+  "proposal": {
+    "lead": "Este elemento está publicado. Tu edición se envía a un administrador como cambio propuesto, y la versión publicada sigue igual hasta que se apruebe.",
+    "summary": "Qué cambió y por qué",
+    "summaryHint": "Una nota breve para quien revise.",
+    "submit": "Enviar cambio a revisión"
   }
 }

@@ -85,6 +85,7 @@
     "submitting": "Wysyłanie do recenzji…",
     "saved": "Zapisano.",
     "submitted": "Wysłano do recenzji.",
+    "proposed": "Zmiana wysłana do recenzji.",
     "close": "Zamknij"
   },
   "errors": {
@@ -92,6 +93,7 @@
     "dates": "Data dostępu nie może być wcześniejsza niż data publikacji.",
     "locked": "Tego elementu nie można już edytować.",
     "forbidden": "Nie masz uprawnień do tej czynności.",
+    "nochange": "Nic się nie zmieniło. Zmień przynajmniej jedno pole.",
     "failed": "Nie udało się zapisać. Spróbuj ponownie."
   }
 }
