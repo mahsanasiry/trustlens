@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "{name}的合集"
-  }
+  },
+  "itemRemoved": "已從收藏集中移除。"
 }

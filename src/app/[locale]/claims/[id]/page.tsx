@@ -7,7 +7,10 @@ import { StatusBadge } from '@/components/claims/status-badge';
 import { getClaim } from '@/lib/data/claims';
 import { countPositions } from '@/lib/data/position-counts';
 import { evidencePositions } from '@/lib/domain/enums';
+import { setBookmark } from '@/app/[locale]/bookmarks/actions';
 import { BookmarkButton } from '@/components/bookmarks/bookmark-button';
+import { UndoNotice } from '@/components/undo-notice';
+import { parseRemoved } from '@/lib/data/undo-params';
 import { AddToCollection } from '@/components/collections/add-to-collection';
 import { ReportForm } from '@/components/reports/report-form';
 import { getSession } from '@/lib/auth/session';
@@ -35,9 +38,10 @@ export default async function ClaimPage({ params, searchParams }: ClaimPageProps
   if (!isLocaleCode(locale)) notFound();
   setRequestLocale(locale);
 
-  const [view, t, tEvidence, format] = await Promise.all([
+  const [view, t, tBookmarks, tEvidence, format] = await Promise.all([
     getClaim(id),
     getTranslations('claims'),
+    getTranslations('bookmarks'),
     getTranslations('evidence'),
     getFormatter(),
   ]);
@@ -46,7 +50,9 @@ export default async function ClaimPage({ params, searchParams }: ClaimPageProps
   const { claim, statusChanges, related } = view;
   const session = await getSession();
   const choices = session ? await listCollectionChoices() : [];
-  const added = firstValue((await searchParams).added) === '1';
+  const query = await searchParams;
+  const added = firstValue(query.added) === '1';
+  const removed = parseRemoved(query);
   const saved = session ? await isBookmarked('claim', claim.id) : false;
   const originHref = safeHttpUrl(claim.origin_url);
   const date = (value: string) =>
@@ -54,6 +60,18 @@ export default async function ClaimPage({ params, searchParams }: ClaimPageProps
 
   return (
     <main id="main" className="page">
+      {removed?.kind === 'claim' && removed.id === claim.id ? (
+        <UndoNotice
+          message={tBookmarks('removedNotice')}
+          action={setBookmark}
+          fields={{
+            kind: 'claim',
+            id: claim.id,
+            intent: 'save',
+            next: `/claims/${claim.id}`,
+          }}
+        />
+      ) : null}
       <section className="page-hero">
         <div className="container container--narrow">
           <Link href="/claims" className="back-link">

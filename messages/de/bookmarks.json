@@ -8,5 +8,6 @@
   "empty": {
     "title": "Noch nichts gespeichert",
     "body": "Wählen Sie bei einer Behauptung oder Quelle „Speichern“, dann erscheint sie hier."
-  }
+  },
+  "removedNotice": "Aus Ihren Lesezeichen entfernt."
 }

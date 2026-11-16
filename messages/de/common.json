@@ -10,5 +10,6 @@
   "language": {
     "label": "Sprache"
   },
-  "offline": "Sie sind offline. Änderungen können erst gespeichert werden, wenn die Verbindung wieder besteht."
+  "offline": "Sie sind offline. Änderungen können erst gespeichert werden, wenn die Verbindung wieder besteht.",
+  "undo": "Rückgängig"
 }

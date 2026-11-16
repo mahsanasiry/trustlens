@@ -10,5 +10,6 @@
   "language": {
     "label": "Ngôn ngữ"
   },
-  "offline": "Bạn đang ngoại tuyến. Không thể lưu thay đổi cho đến khi có kết nối lại."
+  "offline": "Bạn đang ngoại tuyến. Không thể lưu thay đổi cho đến khi có kết nối lại.",
+  "undo": "Hoàn tác"
 }

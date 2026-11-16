@@ -10,5 +10,6 @@
   "language": {
     "label": "Idioma"
   },
-  "offline": "Estás sin conexión. Los cambios no se pueden guardar hasta que vuelvas a conectarte."
+  "offline": "Estás sin conexión. Los cambios no se pueden guardar hasta que vuelvas a conectarte.",
+  "undo": "Deshacer"
 }

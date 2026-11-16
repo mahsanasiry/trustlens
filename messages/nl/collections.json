@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "Collectie van {name}"
-  }
+  },
+  "itemRemoved": "Verwijderd uit de verzameling."
 }

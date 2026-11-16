@@ -6,7 +6,10 @@ import { CheckLabel } from '@/components/sources/check-mark';
 import { assessmentByCriterion } from '@/lib/data/assessments';
 import { getSource } from '@/lib/data/sources';
 import { assessmentCriteria } from '@/lib/domain/enums';
+import { setBookmark } from '@/app/[locale]/bookmarks/actions';
 import { BookmarkButton } from '@/components/bookmarks/bookmark-button';
+import { UndoNotice } from '@/components/undo-notice';
+import { parseRemoved } from '@/lib/data/undo-params';
 import { AddToCollection } from '@/components/collections/add-to-collection';
 import { ReportForm } from '@/components/reports/report-form';
 import { getSession } from '@/lib/auth/session';
@@ -34,9 +37,10 @@ export default async function SourcePage({ params, searchParams }: SourcePagePro
   if (!isLocaleCode(locale)) notFound();
   setRequestLocale(locale);
 
-  const [source, t, tEvidence, format] = await Promise.all([
+  const [source, t, tBookmarks, tEvidence, format] = await Promise.all([
     getSource(id),
     getTranslations('sources'),
+    getTranslations('bookmarks'),
     getTranslations('evidence'),
     getFormatter(),
   ]);
@@ -44,7 +48,9 @@ export default async function SourcePage({ params, searchParams }: SourcePagePro
 
   const session = await getSession();
   const choices = session ? await listCollectionChoices() : [];
-  const added = firstValue((await searchParams).added) === '1';
+  const query = await searchParams;
+  const added = firstValue(query.added) === '1';
+  const removed = parseRemoved(query);
   const saved = session ? await isBookmarked('source', source.id) : false;
   const href = safeHttpUrl(source.url);
   const byCriterion = assessmentByCriterion(source.source_assessments);
@@ -53,6 +59,18 @@ export default async function SourcePage({ params, searchParams }: SourcePagePro
 
   return (
     <main id="main" className="page">
+      {removed?.kind === 'source' && removed.id === source.id ? (
+        <UndoNotice
+          message={tBookmarks('removedNotice')}
+          action={setBookmark}
+          fields={{
+            kind: 'source',
+            id: source.id,
+            intent: 'save',
+            next: `/sources/${source.id}`,
+          }}
+        />
+      ) : null}
       <section className="page-hero">
         <div className="container container--narrow">
           <Link href="/sources" className="back-link">

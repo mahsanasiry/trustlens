@@ -10,6 +10,7 @@ import {
   parseItemForm,
   parseUpdateForm,
 } from '@/lib/data/collection-params';
+import { removedItem, withRemoved, type Removed } from '@/lib/data/undo-params';
 import { redirect } from '@/lib/i18n/navigation';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 
@@ -119,7 +120,17 @@ export async function changeCollectionItem(formData: FormData): Promise<void> {
   if (!session) return redirect({ href: '/sign-in', locale: input.locale });
 
   const supabase = await createServerSupabaseClient();
+  let removed: Removed | null = null;
   if (input.intent === 'remove') {
+    const { data: row, error: readError } = await supabase
+      .from('collection_items')
+      .select('claim_id, source_id')
+      .eq('id', input.item_id)
+      .eq('collection_id', input.collection_id)
+      .maybeSingle();
+    if (readError) throw new Error(`Could not read the item: ${readError.message}`);
+    removed = removedItem(row);
+
     const { error } = await supabase
       .from('collection_items')
       .delete()
@@ -141,8 +152,9 @@ export async function changeCollectionItem(formData: FormData): Promise<void> {
 
   const page = Number(input.page);
   const query = Number.isInteger(page) && page > 1 ? `?page=${page}` : '';
+  const path = `/collections/${input.collection_id}${query}`;
   return redirect({
-    href: `/collections/${input.collection_id}${query}`,
+    href: removed ? withRemoved(path, removed) : path,
     locale: input.locale,
   });
 }

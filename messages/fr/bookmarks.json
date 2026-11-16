@@ -8,5 +8,6 @@
   "empty": {
     "title": "Rien d'enregistré pour l'instant",
     "body": "Choisissez « Enregistrer » sur une affirmation ou une source et elle apparaîtra ici."
-  }
+  },
+  "removedNotice": "Retiré de vos favoris."
 }

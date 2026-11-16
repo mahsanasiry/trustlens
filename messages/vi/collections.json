@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "Bộ sưu tập của {name}"
-  }
+  },
+  "itemRemoved": "Đã xóa khỏi bộ sưu tập."
 }

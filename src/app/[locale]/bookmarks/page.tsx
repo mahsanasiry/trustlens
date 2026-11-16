@@ -7,6 +7,9 @@ import { SearchResultCard } from '@/components/search/search-result-card';
 import { getSession } from '@/lib/auth/session';
 import { parseBookmarkPage } from '@/lib/data/bookmark-params';
 import { listBookmarks } from '@/lib/data/bookmarks';
+import { parseRemoved } from '@/lib/data/undo-params';
+import { setBookmark } from './actions';
+import { UndoNotice } from '@/components/undo-notice';
 import { isLocaleCode } from '@/lib/i18n/locales';
 import { redirect } from '@/lib/i18n/navigation';
 
@@ -35,7 +38,9 @@ export default async function BookmarksPage({
   const session = await getSession();
   if (!session) return redirect({ href: '/sign-in', locale });
 
-  const page = parseBookmarkPage(await searchParams);
+  const query = await searchParams;
+  const page = parseBookmarkPage(query);
+  const removed = parseRemoved(query);
   const [t, format, result] = await Promise.all([
     getTranslations('bookmarks'),
     getFormatter(),
@@ -51,6 +56,13 @@ export default async function BookmarksPage({
 
   return (
     <main id="main" className="page">
+      {removed ? (
+        <UndoNotice
+          message={t('removedNotice')}
+          action={setBookmark}
+          fields={{ kind: removed.kind, id: removed.id, intent: 'save', next }}
+        />
+      ) : null}
       <section className="page-hero">
         <div className="container">
           <header className="page__header">

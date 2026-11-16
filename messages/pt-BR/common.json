@@ -10,5 +10,6 @@
   "language": {
     "label": "Idioma"
   },
-  "offline": "Você está offline. As alterações não podem ser salvas até a conexão voltar."
+  "offline": "Você está offline. As alterações não podem ser salvas até a conexão voltar.",
+  "undo": "Desfazer"
 }

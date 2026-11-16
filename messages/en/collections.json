@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "Collection by {name}"
-  }
+  },
+  "itemRemoved": "Removed from the collection."
 }

@@ -10,5 +10,6 @@
   "language": {
     "label": "Język"
   },
-  "offline": "Jesteś offline. Zmian nie można zapisać, dopóki połączenie nie wróci."
+  "offline": "Jesteś offline. Zmian nie można zapisać, dopóki połączenie nie wróci.",
+  "undo": "Cofnij"
 }

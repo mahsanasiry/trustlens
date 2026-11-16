@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "Koleksi oleh {name}"
-  }
+  },
+  "itemRemoved": "Dihapus dari koleksi."
 }

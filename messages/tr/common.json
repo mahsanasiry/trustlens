@@ -10,5 +10,6 @@
   "language": {
     "label": "Dil"
   },
-  "offline": "Çevrimdışısınız. Bağlantı geri gelene kadar değişiklikler kaydedilemez."
+  "offline": "Çevrimdışısınız. Bağlantı geri gelene kadar değişiklikler kaydedilemez.",
+  "undo": "Geri al"
 }

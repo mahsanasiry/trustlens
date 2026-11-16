@@ -10,5 +10,6 @@
   "language": {
     "label": "Lingua"
   },
-  "offline": "Sei offline. Le modifiche non possono essere salvate finché non torni online."
+  "offline": "Sei offline. Le modifiche non possono essere salvate finché non torni online.",
+  "undo": "Annulla"
 }

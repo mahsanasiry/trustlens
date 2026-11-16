@@ -8,5 +8,6 @@
   "empty": {
     "title": "Nothing saved yet",
     "body": "Choose Save on a claim or source and it will appear here."
-  }
+  },
+  "removedNotice": "Removed from your bookmarks."
 }

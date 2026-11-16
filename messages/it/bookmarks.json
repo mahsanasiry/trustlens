@@ -8,5 +8,6 @@
   "empty": {
     "title": "Ancora nulla di salvato",
     "body": "Scegli «Salva» su un'affermazione o una fonte e comparirà qui."
-  }
+  },
+  "removedNotice": "Rimosso dai tuoi segnalibri."
 }

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getSession } from '@/lib/auth/session';
 import { parseBookmarkForm } from '@/lib/data/bookmark-params';
 import { bookmarkColumn } from '@/lib/data/bookmarks';
+import { withRemoved } from '@/lib/data/undo-params';
 import { redirect } from '@/lib/i18n/navigation';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 
@@ -41,5 +42,9 @@ export async function setBookmark(formData: FormData): Promise<void> {
     if (error) throw new Error(`Could not remove the bookmark: ${error.message}`);
   }
 
-  return redirect({ href: input.next, locale: input.locale });
+  const href =
+    input.intent === 'remove'
+      ? withRemoved(input.next, { kind: input.kind, id: input.id })
+      : input.next;
+  return redirect({ href, locale: input.locale });
 }

@@ -54,5 +54,6 @@
   },
   "shared": {
     "by": "{name} kullanıcısının koleksiyonu"
-  }
+  },
+  "itemRemoved": "Koleksiyondan kaldırıldı."
 }

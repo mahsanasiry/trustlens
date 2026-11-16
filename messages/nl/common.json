@@ -10,5 +10,6 @@
   "language": {
     "label": "Taal"
   },
-  "offline": "U bent offline. Wijzigingen kunnen pas worden opgeslagen als de verbinding terug is."
+  "offline": "U bent offline. Wijzigingen kunnen pas worden opgeslagen als de verbinding terug is.",
+  "undo": "Ongedaan maken"
 }

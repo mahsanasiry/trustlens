@@ -8,5 +8,6 @@
   "empty": {
     "title": "Aún no has guardado nada",
     "body": "Elige «Guardar» en una afirmación o fuente y aparecerá aquí."
-  }
+  },
+  "removedNotice": "Eliminado de tus marcadores."
 }

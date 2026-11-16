@@ -8,5 +8,6 @@
   "empty": {
     "title": "Henüz bir şey kaydedilmedi",
     "body": "Bir iddia veya kaynakta Kaydet'i seçin, burada görünsün."
-  }
+  },
+  "removedNotice": "Yer imlerinizden kaldırıldı."
 }

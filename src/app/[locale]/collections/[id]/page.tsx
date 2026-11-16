@@ -15,7 +15,14 @@ import { getOwnedCollection, listCollectionItems } from '@/lib/data/collections'
 import { isLocaleCode } from '@/lib/i18n/locales';
 import { Link, redirect } from '@/lib/i18n/navigation';
 import { siteUrl } from '@/lib/site';
-import { changeCollectionItem, deleteCollection, updateCollection } from '../actions';
+import { UndoNotice } from '@/components/undo-notice';
+import { parseRemoved } from '@/lib/data/undo-params';
+import {
+  addToCollection,
+  changeCollectionItem,
+  deleteCollection,
+  updateCollection,
+} from '../actions';
 
 interface CollectionPageProps {
   params: Promise<{ locale: string; id: string }>;
@@ -45,7 +52,9 @@ export default async function CollectionPage({
   const collection = await getOwnedCollection(id, session.actor.id);
   if (!collection) notFound();
 
-  const page = parseCollectionPage(await searchParams);
+  const query = await searchParams;
+  const page = parseCollectionPage(query);
+  const removed = parseRemoved(query);
   const [t, result] = await Promise.all([
     getTranslations('collections'),
     listCollectionItems(collection.id, page),
@@ -64,6 +73,18 @@ export default async function CollectionPage({
 
   return (
     <main id="main" className="page">
+      {removed ? (
+        <UndoNotice
+          message={t('itemRemoved')}
+          action={addToCollection}
+          fields={{
+            collection_id: collection.id,
+            kind: removed.kind,
+            id: removed.id,
+            next: `/collections/${collection.id}`,
+          }}
+        />
+      ) : null}
       <section className="page-hero">
         <div className="container">
           <header className="page__header">
