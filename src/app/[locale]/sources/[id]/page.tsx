@@ -8,6 +8,7 @@ import { getSource } from '@/lib/data/sources';
 import { assessmentCriteria } from '@/lib/domain/enums';
 import { BookmarkButton } from '@/components/bookmarks/bookmark-button';
 import { AddToCollection } from '@/components/collections/add-to-collection';
+import { ReportForm } from '@/components/reports/report-form';
 import { getSession } from '@/lib/auth/session';
 import { isBookmarked } from '@/lib/data/bookmarks';
 import { listCollectionChoices } from '@/lib/data/collections';
@@ -190,6 +191,10 @@ export default async function SourcePage({ params, searchParams }: SourcePagePro
             </ul>
           )}
         </section>
+
+        {session ? (
+          <ReportForm locale={locale} targetType="source" targetId={source.id} />
+        ) : null}
       </div>
     </main>
   );

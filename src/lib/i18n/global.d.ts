@@ -7,6 +7,7 @@ import type common from '../../../messages/en/common.json';
 import type evidence from '../../../messages/en/evidence.json';
 import type home from '../../../messages/en/home.json';
 import type profile from '../../../messages/en/profile.json';
+import type reports from '../../../messages/en/reports.json';
 import type review from '../../../messages/en/review.json';
 import type studio from '../../../messages/en/studio.json';
 import type search from '../../../messages/en/search.json';
@@ -26,6 +27,7 @@ declare module 'next-intl' {
       evidence: typeof evidence;
       home: typeof home;
       profile: typeof profile;
+      reports: typeof reports;
       review: typeof review;
       search: typeof search;
       studio: typeof studio;

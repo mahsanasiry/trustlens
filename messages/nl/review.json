@@ -73,5 +73,13 @@
     "reason": "Geef een reden van minstens 3 tekens op.",
     "blocked": "Dit item kan nog niet worden goedgekeurd. Bewijs heeft eerst een gepubliceerde bron nodig.",
     "failed": "Opslaan is niet gelukt. Probeer het opnieuw."
+  },
+  "overview": {
+    "label": "Overzicht van de wachtrij",
+    "open": "Openstaande items",
+    "unclaimed": "Nog niet opgepakt",
+    "claimed": "Wordt beoordeeld",
+    "oldestDays": "Langste wachttijd in dagen",
+    "decided": "Besloten in de afgelopen 7 dagen"
   }
 }

@@ -73,5 +73,13 @@
     "reason": "Podaj powód mający co najmniej 3 znaki.",
     "blocked": "Tego elementu nie można jeszcze zatwierdzić. Dowód potrzebuje najpierw opublikowanego źródła.",
     "failed": "Nie udało się zapisać. Spróbuj ponownie."
+  },
+  "overview": {
+    "label": "Podsumowanie kolejki",
+    "open": "Otwarte elementy",
+    "unclaimed": "Jeszcze nieprzejęte",
+    "claimed": "W recenzji",
+    "oldestDays": "Najdłuższe oczekiwanie w dniach",
+    "decided": "Rozstrzygnięte w ciągu 7 dni"
   }
 }

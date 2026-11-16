@@ -1,0 +1,32 @@
+{
+  "title": "Vos signalements",
+  "lead": "Les problèmes que vous avez signalés et ce qu’ils sont devenus.",
+  "empty": "Vous n’avez encore rien signalé.",
+  "status": {
+    "open": "En attente",
+    "in_review": "En cours de relecture",
+    "resolved": "Accepté",
+    "dismissed": "Écarté"
+  },
+  "form": {
+    "open": "Signaler un problème",
+    "lead": "Dites-nous ce qui est faux ou manquant. Un administrateur lit chaque signalement.",
+    "kind": "De quel type de problème s’agit-il ?",
+    "reason": "Détails",
+    "reasonHint": "Dites ce qui est faux et où vous l’avez vu.",
+    "url": "Lien vers une meilleure source (facultatif)",
+    "submit": "Envoyer le signalement",
+    "viewAll": "Vos signalements"
+  },
+  "toast": {
+    "sending": "Envoi du signalement…",
+    "sent": "Signalement envoyé. Merci."
+  },
+  "errors": {
+    "invalid": "Vérifiez les champs et réessayez.",
+    "duplicate": "Vous avez déjà un signalement ouvert de ce type pour cet élément.",
+    "limit": "Vous avez envoyé beaucoup de signalements aujourd’hui. Réessayez demain.",
+    "forbidden": "Vous ne pouvez pas signaler cet élément.",
+    "failed": "Le signalement n’a pas pu être envoyé. Réessayez."
+  }
+}

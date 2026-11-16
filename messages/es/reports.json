@@ -1,0 +1,32 @@
+{
+  "title": "Tus informes",
+  "lead": "Los problemas que has comunicado y qué pasó con ellos.",
+  "empty": "Aún no has informado de nada.",
+  "status": {
+    "open": "En espera",
+    "in_review": "En revisión",
+    "resolved": "Aceptado",
+    "dismissed": "Descartado"
+  },
+  "form": {
+    "open": "Informar de un problema",
+    "lead": "Cuéntanos qué está mal o qué falta. Un administrador lee cada informe.",
+    "kind": "¿Qué tipo de problema es?",
+    "reason": "Detalles",
+    "reasonHint": "Di qué está mal y dónde lo viste.",
+    "url": "Enlace a una fuente mejor (opcional)",
+    "submit": "Enviar informe",
+    "viewAll": "Tus informes"
+  },
+  "toast": {
+    "sending": "Enviando informe…",
+    "sent": "Informe enviado. Gracias."
+  },
+  "errors": {
+    "invalid": "Revisa los campos e inténtalo de nuevo.",
+    "duplicate": "Ya tienes un informe abierto de este tipo para este elemento.",
+    "limit": "Has enviado muchos informes hoy. Inténtalo mañana.",
+    "forbidden": "No puedes informar de este elemento.",
+    "failed": "No se pudo enviar el informe. Inténtalo de nuevo."
+  }
+}

@@ -73,5 +73,13 @@
     "reason": "Geben Sie eine Begründung mit mindestens 3 Zeichen an.",
     "blocked": "Dieser Eintrag kann noch nicht genehmigt werden. Ein Beleg braucht zuerst eine veröffentlichte Quelle.",
     "failed": "Das konnte nicht gespeichert werden. Versuchen Sie es erneut."
+  },
+  "overview": {
+    "label": "Übersicht der Warteschlange",
+    "open": "Offene Einträge",
+    "unclaimed": "Noch nicht übernommen",
+    "claimed": "Wird geprüft",
+    "oldestDays": "Längste Wartezeit in Tagen",
+    "decided": "In den letzten 7 Tagen entschieden"
   }
 }

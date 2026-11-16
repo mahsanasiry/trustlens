@@ -1,0 +1,32 @@
+{
+  "title": "Suas denúncias",
+  "lead": "Os problemas que você denunciou e o que aconteceu com eles.",
+  "empty": "Você ainda não denunciou nada.",
+  "status": {
+    "open": "Aguardando",
+    "in_review": "Em revisão",
+    "resolved": "Aceita",
+    "dismissed": "Descartada"
+  },
+  "form": {
+    "open": "Denunciar um problema",
+    "lead": "Conte o que está errado ou faltando. Um administrador lê cada denúncia.",
+    "kind": "Que tipo de problema é?",
+    "reason": "Detalhes",
+    "reasonHint": "Diga o que está errado e onde você viu.",
+    "url": "Link para uma fonte melhor (opcional)",
+    "submit": "Enviar denúncia",
+    "viewAll": "Suas denúncias"
+  },
+  "toast": {
+    "sending": "Enviando denúncia…",
+    "sent": "Denúncia enviada. Obrigado."
+  },
+  "errors": {
+    "invalid": "Confira os campos e tente de novo.",
+    "duplicate": "Você já tem uma denúncia aberta deste tipo para este item.",
+    "limit": "Você enviou muitas denúncias hoje. Tente amanhã.",
+    "forbidden": "Você não pode denunciar este item.",
+    "failed": "Não foi possível enviar a denúncia. Tente de novo."
+  }
+}

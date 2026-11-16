@@ -73,5 +73,13 @@
     "reason": "Tulis alasan minimal 3 karakter.",
     "blocked": "Item ini belum bisa disetujui. Bukti memerlukan sumber yang sudah dipublikasikan terlebih dahulu.",
     "failed": "Tidak dapat disimpan. Coba lagi."
+  },
+  "overview": {
+    "label": "Ringkasan antrean",
+    "open": "Item terbuka",
+    "unclaimed": "Belum diambil",
+    "claimed": "Sedang ditinjau",
+    "oldestDays": "Tunggu terlama (hari)",
+    "decided": "Diputuskan dalam 7 hari terakhir"
   }
 }

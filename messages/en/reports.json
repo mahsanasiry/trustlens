@@ -1,0 +1,32 @@
+{
+  "title": "Your reports",
+  "lead": "Problems you have reported and what happened to them.",
+  "empty": "You have not reported anything yet.",
+  "status": {
+    "open": "Waiting",
+    "in_review": "Being reviewed",
+    "resolved": "Accepted",
+    "dismissed": "Dismissed"
+  },
+  "form": {
+    "open": "Report a problem",
+    "lead": "Tell us what is wrong or what is missing. An admin reads every report.",
+    "kind": "What kind of problem is it?",
+    "reason": "Details",
+    "reasonHint": "Say what is wrong and where you saw it.",
+    "url": "Link to a better source (optional)",
+    "submit": "Send report",
+    "viewAll": "Your reports"
+  },
+  "toast": {
+    "sending": "Sending report…",
+    "sent": "Report sent. Thank you."
+  },
+  "errors": {
+    "invalid": "Check the fields and try again.",
+    "duplicate": "You already have an open report of this kind for this item.",
+    "limit": "You have sent many reports today. Try again tomorrow.",
+    "forbidden": "You cannot report this item.",
+    "failed": "The report could not be sent. Try again."
+  }
+}

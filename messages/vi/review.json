@@ -73,5 +73,13 @@
     "reason": "Nhập lý do tối thiểu 3 ký tự.",
     "blocked": "Chưa thể phê duyệt mục này. Bằng chứng cần có nguồn đã xuất bản trước.",
     "failed": "Không thể lưu. Hãy thử lại."
+  },
+  "overview": {
+    "label": "Tóm tắt hàng đợi",
+    "open": "Mục đang mở",
+    "unclaimed": "Chưa có người nhận",
+    "claimed": "Đang xét duyệt",
+    "oldestDays": "Thời gian chờ lâu nhất (ngày)",
+    "decided": "Đã quyết định trong 7 ngày qua"
   }
 }

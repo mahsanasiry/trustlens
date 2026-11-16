@@ -1,0 +1,32 @@
+{
+  "title": "Laporan Anda",
+  "lead": "Masalah yang Anda laporkan dan apa yang terjadi padanya.",
+  "empty": "Anda belum melaporkan apa pun.",
+  "status": {
+    "open": "Menunggu",
+    "in_review": "Sedang ditinjau",
+    "resolved": "Diterima",
+    "dismissed": "Diabaikan"
+  },
+  "form": {
+    "open": "Laporkan masalah",
+    "lead": "Beri tahu kami apa yang salah atau kurang. Admin membaca setiap laporan.",
+    "kind": "Masalah jenis apa ini?",
+    "reason": "Rincian",
+    "reasonHint": "Jelaskan apa yang salah dan di mana Anda melihatnya.",
+    "url": "Tautan ke sumber yang lebih baik (opsional)",
+    "submit": "Kirim laporan",
+    "viewAll": "Laporan Anda"
+  },
+  "toast": {
+    "sending": "Mengirim laporan…",
+    "sent": "Laporan terkirim. Terima kasih."
+  },
+  "errors": {
+    "invalid": "Periksa kolom lalu coba lagi.",
+    "duplicate": "Anda sudah punya laporan terbuka jenis ini untuk item ini.",
+    "limit": "Anda sudah mengirim banyak laporan hari ini. Coba lagi besok.",
+    "forbidden": "Anda tidak dapat melaporkan item ini.",
+    "failed": "Laporan tidak dapat dikirim. Coba lagi."
+  }
+}

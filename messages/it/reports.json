@@ -1,0 +1,32 @@
+{
+  "title": "Le tue segnalazioni",
+  "lead": "I problemi che hai segnalato e che cosa ne è stato.",
+  "empty": "Non hai ancora segnalato nulla.",
+  "status": {
+    "open": "In attesa",
+    "in_review": "In revisione",
+    "resolved": "Accettata",
+    "dismissed": "Archiviata"
+  },
+  "form": {
+    "open": "Segnala un problema",
+    "lead": "Dicci che cosa non va o che cosa manca. Un amministratore legge ogni segnalazione.",
+    "kind": "Che tipo di problema è?",
+    "reason": "Dettagli",
+    "reasonHint": "Di’ che cosa non va e dove l’hai visto.",
+    "url": "Link a una fonte migliore (facoltativo)",
+    "submit": "Invia la segnalazione",
+    "viewAll": "Le tue segnalazioni"
+  },
+  "toast": {
+    "sending": "Invio della segnalazione…",
+    "sent": "Segnalazione inviata. Grazie."
+  },
+  "errors": {
+    "invalid": "Controlla i campi e riprova.",
+    "duplicate": "Hai già una segnalazione aperta di questo tipo per questo elemento.",
+    "limit": "Oggi hai inviato molte segnalazioni. Riprova domani.",
+    "forbidden": "Non puoi segnalare questo elemento.",
+    "failed": "Impossibile inviare la segnalazione. Riprova."
+  }
+}

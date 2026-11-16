@@ -73,5 +73,13 @@
     "reason": "请填写至少 3 个字符的原因。",
     "blocked": "此项暂时无法批准。证据需要先有已发布的来源。",
     "failed": "无法保存，请重试。"
+  },
+  "overview": {
+    "label": "队列概览",
+    "open": "待处理项目",
+    "unclaimed": "尚未认领",
+    "claimed": "审核中",
+    "oldestDays": "最长等待天数",
+    "decided": "近 7 天已决定"
   }
 }

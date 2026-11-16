@@ -21,6 +21,7 @@ export async function SiteHeader() {
     tProfile,
     tStudio,
     tReview,
+    tReports,
     session,
   ] = await Promise.all([
     getTranslations('auth'),
@@ -32,6 +33,7 @@ export async function SiteHeader() {
     getTranslations('profile'),
     getTranslations('studio'),
     getTranslations('review'),
+    getTranslations('reports'),
     getSession(),
   ]);
 
@@ -62,6 +64,7 @@ export async function SiteHeader() {
                   ? [{ href: '/review' as const, label: tReview('title') }]
                   : []),
                 { href: '/profile', label: tProfile('title') },
+                { href: '/reports', label: tReports('title') },
                 { href: '/bookmarks', label: tBookmarks('title') },
                 { href: '/collections', label: tCollections('title') },
               ]}

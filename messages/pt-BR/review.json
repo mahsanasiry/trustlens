@@ -73,5 +73,13 @@
     "reason": "Escreva um motivo com pelo menos 3 caracteres.",
     "blocked": "Este item ainda não pode ser aprovado. Uma evidência precisa antes de uma fonte publicada.",
     "failed": "Não foi possível salvar. Tente de novo."
+  },
+  "overview": {
+    "label": "Resumo da fila",
+    "open": "Itens abertos",
+    "unclaimed": "Ainda não assumidos",
+    "claimed": "Em revisão",
+    "oldestDays": "Maior espera em dias",
+    "decided": "Decididos nos últimos 7 dias"
   }
 }

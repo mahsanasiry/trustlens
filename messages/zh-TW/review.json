@@ -73,5 +73,13 @@
     "reason": "請填寫至少 3 個字元的原因。",
     "blocked": "此項暫時無法核准。證據需要先有已發布的來源。",
     "failed": "無法儲存，請重試。"
+  },
+  "overview": {
+    "label": "佇列概覽",
+    "open": "待處理項目",
+    "unclaimed": "尚未認領",
+    "claimed": "審核中",
+    "oldestDays": "最長等待天數",
+    "decided": "近 7 天已決定"
   }
 }

@@ -73,5 +73,13 @@
     "reason": "Add a reason of at least 3 characters.",
     "blocked": "This item can't be approved yet. Evidence needs a published source first.",
     "failed": "This could not be saved. Try again."
+  },
+  "overview": {
+    "label": "Queue summary",
+    "open": "Open items",
+    "unclaimed": "Not taken yet",
+    "claimed": "Being reviewed",
+    "oldestDays": "Longest wait in days",
+    "decided": "Decided in the last 7 days"
   }
 }

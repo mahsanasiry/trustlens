@@ -1,0 +1,32 @@
+{
+  "title": "Báo cáo của bạn",
+  "lead": "Các vấn đề bạn đã báo cáo và kết quả xử lý.",
+  "empty": "Bạn chưa báo cáo gì.",
+  "status": {
+    "open": "Đang chờ",
+    "in_review": "Đang xét duyệt",
+    "resolved": "Đã chấp nhận",
+    "dismissed": "Đã bác bỏ"
+  },
+  "form": {
+    "open": "Báo cáo vấn đề",
+    "lead": "Hãy cho chúng tôi biết điều gì sai hoặc còn thiếu. Quản trị viên đọc mọi báo cáo.",
+    "kind": "Đây là loại vấn đề nào?",
+    "reason": "Chi tiết",
+    "reasonHint": "Nêu điều gì sai và bạn thấy ở đâu.",
+    "url": "Liên kết tới nguồn tốt hơn (không bắt buộc)",
+    "submit": "Gửi báo cáo",
+    "viewAll": "Báo cáo của bạn"
+  },
+  "toast": {
+    "sending": "Đang gửi báo cáo…",
+    "sent": "Đã gửi báo cáo. Cảm ơn bạn."
+  },
+  "errors": {
+    "invalid": "Hãy kiểm tra các trường và thử lại.",
+    "duplicate": "Bạn đã có một báo cáo đang mở cùng loại cho mục này.",
+    "limit": "Hôm nay bạn đã gửi nhiều báo cáo. Hãy thử lại vào ngày mai.",
+    "forbidden": "Bạn không thể báo cáo mục này.",
+    "failed": "Không thể gửi báo cáo. Hãy thử lại."
+  }
+}

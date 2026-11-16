@@ -12,6 +12,7 @@ export const messageNamespaces = [
   'studio',
   'review',
   'authoring',
+  'reports',
 ] as const;
 
 export type MessageNamespace = (typeof messageNamespaces)[number];

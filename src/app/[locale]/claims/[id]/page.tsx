@@ -9,6 +9,7 @@ import { countPositions } from '@/lib/data/position-counts';
 import { evidencePositions } from '@/lib/domain/enums';
 import { BookmarkButton } from '@/components/bookmarks/bookmark-button';
 import { AddToCollection } from '@/components/collections/add-to-collection';
+import { ReportForm } from '@/components/reports/report-form';
 import { getSession } from '@/lib/auth/session';
 import { isBookmarked } from '@/lib/data/bookmarks';
 import { listCollectionChoices } from '@/lib/data/collections';
@@ -189,6 +190,10 @@ export default async function ClaimPage({ params, searchParams }: ClaimPageProps
               ))}
             </ul>
           </section>
+        ) : null}
+
+        {session ? (
+          <ReportForm locale={locale} targetType="claim" targetId={claim.id} />
         ) : null}
 
         <p className="muted claim-foot">

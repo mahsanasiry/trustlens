@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { PaginationNav } from '@/components/pagination-nav';
+import { Overview } from '@/components/review/overview';
 import { QueueList } from '@/components/review/queue-list';
 import { TypeFilter } from '@/components/review/type-filter';
 import { getSession } from '@/lib/auth/session';
-import { listReviewQueue } from '@/lib/data/review';
+import { getReviewOverview, listReviewQueue } from '@/lib/data/review';
 import { parseQueueFilters } from '@/lib/data/review-params';
 import type { RawParams } from '@/lib/data/params';
 import { isLocaleCode } from '@/lib/i18n/locales';
@@ -34,9 +35,10 @@ export default async function ReviewPage({ params, searchParams }: ReviewPagePro
   if (session.actor.role !== 'admin') notFound();
 
   const filters = parseQueueFilters(await searchParams);
-  const [t, queue] = await Promise.all([
+  const [t, queue, overview] = await Promise.all([
     getTranslations('review'),
     listReviewQueue(filters),
+    getReviewOverview(),
   ]);
 
   return (
@@ -52,6 +54,7 @@ export default async function ReviewPage({ params, searchParams }: ReviewPagePro
 
       <div className="container page__body">
         <div className="studio-stack">
+          <Overview overview={overview} />
           <TypeFilter current={filters.type} />
           <section className="card studio-section" aria-label={t('title')}>
             <QueueList items={queue.items} currentUserId={session.actor.id} />

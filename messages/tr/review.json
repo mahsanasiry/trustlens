@@ -73,5 +73,13 @@
     "reason": "En az 3 karakterlik bir gerekçe yazın.",
     "blocked": "Bu öğe henüz onaylanamaz. Kanıt için önce yayımlanmış bir kaynak gerekir.",
     "failed": "Kaydedilemedi. Yeniden deneyin."
+  },
+  "overview": {
+    "label": "Kuyruk özeti",
+    "open": "Açık öğeler",
+    "unclaimed": "Henüz alınmadı",
+    "claimed": "İnceleniyor",
+    "oldestDays": "En uzun bekleme (gün)",
+    "decided": "Son 7 günde karara bağlanan"
   }
 }

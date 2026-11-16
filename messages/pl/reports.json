@@ -1,0 +1,32 @@
+{
+  "title": "Twoje zgłoszenia",
+  "lead": "Problemy, które zgłosiłeś(-aś), i co się z nimi stało.",
+  "empty": "Nic jeszcze nie zgłoszono.",
+  "status": {
+    "open": "Oczekuje",
+    "in_review": "W recenzji",
+    "resolved": "Przyjęte",
+    "dismissed": "Odrzucone"
+  },
+  "form": {
+    "open": "Zgłoś problem",
+    "lead": "Napisz, co jest błędne lub czego brakuje. Każde zgłoszenie czyta administrator.",
+    "kind": "Jakiego rodzaju to problem?",
+    "reason": "Szczegóły",
+    "reasonHint": "Napisz, co jest błędne i gdzie to widziałeś(-aś).",
+    "url": "Link do lepszego źródła (opcjonalnie)",
+    "submit": "Wyślij zgłoszenie",
+    "viewAll": "Twoje zgłoszenia"
+  },
+  "toast": {
+    "sending": "Wysyłanie zgłoszenia…",
+    "sent": "Zgłoszenie wysłane. Dziękujemy."
+  },
+  "errors": {
+    "invalid": "Sprawdź pola i spróbuj ponownie.",
+    "duplicate": "Masz już otwarte zgłoszenie tego rodzaju dla tego elementu.",
+    "limit": "Wysłano dziś wiele zgłoszeń. Spróbuj jutro.",
+    "forbidden": "Nie możesz zgłosić tego elementu.",
+    "failed": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie."
+  }
+}

@@ -11,7 +11,7 @@ interface UserMenuProps {
   label: string;
   avatarUrl: string | null;
   items: {
-    href: '/studio' | '/review' | '/profile' | '/bookmarks' | '/collections';
+    href: '/studio' | '/review' | '/profile' | '/reports' | '/bookmarks' | '/collections';
     label: string;
   }[];
   /** Shown below the links, for the sign-out control. */

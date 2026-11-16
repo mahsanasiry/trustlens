@@ -1,0 +1,32 @@
+{
+  "title": "Uw meldingen",
+  "lead": "Problemen die u hebt gemeld en wat ermee is gebeurd.",
+  "empty": "U hebt nog niets gemeld.",
+  "status": {
+    "open": "In wachtrij",
+    "in_review": "Wordt beoordeeld",
+    "resolved": "Geaccepteerd",
+    "dismissed": "Afgewezen"
+  },
+  "form": {
+    "open": "Een probleem melden",
+    "lead": "Vertel wat er niet klopt of ontbreekt. Een beheerder leest elke melding.",
+    "kind": "Wat voor probleem is het?",
+    "reason": "Details",
+    "reasonHint": "Zeg wat er niet klopt en waar u het zag.",
+    "url": "Link naar een betere bron (optioneel)",
+    "submit": "Melding versturen",
+    "viewAll": "Uw meldingen"
+  },
+  "toast": {
+    "sending": "Melding wordt verstuurd…",
+    "sent": "Melding verstuurd. Bedankt."
+  },
+  "errors": {
+    "invalid": "Controleer de velden en probeer het opnieuw.",
+    "duplicate": "U hebt voor dit item al een openstaande melding van dit soort.",
+    "limit": "U hebt vandaag veel meldingen verstuurd. Probeer het morgen opnieuw.",
+    "forbidden": "U kunt dit item niet melden.",
+    "failed": "De melding kon niet worden verstuurd. Probeer het opnieuw."
+  }
+}

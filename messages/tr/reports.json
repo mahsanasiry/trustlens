@@ -1,0 +1,32 @@
+{
+  "title": "Bildirimleriniz",
+  "lead": "Bildirdiğiniz sorunlar ve sonuçları.",
+  "empty": "Henüz hiçbir şey bildirmediniz.",
+  "status": {
+    "open": "Bekliyor",
+    "in_review": "İnceleniyor",
+    "resolved": "Kabul edildi",
+    "dismissed": "Yok sayıldı"
+  },
+  "form": {
+    "open": "Sorun bildir",
+    "lead": "Neyin yanlış ya da eksik olduğunu söyleyin. Her bildirimi bir yönetici okur.",
+    "kind": "Ne tür bir sorun?",
+    "reason": "Ayrıntılar",
+    "reasonHint": "Neyin yanlış olduğunu ve nerede gördüğünüzü yazın.",
+    "url": "Daha iyi bir kaynağın bağlantısı (isteğe bağlı)",
+    "submit": "Bildirimi gönder",
+    "viewAll": "Bildirimleriniz"
+  },
+  "toast": {
+    "sending": "Bildirim gönderiliyor…",
+    "sent": "Bildirim gönderildi. Teşekkürler."
+  },
+  "errors": {
+    "invalid": "Alanları kontrol edip yeniden deneyin.",
+    "duplicate": "Bu öğe için bu türde açık bir bildiriminiz zaten var.",
+    "limit": "Bugün çok sayıda bildirim gönderdiniz. Yarın yeniden deneyin.",
+    "forbidden": "Bu öğeyi bildiremezsiniz.",
+    "failed": "Bildirim gönderilemedi. Yeniden deneyin."
+  }
+}

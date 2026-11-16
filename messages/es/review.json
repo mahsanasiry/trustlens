@@ -73,5 +73,13 @@
     "reason": "Escribe un motivo de al menos 3 caracteres.",
     "blocked": "Este elemento aún no se puede aprobar. Una prueba necesita antes una fuente publicada.",
     "failed": "No se pudo guardar. Inténtalo de nuevo."
+  },
+  "overview": {
+    "label": "Resumen de la cola",
+    "open": "Elementos abiertos",
+    "unclaimed": "Aún sin asignar",
+    "claimed": "En revisión",
+    "oldestDays": "Mayor espera en días",
+    "decided": "Resueltos en los últimos 7 días"
   }
 }

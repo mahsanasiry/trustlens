@@ -189,3 +189,44 @@ export async function getReviewItem(id: string): Promise<ReviewDetail | null> {
       : null,
   };
 }
+
+const overviewSchema = z.object({
+  open: z.number(),
+  claimed: z.number(),
+  unclaimed: z.number(),
+  oldest_submitted_at: z.string().nullable(),
+  decided_last_7_days: z.number(),
+});
+
+export interface ReviewOverview {
+  open: number;
+  claimed: number;
+  unclaimed: number;
+  /** Whole days the oldest open item has waited, or null when nothing waits. */
+  oldestDays: number | null;
+  decidedLastWeek: number;
+}
+
+const dayMs = 24 * 60 * 60 * 1000;
+
+export async function getReviewOverview(now: Date = new Date()): Promise<ReviewOverview> {
+  const supabase = await createServerSupabaseClient();
+  const { data, error } = await supabase.rpc('review_overview');
+  if (error) throw new Error(`Could not load the review overview: ${error.message}`);
+
+  const overview = overviewSchema.parse(data);
+  return {
+    open: overview.open,
+    claimed: overview.claimed,
+    unclaimed: overview.unclaimed,
+    oldestDays: overview.oldest_submitted_at
+      ? Math.max(
+          0,
+          Math.floor(
+            (now.getTime() - new Date(overview.oldest_submitted_at).getTime()) / dayMs,
+          ),
+        )
+      : null,
+    decidedLastWeek: overview.decided_last_7_days,
+  };
+}

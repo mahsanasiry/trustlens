@@ -1,0 +1,32 @@
+{
+  "title": "Ihre Meldungen",
+  "lead": "Probleme, die Sie gemeldet haben, und was daraus wurde.",
+  "empty": "Sie haben noch nichts gemeldet.",
+  "status": {
+    "open": "Wartet",
+    "in_review": "Wird geprüft",
+    "resolved": "Angenommen",
+    "dismissed": "Verworfen"
+  },
+  "form": {
+    "open": "Problem melden",
+    "lead": "Sagen Sie uns, was falsch ist oder fehlt. Ein Admin liest jede Meldung.",
+    "kind": "Um welche Art von Problem geht es?",
+    "reason": "Einzelheiten",
+    "reasonHint": "Beschreiben Sie, was falsch ist und wo Sie es gesehen haben.",
+    "url": "Link zu einer besseren Quelle (optional)",
+    "submit": "Meldung senden",
+    "viewAll": "Ihre Meldungen"
+  },
+  "toast": {
+    "sending": "Meldung wird gesendet …",
+    "sent": "Meldung gesendet. Vielen Dank."
+  },
+  "errors": {
+    "invalid": "Prüfen Sie die Felder und versuchen Sie es erneut.",
+    "duplicate": "Sie haben für diesen Eintrag bereits eine offene Meldung dieser Art.",
+    "limit": "Sie haben heute viele Meldungen gesendet. Versuchen Sie es morgen erneut.",
+    "forbidden": "Sie können diesen Eintrag nicht melden.",
+    "failed": "Die Meldung konnte nicht gesendet werden. Versuchen Sie es erneut."
+  }
+}

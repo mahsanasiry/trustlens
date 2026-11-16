@@ -73,5 +73,13 @@
     "reason": "Scrivi un motivo di almeno 3 caratteri.",
     "blocked": "Questo elemento non può ancora essere approvato. Una prova richiede prima una fonte pubblicata.",
     "failed": "Impossibile salvare. Riprova."
+  },
+  "overview": {
+    "label": "Riepilogo della coda",
+    "open": "Elementi aperti",
+    "unclaimed": "Non ancora presi in carico",
+    "claimed": "In revisione",
+    "oldestDays": "Attesa più lunga in giorni",
+    "decided": "Decisi negli ultimi 7 giorni"
   }
 }

@@ -73,5 +73,13 @@
     "reason": "Indiquez un motif d’au moins 3 caractères.",
     "blocked": "Cet élément ne peut pas encore être approuvé. Une preuve a d’abord besoin d’une source publiée.",
     "failed": "L’enregistrement a échoué. Réessayez."
+  },
+  "overview": {
+    "label": "Résumé de la file",
+    "open": "Éléments ouverts",
+    "unclaimed": "Pas encore pris en charge",
+    "claimed": "En cours de relecture",
+    "oldestDays": "Attente la plus longue en jours",
+    "decided": "Tranchés ces 7 derniers jours"
   }
 }

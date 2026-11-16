@@ -953,6 +953,58 @@ main {
     color: var(--text-muted);
   }
 
+  .review-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: var(--space-3);
+    margin: 0;
+  }
+
+  .review-stat {
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+
+  .review-stat dt {
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+
+  .review-stat dd {
+    margin: 0;
+    font-size: var(--text-xl);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .report-box {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+
+  .report-box__summary {
+    padding: var(--space-3) var(--space-4);
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .report-box__form {
+    display: grid;
+    gap: var(--space-4);
+    padding: 0 var(--space-4) var(--space-4);
+  }
+
+  .report-box__lead {
+    margin: 0;
+    color: var(--text-muted);
+  }
+
   .review-filter {
     display: flex;
     flex-wrap: wrap;
