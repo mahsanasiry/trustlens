@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { WorkList } from '@/components/studio/work-list';
+import { LiveRefresh } from '@/components/live-refresh';
 import { getSession } from '@/lib/auth/session';
 import { listMyWork } from '@/lib/data/studio';
 import { isLocaleCode } from '@/lib/i18n/locales';
@@ -36,6 +37,11 @@ export default async function StudioPage({ params }: StudioPageProps) {
 
   return (
     <main id="main" className="page">
+      <LiveRefresh
+        name="studio-work"
+        tables={['claims', 'sources', 'evidence', 'source_assessments']}
+        filter={`author_id=eq.${session.actor.id}`}
+      />
       <section className="page-hero">
         <div className="container">
           <header className="page__header">

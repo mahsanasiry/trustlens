@@ -9,5 +9,6 @@
   },
   "language": {
     "label": "Language"
-  }
+  },
+  "offline": "You are offline. Changes cannot be saved until you reconnect."
 }

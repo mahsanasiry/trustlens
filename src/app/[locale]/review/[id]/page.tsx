@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getFormatter, getTranslations, setRequestLocale } from 'next-intl/server';
+import { LiveRefresh } from '@/components/live-refresh';
 import { DecisionPanel, type Holder } from '@/components/review/decision-panel';
 import { SubjectView } from '@/components/review/subject-view';
 import { getSession } from '@/lib/auth/session';
@@ -66,6 +67,11 @@ export default async function ReviewItemPage({ params }: ReviewItemPageProps) {
 
   return (
     <main id="main" className="page">
+      <LiveRefresh
+        name={`review-item-${detail.id}`}
+        tables={['review_items']}
+        filter={`id=eq.${detail.id}`}
+      />
       <section className="page-hero">
         <div className="container">
           <header className="page__header">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { PaginationNav } from '@/components/pagination-nav';
+import { LiveRefresh } from '@/components/live-refresh';
 import { Overview } from '@/components/review/overview';
 import { QueueList } from '@/components/review/queue-list';
 import { TypeFilter } from '@/components/review/type-filter';
@@ -43,6 +44,7 @@ export default async function ReviewPage({ params, searchParams }: ReviewPagePro
 
   return (
     <main id="main" className="page">
+      <LiveRefresh name="review-queue" tables={['review_items']} />
       <section className="page-hero">
         <div className="container">
           <header className="page__header">

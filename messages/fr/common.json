@@ -9,5 +9,6 @@
   },
   "language": {
     "label": "Langue"
-  }
+  },
+  "offline": "Vous êtes hors ligne. Les modifications ne peuvent pas être enregistrées avant le retour de la connexion."
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { OfflineBanner } from '@/components/offline-banner';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 import { getFontClassName } from '@/lib/fonts';
@@ -67,6 +68,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           {t('skipToContent')}
         </a>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <OfflineBanner />
           <SiteHeader />
           {children}
           <SiteFooter />

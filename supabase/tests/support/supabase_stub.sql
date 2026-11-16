@@ -67,3 +67,6 @@ $$;
 grant usage on schema storage to anon, authenticated, service_role;
 grant select, insert, update, delete on storage.objects to authenticated;
 grant select on storage.buckets to anon, authenticated;
+
+-- Supabase creates this publication for Realtime; the migrations add tables to it.
+create publication supabase_realtime;
