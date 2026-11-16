@@ -1,11 +1,10 @@
 import { useTranslations } from 'next-intl';
 import type { LatestDecision } from '@/lib/data/studio';
-import type { ContentState } from '@/lib/domain/enums';
+import type { ContentEntity, ContentState } from '@/lib/domain/enums';
 import { Link } from '@/lib/i18n/navigation';
-import type { StudioKind } from '@/lib/data/studio-params';
 
 interface ItemNotesProps {
-  kind: StudioKind;
+  kind: ContentEntity;
   id: string;
   state: ContentState;
   decision: LatestDecision | null;
@@ -29,7 +28,7 @@ export function ItemNotes({ kind, id, state, decision }: ItemNotesProps) {
           <p dir="auto">{reason}</p>
         </blockquote>
       ) : null}
-      {state === 'published' ? (
+      {state === 'published' && (kind === 'claim' || kind === 'source') ? (
         <p>
           <Link href={kind === 'claim' ? `/claims/${id}` : `/sources/${id}`}>
             {t('viewPublic')}

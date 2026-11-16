@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Evidence",
+    "empty": "You have not added evidence to this claim yet.",
+    "add": "Add evidence",
+    "newTitle": "New evidence",
+    "newLead": "Say what a source shows about this claim. An admin checks it before it is published.",
+    "legend": "Evidence details",
+    "forClaim": "For the claim: {title}",
+    "back": "Back to the claim"
+  },
+  "fields": {
+    "source": "Source",
+    "pickSource": "Choose a source"
+  },
+  "hints": {
+    "source": "You can choose published sources and your own.",
+    "summary": "What the source says, in your own words.",
+    "limitations": "What the source does not show."
+  },
+  "checks": {
+    "section": "Source checks",
+    "lead": "Each check says how openly one thing about the source can be verified.",
+    "notYet": "Not checked yet",
+    "legend": "Check details",
+    "back": "Back to the source",
+    "title": "Check: {criterion}"
+  }
+}

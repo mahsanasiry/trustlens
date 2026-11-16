@@ -4,11 +4,12 @@ import { useTranslations } from 'next-intl';
 import { useActionState } from 'react';
 import { submitForReview } from '@/app/[locale]/studio/actions';
 import { ActionToast } from '@/components/action-toast';
-import type { StudioKind, StudioState } from '@/lib/data/studio-params';
+import type { StudioState } from '@/lib/data/studio-params';
+import type { ContentEntity } from '@/lib/domain/enums';
 
 interface SubmitForReviewProps {
   locale: string;
-  kind: StudioKind;
+  kind: ContentEntity;
   id: string;
 }
 

@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Bukti",
+    "empty": "Anda belum menambahkan bukti pada klaim ini.",
+    "add": "Tambah bukti",
+    "newTitle": "Bukti baru",
+    "newLead": "Tuliskan apa yang ditunjukkan sebuah sumber tentang klaim ini. Admin memeriksanya sebelum dipublikasikan.",
+    "legend": "Detail bukti",
+    "forClaim": "Untuk klaim: {title}",
+    "back": "Kembali ke klaim"
+  },
+  "fields": {
+    "source": "Sumber",
+    "pickSource": "Pilih sumber"
+  },
+  "hints": {
+    "source": "Anda bisa memilih sumber yang sudah dipublikasikan dan sumber milik Anda.",
+    "summary": "Apa yang dikatakan sumber, dengan kata-kata Anda sendiri.",
+    "limitations": "Apa yang tidak ditunjukkan sumber."
+  },
+  "checks": {
+    "section": "Pemeriksaan sumber",
+    "lead": "Setiap pemeriksaan menunjukkan seberapa terbuka satu hal tentang sumber dapat diverifikasi.",
+    "notYet": "Belum diperiksa",
+    "legend": "Detail pemeriksaan",
+    "back": "Kembali ke sumber",
+    "title": "Pemeriksaan: {criterion}"
+  }
+}

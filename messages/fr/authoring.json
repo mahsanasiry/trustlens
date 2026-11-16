@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Preuves",
+    "empty": "Vous n’avez pas encore ajouté de preuve à cette affirmation.",
+    "add": "Ajouter une preuve",
+    "newTitle": "Nouvelle preuve",
+    "newLead": "Indiquez ce qu’une source montre au sujet de cette affirmation. Un administrateur la vérifie avant publication.",
+    "legend": "Détails de la preuve",
+    "forClaim": "Pour l’affirmation : {title}",
+    "back": "Retour à l’affirmation"
+  },
+  "fields": {
+    "source": "Source",
+    "pickSource": "Choisir une source"
+  },
+  "hints": {
+    "source": "Vous pouvez choisir des sources publiées et les vôtres.",
+    "summary": "Ce que dit la source, avec vos mots.",
+    "limitations": "Ce que la source ne montre pas."
+  },
+  "checks": {
+    "section": "Vérifications de la source",
+    "lead": "Chaque vérification indique dans quelle mesure un point de la source peut être vérifié.",
+    "notYet": "Pas encore vérifié",
+    "legend": "Détails de la vérification",
+    "back": "Retour à la source",
+    "title": "Vérification : {criterion}"
+  }
+}

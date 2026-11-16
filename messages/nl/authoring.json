@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Bewijs",
+    "empty": "U hebt nog geen bewijs aan deze bewering toegevoegd.",
+    "add": "Bewijs toevoegen",
+    "newTitle": "Nieuw bewijs",
+    "newLead": "Beschrijf wat een bron over deze bewering laat zien. Een beheerder controleert het voordat het wordt gepubliceerd.",
+    "legend": "Details van het bewijs",
+    "forClaim": "Voor de bewering: {title}",
+    "back": "Terug naar de bewering"
+  },
+  "fields": {
+    "source": "Bron",
+    "pickSource": "Kies een bron"
+  },
+  "hints": {
+    "source": "U kunt gepubliceerde bronnen en uw eigen bronnen kiezen.",
+    "summary": "Wat de bron zegt, in uw eigen woorden.",
+    "limitations": "Wat de bron niet laat zien."
+  },
+  "checks": {
+    "section": "Bronnencontroles",
+    "lead": "Elke controle laat zien hoe open één punt van de bron te verifiëren is.",
+    "notYet": "Nog niet gecontroleerd",
+    "legend": "Details van de controle",
+    "back": "Terug naar de bron",
+    "title": "Controle: {criterion}"
+  }
+}

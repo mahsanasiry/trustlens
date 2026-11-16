@@ -1,3 +1,4 @@
+import type authoring from '../../../messages/en/authoring.json';
 import type auth from '../../../messages/en/auth.json';
 import type bookmarks from '../../../messages/en/bookmarks.json';
 import type claims from '../../../messages/en/claims.json';
@@ -17,6 +18,7 @@ declare module 'next-intl' {
     Locale: LocaleCode;
     Messages: {
       auth: typeof auth;
+      authoring: typeof authoring;
       bookmarks: typeof bookmarks;
       claims: typeof claims;
       collections: typeof collections;

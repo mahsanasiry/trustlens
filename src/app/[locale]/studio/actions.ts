@@ -5,8 +5,12 @@ import { notFound } from 'next/navigation';
 import { z } from 'zod';
 import { getSession, type Session } from '@/lib/auth/session';
 import {
+  parseAssessmentInput,
+  parseEvidenceInput,
+  readField,
+} from '@/lib/data/authoring-params';
+import {
   echoValues,
-  isStudioKind,
   parseClaimInput,
   parseSourceInput,
   readEntityId,
@@ -15,6 +19,7 @@ import {
   type StudioError,
   type StudioState,
 } from '@/lib/data/studio-params';
+import { contentEntities } from '@/lib/domain/enums';
 import { redirect } from '@/lib/i18n/navigation';
 import type { LocaleCode } from '@/lib/i18n/locales';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
@@ -206,7 +211,13 @@ export async function submitForReview(
 
   const kind = form.get('kind');
   const id = readEntityId(form);
-  if (typeof kind !== 'string' || !isStudioKind(kind) || !id) notFound();
+  if (
+    typeof kind !== 'string' ||
+    !(contentEntities as readonly string[]).includes(kind) ||
+    !id
+  ) {
+    notFound();
+  }
 
   const supabase = await createServerSupabaseClient();
   const { error } = await supabase.rpc('submit_for_review', {
@@ -216,4 +227,97 @@ export async function submitForReview(
   if (error) return failure(errorFor(error.code), form);
 
   return saved('submitted');
+}
+
+export async function createEvidence(
+  _previous: StudioState,
+  form: FormData,
+): Promise<StudioState> {
+  const context = await open(form);
+  if (!isContext(context)) return context;
+
+  const claimId = readField(form, 'claim_id');
+  if (!claimId) notFound();
+  const input = parseEvidenceInput(form);
+  if (!input.ok) return failure(input.error, form);
+
+  const supabase = await createServerSupabaseClient();
+  const { data, error } = await supabase
+    .from('evidence')
+    .insert({ ...input.value, claim_id: claimId, author_id: context.session.actor.id })
+    .select('id')
+    .single();
+  if (error) return failure(errorFor(error.code), form);
+
+  revalidatePath('/', 'layout');
+  return redirect({
+    href: `/studio/evidence/${idRow.parse(data).id}`,
+    locale: context.locale,
+  });
+}
+
+export async function updateEvidence(
+  _previous: StudioState,
+  form: FormData,
+): Promise<StudioState> {
+  const context = await open(form);
+  if (!isContext(context)) return context;
+
+  const id = readEntityId(form);
+  if (!id) notFound();
+  const input = parseEvidenceInput(form);
+  if (!input.ok) return failure(input.error, form);
+
+  const supabase = await createServerSupabaseClient();
+  const { data, error } = await supabase
+    .from('evidence')
+    .update(input.value)
+    .eq('id', id)
+    .eq('author_id', context.session.actor.id)
+    .select('id');
+  if (error) return failure(errorFor(error.code), form);
+  if (idRows.parse(data).length === 0) return failure('locked', form);
+
+  return saved('saved');
+}
+
+// One check per criterion and source, so the same form creates it the first
+// time and updates it afterwards.
+export async function saveAssessment(
+  _previous: StudioState,
+  form: FormData,
+): Promise<StudioState> {
+  const context = await open(form);
+  if (!isContext(context)) return context;
+
+  const sourceId = readField(form, 'source_id');
+  if (!sourceId) notFound();
+  const input = parseAssessmentInput(form);
+  if (!input.ok) return failure(input.error, form);
+
+  const supabase = await createServerSupabaseClient();
+  const id = readEntityId(form);
+
+  if (id) {
+    const { data, error } = await supabase
+      .from('source_assessments')
+      .update({ status: input.value.status, notes: input.value.notes })
+      .eq('id', id)
+      .eq('author_id', context.session.actor.id)
+      .select('id');
+    if (error) return failure(errorFor(error.code), form);
+    if (idRows.parse(data).length === 0) return failure('locked', form);
+    return saved('saved');
+  }
+
+  const { error } = await supabase
+    .from('source_assessments')
+    .insert({ ...input.value, source_id: sourceId, author_id: context.session.actor.id });
+  if (error) return failure(errorFor(error.code), form);
+
+  revalidatePath('/', 'layout');
+  return redirect({
+    href: `/studio/sources/${sourceId}/checks/${input.value.criterion}`,
+    locale: context.locale,
+  });
 }

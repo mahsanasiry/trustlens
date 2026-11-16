@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Belege",
+    "empty": "Sie haben dieser Behauptung noch keine Belege hinzugefügt.",
+    "add": "Beleg hinzufügen",
+    "newTitle": "Neuer Beleg",
+    "newLead": "Beschreiben Sie, was eine Quelle zu dieser Behauptung zeigt. Ein Admin prüft den Beleg vor der Veröffentlichung.",
+    "legend": "Details zum Beleg",
+    "forClaim": "Zur Behauptung: {title}",
+    "back": "Zurück zur Behauptung"
+  },
+  "fields": {
+    "source": "Quelle",
+    "pickSource": "Quelle auswählen"
+  },
+  "hints": {
+    "source": "Sie können veröffentlichte Quellen und Ihre eigenen wählen.",
+    "summary": "Was die Quelle sagt, in Ihren eigenen Worten.",
+    "limitations": "Was die Quelle nicht zeigt."
+  },
+  "checks": {
+    "section": "Quellenprüfungen",
+    "lead": "Jede Prüfung sagt, wie offen sich ein Punkt der Quelle überprüfen lässt.",
+    "notYet": "Noch nicht geprüft",
+    "legend": "Details zur Prüfung",
+    "back": "Zurück zur Quelle",
+    "title": "Prüfung: {criterion}"
+  }
+}

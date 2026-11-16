@@ -948,6 +948,11 @@ main {
     color: var(--text-muted);
   }
 
+  .studio-section__lead {
+    margin: 0;
+    color: var(--text-muted);
+  }
+
   .review-filter {
     display: flex;
     flex-wrap: wrap;

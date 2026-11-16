@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ClaimForm } from '@/components/studio/claim-form';
+import { EvidenceSection } from '@/components/studio/evidence-section';
 import { ItemNotes } from '@/components/studio/item-notes';
 import { StateTag } from '@/components/studio/state-tag';
 import { StudioFrame } from '@/components/studio/studio-frame';
 import { SubmitForReview } from '@/components/studio/submit-for-review';
 import { getSession } from '@/lib/auth/session';
+import { listClaimEvidence } from '@/lib/data/authoring';
 import { getLatestDecision, getOwnClaim } from '@/lib/data/studio';
 import { isLocaleCode } from '@/lib/i18n/locales';
 import { redirect } from '@/lib/i18n/navigation';
@@ -36,6 +38,7 @@ export default async function EditClaimPage({ params }: EditClaimPageProps) {
   const claim = await getOwnClaim(id, session.actor.id);
   if (!claim) notFound();
 
+  const evidence = await listClaimEvidence(claim.id, session.actor.id);
   const decision =
     claim.state === 'changes_requested' || claim.state === 'rejected'
       ? await getLatestDecision('claim', claim.id)
@@ -47,6 +50,7 @@ export default async function EditClaimPage({ params }: EditClaimPageProps) {
       <ItemNotes kind="claim" id={claim.id} state={claim.state} decision={decision} />
       <ClaimForm locale={locale} claim={claim} editable={editable} />
       {editable ? <SubmitForReview locale={locale} kind="claim" id={claim.id} /> : null}
+      <EvidenceSection claimId={claim.id} items={evidence} />
     </StudioFrame>
   );
 }

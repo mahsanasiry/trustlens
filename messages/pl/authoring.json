@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Dowody",
+    "empty": "Nie dodano jeszcze dowodów do tego twierdzenia.",
+    "add": "Dodaj dowód",
+    "newTitle": "Nowy dowód",
+    "newLead": "Napisz, co źródło pokazuje na temat tego twierdzenia. Administrator sprawdza dowód przed publikacją.",
+    "legend": "Szczegóły dowodu",
+    "forClaim": "Dla twierdzenia: {title}",
+    "back": "Wróć do twierdzenia"
+  },
+  "fields": {
+    "source": "Źródło",
+    "pickSource": "Wybierz źródło"
+  },
+  "hints": {
+    "source": "Możesz wybrać źródła opublikowane i własne.",
+    "summary": "Co mówi źródło, własnymi słowami.",
+    "limitations": "Czego źródło nie pokazuje."
+  },
+  "checks": {
+    "section": "Weryfikacje źródła",
+    "lead": "Każda weryfikacja pokazuje, jak jawnie można sprawdzić jedną cechę źródła.",
+    "notYet": "Jeszcze nie zweryfikowano",
+    "legend": "Szczegóły weryfikacji",
+    "back": "Wróć do źródła",
+    "title": "Weryfikacja: {criterion}"
+  }
+}

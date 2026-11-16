@@ -52,13 +52,13 @@ function characters(value: string): number {
   return Array.from(value).length;
 }
 
-const text = (min: number, max: number) =>
+export const text = (min: number, max: number) =>
   z
     .string()
     .trim()
     .refine((value) => characters(value) >= min && characters(value) <= max);
 
-const optionalText = (max: number) =>
+export const optionalText = (max: number) =>
   z
     .string()
     .trim()
@@ -166,7 +166,7 @@ export type ParseResult<T> =
   | { ok: true; value: T }
   | { ok: false; error: Extract<StudioError, 'invalid' | 'dates'> };
 
-function field(form: FormData, name: string): string {
+export function field(form: FormData, name: string): string {
   const value = form.get(name);
   return typeof value === 'string' ? value : '';
 }

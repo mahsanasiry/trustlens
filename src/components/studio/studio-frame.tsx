@@ -6,10 +6,12 @@ interface StudioFrameProps {
   title: string;
   lead?: string | undefined;
   badge?: ReactNode;
+  /** Where the back link goes; defaults to the Studio start page. */
+  back?: { href: string; label: string } | undefined;
   children: ReactNode;
 }
 
-export function StudioFrame({ title, lead, badge, children }: StudioFrameProps) {
+export function StudioFrame({ title, lead, badge, back, children }: StudioFrameProps) {
   const t = useTranslations('studio');
   return (
     <main id="main" className="page">
@@ -17,8 +19,8 @@ export function StudioFrame({ title, lead, badge, children }: StudioFrameProps) 
         <div className="container">
           <header className="page__header">
             <p className="studio-back">
-              <Link href="/studio" className="studio-back__link">
-                {t('back')}
+              <Link href={back?.href ?? '/studio'} className="studio-back__link">
+                {back?.label ?? t('back')}
               </Link>
             </p>
             <h1 dir="auto">{title}</h1>

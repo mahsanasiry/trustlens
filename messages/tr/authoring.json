@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Kanıtlar",
+    "empty": "Bu iddiaya henüz kanıt eklemediniz.",
+    "add": "Kanıt ekle",
+    "newTitle": "Yeni kanıt",
+    "newLead": "Bir kaynağın bu iddia hakkında ne gösterdiğini yazın. Yayımlanmadan önce bir yönetici kontrol eder.",
+    "legend": "Kanıt ayrıntıları",
+    "forClaim": "İddia: {title}",
+    "back": "İddiaya dön"
+  },
+  "fields": {
+    "source": "Kaynak",
+    "pickSource": "Bir kaynak seçin"
+  },
+  "hints": {
+    "source": "Yayımlanmış kaynakları ve kendi kaynaklarınızı seçebilirsiniz.",
+    "summary": "Kaynağın ne söylediğini kendi sözlerinizle yazın.",
+    "limitations": "Kaynağın göstermediği şey."
+  },
+  "checks": {
+    "section": "Kaynak kontrolleri",
+    "lead": "Her kontrol, kaynağın bir yönünün ne kadar açık biçimde doğrulanabildiğini gösterir.",
+    "notYet": "Henüz kontrol edilmedi",
+    "legend": "Kontrol ayrıntıları",
+    "back": "Kaynağa dön",
+    "title": "Kontrol: {criterion}"
+  }
+}

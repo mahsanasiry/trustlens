@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Bằng chứng",
+    "empty": "Bạn chưa thêm bằng chứng nào cho tuyên bố này.",
+    "add": "Thêm bằng chứng",
+    "newTitle": "Bằng chứng mới",
+    "newLead": "Nêu nguồn cho thấy điều gì về tuyên bố này. Quản trị viên sẽ kiểm tra trước khi xuất bản.",
+    "legend": "Chi tiết bằng chứng",
+    "forClaim": "Cho tuyên bố: {title}",
+    "back": "Quay lại tuyên bố"
+  },
+  "fields": {
+    "source": "Nguồn",
+    "pickSource": "Chọn một nguồn"
+  },
+  "hints": {
+    "source": "Bạn có thể chọn các nguồn đã xuất bản và nguồn của chính bạn.",
+    "summary": "Nguồn nói gì, bằng lời của bạn.",
+    "limitations": "Điều nguồn không cho thấy."
+  },
+  "checks": {
+    "section": "Kiểm tra nguồn",
+    "lead": "Mỗi lần kiểm tra cho biết một khía cạnh của nguồn có thể được xác minh công khai đến mức nào.",
+    "notYet": "Chưa kiểm tra",
+    "legend": "Chi tiết kiểm tra",
+    "back": "Quay lại nguồn",
+    "title": "Kiểm tra: {criterion}"
+  }
+}

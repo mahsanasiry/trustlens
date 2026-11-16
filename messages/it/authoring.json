@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "Prove",
+    "empty": "Non hai ancora aggiunto prove a questa affermazione.",
+    "add": "Aggiungi una prova",
+    "newTitle": "Nuova prova",
+    "newLead": "Indica che cosa mostra una fonte su questa affermazione. Un amministratore la verifica prima della pubblicazione.",
+    "legend": "Dettagli della prova",
+    "forClaim": "Per l’affermazione: {title}",
+    "back": "Torna all’affermazione"
+  },
+  "fields": {
+    "source": "Fonte",
+    "pickSource": "Scegli una fonte"
+  },
+  "hints": {
+    "source": "Puoi scegliere fonti pubblicate e le tue.",
+    "summary": "Che cosa dice la fonte, con parole tue.",
+    "limitations": "Che cosa la fonte non mostra."
+  },
+  "checks": {
+    "section": "Verifiche della fonte",
+    "lead": "Ogni verifica indica quanto apertamente si può verificare un aspetto della fonte.",
+    "notYet": "Non ancora verificata",
+    "legend": "Dettagli della verifica",
+    "back": "Torna alla fonte",
+    "title": "Verifica: {criterion}"
+  }
+}

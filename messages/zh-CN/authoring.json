@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "证据",
+    "empty": "你还没有为这条主张添加证据。",
+    "add": "添加证据",
+    "newTitle": "新证据",
+    "newLead": "写下来源对这条主张显示了什么。发布前会由管理员检查。",
+    "legend": "证据详情",
+    "forClaim": "针对主张：{title}",
+    "back": "返回主张"
+  },
+  "fields": {
+    "source": "来源",
+    "pickSource": "选择来源"
+  },
+  "hints": {
+    "source": "可以选择已发布的来源和你自己的来源。",
+    "summary": "来源说了什么，用你自己的话写。",
+    "limitations": "来源没有显示的内容。"
+  },
+  "checks": {
+    "section": "来源核查",
+    "lead": "每项核查说明来源的某一方面能被公开验证到什么程度。",
+    "notYet": "尚未核查",
+    "legend": "核查详情",
+    "back": "返回来源",
+    "title": "核查：{criterion}"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "section": "證據",
+    "empty": "你還沒有為這則主張新增證據。",
+    "add": "新增證據",
+    "newTitle": "新證據",
+    "newLead": "寫下來源對這則主張顯示了什麼。發布前會由管理員檢查。",
+    "legend": "證據詳情",
+    "forClaim": "針對主張：{title}",
+    "back": "返回主張"
+  },
+  "fields": {
+    "source": "來源",
+    "pickSource": "選擇來源"
+  },
+  "hints": {
+    "source": "可以選擇已發布的來源與你自己的來源。",
+    "summary": "來源說了什麼，用你自己的話寫。",
+    "limitations": "來源沒有顯示的內容。"
+  },
+  "checks": {
+    "section": "來源查核",
+    "lead": "每項查核說明來源的某一方面能被公開驗證到什麼程度。",
+    "notYet": "尚未查核",
+    "legend": "查核詳情",
+    "back": "返回來源",
+    "title": "查核：{criterion}"
+  }
+}

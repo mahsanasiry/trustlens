@@ -1,13 +1,13 @@
 import { z } from 'zod';
 import {
   claimCategories,
+  type ContentEntity,
   contentStates,
   sourceTypes,
   type ContentState,
 } from '@/lib/domain/enums';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { isEntityId } from './params';
-import type { StudioKind } from './studio-params';
 
 // A researcher is not expected to have more drafts than this on screen at once;
 // the list is newest first, so older work drops off the end.
@@ -141,7 +141,7 @@ export type LatestDecision = z.infer<typeof decisionSchema>;
 // The reviewer's most recent answer, shown to the author so they know what to
 // fix. Reviews of the author's own submissions are readable by them.
 export async function getLatestDecision(
-  kind: StudioKind,
+  kind: ContentEntity,
   id: string,
 ): Promise<LatestDecision | null> {
   const supabase = await createServerSupabaseClient();
