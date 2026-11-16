@@ -1,0 +1,97 @@
+{
+  "title": "Estúdio",
+  "lead": "Escreva rascunhos de afirmações e fontes, envie para revisão e acompanhe o que acontece depois.",
+  "back": "Voltar ao estúdio",
+  "sections": {
+    "claims": "Afirmações",
+    "sources": "Fontes"
+  },
+  "new": {
+    "claim": "Nova afirmação",
+    "source": "Nova fonte",
+    "claimLead": "Descreva a afirmação como as pessoas a fazem. As evidências são adicionadas quando suas fontes são publicadas.",
+    "sourceLead": "Registre de onde vem a evidência. Os revisores verificam uma fonte antes de publicá-la."
+  },
+  "empty": {
+    "claim": "Você ainda não tem afirmações.",
+    "source": "Você ainda não tem fontes."
+  },
+  "updated": "Atualizada {date}",
+  "state": {
+    "draft": "Rascunho",
+    "pending_review": "Em revisão",
+    "changes_requested": "Alterações solicitadas",
+    "published": "Publicado",
+    "rejected": "Rejeitado"
+  },
+  "note": {
+    "draft": "Só você vê este rascunho. Envie para revisão quando estiver pronto.",
+    "pending_review": "Um administrador está revisando. Não é possível editar até a revisão terminar.",
+    "changes_requested": "Um administrador pediu alterações. Edite e envie novamente para revisão.",
+    "published": "Isto está publicado. Alterações em conteúdo publicado passam por uma nova revisão.",
+    "rejected": "Isto foi rejeitado e não pode mais ser editado."
+  },
+  "reviewerNote": "Nota do revisor",
+  "viewPublic": "Ver a página pública",
+  "claim": {
+    "legend": "Detalhes da afirmação"
+  },
+  "source": {
+    "legend": "Detalhes da fonte"
+  },
+  "fields": {
+    "claimTitle": "Afirmação",
+    "description": "Descrição",
+    "originUrl": "Link para onde ela apareceu",
+    "firstAppearedOn": "Apareceu pela primeira vez em",
+    "keywords": "Palavras-chave",
+    "sourceTitle": "Título",
+    "url": "Link",
+    "category": "Categoria",
+    "language": "Idioma",
+    "origin": "Onde apareceu",
+    "type": "Tipo",
+    "authors": "Autores",
+    "publisher": "Editor",
+    "publishedOn": "Publicado",
+    "accessedOn": "Acessado"
+  },
+  "hints": {
+    "claimTitle": "Escreva a afirmação em uma frase, do jeito que as pessoas dizem.",
+    "origin": "Um jornal, uma publicação, um discurso ou outro lugar em que a afirmação apareceu.",
+    "keywords": "Separe com vírgulas. No máximo 20.",
+    "authors": "Um autor por linha."
+  },
+  "actions": {
+    "createDraft": "Criar rascunho",
+    "submit": "Enviar para revisão",
+    "save": "Salvar alterações"
+  },
+  "submit": {
+    "title": "Pronto para revisão?",
+    "body": "Um administrador verifica antes da publicação. Você não pode editar durante a revisão."
+  },
+  "duplicate": {
+    "title": "Já existem fontes semelhantes",
+    "body": "Confira se você não está adicionando a mesma fonte duas vezes.",
+    "createAnyway": "Criar mesmo assim",
+    "reason": {
+      "same_url": "Mesmo endereço",
+      "similar_title": "Título semelhante"
+    }
+  },
+  "toast": {
+    "saving": "Salvando…",
+    "submitting": "Enviando para revisão…",
+    "saved": "Salvo.",
+    "submitted": "Enviado para revisão.",
+    "close": "Fechar"
+  },
+  "errors": {
+    "invalid": "Alguns campos não são válidos. Confira e tente novamente.",
+    "dates": "A data de acesso não pode ser anterior à data de publicação.",
+    "locked": "Este item não pode mais ser editado.",
+    "forbidden": "Você não tem permissão para fazer isso.",
+    "failed": "Não foi possível salvar. Tente novamente."
+  }
+}

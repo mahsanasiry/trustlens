@@ -1,0 +1,97 @@
+{
+  "title": "工作室",
+  "lead": "起草主张和来源，提交审核，并跟进后续进展。",
+  "back": "返回工作室",
+  "sections": {
+    "claims": "主张",
+    "sources": "来源"
+  },
+  "new": {
+    "claim": "新建主张",
+    "source": "新建来源",
+    "claimLead": "按人们的说法描述这条主张。证据要等其来源发布后再添加。",
+    "sourceLead": "记录证据的出处。来源在发布前会由审核人员检查。"
+  },
+  "empty": {
+    "claim": "你还没有主张。",
+    "source": "你还没有来源。"
+  },
+  "updated": "更新于 {date}",
+  "state": {
+    "draft": "草稿",
+    "pending_review": "审核中",
+    "changes_requested": "需要修改",
+    "published": "已发布",
+    "rejected": "已驳回"
+  },
+  "note": {
+    "draft": "只有你能看到这份草稿。准备好后提交审核。",
+    "pending_review": "管理员正在审核。审核结束前无法编辑。",
+    "changes_requested": "管理员要求修改。请修改后重新提交审核。",
+    "published": "此项已发布。已发布内容的修改需要重新审核。",
+    "rejected": "此项已被驳回，无法再编辑。"
+  },
+  "reviewerNote": "审核人备注",
+  "viewPublic": "查看公开页面",
+  "claim": {
+    "legend": "主张详情"
+  },
+  "source": {
+    "legend": "来源详情"
+  },
+  "fields": {
+    "claimTitle": "主张",
+    "description": "描述",
+    "originUrl": "指向其出现位置的链接",
+    "firstAppearedOn": "首次出现于",
+    "keywords": "关键词",
+    "sourceTitle": "标题",
+    "url": "链接",
+    "category": "类别",
+    "language": "语言",
+    "origin": "出现在哪里",
+    "type": "类型",
+    "authors": "作者",
+    "publisher": "发布方",
+    "publishedOn": "发布",
+    "accessedOn": "访问"
+  },
+  "hints": {
+    "claimTitle": "用一句话写出这条主张，按人们的说法来写。",
+    "origin": "报纸、帖子、演讲，或主张出现的其他地方。",
+    "keywords": "用逗号分隔，最多 20 个。",
+    "authors": "每行一位作者。"
+  },
+  "actions": {
+    "createDraft": "创建草稿",
+    "submit": "提交审核",
+    "save": "保存更改"
+  },
+  "submit": {
+    "title": "可以审核了吗？",
+    "body": "发布前会由管理员检查。审核期间无法编辑。"
+  },
+  "duplicate": {
+    "title": "已存在相似的来源",
+    "body": "请确认你没有重复添加同一来源。",
+    "createAnyway": "仍然创建",
+    "reason": {
+      "same_url": "地址相同",
+      "similar_title": "标题相似"
+    }
+  },
+  "toast": {
+    "saving": "正在保存…",
+    "submitting": "正在提交审核…",
+    "saved": "已保存。",
+    "submitted": "已提交审核。",
+    "close": "关闭"
+  },
+  "errors": {
+    "invalid": "部分字段无效，请检查后重试。",
+    "dates": "访问日期不能早于发布日期。",
+    "locked": "此项无法再编辑。",
+    "forbidden": "你没有执行此操作的权限。",
+    "failed": "无法保存，请重试。"
+  }
+}

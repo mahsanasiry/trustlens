@@ -1,0 +1,97 @@
+{
+  "title": "Estudio",
+  "lead": "Redacta borradores de afirmaciones y fuentes, envíalos a revisión y sigue lo que ocurre después.",
+  "back": "Volver al estudio",
+  "sections": {
+    "claims": "Afirmaciones",
+    "sources": "Fuentes"
+  },
+  "new": {
+    "claim": "Nueva afirmación",
+    "source": "Nueva fuente",
+    "claimLead": "Describe la afirmación tal como la hace la gente. Las pruebas se añaden cuando sus fuentes están publicadas.",
+    "sourceLead": "Registra de dónde proviene la prueba. Los revisores comprueban una fuente antes de publicarla."
+  },
+  "empty": {
+    "claim": "Aún no tienes afirmaciones.",
+    "source": "Aún no tienes fuentes."
+  },
+  "updated": "Actualizada {date}",
+  "state": {
+    "draft": "Borrador",
+    "pending_review": "En revisión",
+    "changes_requested": "Cambios solicitados",
+    "published": "Publicado",
+    "rejected": "Rechazado"
+  },
+  "note": {
+    "draft": "Solo tú ves este borrador. Envíalo a revisión cuando esté listo.",
+    "pending_review": "Un administrador lo está revisando. No se puede editar hasta que termine la revisión.",
+    "changes_requested": "Un administrador pidió cambios. Edítalo y vuelve a enviarlo a revisión.",
+    "published": "Esto está publicado. Los cambios en contenido publicado pasan por una nueva revisión.",
+    "rejected": "Esto fue rechazado y ya no se puede editar."
+  },
+  "reviewerNote": "Nota del revisor",
+  "viewPublic": "Ver la página pública",
+  "claim": {
+    "legend": "Detalles de la afirmación"
+  },
+  "source": {
+    "legend": "Detalles de la fuente"
+  },
+  "fields": {
+    "claimTitle": "Afirmación",
+    "description": "Descripción",
+    "originUrl": "Enlace al lugar donde apareció",
+    "firstAppearedOn": "Apareció por primera vez el",
+    "keywords": "Palabras clave",
+    "sourceTitle": "Título",
+    "url": "Enlace",
+    "category": "Categoría",
+    "language": "Idioma",
+    "origin": "Dónde apareció",
+    "type": "Tipo",
+    "authors": "Autores",
+    "publisher": "Editor",
+    "publishedOn": "Publicado",
+    "accessedOn": "Consultado"
+  },
+  "hints": {
+    "claimTitle": "Escribe la afirmación en una sola frase, como la dice la gente.",
+    "origin": "Un periódico, una publicación, un discurso u otro lugar donde apareció la afirmación.",
+    "keywords": "Sepáralas con comas. Hasta 20.",
+    "authors": "Un autor por línea."
+  },
+  "actions": {
+    "createDraft": "Crear borrador",
+    "submit": "Enviar a revisión",
+    "save": "Guardar cambios"
+  },
+  "submit": {
+    "title": "¿Listo para revisión?",
+    "body": "Un administrador lo comprueba antes de publicarlo. No podrás editarlo mientras esté en revisión."
+  },
+  "duplicate": {
+    "title": "Ya existen fuentes similares",
+    "body": "Comprueba que no estás añadiendo la misma fuente dos veces.",
+    "createAnyway": "Crear de todos modos",
+    "reason": {
+      "same_url": "Misma dirección",
+      "similar_title": "Título similar"
+    }
+  },
+  "toast": {
+    "saving": "Guardando…",
+    "submitting": "Enviando a revisión…",
+    "saved": "Guardado.",
+    "submitted": "Enviado a revisión.",
+    "close": "Cerrar"
+  },
+  "errors": {
+    "invalid": "Algunos campos no son válidos. Revísalos e inténtalo de nuevo.",
+    "dates": "La fecha de consulta no puede ser anterior a la de publicación.",
+    "locked": "Este elemento ya no se puede editar.",
+    "forbidden": "No tienes permiso para hacer esto.",
+    "failed": "No se pudo guardar. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Beoordelingswachtrij",
+  "lead": "Inzendingen en meldingen die op een besluit wachten.",
+  "back": "Terug naar de wachtrij",
+  "filterLabel": "Tonen",
+  "empty": "Er wacht niets op beoordeling.",
+  "by": "Ingediend door {name}",
+  "heldBy": "Wordt beoordeeld door {name}",
+  "heldByYou": "U beoordeelt dit item",
+  "unknown": "Onbekend lid",
+  "none": "Geen",
+  "noChanges": "Deze wijziging verandert niets aan wat nu is gepubliceerd.",
+  "current": "Nu gepubliceerd",
+  "proposed": "Voorgesteld",
+  "decided": "{decision} door {name} op {date}",
+  "types": {
+    "claim": "Bewering",
+    "source": "Bron",
+    "evidence": "Bewijs",
+    "assessment": "Bronnencontrole",
+    "revision": "Wijziging van gepubliceerde inhoud",
+    "report": "Melding"
+  },
+  "fields": {
+    "summary": "Samenvatting",
+    "position": "Standpunt",
+    "status": "Status",
+    "notes": "Notities",
+    "criterion": "Controlepunt",
+    "kind": "Soort",
+    "reason": "Reden",
+    "reportedItem": "Gemeld item"
+  },
+  "reportKinds": {
+    "broken_source": "Defecte bron",
+    "incorrect_information": "Onjuiste informatie",
+    "suggest_source": "Voorgestelde bron",
+    "add_contradicting_evidence": "Tegensprekend bewijs",
+    "request_correction": "Verzoek om correctie"
+  },
+  "panel": {
+    "title": "Besluit",
+    "takeFirst": "Begin met het beoordelen van dit item om te beslissen. Zolang u het vasthoudt, kan niemand anders beslissen.",
+    "reason": "Reden",
+    "reasonHint": "Verplicht, behalve bij goedkeuring. De indiener van dit item ziet de reden.",
+    "heldElsewhere": "{name} beoordeelt dit item al.",
+    "ownSubmission": "U hebt dit item zelf ingediend, dus een andere beheerder moet het goedkeuren. U kunt wel wijzigingen vragen of het afwijzen."
+  },
+  "actions": {
+    "take": "Beoordeling starten",
+    "release": "Vrijgeven",
+    "approve": "Goedkeuren",
+    "requestChanges": "Wijzigingen vragen",
+    "reject": "Afwijzen",
+    "accept": "Melding accepteren",
+    "dismiss": "Melding afwijzen"
+  },
+  "decisions": {
+    "approved": "Goedgekeurd",
+    "rejected": "Afgewezen",
+    "changes_requested": "Wijzigingen gevraagd"
+  },
+  "toast": {
+    "working": "Bezig…",
+    "taken": "U beoordeelt dit item nu.",
+    "released": "Item vrijgegeven.",
+    "decided": "Besluit opgeslagen."
+  },
+  "errors": {
+    "invalid": "Controleer het besluit en de reden en probeer het opnieuw.",
+    "forbidden": "U mag hier niet beoordelen.",
+    "taken": "Iemand anders heeft dit item vast of heeft er al over besloten. Laad de pagina opnieuw.",
+    "reason": "Geef een reden van minstens 3 tekens op.",
+    "blocked": "Dit item kan nog niet worden goedgekeurd. Bewijs heeft eerst een gepubliceerde bron nodig.",
+    "failed": "Opslaan is niet gelukt. Probeer het opnieuw."
+  }
+}

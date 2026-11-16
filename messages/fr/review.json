@@ -1,0 +1,77 @@
+{
+  "title": "File de relecture",
+  "lead": "Soumissions et signalements en attente d’une décision.",
+  "back": "Retour à la file",
+  "filterLabel": "Afficher",
+  "empty": "Rien n’attend une relecture.",
+  "by": "Soumis par {name}",
+  "heldBy": "Relu par {name}",
+  "heldByYou": "Vous relisez cet élément",
+  "unknown": "Membre inconnu",
+  "none": "Aucun",
+  "noChanges": "Ce changement ne modifie rien de ce qui est publié actuellement.",
+  "current": "Publié actuellement",
+  "proposed": "Proposé",
+  "decided": "{decision} par {name} le {date}",
+  "types": {
+    "claim": "Affirmation",
+    "source": "Source",
+    "evidence": "Preuve",
+    "assessment": "Vérification de source",
+    "revision": "Modification d’un contenu publié",
+    "report": "Signalement"
+  },
+  "fields": {
+    "summary": "Résumé",
+    "position": "Position",
+    "status": "Statut",
+    "notes": "Notes",
+    "criterion": "Critère",
+    "kind": "Type",
+    "reason": "Motif",
+    "reportedItem": "Élément signalé"
+  },
+  "reportKinds": {
+    "broken_source": "Source inaccessible",
+    "incorrect_information": "Information inexacte",
+    "suggest_source": "Source suggérée",
+    "add_contradicting_evidence": "Preuve contradictoire",
+    "request_correction": "Demande de correction"
+  },
+  "panel": {
+    "title": "Décision",
+    "takeFirst": "Commencez la relecture de cet élément pour décider. Personne d’autre ne peut décider tant que vous le gardez.",
+    "reason": "Motif",
+    "reasonHint": "Obligatoire sauf pour une approbation. La personne qui a envoyé cet élément le voit.",
+    "heldElsewhere": "{name} relit déjà cet élément.",
+    "ownSubmission": "Vous avez soumis cet élément, un autre administrateur doit donc l’approuver. Vous pouvez quand même demander des modifications ou le rejeter."
+  },
+  "actions": {
+    "take": "Commencer la relecture",
+    "release": "Libérer",
+    "approve": "Approuver",
+    "requestChanges": "Demander des modifications",
+    "reject": "Rejeter",
+    "accept": "Accepter le signalement",
+    "dismiss": "Écarter le signalement"
+  },
+  "decisions": {
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "changes_requested": "Modifications demandées"
+  },
+  "toast": {
+    "working": "En cours…",
+    "taken": "Vous relisez maintenant cet élément.",
+    "released": "Élément libéré.",
+    "decided": "Décision enregistrée."
+  },
+  "errors": {
+    "invalid": "Vérifiez la décision et le motif, puis réessayez.",
+    "forbidden": "Vous n’avez pas l’autorisation de relire.",
+    "taken": "Quelqu’un d’autre le détient ou l’a déjà tranché. Rechargez la page.",
+    "reason": "Indiquez un motif d’au moins 3 caractères.",
+    "blocked": "Cet élément ne peut pas encore être approuvé. Une preuve a d’abord besoin d’une source publiée.",
+    "failed": "L’enregistrement a échoué. Réessayez."
+  }
+}

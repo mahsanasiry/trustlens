@@ -1,0 +1,77 @@
+{
+  "title": "审核队列",
+  "lead": "等待决定的提交内容和举报。",
+  "back": "返回队列",
+  "filterLabel": "显示",
+  "empty": "没有等待审核的内容。",
+  "by": "提交者：{name}",
+  "heldBy": "审核人：{name}",
+  "heldByYou": "你正在审核此项",
+  "unknown": "未知成员",
+  "none": "无",
+  "noChanges": "此更改不会改动当前已发布的任何内容。",
+  "current": "当前已发布",
+  "proposed": "建议",
+  "decided": "{name} 于 {date}{decision}",
+  "types": {
+    "claim": "主张",
+    "source": "来源",
+    "evidence": "证据",
+    "assessment": "来源核查",
+    "revision": "对已发布内容的更改",
+    "report": "举报"
+  },
+  "fields": {
+    "summary": "摘要",
+    "position": "立场",
+    "status": "状态",
+    "notes": "备注",
+    "criterion": "核查项",
+    "kind": "类型",
+    "reason": "原因",
+    "reportedItem": "被举报的内容"
+  },
+  "reportKinds": {
+    "broken_source": "来源失效",
+    "incorrect_information": "信息有误",
+    "suggest_source": "建议的来源",
+    "add_contradicting_evidence": "相反的证据",
+    "request_correction": "更正请求"
+  },
+  "panel": {
+    "title": "决定",
+    "takeFirst": "开始审核此项后才能做决定。你持有期间，其他人无法决定。",
+    "reason": "原因",
+    "reasonHint": "除批准外必填。提交此项的人会看到。",
+    "heldElsewhere": "{name} 已在审核此项。",
+    "ownSubmission": "此项由你提交，因此需要另一位管理员批准。你仍可以要求修改或拒绝。"
+  },
+  "actions": {
+    "take": "开始审核",
+    "release": "释放",
+    "approve": "批准",
+    "requestChanges": "要求修改",
+    "reject": "拒绝",
+    "accept": "接受举报",
+    "dismiss": "驳回举报"
+  },
+  "decisions": {
+    "approved": "已批准",
+    "rejected": "已拒绝",
+    "changes_requested": "已要求修改"
+  },
+  "toast": {
+    "working": "处理中…",
+    "taken": "你现在正在审核此项。",
+    "released": "已释放。",
+    "decided": "决定已保存。"
+  },
+  "errors": {
+    "invalid": "请检查决定和原因，然后重试。",
+    "forbidden": "你没有审核权限。",
+    "taken": "其他人正在处理或已做出决定。请刷新页面。",
+    "reason": "请填写至少 3 个字符的原因。",
+    "blocked": "此项暂时无法批准。证据需要先有已发布的来源。",
+    "failed": "无法保存，请重试。"
+  }
+}

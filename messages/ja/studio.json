@@ -1,0 +1,97 @@
+{
+  "title": "スタジオ",
+  "lead": "主張と情報源の下書きを作成し、レビューに送って、その後の状況を確認します。",
+  "back": "スタジオに戻る",
+  "sections": {
+    "claims": "主張",
+    "sources": "情報源"
+  },
+  "new": {
+    "claim": "新しい主張",
+    "source": "新しい情報源",
+    "claimLead": "人々が述べているとおりに主張を書きます。証拠は、その情報源が公開されてから追加します。",
+    "sourceLead": "証拠の出どころを記録します。情報源は公開前にレビュー担当者が確認します。"
+  },
+  "empty": {
+    "claim": "まだ主張がありません。",
+    "source": "まだ情報源がありません。"
+  },
+  "updated": "更新 {date}",
+  "state": {
+    "draft": "下書き",
+    "pending_review": "レビュー中",
+    "changes_requested": "変更依頼あり",
+    "published": "公開済み",
+    "rejected": "却下"
+  },
+  "note": {
+    "draft": "この下書きはあなただけに表示されます。準備ができたらレビューに送ってください。",
+    "pending_review": "管理者がレビュー中です。レビューが終わるまで編集できません。",
+    "changes_requested": "管理者から変更の依頼がありました。編集して、もう一度レビューに送ってください。",
+    "published": "公開済みです。公開済みの内容の変更は、新たにレビューされます。",
+    "rejected": "却下されたため、編集できません。"
+  },
+  "reviewerNote": "レビュー担当者のメモ",
+  "viewPublic": "公開ページを見る",
+  "claim": {
+    "legend": "主張の詳細"
+  },
+  "source": {
+    "legend": "情報源の詳細"
+  },
+  "fields": {
+    "claimTitle": "主張",
+    "description": "説明",
+    "originUrl": "掲載されていた場所へのリンク",
+    "firstAppearedOn": "最初に登場した日",
+    "keywords": "キーワード",
+    "sourceTitle": "タイトル",
+    "url": "リンク",
+    "category": "カテゴリ",
+    "language": "言語",
+    "origin": "初出の場所",
+    "type": "種類",
+    "authors": "著者",
+    "publisher": "発行元",
+    "publishedOn": "公開日",
+    "accessedOn": "閲覧日"
+  },
+  "hints": {
+    "claimTitle": "人々が言うとおりに、主張を1文で書いてください。",
+    "origin": "新聞、投稿、演説など、主張が登場した場所。",
+    "keywords": "カンマで区切ります。最大20個。",
+    "authors": "1行に著者1名。"
+  },
+  "actions": {
+    "createDraft": "下書きを作成",
+    "submit": "レビューに送る",
+    "save": "変更を保存"
+  },
+  "submit": {
+    "title": "レビューの準備はできましたか？",
+    "body": "公開前に管理者が確認します。レビュー中は編集できません。"
+  },
+  "duplicate": {
+    "title": "似た情報源がすでにあります",
+    "body": "同じ情報源を二重に追加していないか確認してください。",
+    "createAnyway": "このまま作成",
+    "reason": {
+      "same_url": "同じアドレス",
+      "similar_title": "似たタイトル"
+    }
+  },
+  "toast": {
+    "saving": "保存しています…",
+    "submitting": "レビューに送信しています…",
+    "saved": "保存しました。",
+    "submitted": "レビューに送信しました。",
+    "close": "閉じる"
+  },
+  "errors": {
+    "invalid": "正しくない項目があります。確認してもう一度お試しください。",
+    "dates": "閲覧日を公開日より前にすることはできません。",
+    "locked": "この項目はこれ以上編集できません。",
+    "forbidden": "この操作を行う権限がありません。",
+    "failed": "保存できませんでした。もう一度お試しください。"
+  }
+}

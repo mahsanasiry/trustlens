@@ -1,0 +1,77 @@
+{
+  "title": "Antrean tinjauan",
+  "lead": "Kiriman dan laporan yang menunggu keputusan.",
+  "back": "Kembali ke antrean",
+  "filterLabel": "Tampilkan",
+  "empty": "Tidak ada yang menunggu ditinjau.",
+  "by": "Dikirim oleh {name}",
+  "heldBy": "Sedang ditinjau oleh {name}",
+  "heldByYou": "Anda sedang meninjau item ini",
+  "unknown": "Anggota tidak dikenal",
+  "none": "Tidak ada",
+  "noChanges": "Perubahan ini tidak mengubah apa pun yang kini dipublikasikan.",
+  "current": "Dipublikasikan saat ini",
+  "proposed": "Diusulkan",
+  "decided": "{decision} oleh {name} pada {date}",
+  "types": {
+    "claim": "Klaim",
+    "source": "Sumber",
+    "evidence": "Bukti",
+    "assessment": "Pemeriksaan sumber",
+    "revision": "Perubahan pada konten terpublikasi",
+    "report": "Laporan"
+  },
+  "fields": {
+    "summary": "Ringkasan",
+    "position": "Sikap",
+    "status": "Status",
+    "notes": "Catatan",
+    "criterion": "Pemeriksaan",
+    "kind": "Jenis",
+    "reason": "Alasan",
+    "reportedItem": "Item yang dilaporkan"
+  },
+  "reportKinds": {
+    "broken_source": "Sumber rusak",
+    "incorrect_information": "Informasi keliru",
+    "suggest_source": "Sumber yang disarankan",
+    "add_contradicting_evidence": "Bukti yang bertentangan",
+    "request_correction": "Permintaan koreksi"
+  },
+  "panel": {
+    "title": "Keputusan",
+    "takeFirst": "Mulai tinjau item ini untuk mengambil keputusan. Selama item ada pada Anda, tidak ada orang lain yang bisa memutuskannya.",
+    "reason": "Alasan",
+    "reasonHint": "Wajib diisi kecuali Anda menyetujui. Pengirim item ini akan melihatnya.",
+    "heldElsewhere": "{name} sudah meninjau item ini.",
+    "ownSubmission": "Anda sendiri yang mengirim item ini, jadi admin lain harus menyetujuinya. Anda tetap bisa meminta perubahan atau menolaknya."
+  },
+  "actions": {
+    "take": "Mulai tinjau",
+    "release": "Lepaskan",
+    "approve": "Setujui",
+    "requestChanges": "Minta perubahan",
+    "reject": "Tolak",
+    "accept": "Terima laporan",
+    "dismiss": "Abaikan laporan"
+  },
+  "decisions": {
+    "approved": "Disetujui",
+    "rejected": "Ditolak",
+    "changes_requested": "Perubahan diminta"
+  },
+  "toast": {
+    "working": "Memproses…",
+    "taken": "Sekarang Anda meninjau item ini.",
+    "released": "Item dilepaskan.",
+    "decided": "Keputusan disimpan."
+  },
+  "errors": {
+    "invalid": "Periksa keputusan dan alasannya, lalu coba lagi.",
+    "forbidden": "Anda tidak berwenang meninjau.",
+    "taken": "Orang lain sudah memegang atau memutuskan item ini. Muat ulang halaman.",
+    "reason": "Tulis alasan minimal 3 karakter.",
+    "blocked": "Item ini belum bisa disetujui. Bukti memerlukan sumber yang sudah dipublikasikan terlebih dahulu.",
+    "failed": "Tidak dapat disimpan. Coba lagi."
+  }
+}

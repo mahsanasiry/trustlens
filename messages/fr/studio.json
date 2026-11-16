@@ -1,0 +1,97 @@
+{
+  "title": "Atelier",
+  "lead": "Rédigez des brouillons d’affirmations et de sources, envoyez-les en relecture et suivez la suite.",
+  "back": "Retour à l’atelier",
+  "sections": {
+    "claims": "Affirmations",
+    "sources": "Sources"
+  },
+  "new": {
+    "claim": "Nouvelle affirmation",
+    "source": "Nouvelle source",
+    "claimLead": "Décrivez l’affirmation telle que les gens la formulent. Les preuves s’ajoutent une fois leurs sources publiées.",
+    "sourceLead": "Indiquez d’où vient la preuve. Les relecteurs vérifient une source avant sa publication."
+  },
+  "empty": {
+    "claim": "Vous n’avez encore aucune affirmation.",
+    "source": "Vous n’avez encore aucune source."
+  },
+  "updated": "Mise à jour {date}",
+  "state": {
+    "draft": "Brouillon",
+    "pending_review": "En relecture",
+    "changes_requested": "Modifications demandées",
+    "published": "Publié",
+    "rejected": "Refusé"
+  },
+  "note": {
+    "draft": "Vous seul voyez ce brouillon. Envoyez-le en relecture quand il est prêt.",
+    "pending_review": "Un administrateur l’examine. Il ne peut pas être modifié avant la fin de la relecture.",
+    "changes_requested": "Un administrateur a demandé des modifications. Modifiez-le, puis renvoyez-le en relecture.",
+    "published": "Ce contenu est publié. Toute modification passe par une nouvelle relecture.",
+    "rejected": "Ce contenu a été refusé et ne peut plus être modifié."
+  },
+  "reviewerNote": "Note du relecteur",
+  "viewPublic": "Voir la page publique",
+  "claim": {
+    "legend": "Détails de l’affirmation"
+  },
+  "source": {
+    "legend": "Détails de la source"
+  },
+  "fields": {
+    "claimTitle": "Affirmation",
+    "description": "Description",
+    "originUrl": "Lien vers l’endroit où elle est apparue",
+    "firstAppearedOn": "Apparue pour la première fois le",
+    "keywords": "Mots-clés",
+    "sourceTitle": "Titre",
+    "url": "Lien",
+    "category": "Catégorie",
+    "language": "Langue",
+    "origin": "Où elle est apparue",
+    "type": "Type",
+    "authors": "Auteurs",
+    "publisher": "Éditeur",
+    "publishedOn": "Publié",
+    "accessedOn": "Consulté"
+  },
+  "hints": {
+    "claimTitle": "Écrivez l’affirmation en une phrase, comme les gens la disent.",
+    "origin": "Un journal, une publication, un discours ou un autre lieu où l’affirmation est apparue.",
+    "keywords": "Séparez par des virgules. 20 au maximum.",
+    "authors": "Un auteur par ligne."
+  },
+  "actions": {
+    "createDraft": "Créer le brouillon",
+    "submit": "Envoyer en relecture",
+    "save": "Enregistrer les modifications"
+  },
+  "submit": {
+    "title": "Prêt pour la relecture ?",
+    "body": "Un administrateur le vérifie avant publication. Vous ne pourrez pas le modifier pendant la relecture."
+  },
+  "duplicate": {
+    "title": "Des sources similaires existent déjà",
+    "body": "Vérifiez que vous n’ajoutez pas deux fois la même source.",
+    "createAnyway": "Créer quand même",
+    "reason": {
+      "same_url": "Même adresse",
+      "similar_title": "Titre similaire"
+    }
+  },
+  "toast": {
+    "saving": "Enregistrement…",
+    "submitting": "Envoi en relecture…",
+    "saved": "Enregistré.",
+    "submitted": "Envoyé en relecture.",
+    "close": "Fermer"
+  },
+  "errors": {
+    "invalid": "Certains champs ne sont pas valides. Vérifiez-les et réessayez.",
+    "dates": "La date de consultation ne peut pas précéder la date de publication.",
+    "locked": "Cet élément ne peut plus être modifié.",
+    "forbidden": "Vous n’avez pas l’autorisation de faire cela.",
+    "failed": "Enregistrement impossible. Réessayez."
+  }
+}

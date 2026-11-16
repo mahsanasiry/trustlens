@@ -1,0 +1,77 @@
+{
+  "title": "Kolejka recenzji",
+  "lead": "Zgłoszenia i raporty czekające na decyzję.",
+  "back": "Wróć do kolejki",
+  "filterLabel": "Pokaż",
+  "empty": "Nic nie czeka na recenzję.",
+  "by": "Przesłał(a) {name}",
+  "heldBy": "Recenzuje {name}",
+  "heldByYou": "Recenzujesz ten element",
+  "unknown": "Nieznany użytkownik",
+  "none": "Brak",
+  "noChanges": "Ta zmiana nie zmienia niczego, co jest teraz opublikowane.",
+  "current": "Obecnie opublikowane",
+  "proposed": "Proponowane",
+  "decided": "{decision} przez {name}, {date}",
+  "types": {
+    "claim": "Twierdzenie",
+    "source": "Źródło",
+    "evidence": "Dowód",
+    "assessment": "Weryfikacja źródła",
+    "revision": "Zmiana opublikowanej treści",
+    "report": "Raport"
+  },
+  "fields": {
+    "summary": "Podsumowanie",
+    "position": "Stanowisko",
+    "status": "Status",
+    "notes": "Notatki",
+    "criterion": "Kryterium",
+    "kind": "Rodzaj",
+    "reason": "Powód",
+    "reportedItem": "Zgłoszony element"
+  },
+  "reportKinds": {
+    "broken_source": "Niedziałające źródło",
+    "incorrect_information": "Błędne informacje",
+    "suggest_source": "Proponowane źródło",
+    "add_contradicting_evidence": "Dowód przeczący",
+    "request_correction": "Prośba o poprawkę"
+  },
+  "panel": {
+    "title": "Decyzja",
+    "takeFirst": "Rozpocznij recenzję tego elementu, aby podjąć decyzję. Dopóki go masz, nikt inny nie może o nim zdecydować.",
+    "reason": "Powód",
+    "reasonHint": "Wymagany, chyba że zatwierdzasz. Zobaczy go osoba, która przesłała ten element.",
+    "heldElsewhere": "{name} już recenzuje ten element.",
+    "ownSubmission": "Ten element przesłałeś(-aś) Ty, więc musi go zatwierdzić inny administrator. Nadal możesz poprosić o zmiany lub go odrzucić."
+  },
+  "actions": {
+    "take": "Rozpocznij recenzję",
+    "release": "Zwolnij",
+    "approve": "Zatwierdź",
+    "requestChanges": "Poproś o zmiany",
+    "reject": "Odrzuć",
+    "accept": "Przyjmij raport",
+    "dismiss": "Odrzuć raport"
+  },
+  "decisions": {
+    "approved": "Zatwierdzono",
+    "rejected": "Odrzucono",
+    "changes_requested": "Poproszono o zmiany"
+  },
+  "toast": {
+    "working": "Trwa przetwarzanie…",
+    "taken": "Recenzujesz teraz ten element.",
+    "released": "Element zwolniony.",
+    "decided": "Decyzja zapisana."
+  },
+  "errors": {
+    "invalid": "Sprawdź decyzję i powód, a potem spróbuj ponownie.",
+    "forbidden": "Nie masz uprawnień do recenzowania.",
+    "taken": "Ktoś inny go przejął lub już o nim zdecydował. Odśwież stronę.",
+    "reason": "Podaj powód mający co najmniej 3 znaki.",
+    "blocked": "Tego elementu nie można jeszcze zatwierdzić. Dowód potrzebuje najpierw opublikowanego źródła.",
+    "failed": "Nie udało się zapisać. Spróbuj ponownie."
+  }
+}

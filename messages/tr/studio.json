@@ -1,0 +1,97 @@
+{
+  "title": "Stüdyo",
+  "lead": "İddia ve kaynak taslakları hazırlayın, incelemeye gönderin ve sonrasında olanları takip edin.",
+  "back": "Stüdyoya dön",
+  "sections": {
+    "claims": "İddialar",
+    "sources": "Kaynaklar"
+  },
+  "new": {
+    "claim": "Yeni iddia",
+    "source": "Yeni kaynak",
+    "claimLead": "İddiayı insanların dile getirdiği gibi yazın. Kanıtlar, kaynakları yayımlandıktan sonra eklenir.",
+    "sourceLead": "Kanıtın nereden geldiğini kaydedin. İncelemeciler bir kaynağı yayımlanmadan önce kontrol eder."
+  },
+  "empty": {
+    "claim": "Henüz iddianız yok.",
+    "source": "Henüz kaynağınız yok."
+  },
+  "updated": "Güncellendi {date}",
+  "state": {
+    "draft": "Taslak",
+    "pending_review": "İncelemede",
+    "changes_requested": "Değişiklik istendi",
+    "published": "Yayımlandı",
+    "rejected": "Reddedildi"
+  },
+  "note": {
+    "draft": "Bu taslağı yalnızca siz görürsünüz. Hazır olduğunda incelemeye gönderin.",
+    "pending_review": "Bir yönetici bunu inceliyor. İnceleme bitene kadar düzenlenemez.",
+    "changes_requested": "Bir yönetici değişiklik istedi. Düzenleyin ve yeniden incelemeye gönderin.",
+    "published": "Bu yayımlandı. Yayımlanmış içerikteki değişiklikler yeni bir incelemeden geçer.",
+    "rejected": "Bu reddedildi ve artık düzenlenemez."
+  },
+  "reviewerNote": "İncelemecinin notu",
+  "viewPublic": "Herkese açık sayfayı gör",
+  "claim": {
+    "legend": "İddia ayrıntıları"
+  },
+  "source": {
+    "legend": "Kaynak ayrıntıları"
+  },
+  "fields": {
+    "claimTitle": "İddia",
+    "description": "Açıklama",
+    "originUrl": "Ortaya çıktığı yerin bağlantısı",
+    "firstAppearedOn": "İlk ortaya çıktığı tarih",
+    "keywords": "Anahtar kelimeler",
+    "sourceTitle": "Başlık",
+    "url": "Bağlantı",
+    "category": "Kategori",
+    "language": "Dil",
+    "origin": "Nerede ortaya çıktı",
+    "type": "Tür",
+    "authors": "Yazarlar",
+    "publisher": "Yayıncı",
+    "publishedOn": "Yayın tarihi",
+    "accessedOn": "Erişim tarihi"
+  },
+  "hints": {
+    "claimTitle": "İddiayı insanların söylediği gibi tek cümleyle yazın.",
+    "origin": "Bir gazete, bir paylaşım, bir konuşma veya iddianın ortaya çıktığı başka bir yer.",
+    "keywords": "Virgülle ayırın. En fazla 20.",
+    "authors": "Her satıra bir yazar."
+  },
+  "actions": {
+    "createDraft": "Taslak oluştur",
+    "submit": "İncelemeye gönder",
+    "save": "Değişiklikleri kaydet"
+  },
+  "submit": {
+    "title": "İncelemeye hazır mı?",
+    "body": "Yayımlanmadan önce bir yönetici kontrol eder. İnceleme sırasında düzenleyemezsiniz."
+  },
+  "duplicate": {
+    "title": "Benzer kaynaklar zaten var",
+    "body": "Aynı kaynağı iki kez eklemediğinizden emin olun.",
+    "createAnyway": "Yine de oluştur",
+    "reason": {
+      "same_url": "Aynı adres",
+      "similar_title": "Benzer başlık"
+    }
+  },
+  "toast": {
+    "saving": "Kaydediliyor…",
+    "submitting": "İncelemeye gönderiliyor…",
+    "saved": "Kaydedildi.",
+    "submitted": "İncelemeye gönderildi.",
+    "close": "Kapat"
+  },
+  "errors": {
+    "invalid": "Bazı alanlar geçerli değil. Kontrol edip yeniden deneyin.",
+    "dates": "Erişim tarihi yayımlanma tarihinden önce olamaz.",
+    "locked": "Bu öğe artık düzenlenemez.",
+    "forbidden": "Bunu yapmak için izniniz yok.",
+    "failed": "Kaydedilemedi. Yeniden deneyin."
+  }
+}

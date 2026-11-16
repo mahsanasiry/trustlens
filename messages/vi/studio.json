@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Soạn bản nháp nhận định và nguồn, gửi để duyệt và theo dõi những bước tiếp theo.",
+  "back": "Quay lại Studio",
+  "sections": {
+    "claims": "Tuyên bố",
+    "sources": "Nguồn"
+  },
+  "new": {
+    "claim": "Nhận định mới",
+    "source": "Nguồn mới",
+    "claimLead": "Mô tả nhận định đúng như cách mọi người nói. Bằng chứng được thêm sau khi nguồn của nó được xuất bản.",
+    "sourceLead": "Ghi lại bằng chứng đến từ đâu. Người duyệt kiểm tra nguồn trước khi xuất bản."
+  },
+  "empty": {
+    "claim": "Bạn chưa có nhận định nào.",
+    "source": "Bạn chưa có nguồn nào."
+  },
+  "updated": "Cập nhật {date}",
+  "state": {
+    "draft": "Bản nháp",
+    "pending_review": "Đang duyệt",
+    "changes_requested": "Cần chỉnh sửa",
+    "published": "Đã xuất bản",
+    "rejected": "Bị từ chối"
+  },
+  "note": {
+    "draft": "Chỉ bạn thấy bản nháp này. Hãy gửi duyệt khi đã sẵn sàng.",
+    "pending_review": "Một quản trị viên đang duyệt mục này. Chưa thể chỉnh sửa cho đến khi duyệt xong.",
+    "changes_requested": "Quản trị viên yêu cầu chỉnh sửa. Hãy sửa rồi gửi duyệt lại.",
+    "published": "Mục này đã xuất bản. Thay đổi nội dung đã xuất bản phải qua một lần duyệt mới.",
+    "rejected": "Mục này đã bị từ chối và không thể chỉnh sửa nữa."
+  },
+  "reviewerNote": "Ghi chú của người duyệt",
+  "viewPublic": "Xem trang công khai",
+  "claim": {
+    "legend": "Chi tiết nhận định"
+  },
+  "source": {
+    "legend": "Chi tiết nguồn"
+  },
+  "fields": {
+    "claimTitle": "Nhận định",
+    "description": "Mô tả",
+    "originUrl": "Liên kết đến nơi nhận định xuất hiện",
+    "firstAppearedOn": "Xuất hiện lần đầu vào",
+    "keywords": "Từ khóa",
+    "sourceTitle": "Tiêu đề",
+    "url": "Liên kết",
+    "category": "Danh mục",
+    "language": "Ngôn ngữ",
+    "origin": "Xuất hiện ở đâu",
+    "type": "Loại",
+    "authors": "Tác giả",
+    "publisher": "Nhà xuất bản",
+    "publishedOn": "Xuất bản",
+    "accessedOn": "Truy cập"
+  },
+  "hints": {
+    "claimTitle": "Viết nhận định trong một câu, đúng như cách mọi người nói.",
+    "origin": "Một tờ báo, một bài đăng, một bài phát biểu hoặc nơi khác mà nhận định xuất hiện.",
+    "keywords": "Phân tách bằng dấu phẩy. Tối đa 20.",
+    "authors": "Mỗi dòng một tác giả."
+  },
+  "actions": {
+    "createDraft": "Tạo bản nháp",
+    "submit": "Gửi duyệt",
+    "save": "Lưu thay đổi"
+  },
+  "submit": {
+    "title": "Sẵn sàng để duyệt?",
+    "body": "Một quản trị viên kiểm tra trước khi xuất bản. Bạn không thể chỉnh sửa trong lúc đang duyệt."
+  },
+  "duplicate": {
+    "title": "Đã có nguồn tương tự",
+    "body": "Hãy kiểm tra để không thêm cùng một nguồn hai lần.",
+    "createAnyway": "Vẫn tạo",
+    "reason": {
+      "same_url": "Cùng địa chỉ",
+      "similar_title": "Tiêu đề tương tự"
+    }
+  },
+  "toast": {
+    "saving": "Đang lưu…",
+    "submitting": "Đang gửi duyệt…",
+    "saved": "Đã lưu.",
+    "submitted": "Đã gửi duyệt.",
+    "close": "Đóng"
+  },
+  "errors": {
+    "invalid": "Một số trường không hợp lệ. Hãy kiểm tra rồi thử lại.",
+    "dates": "Ngày truy cập không thể sớm hơn ngày xuất bản.",
+    "locked": "Không thể chỉnh sửa mục này nữa.",
+    "forbidden": "Bạn không có quyền thực hiện thao tác này.",
+    "failed": "Không thể lưu. Hãy thử lại."
+  }
+}

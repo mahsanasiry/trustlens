@@ -10,7 +10,10 @@ interface UserMenuProps {
   /** The accessible name of the button, which must contain the visible name. */
   label: string;
   avatarUrl: string | null;
-  items: { href: '/profile' | '/bookmarks' | '/collections'; label: string }[];
+  items: {
+    href: '/studio' | '/review' | '/profile' | '/bookmarks' | '/collections';
+    label: string;
+  }[];
   /** Shown below the links, for the sign-out control. */
   children: ReactNode;
 }

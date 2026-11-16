@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Twórz wersje robocze twierdzeń i źródeł, wysyłaj je do recenzji i śledź, co dzieje się dalej.",
+  "back": "Wróć do studia",
+  "sections": {
+    "claims": "Twierdzenia",
+    "sources": "Źródła"
+  },
+  "new": {
+    "claim": "Nowe twierdzenie",
+    "source": "Nowe źródło",
+    "claimLead": "Opisz twierdzenie tak, jak formułują je ludzie. Dowody dodaje się po opublikowaniu ich źródeł.",
+    "sourceLead": "Zapisz, skąd pochodzi dowód. Recenzenci sprawdzają źródło przed publikacją."
+  },
+  "empty": {
+    "claim": "Nie masz jeszcze twierdzeń.",
+    "source": "Nie masz jeszcze źródeł."
+  },
+  "updated": "Zaktualizowano {date}",
+  "state": {
+    "draft": "Wersja robocza",
+    "pending_review": "W recenzji",
+    "changes_requested": "Poproszono o zmiany",
+    "published": "Opublikowane",
+    "rejected": "Odrzucone"
+  },
+  "note": {
+    "draft": "Tylko Ty widzisz tę wersję roboczą. Wyślij ją do recenzji, gdy będzie gotowa.",
+    "pending_review": "Administrator ją sprawdza. Nie można jej edytować do końca recenzji.",
+    "changes_requested": "Administrator poprosił o zmiany. Edytuj i wyślij ponownie do recenzji.",
+    "published": "To jest opublikowane. Zmiany w opublikowanych treściach przechodzą nową recenzję.",
+    "rejected": "To zostało odrzucone i nie można tego już edytować."
+  },
+  "reviewerNote": "Uwaga recenzenta",
+  "viewPublic": "Zobacz stronę publiczną",
+  "claim": {
+    "legend": "Szczegóły twierdzenia"
+  },
+  "source": {
+    "legend": "Szczegóły źródła"
+  },
+  "fields": {
+    "claimTitle": "Twierdzenie",
+    "description": "Opis",
+    "originUrl": "Link do miejsca, w którym się pojawiło",
+    "firstAppearedOn": "Po raz pierwszy pojawiło się",
+    "keywords": "Słowa kluczowe",
+    "sourceTitle": "Tytuł",
+    "url": "Link",
+    "category": "Kategoria",
+    "language": "Język",
+    "origin": "Gdzie się pojawiło",
+    "type": "Typ",
+    "authors": "Autorzy",
+    "publisher": "Wydawca",
+    "publishedOn": "Opublikowano",
+    "accessedOn": "Odczytano"
+  },
+  "hints": {
+    "claimTitle": "Zapisz twierdzenie jednym zdaniem, tak jak mówią ludzie.",
+    "origin": "Gazeta, wpis, przemówienie lub inne miejsce, w którym pojawiło się twierdzenie.",
+    "keywords": "Oddziel przecinkami. Maksymalnie 20.",
+    "authors": "Jeden autor w wierszu."
+  },
+  "actions": {
+    "createDraft": "Utwórz wersję roboczą",
+    "submit": "Wyślij do recenzji",
+    "save": "Zapisz zmiany"
+  },
+  "submit": {
+    "title": "Gotowe do recenzji?",
+    "body": "Administrator sprawdza to przed publikacją. W trakcie recenzji nie możesz tego edytować."
+  },
+  "duplicate": {
+    "title": "Podobne źródła już istnieją",
+    "body": "Upewnij się, że nie dodajesz dwa razy tego samego źródła.",
+    "createAnyway": "Utwórz mimo to",
+    "reason": {
+      "same_url": "Ten sam adres",
+      "similar_title": "Podobny tytuł"
+    }
+  },
+  "toast": {
+    "saving": "Zapisywanie…",
+    "submitting": "Wysyłanie do recenzji…",
+    "saved": "Zapisano.",
+    "submitted": "Wysłano do recenzji.",
+    "close": "Zamknij"
+  },
+  "errors": {
+    "invalid": "Niektóre pola są nieprawidłowe. Sprawdź je i spróbuj ponownie.",
+    "dates": "Data dostępu nie może być wcześniejsza niż data publikacji.",
+    "locked": "Tego elementu nie można już edytować.",
+    "forbidden": "Nie masz uprawnień do tej czynności.",
+    "failed": "Nie udało się zapisać. Spróbuj ponownie."
+  }
+}

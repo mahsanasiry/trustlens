@@ -1,0 +1,77 @@
+{
+  "title": "İnceleme kuyruğu",
+  "lead": "Karar bekleyen gönderiler ve bildirimler.",
+  "back": "Kuyruğa dön",
+  "filterLabel": "Göster",
+  "empty": "İnceleme bekleyen bir şey yok.",
+  "by": "Gönderen: {name}",
+  "heldBy": "İnceleyen: {name}",
+  "heldByYou": "Bu öğeyi siz inceliyorsunuz",
+  "unknown": "Bilinmeyen üye",
+  "none": "Yok",
+  "noChanges": "Bu değişiklik şu anda yayımlanmış hiçbir şeyi değiştirmez.",
+  "current": "Şu anda yayımlanan",
+  "proposed": "Önerilen",
+  "decided": "{name}, {date} tarihinde: {decision}",
+  "types": {
+    "claim": "İddia",
+    "source": "Kaynak",
+    "evidence": "Kanıt",
+    "assessment": "Kaynak kontrolü",
+    "revision": "Yayımlanmış içerikte değişiklik",
+    "report": "Bildirim"
+  },
+  "fields": {
+    "summary": "Özet",
+    "position": "Tutum",
+    "status": "Durum",
+    "notes": "Notlar",
+    "criterion": "Kontrol",
+    "kind": "Tür",
+    "reason": "Gerekçe",
+    "reportedItem": "Bildirilen öğe"
+  },
+  "reportKinds": {
+    "broken_source": "Bozuk kaynak",
+    "incorrect_information": "Yanlış bilgi",
+    "suggest_source": "Önerilen kaynak",
+    "add_contradicting_evidence": "Çelişen kanıt",
+    "request_correction": "Düzeltme isteği"
+  },
+  "panel": {
+    "title": "Karar",
+    "takeFirst": "Karar vermek için bu öğeyi incelemeye başlayın. Sizdeyken kimse başka karar veremez.",
+    "reason": "Gerekçe",
+    "reasonHint": "Onaylamıyorsanız zorunludur. Bu öğeyi gönderen kişi görür.",
+    "heldElsewhere": "{name} bu öğeyi zaten inceliyor.",
+    "ownSubmission": "Bu öğeyi siz gönderdiniz, bu yüzden başka bir yöneticinin onaylaması gerekir. Yine de değişiklik isteyebilir veya reddedebilirsiniz."
+  },
+  "actions": {
+    "take": "İncelemeyi başlat",
+    "release": "Bırak",
+    "approve": "Onayla",
+    "requestChanges": "Değişiklik iste",
+    "reject": "Reddet",
+    "accept": "Bildirimi kabul et",
+    "dismiss": "Bildirimi yok say"
+  },
+  "decisions": {
+    "approved": "Onaylandı",
+    "rejected": "Reddedildi",
+    "changes_requested": "Değişiklik istendi"
+  },
+  "toast": {
+    "working": "İşleniyor…",
+    "taken": "Artık bu öğeyi siz inceliyorsunuz.",
+    "released": "Öğe bırakıldı.",
+    "decided": "Karar kaydedildi."
+  },
+  "errors": {
+    "invalid": "Kararı ve gerekçeyi kontrol edip yeniden deneyin.",
+    "forbidden": "İnceleme yetkiniz yok.",
+    "taken": "Başka biri bu öğeyi aldı veya karar verdi. Sayfayı yenileyin.",
+    "reason": "En az 3 karakterlik bir gerekçe yazın.",
+    "blocked": "Bu öğe henüz onaylanamaz. Kanıt için önce yayımlanmış bir kaynak gerekir.",
+    "failed": "Kaydedilemedi. Yeniden deneyin."
+  }
+}

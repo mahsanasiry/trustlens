@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Susun draf klaim dan sumber, kirim untuk ditinjau, lalu pantau perkembangannya.",
+  "back": "Kembali ke Studio",
+  "sections": {
+    "claims": "Klaim",
+    "sources": "Sumber"
+  },
+  "new": {
+    "claim": "Klaim baru",
+    "source": "Sumber baru",
+    "claimLead": "Tulis klaim seperti yang disampaikan orang. Bukti ditambahkan setelah sumbernya dipublikasikan.",
+    "sourceLead": "Catat dari mana bukti berasal. Peninjau memeriksa sumber sebelum dipublikasikan."
+  },
+  "empty": {
+    "claim": "Anda belum punya klaim.",
+    "source": "Anda belum punya sumber."
+  },
+  "updated": "Diperbarui {date}",
+  "state": {
+    "draft": "Draf",
+    "pending_review": "Dalam peninjauan",
+    "changes_requested": "Perlu perubahan",
+    "published": "Dipublikasikan",
+    "rejected": "Ditolak"
+  },
+  "note": {
+    "draft": "Hanya Anda yang dapat melihat draf ini. Kirim untuk ditinjau saat sudah siap.",
+    "pending_review": "Admin sedang meninjau ini. Belum bisa diedit sampai peninjauan selesai.",
+    "changes_requested": "Admin meminta perubahan. Edit lalu kirim lagi untuk ditinjau.",
+    "published": "Ini sudah dipublikasikan. Perubahan pada konten yang dipublikasikan melalui peninjauan baru.",
+    "rejected": "Ini ditolak dan tidak dapat diedit lagi."
+  },
+  "reviewerNote": "Catatan peninjau",
+  "viewPublic": "Lihat halaman publik",
+  "claim": {
+    "legend": "Detail klaim"
+  },
+  "source": {
+    "legend": "Detail sumber"
+  },
+  "fields": {
+    "claimTitle": "Klaim",
+    "description": "Deskripsi",
+    "originUrl": "Tautan ke tempat klaim muncul",
+    "firstAppearedOn": "Pertama kali muncul pada",
+    "keywords": "Kata kunci",
+    "sourceTitle": "Judul",
+    "url": "Tautan",
+    "category": "Kategori",
+    "language": "Bahasa",
+    "origin": "Tempat muncul",
+    "type": "Jenis",
+    "authors": "Penulis",
+    "publisher": "Penerbit",
+    "publishedOn": "Terbit",
+    "accessedOn": "Diakses"
+  },
+  "hints": {
+    "claimTitle": "Tulis klaim dalam satu kalimat, seperti yang dikatakan orang.",
+    "origin": "Surat kabar, unggahan, pidato, atau tempat lain tempat klaim muncul.",
+    "keywords": "Pisahkan dengan koma. Maksimal 20.",
+    "authors": "Satu penulis per baris."
+  },
+  "actions": {
+    "createDraft": "Buat draf",
+    "submit": "Kirim untuk ditinjau",
+    "save": "Simpan perubahan"
+  },
+  "submit": {
+    "title": "Siap ditinjau?",
+    "body": "Admin memeriksanya sebelum dipublikasikan. Anda tidak bisa mengeditnya selama peninjauan."
+  },
+  "duplicate": {
+    "title": "Sumber serupa sudah ada",
+    "body": "Pastikan Anda tidak menambahkan sumber yang sama dua kali.",
+    "createAnyway": "Tetap buat",
+    "reason": {
+      "same_url": "Alamat sama",
+      "similar_title": "Judul mirip"
+    }
+  },
+  "toast": {
+    "saving": "Menyimpan…",
+    "submitting": "Mengirim untuk ditinjau…",
+    "saved": "Tersimpan.",
+    "submitted": "Terkirim untuk ditinjau.",
+    "close": "Tutup"
+  },
+  "errors": {
+    "invalid": "Beberapa kolom tidak valid. Periksa lalu coba lagi.",
+    "dates": "Tanggal akses tidak boleh lebih awal dari tanggal publikasi.",
+    "locked": "Item ini tidak dapat diedit lagi.",
+    "forbidden": "Anda tidak memiliki izin untuk melakukan ini.",
+    "failed": "Tidak dapat disimpan. Coba lagi."
+  }
+}

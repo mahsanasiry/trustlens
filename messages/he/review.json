@@ -1,0 +1,77 @@
+{
+  "title": "תור הבדיקה",
+  "lead": "הגשות ודיווחים שממתינים להחלטה.",
+  "back": "חזרה לתור",
+  "filterLabel": "הצג",
+  "empty": "שום דבר לא ממתין לבדיקה.",
+  "by": "הוגש על ידי {name}",
+  "heldBy": "נבדק כעת על ידי {name}",
+  "heldByYou": "אתם בודקים פריט זה",
+  "unknown": "חבר לא מוכר",
+  "none": "ללא",
+  "noChanges": "שינוי זה לא משנה דבר מהמפורסם כעת.",
+  "current": "מפורסם כעת",
+  "proposed": "מוצע",
+  "decided": "{decision} על ידי {name} ב-{date}",
+  "types": {
+    "claim": "טענה",
+    "source": "מקור",
+    "evidence": "ראיה",
+    "assessment": "בדיקת מקור",
+    "revision": "שינוי בתוכן שפורסם",
+    "report": "דיווח"
+  },
+  "fields": {
+    "summary": "תקציר",
+    "position": "עמדה",
+    "status": "סטטוס",
+    "notes": "הערות",
+    "criterion": "בדיקה",
+    "kind": "סוג",
+    "reason": "סיבה",
+    "reportedItem": "הפריט שדווח"
+  },
+  "reportKinds": {
+    "broken_source": "מקור שבור",
+    "incorrect_information": "מידע שגוי",
+    "suggest_source": "מקור מוצע",
+    "add_contradicting_evidence": "ראיה סותרת",
+    "request_correction": "בקשת תיקון"
+  },
+  "panel": {
+    "title": "החלטה",
+    "takeFirst": "התחילו לבדוק פריט זה כדי להחליט. כל עוד הוא אצלכם, איש אחר לא יכול להחליט בו.",
+    "reason": "סיבה",
+    "reasonHint": "חובה אלא אם מאשרים. מי ששלח את הפריט רואה אותה.",
+    "heldElsewhere": "{name} כבר בודק פריט זה.",
+    "ownSubmission": "אתם הגשתם פריט זה, ולכן מנהל אחר צריך לאשר אותו. עדיין אפשר לבקש שינויים או לדחות אותו."
+  },
+  "actions": {
+    "take": "התחלת בדיקה",
+    "release": "שחרור",
+    "approve": "אישור",
+    "requestChanges": "בקשת שינויים",
+    "reject": "דחייה",
+    "accept": "קבלת הדיווח",
+    "dismiss": "דחיית הדיווח"
+  },
+  "decisions": {
+    "approved": "אושר",
+    "rejected": "נדחה",
+    "changes_requested": "התבקשו שינויים"
+  },
+  "toast": {
+    "working": "מעבד…",
+    "taken": "אתם בודקים כעת את הפריט.",
+    "released": "הפריט שוחרר.",
+    "decided": "ההחלטה נשמרה."
+  },
+  "errors": {
+    "invalid": "בדקו את ההחלטה והסיבה ונסו שוב.",
+    "forbidden": "אין לכם הרשאה לבדוק.",
+    "taken": "מישהו אחר מחזיק בפריט או כבר החליט בו. רעננו את הדף.",
+    "reason": "הוסיפו סיבה של 3 תווים לפחות.",
+    "blocked": "עדיין אי אפשר לאשר פריט זה. ראיה צריכה קודם מקור שפורסם.",
+    "failed": "לא ניתן היה לשמור. נסו שוב."
+  }
+}

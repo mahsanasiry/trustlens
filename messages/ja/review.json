@@ -1,0 +1,77 @@
+{
+  "title": "レビューキュー",
+  "lead": "判断を待っている投稿と報告です。",
+  "back": "キューに戻る",
+  "filterLabel": "表示",
+  "empty": "レビュー待ちのものはありません。",
+  "by": "{name} さんが投稿",
+  "heldBy": "{name} さんがレビュー中",
+  "heldByYou": "あなたがレビュー中です",
+  "unknown": "不明なメンバー",
+  "none": "なし",
+  "noChanges": "この変更は、現在公開されている内容を何も変えません。",
+  "current": "現在公開中",
+  "proposed": "提案",
+  "decided": "{name} さんが {date} に {decision}",
+  "types": {
+    "claim": "主張",
+    "source": "情報源",
+    "evidence": "証拠",
+    "assessment": "情報源の確認",
+    "revision": "公開済みコンテンツの変更",
+    "report": "報告"
+  },
+  "fields": {
+    "summary": "要約",
+    "position": "立場",
+    "status": "状態",
+    "notes": "メモ",
+    "criterion": "確認項目",
+    "kind": "種類",
+    "reason": "理由",
+    "reportedItem": "報告された項目"
+  },
+  "reportKinds": {
+    "broken_source": "リンク切れの情報源",
+    "incorrect_information": "誤った情報",
+    "suggest_source": "情報源の提案",
+    "add_contradicting_evidence": "反証",
+    "request_correction": "訂正の依頼"
+  },
+  "panel": {
+    "title": "判断",
+    "takeFirst": "判断するには、この項目のレビューを開始してください。あなたが担当している間は、他の人は判断できません。",
+    "reason": "理由",
+    "reasonHint": "承認する場合を除き必須です。この項目を送った人に表示されます。",
+    "heldElsewhere": "{name} さんがすでにこの項目をレビューしています。",
+    "ownSubmission": "この項目はあなたが投稿したため、別の管理者の承認が必要です。変更の依頼や却下はできます。"
+  },
+  "actions": {
+    "take": "レビューを開始",
+    "release": "担当を外す",
+    "approve": "承認",
+    "requestChanges": "変更を依頼",
+    "reject": "却下",
+    "accept": "報告を受理",
+    "dismiss": "報告を棄却"
+  },
+  "decisions": {
+    "approved": "承認済み",
+    "rejected": "却下済み",
+    "changes_requested": "変更を依頼済み"
+  },
+  "toast": {
+    "working": "処理中…",
+    "taken": "この項目のレビューを開始しました。",
+    "released": "担当を外しました。",
+    "decided": "判断を保存しました。"
+  },
+  "errors": {
+    "invalid": "判断と理由を確認して、もう一度お試しください。",
+    "forbidden": "レビューする権限がありません。",
+    "taken": "他の人が担当中か、すでに判断済みです。ページを再読み込みしてください。",
+    "reason": "3 文字以上の理由を入力してください。",
+    "blocked": "この項目はまだ承認できません。証拠には、先に公開済みの情報源が必要です。",
+    "failed": "保存できませんでした。もう一度お試しください。"
+  }
+}

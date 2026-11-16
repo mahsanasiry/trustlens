@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Draft claims and sources, send them for review and follow what happens next.",
+  "back": "Back to Studio",
+  "sections": {
+    "claims": "Claims",
+    "sources": "Sources"
+  },
+  "new": {
+    "claim": "New claim",
+    "source": "New source",
+    "claimLead": "Describe the claim as people make it. Evidence is added once its sources are published.",
+    "sourceLead": "Record where evidence comes from. Reviewers check a source before it is published."
+  },
+  "empty": {
+    "claim": "You have no claims yet.",
+    "source": "You have no sources yet."
+  },
+  "updated": "Updated {date}",
+  "state": {
+    "draft": "Draft",
+    "pending_review": "In review",
+    "changes_requested": "Changes requested",
+    "published": "Published",
+    "rejected": "Rejected"
+  },
+  "note": {
+    "draft": "Only you can see this draft. Send it for review when it is ready.",
+    "pending_review": "An admin is reviewing this. It can't be edited until the review is finished.",
+    "changes_requested": "An admin asked for changes. Edit it, then send it for review again.",
+    "published": "This is published. Changes to published content go through a new review.",
+    "rejected": "This was rejected and can no longer be edited."
+  },
+  "reviewerNote": "Reviewer's note",
+  "viewPublic": "View the public page",
+  "claim": {
+    "legend": "Claim details"
+  },
+  "source": {
+    "legend": "Source details"
+  },
+  "fields": {
+    "claimTitle": "Claim",
+    "description": "Description",
+    "originUrl": "Link to where it appeared",
+    "firstAppearedOn": "First appeared on",
+    "keywords": "Keywords",
+    "sourceTitle": "Title",
+    "url": "Link",
+    "category": "Category",
+    "language": "Language",
+    "origin": "Where it appeared",
+    "type": "Type",
+    "authors": "Authors",
+    "publisher": "Publisher",
+    "publishedOn": "Published",
+    "accessedOn": "Accessed"
+  },
+  "hints": {
+    "claimTitle": "Write the claim in one sentence, the way people say it.",
+    "origin": "A newspaper, a post, a speech or another place the claim appeared.",
+    "keywords": "Separate with commas. Up to 20.",
+    "authors": "One author per line."
+  },
+  "actions": {
+    "createDraft": "Create draft",
+    "submit": "Send for review",
+    "save": "Save changes"
+  },
+  "submit": {
+    "title": "Ready for review?",
+    "body": "An admin checks it before it is published. You can't edit it while it is in review."
+  },
+  "duplicate": {
+    "title": "Similar sources already exist",
+    "body": "Check that you are not adding the same source twice.",
+    "createAnyway": "Create it anyway",
+    "reason": {
+      "same_url": "Same address",
+      "similar_title": "Similar title"
+    }
+  },
+  "toast": {
+    "saving": "Saving…",
+    "submitting": "Sending for review…",
+    "saved": "Saved.",
+    "submitted": "Sent for review.",
+    "close": "Close"
+  },
+  "errors": {
+    "invalid": "Some fields are not valid. Check them and try again.",
+    "dates": "The access date cannot be earlier than the publication date.",
+    "locked": "This item can no longer be edited.",
+    "forbidden": "You do not have permission to do this.",
+    "failed": "This could not be saved. Try again."
+  }
+}

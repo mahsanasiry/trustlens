@@ -1,0 +1,77 @@
+{
+  "title": "Coda di revisione",
+  "lead": "Invii e segnalazioni in attesa di una decisione.",
+  "back": "Torna alla coda",
+  "filterLabel": "Mostra",
+  "empty": "Niente è in attesa di revisione.",
+  "by": "Inviato da {name}",
+  "heldBy": "In revisione da parte di {name}",
+  "heldByYou": "Stai rivedendo questo elemento",
+  "unknown": "Membro sconosciuto",
+  "none": "Nessuno",
+  "noChanges": "Questa modifica non cambia nulla di ciò che è pubblicato ora.",
+  "current": "Pubblicato ora",
+  "proposed": "Proposto",
+  "decided": "{decision} da {name} il {date}",
+  "types": {
+    "claim": "Affermazione",
+    "source": "Fonte",
+    "evidence": "Prova",
+    "assessment": "Verifica della fonte",
+    "revision": "Modifica a un contenuto pubblicato",
+    "report": "Segnalazione"
+  },
+  "fields": {
+    "summary": "Riepilogo",
+    "position": "Posizione",
+    "status": "Stato",
+    "notes": "Note",
+    "criterion": "Criterio",
+    "kind": "Tipo",
+    "reason": "Motivo",
+    "reportedItem": "Elemento segnalato"
+  },
+  "reportKinds": {
+    "broken_source": "Fonte non raggiungibile",
+    "incorrect_information": "Informazione errata",
+    "suggest_source": "Fonte suggerita",
+    "add_contradicting_evidence": "Prova contraria",
+    "request_correction": "Richiesta di correzione"
+  },
+  "panel": {
+    "title": "Decisione",
+    "takeFirst": "Inizia a rivedere questo elemento per decidere. Finché lo tieni tu, nessun altro può decidere.",
+    "reason": "Motivo",
+    "reasonHint": "Obbligatorio, a meno che tu non approvi. Lo vede chi ha inviato l’elemento.",
+    "heldElsewhere": "{name} sta già rivedendo questo elemento.",
+    "ownSubmission": "Hai inviato tu questo elemento, quindi deve approvarlo un altro amministratore. Puoi comunque chiedere modifiche o rifiutarlo."
+  },
+  "actions": {
+    "take": "Inizia la revisione",
+    "release": "Rilascia",
+    "approve": "Approva",
+    "requestChanges": "Chiedi modifiche",
+    "reject": "Rifiuta",
+    "accept": "Accetta la segnalazione",
+    "dismiss": "Archivia la segnalazione"
+  },
+  "decisions": {
+    "approved": "Approvato",
+    "rejected": "Rifiutato",
+    "changes_requested": "Modifiche richieste"
+  },
+  "toast": {
+    "working": "Operazione in corso…",
+    "taken": "Ora stai rivedendo questo elemento.",
+    "released": "Elemento rilasciato.",
+    "decided": "Decisione salvata."
+  },
+  "errors": {
+    "invalid": "Controlla la decisione e il motivo, poi riprova.",
+    "forbidden": "Non hai il permesso di rivedere.",
+    "taken": "Qualcun altro lo ha in carico o lo ha già deciso. Ricarica la pagina.",
+    "reason": "Scrivi un motivo di almeno 3 caratteri.",
+    "blocked": "Questo elemento non può ancora essere approvato. Una prova richiede prima una fonte pubblicata.",
+    "failed": "Impossibile salvare. Riprova."
+  }
+}

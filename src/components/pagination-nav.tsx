@@ -5,14 +5,24 @@ interface PaginationNavProps {
   pathname: string;
   page: number;
   pageCount: number;
+  /** Filters to keep on every page link. */
+  query?: Record<string, string>;
 }
 
-export function PaginationNav({ pathname, page, pageCount }: PaginationNavProps) {
+export function PaginationNav({
+  pathname,
+  page,
+  pageCount,
+  query: kept,
+}: PaginationNavProps) {
   const t = useTranslations('claims.pagination');
   const format = useFormatter();
   if (pageCount <= 1) return null;
 
-  const query = (target: number) => (target > 1 ? { page: String(target) } : {});
+  const query = (target: number) => ({
+    ...kept,
+    ...(target > 1 ? { page: String(target) } : {}),
+  });
 
   return (
     <nav aria-label={t('label')} className="pagination">

@@ -1,0 +1,97 @@
+{
+  "title": "工作室",
+  "lead": "起草主張與來源，送出審核，並追蹤後續進度。",
+  "back": "返回工作室",
+  "sections": {
+    "claims": "主張",
+    "sources": "來源"
+  },
+  "new": {
+    "claim": "新增主張",
+    "source": "新增來源",
+    "claimLead": "依人們的說法描述這項主張。證據要等其來源發布後再加入。",
+    "sourceLead": "記錄證據的出處。來源在發布前會由審核人員檢查。"
+  },
+  "empty": {
+    "claim": "你還沒有主張。",
+    "source": "你還沒有來源。"
+  },
+  "updated": "更新於 {date}",
+  "state": {
+    "draft": "草稿",
+    "pending_review": "審核中",
+    "changes_requested": "需要修改",
+    "published": "已發布",
+    "rejected": "已駁回"
+  },
+  "note": {
+    "draft": "只有你看得到這份草稿。準備好後送出審核。",
+    "pending_review": "管理員正在審核。審核結束前無法編輯。",
+    "changes_requested": "管理員要求修改。請修改後重新送出審核。",
+    "published": "此項已發布。已發布內容的修改需要重新審核。",
+    "rejected": "此項已被駁回，無法再編輯。"
+  },
+  "reviewerNote": "審核人備註",
+  "viewPublic": "查看公開頁面",
+  "claim": {
+    "legend": "主張詳情"
+  },
+  "source": {
+    "legend": "來源詳情"
+  },
+  "fields": {
+    "claimTitle": "主張",
+    "description": "說明",
+    "originUrl": "指向其出現位置的連結",
+    "firstAppearedOn": "首次出現於",
+    "keywords": "關鍵字",
+    "sourceTitle": "標題",
+    "url": "連結",
+    "category": "類別",
+    "language": "語言",
+    "origin": "出現在哪裡",
+    "type": "類型",
+    "authors": "作者",
+    "publisher": "發布單位",
+    "publishedOn": "發布",
+    "accessedOn": "存取"
+  },
+  "hints": {
+    "claimTitle": "用一句話寫出這項主張，依人們的說法來寫。",
+    "origin": "報紙、貼文、演說，或主張出現的其他地方。",
+    "keywords": "以逗號分隔，最多 20 個。",
+    "authors": "每行一位作者。"
+  },
+  "actions": {
+    "createDraft": "建立草稿",
+    "submit": "送出審核",
+    "save": "儲存變更"
+  },
+  "submit": {
+    "title": "可以審核了嗎？",
+    "body": "發布前會由管理員檢查。審核期間無法編輯。"
+  },
+  "duplicate": {
+    "title": "已存在相似的來源",
+    "body": "請確認你沒有重複新增同一來源。",
+    "createAnyway": "仍然建立",
+    "reason": {
+      "same_url": "位址相同",
+      "similar_title": "標題相似"
+    }
+  },
+  "toast": {
+    "saving": "儲存中…",
+    "submitting": "正在送出審核…",
+    "saved": "已儲存。",
+    "submitted": "已送出審核。",
+    "close": "關閉"
+  },
+  "errors": {
+    "invalid": "部分欄位無效，請檢查後再試一次。",
+    "dates": "存取日期不能早於發布日期。",
+    "locked": "此項無法再編輯。",
+    "forbidden": "你沒有執行此操作的權限。",
+    "failed": "無法儲存，請再試一次。"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Cola de revisión",
+  "lead": "Envíos e informes que esperan una decisión.",
+  "back": "Volver a la cola",
+  "filterLabel": "Mostrar",
+  "empty": "No hay nada pendiente de revisión.",
+  "by": "Enviado por {name}",
+  "heldBy": "Lo está revisando {name}",
+  "heldByYou": "Estás revisando este elemento",
+  "unknown": "Miembro desconocido",
+  "none": "Ninguno",
+  "noChanges": "Este cambio no modifica nada de lo que está publicado ahora.",
+  "current": "Publicado ahora",
+  "proposed": "Propuesto",
+  "decided": "{decision} por {name} el {date}",
+  "types": {
+    "claim": "Afirmación",
+    "source": "Fuente",
+    "evidence": "Prueba",
+    "assessment": "Revisión de la fuente",
+    "revision": "Cambio en contenido publicado",
+    "report": "Informe"
+  },
+  "fields": {
+    "summary": "Resumen",
+    "position": "Postura",
+    "status": "Estado",
+    "notes": "Notas",
+    "criterion": "Criterio",
+    "kind": "Tipo",
+    "reason": "Motivo",
+    "reportedItem": "Elemento denunciado"
+  },
+  "reportKinds": {
+    "broken_source": "Fuente rota",
+    "incorrect_information": "Información incorrecta",
+    "suggest_source": "Fuente sugerida",
+    "add_contradicting_evidence": "Prueba contradictoria",
+    "request_correction": "Solicitud de corrección"
+  },
+  "panel": {
+    "title": "Decisión",
+    "takeFirst": "Empieza a revisar este elemento para decidir. Nadie más puede decidir mientras lo tengas asignado.",
+    "reason": "Motivo",
+    "reasonHint": "Obligatorio salvo que apruebes. Lo verá quien envió este elemento.",
+    "heldElsewhere": "{name} ya está revisando este elemento.",
+    "ownSubmission": "Enviaste este elemento tú mismo, así que otro administrador debe aprobarlo. Aun así puedes pedir cambios o rechazarlo."
+  },
+  "actions": {
+    "take": "Empezar a revisar",
+    "release": "Liberar",
+    "approve": "Aprobar",
+    "requestChanges": "Pedir cambios",
+    "reject": "Rechazar",
+    "accept": "Aceptar informe",
+    "dismiss": "Descartar informe"
+  },
+  "decisions": {
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "changes_requested": "Cambios solicitados"
+  },
+  "toast": {
+    "working": "Trabajando…",
+    "taken": "Ahora estás revisando este elemento.",
+    "released": "Elemento liberado.",
+    "decided": "Decisión guardada."
+  },
+  "errors": {
+    "invalid": "Revisa la decisión y el motivo e inténtalo de nuevo.",
+    "forbidden": "No tienes permiso para revisar.",
+    "taken": "Otra persona ya lo tiene asignado o ya lo decidió. Recarga la página.",
+    "reason": "Escribe un motivo de al menos 3 caracteres.",
+    "blocked": "Este elemento aún no se puede aprobar. Una prueba necesita antes una fuente publicada.",
+    "failed": "No se pudo guardar. Inténtalo de nuevo."
+  }
+}

@@ -11,17 +11,29 @@ import { ThemeToggle } from './theme-toggle';
 import { UserMenu } from './user-menu';
 
 export async function SiteHeader() {
-  const [t, tClaims, tSources, tSearch, tBookmarks, tCollections, tProfile, session] =
-    await Promise.all([
-      getTranslations('auth'),
-      getTranslations('claims'),
-      getTranslations('sources'),
-      getTranslations('search'),
-      getTranslations('bookmarks'),
-      getTranslations('collections'),
-      getTranslations('profile'),
-      getSession(),
-    ]);
+  const [
+    t,
+    tClaims,
+    tSources,
+    tSearch,
+    tBookmarks,
+    tCollections,
+    tProfile,
+    tStudio,
+    tReview,
+    session,
+  ] = await Promise.all([
+    getTranslations('auth'),
+    getTranslations('claims'),
+    getTranslations('sources'),
+    getTranslations('search'),
+    getTranslations('bookmarks'),
+    getTranslations('collections'),
+    getTranslations('profile'),
+    getTranslations('studio'),
+    getTranslations('review'),
+    getSession(),
+  ]);
 
   return (
     <header className="site-header">
@@ -43,6 +55,12 @@ export async function SiteHeader() {
               label={t('nav.signedInAs', { name: session.displayName })}
               avatarUrl={avatarUrl(readSupabaseEnv()?.url, session.avatarPath)}
               items={[
+                ...(session.actor.role === 'user'
+                  ? []
+                  : [{ href: '/studio' as const, label: tStudio('title') }]),
+                ...(session.actor.role === 'admin'
+                  ? [{ href: '/review' as const, label: tReview('title') }]
+                  : []),
                 { href: '/profile', label: tProfile('title') },
                 { href: '/bookmarks', label: tBookmarks('title') },
                 { href: '/collections', label: tCollections('title') },

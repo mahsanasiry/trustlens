@@ -1,0 +1,77 @@
+{
+  "title": "Hàng đợi xét duyệt",
+  "lead": "Các bài gửi và báo cáo đang chờ quyết định.",
+  "back": "Quay lại hàng đợi",
+  "filterLabel": "Hiển thị",
+  "empty": "Không có gì đang chờ xét duyệt.",
+  "by": "Do {name} gửi",
+  "heldBy": "{name} đang xét duyệt",
+  "heldByYou": "Bạn đang xét duyệt mục này",
+  "unknown": "Thành viên không rõ",
+  "none": "Không có",
+  "noChanges": "Thay đổi này không làm thay đổi gì ở nội dung đang được xuất bản.",
+  "current": "Đang xuất bản",
+  "proposed": "Đề xuất",
+  "decided": "{name} {decision} vào {date}",
+  "types": {
+    "claim": "Tuyên bố",
+    "source": "Nguồn",
+    "evidence": "Bằng chứng",
+    "assessment": "Kiểm tra nguồn",
+    "revision": "Thay đổi nội dung đã xuất bản",
+    "report": "Báo cáo"
+  },
+  "fields": {
+    "summary": "Tóm tắt",
+    "position": "Lập trường",
+    "status": "Trạng thái",
+    "notes": "Ghi chú",
+    "criterion": "Tiêu chí",
+    "kind": "Loại",
+    "reason": "Lý do",
+    "reportedItem": "Mục bị báo cáo"
+  },
+  "reportKinds": {
+    "broken_source": "Nguồn hỏng",
+    "incorrect_information": "Thông tin sai",
+    "suggest_source": "Nguồn được đề xuất",
+    "add_contradicting_evidence": "Bằng chứng mâu thuẫn",
+    "request_correction": "Yêu cầu sửa"
+  },
+  "panel": {
+    "title": "Quyết định",
+    "takeFirst": "Hãy bắt đầu xét duyệt mục này để ra quyết định. Khi bạn đang giữ mục này, không ai khác có thể quyết định.",
+    "reason": "Lý do",
+    "reasonHint": "Bắt buộc trừ khi bạn phê duyệt. Người gửi mục này sẽ thấy lý do.",
+    "heldElsewhere": "{name} đang xét duyệt mục này.",
+    "ownSubmission": "Bạn là người gửi mục này nên cần một quản trị viên khác phê duyệt. Bạn vẫn có thể yêu cầu chỉnh sửa hoặc từ chối."
+  },
+  "actions": {
+    "take": "Bắt đầu xét duyệt",
+    "release": "Thả ra",
+    "approve": "Phê duyệt",
+    "requestChanges": "Yêu cầu chỉnh sửa",
+    "reject": "Từ chối",
+    "accept": "Chấp nhận báo cáo",
+    "dismiss": "Bác bỏ báo cáo"
+  },
+  "decisions": {
+    "approved": "Đã phê duyệt",
+    "rejected": "Đã từ chối",
+    "changes_requested": "Đã yêu cầu chỉnh sửa"
+  },
+  "toast": {
+    "working": "Đang xử lý…",
+    "taken": "Bạn đang xét duyệt mục này.",
+    "released": "Đã thả mục này ra.",
+    "decided": "Đã lưu quyết định."
+  },
+  "errors": {
+    "invalid": "Hãy kiểm tra quyết định và lý do rồi thử lại.",
+    "forbidden": "Bạn không có quyền xét duyệt.",
+    "taken": "Người khác đang giữ hoặc đã quyết định mục này. Hãy tải lại trang.",
+    "reason": "Nhập lý do tối thiểu 3 ký tự.",
+    "blocked": "Chưa thể phê duyệt mục này. Bằng chứng cần có nguồn đã xuất bản trước.",
+    "failed": "Không thể lưu. Hãy thử lại."
+  }
+}

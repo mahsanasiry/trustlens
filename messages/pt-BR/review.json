@@ -1,0 +1,77 @@
+{
+  "title": "Fila de revisão",
+  "lead": "Envios e denúncias aguardando uma decisão.",
+  "back": "Voltar para a fila",
+  "filterLabel": "Mostrar",
+  "empty": "Nada aguarda revisão.",
+  "by": "Enviado por {name}",
+  "heldBy": "Em revisão por {name}",
+  "heldByYou": "Você está revisando este item",
+  "unknown": "Membro desconhecido",
+  "none": "Nenhum",
+  "noChanges": "Esta alteração não muda nada do que está publicado agora.",
+  "current": "Publicado agora",
+  "proposed": "Proposto",
+  "decided": "{decision} por {name} em {date}",
+  "types": {
+    "claim": "Afirmação",
+    "source": "Fonte",
+    "evidence": "Evidência",
+    "assessment": "Verificação da fonte",
+    "revision": "Alteração em conteúdo publicado",
+    "report": "Denúncia"
+  },
+  "fields": {
+    "summary": "Resumo",
+    "position": "Posição",
+    "status": "Situação",
+    "notes": "Anotações",
+    "criterion": "Critério",
+    "kind": "Tipo",
+    "reason": "Motivo",
+    "reportedItem": "Item denunciado"
+  },
+  "reportKinds": {
+    "broken_source": "Fonte quebrada",
+    "incorrect_information": "Informação incorreta",
+    "suggest_source": "Fonte sugerida",
+    "add_contradicting_evidence": "Evidência contraditória",
+    "request_correction": "Pedido de correção"
+  },
+  "panel": {
+    "title": "Decisão",
+    "takeFirst": "Comece a revisar este item para decidir. Enquanto estiver com você, ninguém mais pode decidir.",
+    "reason": "Motivo",
+    "reasonHint": "Obrigatório, a menos que você aprove. Quem enviou este item vê o motivo.",
+    "heldElsewhere": "{name} já está revisando este item.",
+    "ownSubmission": "Você enviou este item, então outro administrador precisa aprová-lo. Você ainda pode pedir alterações ou rejeitá-lo."
+  },
+  "actions": {
+    "take": "Começar a revisar",
+    "release": "Liberar",
+    "approve": "Aprovar",
+    "requestChanges": "Pedir alterações",
+    "reject": "Rejeitar",
+    "accept": "Aceitar denúncia",
+    "dismiss": "Descartar denúncia"
+  },
+  "decisions": {
+    "approved": "Aprovado",
+    "rejected": "Rejeitado",
+    "changes_requested": "Alterações solicitadas"
+  },
+  "toast": {
+    "working": "Processando…",
+    "taken": "Agora você está revisando este item.",
+    "released": "Item liberado.",
+    "decided": "Decisão salva."
+  },
+  "errors": {
+    "invalid": "Confira a decisão e o motivo e tente de novo.",
+    "forbidden": "Você não tem permissão para revisar.",
+    "taken": "Outra pessoa já está com ele ou já decidiu. Recarregue a página.",
+    "reason": "Escreva um motivo com pelo menos 3 caracteres.",
+    "blocked": "Este item ainda não pode ser aprovado. Uma evidência precisa antes de uma fonte publicada.",
+    "failed": "Não foi possível salvar. Tente de novo."
+  }
+}

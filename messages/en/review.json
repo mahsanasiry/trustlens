@@ -1,0 +1,77 @@
+{
+  "title": "Review queue",
+  "lead": "Submissions and reports that are waiting for a decision.",
+  "back": "Back to the queue",
+  "filterLabel": "Show",
+  "empty": "Nothing is waiting for review.",
+  "by": "Submitted by {name}",
+  "heldBy": "Being reviewed by {name}",
+  "heldByYou": "You are reviewing this",
+  "unknown": "Unknown member",
+  "none": "None",
+  "noChanges": "This change does not alter anything that is published now.",
+  "current": "Published now",
+  "proposed": "Proposed",
+  "decided": "{decision} by {name} on {date}",
+  "types": {
+    "claim": "Claim",
+    "source": "Source",
+    "evidence": "Evidence",
+    "assessment": "Source check",
+    "revision": "Change to published content",
+    "report": "Report"
+  },
+  "fields": {
+    "summary": "Summary",
+    "position": "Position",
+    "status": "Status",
+    "notes": "Notes",
+    "criterion": "Check",
+    "kind": "Kind",
+    "reason": "Reason",
+    "reportedItem": "Reported item"
+  },
+  "reportKinds": {
+    "broken_source": "Broken source",
+    "incorrect_information": "Incorrect information",
+    "suggest_source": "Suggested source",
+    "add_contradicting_evidence": "Contradicting evidence",
+    "request_correction": "Correction request"
+  },
+  "panel": {
+    "title": "Decision",
+    "takeFirst": "Start reviewing this item to make a decision. Nobody else can decide it while you hold it.",
+    "reason": "Reason",
+    "reasonHint": "Required unless you approve. The person who sent this item sees it.",
+    "heldElsewhere": "{name} is already reviewing this item.",
+    "ownSubmission": "You submitted this item, so another admin has to approve it. You can still request changes or reject it."
+  },
+  "actions": {
+    "take": "Start reviewing",
+    "release": "Release",
+    "approve": "Approve",
+    "requestChanges": "Request changes",
+    "reject": "Reject",
+    "accept": "Accept report",
+    "dismiss": "Dismiss report"
+  },
+  "decisions": {
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "changes_requested": "Changes requested"
+  },
+  "toast": {
+    "working": "Working…",
+    "taken": "You are now reviewing this item.",
+    "released": "Item released.",
+    "decided": "Decision saved."
+  },
+  "errors": {
+    "invalid": "Check the decision and reason, then try again.",
+    "forbidden": "You do not have permission to review.",
+    "taken": "Someone else already holds or has decided this item. Reload the page.",
+    "reason": "Add a reason of at least 3 characters.",
+    "blocked": "This item can't be approved yet. Evidence needs a published source first.",
+    "failed": "This could not be saved. Try again."
+  }
+}

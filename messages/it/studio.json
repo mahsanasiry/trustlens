@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Scrivi bozze di affermazioni e fonti, inviale in revisione e segui cosa succede dopo.",
+  "back": "Torna allo studio",
+  "sections": {
+    "claims": "Affermazioni",
+    "sources": "Fonti"
+  },
+  "new": {
+    "claim": "Nuova affermazione",
+    "source": "Nuova fonte",
+    "claimLead": "Descrivi l’affermazione come la fanno le persone. Le prove si aggiungono quando le loro fonti sono pubblicate.",
+    "sourceLead": "Indica da dove viene la prova. I revisori controllano una fonte prima della pubblicazione."
+  },
+  "empty": {
+    "claim": "Non hai ancora affermazioni.",
+    "source": "Non hai ancora fonti."
+  },
+  "updated": "Aggiornata {date}",
+  "state": {
+    "draft": "Bozza",
+    "pending_review": "In revisione",
+    "changes_requested": "Modifiche richieste",
+    "published": "Pubblicato",
+    "rejected": "Rifiutato"
+  },
+  "note": {
+    "draft": "Solo tu vedi questa bozza. Inviala in revisione quando è pronta.",
+    "pending_review": "Un amministratore la sta esaminando. Non si può modificare finché la revisione non è conclusa.",
+    "changes_requested": "Un amministratore ha chiesto modifiche. Modificala e inviala di nuovo in revisione.",
+    "published": "È pubblicato. Le modifiche ai contenuti pubblicati passano da una nuova revisione.",
+    "rejected": "È stato rifiutato e non si può più modificare."
+  },
+  "reviewerNote": "Nota del revisore",
+  "viewPublic": "Vedi la pagina pubblica",
+  "claim": {
+    "legend": "Dettagli dell’affermazione"
+  },
+  "source": {
+    "legend": "Dettagli della fonte"
+  },
+  "fields": {
+    "claimTitle": "Affermazione",
+    "description": "Descrizione",
+    "originUrl": "Link a dove è apparsa",
+    "firstAppearedOn": "Apparsa per la prima volta il",
+    "keywords": "Parole chiave",
+    "sourceTitle": "Titolo",
+    "url": "Link",
+    "category": "Categoria",
+    "language": "Lingua",
+    "origin": "Dove è comparsa",
+    "type": "Tipo",
+    "authors": "Autori",
+    "publisher": "Editore",
+    "publishedOn": "Pubblicato",
+    "accessedOn": "Consultato"
+  },
+  "hints": {
+    "claimTitle": "Scrivi l’affermazione in una frase, come la dicono le persone.",
+    "origin": "Un giornale, un post, un discorso o un altro luogo in cui l’affermazione è apparsa.",
+    "keywords": "Separa con virgole. Fino a 20.",
+    "authors": "Un autore per riga."
+  },
+  "actions": {
+    "createDraft": "Crea bozza",
+    "submit": "Invia in revisione",
+    "save": "Salva le modifiche"
+  },
+  "submit": {
+    "title": "Pronta per la revisione?",
+    "body": "Un amministratore la controlla prima della pubblicazione. Durante la revisione non puoi modificarla."
+  },
+  "duplicate": {
+    "title": "Esistono già fonti simili",
+    "body": "Controlla di non aggiungere due volte la stessa fonte.",
+    "createAnyway": "Crea comunque",
+    "reason": {
+      "same_url": "Stesso indirizzo",
+      "similar_title": "Titolo simile"
+    }
+  },
+  "toast": {
+    "saving": "Salvataggio…",
+    "submitting": "Invio in revisione…",
+    "saved": "Salvato.",
+    "submitted": "Inviato in revisione.",
+    "close": "Chiudi"
+  },
+  "errors": {
+    "invalid": "Alcuni campi non sono validi. Controllali e riprova.",
+    "dates": "La data di consultazione non può precedere quella di pubblicazione.",
+    "locked": "Questo elemento non si può più modificare.",
+    "forbidden": "Non hai il permesso di farlo.",
+    "failed": "Impossibile salvare. Riprova."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Prüfwarteschlange",
+  "lead": "Einreichungen und Meldungen, die auf eine Entscheidung warten.",
+  "back": "Zurück zur Warteschlange",
+  "filterLabel": "Anzeigen",
+  "empty": "Es wartet nichts auf eine Prüfung.",
+  "by": "Eingereicht von {name}",
+  "heldBy": "Wird von {name} geprüft",
+  "heldByYou": "Sie prüfen diesen Eintrag",
+  "unknown": "Unbekanntes Mitglied",
+  "none": "Keine",
+  "noChanges": "Diese Änderung ändert nichts an dem, was jetzt veröffentlicht ist.",
+  "current": "Jetzt veröffentlicht",
+  "proposed": "Vorgeschlagen",
+  "decided": "{decision} von {name} am {date}",
+  "types": {
+    "claim": "Behauptung",
+    "source": "Quelle",
+    "evidence": "Beleg",
+    "assessment": "Quellenprüfung",
+    "revision": "Änderung an veröffentlichtem Inhalt",
+    "report": "Meldung"
+  },
+  "fields": {
+    "summary": "Zusammenfassung",
+    "position": "Haltung",
+    "status": "Status",
+    "notes": "Anmerkungen",
+    "criterion": "Prüfpunkt",
+    "kind": "Art",
+    "reason": "Begründung",
+    "reportedItem": "Gemeldeter Eintrag"
+  },
+  "reportKinds": {
+    "broken_source": "Defekte Quelle",
+    "incorrect_information": "Falsche Angaben",
+    "suggest_source": "Vorgeschlagene Quelle",
+    "add_contradicting_evidence": "Widersprechender Beleg",
+    "request_correction": "Korrekturwunsch"
+  },
+  "panel": {
+    "title": "Entscheidung",
+    "takeFirst": "Beginnen Sie die Prüfung dieses Eintrags, um zu entscheiden. Solange Sie ihn übernommen haben, kann niemand sonst entscheiden.",
+    "reason": "Begründung",
+    "reasonHint": "Erforderlich, außer bei einer Freigabe. Die Person, die den Eintrag eingereicht hat, sieht sie.",
+    "heldElsewhere": "{name} prüft diesen Eintrag bereits.",
+    "ownSubmission": "Sie haben diesen Eintrag selbst eingereicht, deshalb muss ihn ein anderer Admin freigeben. Sie können trotzdem Änderungen anfordern oder ablehnen."
+  },
+  "actions": {
+    "take": "Prüfung beginnen",
+    "release": "Freigeben",
+    "approve": "Genehmigen",
+    "requestChanges": "Änderungen anfordern",
+    "reject": "Ablehnen",
+    "accept": "Meldung annehmen",
+    "dismiss": "Meldung verwerfen"
+  },
+  "decisions": {
+    "approved": "Genehmigt",
+    "rejected": "Abgelehnt",
+    "changes_requested": "Änderungen angefordert"
+  },
+  "toast": {
+    "working": "Wird bearbeitet …",
+    "taken": "Sie prüfen diesen Eintrag jetzt.",
+    "released": "Eintrag freigegeben.",
+    "decided": "Entscheidung gespeichert."
+  },
+  "errors": {
+    "invalid": "Prüfen Sie Entscheidung und Begründung und versuchen Sie es erneut.",
+    "forbidden": "Sie dürfen hier nicht prüfen.",
+    "taken": "Jemand anderes hat diesen Eintrag übernommen oder bereits entschieden. Laden Sie die Seite neu.",
+    "reason": "Geben Sie eine Begründung mit mindestens 3 Zeichen an.",
+    "blocked": "Dieser Eintrag kann noch nicht genehmigt werden. Ein Beleg braucht zuerst eine veröffentlichte Quelle.",
+    "failed": "Das konnte nicht gespeichert werden. Versuchen Sie es erneut."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "審核佇列",
+  "lead": "等待決定的提交內容與檢舉。",
+  "back": "返回佇列",
+  "filterLabel": "顯示",
+  "empty": "沒有等待審核的內容。",
+  "by": "提交者：{name}",
+  "heldBy": "審核者：{name}",
+  "heldByYou": "你正在審核此項",
+  "unknown": "未知成員",
+  "none": "無",
+  "noChanges": "此變更不會更動目前已發布的任何內容。",
+  "current": "目前已發布",
+  "proposed": "建議",
+  "decided": "{name} 於 {date}{decision}",
+  "types": {
+    "claim": "主張",
+    "source": "來源",
+    "evidence": "證據",
+    "assessment": "來源查核",
+    "revision": "對已發布內容的變更",
+    "report": "檢舉"
+  },
+  "fields": {
+    "summary": "摘要",
+    "position": "立場",
+    "status": "狀態",
+    "notes": "備註",
+    "criterion": "查核項目",
+    "kind": "類型",
+    "reason": "原因",
+    "reportedItem": "被檢舉的項目"
+  },
+  "reportKinds": {
+    "broken_source": "來源失效",
+    "incorrect_information": "資訊有誤",
+    "suggest_source": "建議的來源",
+    "add_contradicting_evidence": "相反的證據",
+    "request_correction": "更正請求"
+  },
+  "panel": {
+    "title": "決定",
+    "takeFirst": "開始審核此項後才能做決定。你持有期間，其他人無法決定。",
+    "reason": "原因",
+    "reasonHint": "除核准外必填。提交此項的人會看到。",
+    "heldElsewhere": "{name} 已在審核此項。",
+    "ownSubmission": "此項由你提交，因此需要另一位管理員核准。你仍可要求修改或拒絕。"
+  },
+  "actions": {
+    "take": "開始審核",
+    "release": "釋出",
+    "approve": "核准",
+    "requestChanges": "要求修改",
+    "reject": "拒絕",
+    "accept": "接受檢舉",
+    "dismiss": "駁回檢舉"
+  },
+  "decisions": {
+    "approved": "已核准",
+    "rejected": "已拒絕",
+    "changes_requested": "已要求修改"
+  },
+  "toast": {
+    "working": "處理中…",
+    "taken": "你現在正在審核此項。",
+    "released": "已釋出。",
+    "decided": "決定已儲存。"
+  },
+  "errors": {
+    "invalid": "請檢查決定與原因，然後重試。",
+    "forbidden": "你沒有審核權限。",
+    "taken": "其他人正在處理或已做出決定。請重新整理頁面。",
+    "reason": "請填寫至少 3 個字元的原因。",
+    "blocked": "此項暫時無法核准。證據需要先有已發布的來源。",
+    "failed": "無法儲存，請重試。"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Studio",
+  "lead": "Schrijf concepten van beweringen en bronnen, stuur ze ter beoordeling en volg wat er daarna gebeurt.",
+  "back": "Terug naar de studio",
+  "sections": {
+    "claims": "Beweringen",
+    "sources": "Bronnen"
+  },
+  "new": {
+    "claim": "Nieuwe bewering",
+    "source": "Nieuwe bron",
+    "claimLead": "Beschrijf de bewering zoals mensen die doen. Bewijs komt erbij zodra de bronnen zijn gepubliceerd.",
+    "sourceLead": "Leg vast waar het bewijs vandaan komt. Beoordelaars controleren een bron voordat die wordt gepubliceerd."
+  },
+  "empty": {
+    "claim": "Je hebt nog geen beweringen.",
+    "source": "Je hebt nog geen bronnen."
+  },
+  "updated": "Bijgewerkt {date}",
+  "state": {
+    "draft": "Concept",
+    "pending_review": "In beoordeling",
+    "changes_requested": "Wijzigingen gevraagd",
+    "published": "Gepubliceerd",
+    "rejected": "Afgewezen"
+  },
+  "note": {
+    "draft": "Alleen jij ziet dit concept. Stuur het ter beoordeling als het klaar is.",
+    "pending_review": "Een beheerder beoordeelt dit. Bewerken kan pas als de beoordeling klaar is.",
+    "changes_requested": "Een beheerder vroeg om wijzigingen. Pas het aan en stuur het opnieuw ter beoordeling.",
+    "published": "Dit is gepubliceerd. Wijzigingen in gepubliceerde inhoud worden opnieuw beoordeeld.",
+    "rejected": "Dit is afgewezen en kan niet meer worden bewerkt."
+  },
+  "reviewerNote": "Opmerking van de beoordelaar",
+  "viewPublic": "Openbare pagina bekijken",
+  "claim": {
+    "legend": "Gegevens van de bewering"
+  },
+  "source": {
+    "legend": "Gegevens van de bron"
+  },
+  "fields": {
+    "claimTitle": "Bewering",
+    "description": "Beschrijving",
+    "originUrl": "Link naar waar het verscheen",
+    "firstAppearedOn": "Voor het eerst verschenen op",
+    "keywords": "Trefwoorden",
+    "sourceTitle": "Titel",
+    "url": "Link",
+    "category": "Categorie",
+    "language": "Taal",
+    "origin": "Waar ze verscheen",
+    "type": "Type",
+    "authors": "Auteurs",
+    "publisher": "Uitgever",
+    "publishedOn": "Gepubliceerd",
+    "accessedOn": "Geraadpleegd"
+  },
+  "hints": {
+    "claimTitle": "Schrijf de bewering in één zin, zoals mensen die zeggen.",
+    "origin": "Een krant, een bericht, een toespraak of een andere plek waar de bewering verscheen.",
+    "keywords": "Scheid met komma’s. Maximaal 20.",
+    "authors": "Eén auteur per regel."
+  },
+  "actions": {
+    "createDraft": "Concept maken",
+    "submit": "Ter beoordeling sturen",
+    "save": "Wijzigingen opslaan"
+  },
+  "submit": {
+    "title": "Klaar voor beoordeling?",
+    "body": "Een beheerder controleert het voor het wordt gepubliceerd. Tijdens de beoordeling kun je het niet bewerken."
+  },
+  "duplicate": {
+    "title": "Vergelijkbare bronnen bestaan al",
+    "body": "Controleer dat je niet twee keer dezelfde bron toevoegt.",
+    "createAnyway": "Toch maken",
+    "reason": {
+      "same_url": "Zelfde adres",
+      "similar_title": "Vergelijkbare titel"
+    }
+  },
+  "toast": {
+    "saving": "Opslaan…",
+    "submitting": "Ter beoordeling sturen…",
+    "saved": "Opgeslagen.",
+    "submitted": "Ter beoordeling gestuurd.",
+    "close": "Sluiten"
+  },
+  "errors": {
+    "invalid": "Sommige velden zijn ongeldig. Controleer ze en probeer het opnieuw.",
+    "dates": "De raadpleegdatum kan niet vóór de publicatiedatum liggen.",
+    "locked": "Dit item kan niet meer worden bewerkt.",
+    "forbidden": "Je hebt hiervoor geen toestemming.",
+    "failed": "Opslaan is niet gelukt. Probeer het opnieuw."
+  }
+}
