@@ -1,0 +1,80 @@
+name: Deploy
+
+# Builds on Linux, because the Cloudflare build tool does not support Windows, and
+# publishes to Cloudflare Workers. See docs/deployment.md for the one-time setup.
+#
+# It starts by hand until the settings exist; a run without them fails at once. To
+# deploy on every push to main, add this under "on:" after the first successful run:
+#   push:
+#     branches: [main]
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Public values, read at build time and compiled into the code.
+      NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL }}
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: Check the configuration
+        run: |
+          missing=""
+          [ -z "$NEXT_PUBLIC_SITE_URL" ] && missing="$missing SITE_URL(variable)"
+          [ -z "$NEXT_PUBLIC_SUPABASE_URL" ] && missing="$missing NEXT_PUBLIC_SUPABASE_URL"
+          [ -z "$NEXT_PUBLIC_SUPABASE_ANON_KEY" ] && missing="$missing NEXT_PUBLIC_SUPABASE_ANON_KEY"
+          [ -z "$CLOUDFLARE_API_TOKEN" ] && missing="$missing CLOUDFLARE_API_TOKEN"
+          [ -z "$CLOUDFLARE_ACCOUNT_ID" ] && missing="$missing CLOUDFLARE_ACCOUNT_ID"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing settings:$missing. See docs/deployment.md."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build for Cloudflare
+        run: pnpm build:cf
+
+      - name: Deploy
+        run: pnpm exec opennextjs-cloudflare deploy
+
+      - name: Wait for the site to answer
+        run: curl --fail --silent --show-error --retry 12 --retry-delay 5 --retry-all-errors "$NEXT_PUBLIC_SITE_URL/api/health"
+
+      - name: Install the browser
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Check the live site
+        env:
+          E2E_BASE_URL: ${{ vars.SITE_URL }}
+        run: pnpm exec playwright test e2e/public-pages.spec.ts e2e/languages.spec.ts e2e/api.spec.ts --project=desktop
+
+      - name: Keep the report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-site-report
+          path: playwright-report
+          retention-days: 14

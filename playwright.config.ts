@@ -1,7 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const port = Number(process.env.PORT ?? 3000);
-const baseURL = `http://localhost:${port}`;
+// Pointing this at a deployed site runs the same tests against it and skips
+// starting a local server.
+const remote = process.env.E2E_BASE_URL;
+const baseURL = remote ?? `http://localhost:${port}`;
 
 // Where Playwright's own browser download is blocked, set this to "msedge" or
 // "chrome" to use the copy already installed on the machine.
@@ -38,10 +41,14 @@ export default defineConfig({
       testMatch: /public-pages\.spec\.ts/,
     },
   ],
-  webServer: {
-    command: `pnpm start -p ${port}`,
-    url: `${baseURL}/api/health`,
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
-  },
+  ...(remote
+    ? {}
+    : {
+        webServer: {
+          command: `pnpm start -p ${port}`,
+          url: `${baseURL}/api/health`,
+          reuseExistingServer: !process.env.CI,
+          timeout: 120_000,
+        },
+      }),
 });
