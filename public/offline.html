@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>TrustLens</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #eef1ef;
+        --text: #0f1c22;
+        --muted: #46565d;
+        --accent: #2340c4;
+        --on-accent: #fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1a2336;
+          --text: #e8efef;
+          --muted: #aab6bb;
+          --accent: #8fa2ff;
+          --on-accent: #101830;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          1rem/1.55 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 26rem;
+        text-align: center;
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 1rem;
+      }
+      h1 {
+        margin: 1rem 0 0.5rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+      p {
+        margin: 0 0 1.5rem;
+        color: var(--muted);
+      }
+      button {
+        min-height: 2.75rem;
+        padding: 0 1.5rem;
+        border: 0;
+        border-radius: 0.5rem;
+        background: var(--accent);
+        color: var(--on-accent);
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button:focus-visible {
+        outline: 3px solid var(--text);
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/icons/icon-192.png" alt="" width="64" height="64" />
+      <h1 id="title">You are offline</h1>
+      <p id="text">
+        TrustLens needs a connection to load this page. Check your network and try again.
+      </p>
+      <button type="button" id="retry">Try again</button>
+    </main>
+    <script type="application/json" id="messages">
+      {
+        "en": {
+          "dir": "ltr",
+          "title": "You are offline",
+          "text": "TrustLens needs a connection to load this page. Check your network and try again.",
+          "retry": "Try again"
+        },
+        "zh-CN": {
+          "dir": "ltr",
+          "title": "你已离线",
+          "text": "TrustLens 需要网络连接才能加载此页面。请检查网络后重试。",
+          "retry": "重试"
+        },
+        "zh-TW": {
+          "dir": "ltr",
+          "title": "你已離線",
+          "text": "TrustLens 需要網路連線才能載入此頁面。請檢查網路後再試一次。",
+          "retry": "重試"
+        },
+        "hi": {
+          "dir": "ltr",
+          "title": "आप ऑफ़लाइन हैं",
+          "text": "इस पेज को लोड करने के लिए TrustLens को इंटरनेट कनेक्शन चाहिए। अपना नेटवर्क जाँचें और फिर कोशिश करें।",
+          "retry": "फिर कोशिश करें"
+        },
+        "es": {
+          "dir": "ltr",
+          "title": "Sin conexión",
+          "text": "TrustLens necesita conexión para cargar esta página. Revisa tu red e inténtalo de nuevo.",
+          "retry": "Reintentar"
+        },
+        "fr": {
+          "dir": "ltr",
+          "title": "Vous êtes hors ligne",
+          "text": "TrustLens a besoin d’une connexion pour charger cette page. Vérifiez votre réseau et réessayez.",
+          "retry": "Réessayer"
+        },
+        "ar": {
+          "dir": "rtl",
+          "title": "أنت غير متصل بالإنترنت",
+          "text": "يحتاج TrustLens إلى اتصال لتحميل هذه الصفحة. تحقق من الشبكة وحاول مرة أخرى.",
+          "retry": "حاول مرة أخرى"
+        },
+        "bn": {
+          "dir": "ltr",
+          "title": "আপনি অফলাইনে আছেন",
+          "text": "এই পৃষ্ঠা লোড করতে TrustLens-এর ইন্টারনেট সংযোগ দরকার। আপনার নেটওয়ার্ক পরীক্ষা করে আবার চেষ্টা করুন।",
+          "retry": "আবার চেষ্টা করুন"
+        },
+        "pt-BR": {
+          "dir": "ltr",
+          "title": "Você está offline",
+          "text": "O TrustLens precisa de conexão para carregar esta página. Verifique sua rede e tente novamente.",
+          "retry": "Tentar novamente"
+        },
+        "ru": {
+          "dir": "ltr",
+          "title": "Нет подключения к интернету",
+          "text": "Для загрузки этой страницы TrustLens нужно подключение. Проверьте сеть и повторите попытку.",
+          "retry": "Повторить"
+        },
+        "ur": {
+          "dir": "rtl",
+          "title": "آپ آف لائن ہیں",
+          "text": "اس صفحے کو لوڈ کرنے کے لیے TrustLens کو انٹرنیٹ کنکشن درکار ہے۔ اپنا نیٹ ورک چیک کریں اور دوبارہ کوشش کریں۔",
+          "retry": "دوبارہ کوشش کریں"
+        },
+        "id": {
+          "dir": "ltr",
+          "title": "Anda sedang offline",
+          "text": "TrustLens membutuhkan koneksi untuk memuat halaman ini. Periksa jaringan Anda lalu coba lagi.",
+          "retry": "Coba lagi"
+        },
+        "de": {
+          "dir": "ltr",
+          "title": "Du bist offline",
+          "text": "TrustLens braucht eine Verbindung, um diese Seite zu laden. Prüfe dein Netzwerk und versuche es erneut.",
+          "retry": "Erneut versuchen"
+        },
+        "ja": {
+          "dir": "ltr",
+          "title": "オフラインです",
+          "text": "このページを読み込むには TrustLens がインターネットに接続されている必要があります。ネットワークを確認して、もう一度お試しください。",
+          "retry": "再試行"
+        },
+        "tr": {
+          "dir": "ltr",
+          "title": "Çevrimdışısınız",
+          "text": "TrustLens bu sayfayı yüklemek için bağlantıya ihtiyaç duyar. Ağınızı kontrol edip tekrar deneyin.",
+          "retry": "Tekrar dene"
+        },
+        "ko": {
+          "dir": "ltr",
+          "title": "오프라인 상태입니다",
+          "text": "이 페이지를 불러오려면 TrustLens에 인터넷 연결이 필요합니다. 네트워크를 확인한 뒤 다시 시도하세요.",
+          "retry": "다시 시도"
+        },
+        "vi": {
+          "dir": "ltr",
+          "title": "Bạn đang ngoại tuyến",
+          "text": "TrustLens cần có kết nối để tải trang này. Hãy kiểm tra mạng và thử lại.",
+          "retry": "Thử lại"
+        },
+        "it": {
+          "dir": "ltr",
+          "title": "Sei offline",
+          "text": "TrustLens ha bisogno di una connessione per caricare questa pagina. Controlla la rete e riprova.",
+          "retry": "Riprova"
+        },
+        "fa": {
+          "dir": "rtl",
+          "title": "شما آفلاین هستید",
+          "text": "برای بارگذاری این صفحه، TrustLens به اتصال اینترنت نیاز دارد. شبکهٔ خود را بررسی کنید و دوباره تلاش کنید.",
+          "retry": "تلاش دوباره"
+        },
+        "he": {
+          "dir": "rtl",
+          "title": "אין חיבור לאינטרנט",
+          "text": "TrustLens צריך חיבור כדי לטעון את הדף הזה. בדקו את הרשת ונסו שוב.",
+          "retry": "נסו שוב"
+        },
+        "pl": {
+          "dir": "ltr",
+          "title": "Jesteś offline",
+          "text": "TrustLens potrzebuje połączenia, aby wczytać tę stronę. Sprawdź sieć i spróbuj ponownie.",
+          "retry": "Spróbuj ponownie"
+        },
+        "nl": {
+          "dir": "ltr",
+          "title": "Je bent offline",
+          "text": "TrustLens heeft een verbinding nodig om deze pagina te laden. Controleer je netwerk en probeer het opnieuw.",
+          "retry": "Opnieuw proberen"
+        }
+      }
+    </script>
+    <script>
+      (function () {
+        var messages = JSON.parse(document.getElementById('messages').textContent);
+        function pick() {
+          var list =
+            navigator.languages && navigator.languages.length
+              ? navigator.languages
+              : [navigator.language];
+          for (var i = 0; i < list.length; i++) {
+            var tag = String(list[i] || '');
+            if (messages[tag]) return tag;
+            var base = tag.split('-')[0].toLowerCase();
+            if (base === 'zh') return /-(tw|hk|mo|hant)/i.test(tag) ? 'zh-TW' : 'zh-CN';
+            if (base === 'pt') return 'pt-BR';
+            if (messages[base]) return base;
+          }
+          return 'en';
+        }
+        var code = pick();
+        var m = messages[code];
+        document.documentElement.lang = code;
+        document.documentElement.dir = m.dir;
+        document.getElementById('title').textContent = m.title;
+        document.getElementById('text').textContent = m.text;
+        document.getElementById('retry').textContent = m.retry;
+        document.getElementById('retry').addEventListener('click', function () {
+          location.reload();
+        });
+      })();
+    </script>
+  </body>
+</html>

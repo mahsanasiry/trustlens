@@ -30,7 +30,17 @@ const nextConfig: NextConfig = {
     cpus: 3,
   },
   async headers() {
-    return [{ source: '/:path*', headers: securityHeaders }];
+    return [
+      { source: '/:path*', headers: securityHeaders },
+      // A cached copy of the worker would delay every later update to it.
+      {
+        source: '/sw.js',
+        headers: [
+          { key: 'Cache-Control', value: 'no-cache, max-age=0, must-revalidate' },
+          { key: 'Content-Type', value: 'text/javascript; charset=utf-8' },
+        ],
+      },
+    ];
   },
 };
 

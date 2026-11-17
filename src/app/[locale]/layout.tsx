@@ -1,8 +1,9 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { OfflineBanner } from '@/components/offline-banner';
+import { ServiceWorker } from '@/components/service-worker';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 import { getFontClassName } from '@/lib/fonts';
@@ -21,6 +22,13 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#eef1ef' },
+    { media: '(prefers-color-scheme: dark)', color: '#1a2336' },
+  ],
+};
+
 export async function generateMetadata({
   params,
 }: Pick<LocaleLayoutProps, 'params'>): Promise<Metadata> {
@@ -34,6 +42,13 @@ export async function generateMetadata({
     metadataBase: siteUrl,
     title: { default: 'TrustLens', template: '%s | TrustLens' },
     description: t('lead'),
+    icons: {
+      icon: [
+        { url: '/icons/icon.svg', type: 'image/svg+xml' },
+        { url: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+      ],
+      apple: '/icons/apple-touch-icon.png',
+    },
     alternates: {
       canonical: `/${locale}`,
       languages: { ...languages, 'x-default': '/en' },
@@ -69,6 +84,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         </a>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <OfflineBanner />
+          <ServiceWorker />
           <SiteHeader />
           {children}
           <SiteFooter />
