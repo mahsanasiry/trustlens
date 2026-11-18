@@ -15,8 +15,13 @@ interface CookieToSet {
 export default async function proxy(request: NextRequest) {
   const pending: CookieToSet[] = [];
   const env = readSupabaseEnv();
+  // A visitor without a session has no token to refresh, so the network call
+  // and its CPU cost are skipped.
+  const hasSession = request.cookies
+    .getAll()
+    .some(({ name }) => name.startsWith('sb-') && name.includes('-auth-token'));
 
-  if (env) {
+  if (env && hasSession) {
     const supabase = createServerClient(env.url, env.key, {
       cookies: {
         getAll: () => request.cookies.getAll(),

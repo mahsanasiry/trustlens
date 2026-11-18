@@ -41,7 +41,10 @@ export async function guarded(handler: () => Promise<Response>): Promise<Respons
   try {
     return await handler();
   } catch (error) {
-    console.error('API request failed', error);
+    console.error(
+      'API request failed:',
+      error instanceof Error ? `${error.name}: ${error.message}` : JSON.stringify(error),
+    );
     return apiError(500, 'internal_error', 'The request could not be completed.');
   }
 }
