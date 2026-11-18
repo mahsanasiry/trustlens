@@ -8,6 +8,26 @@ and the interface is built so that nothing reads as a score or a verdict.
 
 All content in the demo is fictional.
 
+## Live demo
+
+<https://trustlens-jw9v.onrender.com>
+
+The demo runs on a free instance. After about fifteen minutes without visitors it stops,
+and the next request waits up to a minute for it to start.
+
+To try each role, sign in with one of these accounts. The password is shared and public on
+purpose; the accounts hold demo data only, and anyone can change what they can reach.
+
+| Role              | Email                               | Password              |
+| ----------------- | ----------------------------------- | --------------------- |
+| Member            | `member@demo.trustlens.example`     | `TrustLens-Demo-2026` |
+| Researcher        | `researcher@demo.trustlens.example` | `TrustLens-Demo-2026` |
+| Administrator     | `admin@demo.trustlens.example`      | `TrustLens-Demo-2026` |
+| Administrator (2) | `editor@demo.trustlens.example`     | `TrustLens-Demo-2026` |
+
+A researcher cannot approve their own submission, so reviewing needs the second account:
+propose a change as the researcher, then decide on it as an administrator.
+
 ## What it does
 
 - **Claims and evidence.** Each claim lists evidence that supports it, evidence that
