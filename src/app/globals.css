@@ -437,6 +437,9 @@ main {
     justify-content: space-between;
     gap: var(--space-3) var(--space-6);
     min-block-size: 4rem;
+    /* When the links wrap under the brand on a narrow screen, the buttons
+       would otherwise touch the header's bottom border. */
+    padding-block: var(--space-3);
   }
 
   .brand {
