@@ -33,7 +33,7 @@ All content in the demo is fictional.
 
 Next.js 16 (App Router, Turbopack), React 19, TypeScript in strict mode, Tailwind CSS 4,
 next-intl 4, Supabase (PostgreSQL, Auth, Row Level Security, Realtime, Storage), Zod,
-Vitest and Playwright. It deploys to Cloudflare Workers through OpenNext, built and published by a GitHub Actions workflow ([docs/deployment.md](docs/deployment.md)).
+Vitest and Playwright. The live demo runs as a Node.js service on Render ([docs/deployment.md](docs/deployment.md)); a Cloudflare Workers setup is kept for a paid plan.
 
 ## Requirements
 
@@ -134,7 +134,7 @@ docs/               one page per feature, and docs/adr for decisions
 | Public API                      | [api.md](docs/api.md)                                                                             |
 | Translations and their review   | [translations.md](docs/translations.md)                                                           |
 | Demo data                       | [demo-data.md](docs/demo-data.md)                                                                 |
-| Deploying to Cloudflare         | [deployment.md](docs/deployment.md)                                                               |
+| Deploying                       | [deployment.md](docs/deployment.md)                                                               |
 | End-to-end tests                | [e2e.md](docs/e2e.md)                                                                             |
 | Decisions and their reasons     | [docs/adr](docs/adr)                                                                              |
 

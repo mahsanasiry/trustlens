@@ -1,6 +1,6 @@
 # 7. Deploy to Cloudflare Workers from GitHub Actions
 
-Status: accepted
+Status: superseded by [8](0008-deploy-to-render.md)
 
 ## Context
 

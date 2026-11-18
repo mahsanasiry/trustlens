@@ -34,6 +34,6 @@ pnpm exec playwright show-report   # after a failure
 
 The config starts `pnpm start` itself, or reuses a server already listening on the port.
 To test a deployed site instead, set `E2E_BASE_URL` (for example
-`$env:E2E_BASE_URL = "https://example.workers.dev"`); no local server is started then.
+`$env:E2E_BASE_URL = "https://example.onrender.com"`); no local server is started then.
 One test saves a claim for the demo member and removes it again; if a run is interrupted
 the next run cleans up first.
