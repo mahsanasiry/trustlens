@@ -25,11 +25,11 @@
     "locales:export": "node scripts/locale-tools.mjs export"
   },
   "dependencies": {
-    "@hookform/resolvers": "^7.0.6",
+    "@hookform/resolvers": "^7.0.9",
     "@supabase/ssr": "^0.12.7",
-    "@supabase/supabase-js": "^2.119.0",
+    "@supabase/supabase-js": "^2.119.2",
     "next": "16.4.6",
-    "next-intl": "^4.15.0",
+    "next-intl": "^4.16.2",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "react-hook-form": "^7.92.0",
@@ -44,10 +44,10 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
-    "prettier": "^3.10.0",
+    "prettier": "^3.10.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^5.1.0"
+    "vitest": "^5.1.1"
   },
   "packageManager": "pnpm@11.17.0"
 }
