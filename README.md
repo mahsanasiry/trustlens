@@ -49,11 +49,37 @@ propose a change as the researcher, then decide on it as an administrator.
 - **22 languages**, four of them right-to-left, with light and dark themes and several
   accents.
 
+## Key decisions
+
+Each of these has a short decision record in [docs/adr](docs/adr) with the alternatives
+that were considered.
+
+- **Evidence, not verdicts.** A claim has a status that describes its evidence. There is
+  no true/false label, score or rating anywhere, and nothing in the interface suggests one.
+- **Review before publishing.** Access rules live in the database as row level security, and
+  the application mirrors them only to decide what to show. Published content changes only
+  through a review, and nobody can approve their own submission
+  ([ADR 1](docs/adr/0001-database-access-and-review-workflow.md)).
+- **Forms and server actions first.** Pages work without client-side JavaScript wherever
+  that is practical ([ADR 2](docs/adr/0002-forms-and-server-actions-first.md)).
+- **Interface language is not content language.** Only the interface is translated; claims
+  keep the language they were written in ([ADR 3](docs/adr/0003-content-language-is-not-interface-language.md)).
+- **A small public API.** Read-only, validated strictly, described by OpenAPI
+  ([ADR 4](docs/adr/0004-public-read-only-api.md)).
+- **Live updates refresh, they do not patch.** A change triggers a server refresh instead
+  of editing the page in the browser ([ADR 5](docs/adr/0005-live-updates-refresh-instead-of-patching.md)).
+- **The service worker caches no pages**, only the offline page and build files
+  ([ADR 6](docs/adr/0006-service-worker-caches-no-pages.md)).
+- **A real server, not a worker.** Pages are rendered on request, which did not fit the
+  free CPU limit of a serverless worker platform, so the demo runs as a Node.js service
+  ([ADR 8](docs/adr/0008-deploy-to-render.md)).
+
 ## Built with
 
 Next.js 16 (App Router, Turbopack), React 19, TypeScript in strict mode, Tailwind CSS 4,
 next-intl 4, Supabase (PostgreSQL, Auth, Row Level Security, Realtime, Storage), Zod,
-Vitest and Playwright. The live demo runs as a Node.js service on Render ([docs/deployment.md](docs/deployment.md)); a Cloudflare Workers setup is kept for a paid plan.
+Vitest and Playwright. The live demo runs as a Node.js service on Render
+([docs/deployment.md](docs/deployment.md)).
 
 ## Requirements
 
@@ -98,8 +124,6 @@ A new Supabase project needs three things before the site shows anything:
 | `pnpm locales:export` | Write a review sheet (CSV) for one language              |
 | `pnpm contrast:check` | Verify WCAG AA contrast of every theme and accent        |
 | `pnpm verify`         | Lint, format, typecheck, locales, contrast, tests, build |
-| `pnpm preview:cf`     | Build for Cloudflare and preview locally                 |
-| `pnpm deploy:cf`      | Build and deploy to Cloudflare                           |
 
 ## Tests
 
@@ -179,8 +203,13 @@ script has none yet. `pnpm locales:check` reports anything missing.
   [docs/translations.md](docs/translations.md) describes the process.
 - **The content is fictional.** Organisations, people, figures and links in the demo data
   do not exist.
-- **The public API has no rate limiting in the application.** Configure it at the edge
-  before announcing the API.
+- **The public API has no rate limiting in the application.** Put a limit in front of the
+  service (a CDN or proxy rule) before announcing the API.
+- **The demo is on a free instance.** It stops after about fifteen minutes without
+  traffic, so the first request afterwards is slow. The free Supabase project also pauses
+  after a period of inactivity and has to be resumed from its dashboard.
+- **The demo accounts share a public password.** They exist to try each role, hold demo
+  data only, and anyone who signs in can change what the role reaches.
 - **Nothing works offline except the offline page.** Pages are never cached, on purpose
   ([ADR 6](docs/adr/0006-service-worker-caches-no-pages.md)).
 - **Email sign-in only.** There is no social login and no organisation role yet; the
