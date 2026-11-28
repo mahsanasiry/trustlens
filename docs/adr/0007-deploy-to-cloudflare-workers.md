@@ -1,6 +1,7 @@
 # 7. Deploy to Cloudflare Workers from GitHub Actions
 
-Status: superseded by [8](0008-deploy-to-render.md)
+Status: superseded by [8](0008-deploy-to-render.md). The Cloudflare configuration it
+describes has since been removed from the repository.
 
 ## Context
 

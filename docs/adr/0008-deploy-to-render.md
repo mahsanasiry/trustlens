@@ -24,8 +24,8 @@ never depended on a particular host.
   address when the connection is stable.
 - The free instance sleeps after about fifteen minutes without traffic, and the next request
   waits for it to wake.
-- The Cloudflare configuration stays in the repository as a documented option for a paid
-  Workers plan.
+- The Cloudflare configuration was removed from the repository. Moving to a paid Workers
+  plan later would mean adding OpenNext and a Wrangler configuration again.
 - Rate limiting for the public API is not in place. Add it at the host or a CDN before the
   API is announced.
 

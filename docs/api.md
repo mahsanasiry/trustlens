@@ -42,7 +42,7 @@ API rejects it instead, so a mistyped value is noticed rather than silently igno
 
 Successful responses carry `Cache-Control: public, s-maxage=60, stale-while-revalidate=300`;
 errors are never cached. The application does not rate limit. Put a rate-limiting rule on
-`/api/*` at the edge (Cloudflare) before announcing the API publicly.
+`/api/*` in front of the service (a CDN or proxy) before announcing the API publicly.
 
 ## Out of scope
 

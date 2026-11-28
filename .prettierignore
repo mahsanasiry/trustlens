@@ -1,6 +1,4 @@
 .next
-.open-next
-.wrangler
 coverage
 node_modules
 playwright-report

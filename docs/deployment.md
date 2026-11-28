@@ -53,20 +53,3 @@ pnpm exec playwright test e2e/public-pages.spec.ts e2e/languages.spec.ts e2e/api
 
 On a slow or unreliable connection some requests time out. A failure that disappears on
 retry is a connection problem, not an application one.
-
-## Cloudflare Workers
-
-The repository still carries a working OpenNext configuration for Cloudflare Workers
-(`wrangler.jsonc`, `open-next.config.ts`, `public/_headers` and the manual workflow in
-`.github/workflows/deploy.yml`). On the free Workers plan it does not fit: the median CPU
-time per request measured about 26 ms against a limit of 10 ms, so most page requests were
-stopped. The paid plan raises that limit, and the same build then applies.
-
-Build commands for a Git-connected Worker:
-
-```
-pnpm install --frozen-lockfile && pnpm exec opennextjs-cloudflare build
-pnpm exec opennextjs-cloudflare deploy
-```
-
-Static files on Workers skip Next.js headers, which is why `public/_headers` repeats them.
